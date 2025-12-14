@@ -1,0 +1,482 @@
+{
+  "bitterling": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Bitterling_NH_Icon.png/120px-Bitterling_NH_Icon.png",
+    "name": "Bitterling",
+    "description": "I caught a bitterling! It's mad at me, but only a little.",
+    "sellPrice": 900
+  },
+  "pale-chub": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Pale_Chub_NH_Icon.png/120px-Pale_Chub_NH_Icon.png",
+    "name": "Pale Chub",
+    "description": "I caught a pale chub! That name seems a bit judgy...",
+    "sellPrice": 200
+  },
+  "crucian-carp": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f2/Crucian_Carp_NH_Icon.png/120px-Crucian_Carp_NH_Icon.png",
+    "name": "Crucian Carp",
+    "description": "I caught a crucian carp! My skills are sharp!",
+    "sellPrice": 160
+  },
+  "dace": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Dace_NH_Icon.png/120px-Dace_NH_Icon.png",
+    "name": "Dace",
+    "description": "I caught a dace! Hope I have some space!",
+    "sellPrice": 240
+  },
+  "carp": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Carp_NH_Icon.png/120px-Carp_NH_Icon.png",
+    "name": "Carp",
+    "description": "I caught a carp! If I catch another, they can carpool!",
+    "sellPrice": 300
+  },
+  "koi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Koi_NH_Icon.png/120px-Koi_NH_Icon.png",
+    "name": "Koi",
+    "description": "I caught a koi! I don't know why it's so shy... or such a bad speller...",
+    "sellPrice": 4000
+  },
+  "goldfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/71/Goldfish_NH_Icon.png/120px-Goldfish_NH_Icon.png",
+    "name": "Goldfish",
+    "description": "I caught a goldfish! It's worth its weight in fish!",
+    "sellPrice": 1300
+  },
+  "pop-eyed-goldfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Pop-Eyed_Goldfish_NH_Icon.png/120px-Pop-Eyed_Goldfish_NH_Icon.png",
+    "name": "Pop-Eyed Goldfish",
+    "description": "I caught a pop-eyed goldfish! It looks so...surprised!",
+    "sellPrice": 1300
+  },
+  "ranchu-goldfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/35/Ranchu_Goldfish_NH_Icon.png/120px-Ranchu_Goldfish_NH_Icon.png",
+    "name": "Ranchu Goldfish",
+    "description": "I caught a ranchu goldfish! But I prefer balsamicu goldfish!",
+    "sellPrice": 4500
+  },
+  "killifish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ea/Killifish_NH_Icon.png/120px-Killifish_NH_Icon.png",
+    "name": "Killifish",
+    "description": "I caught a killifish! The streams are safe again.",
+    "sellPrice": 300
+  },
+  "crawfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Crawfish_NH_Icon.png/120px-Crawfish_NH_Icon.png",
+    "name": "Crawfish",
+    "description": "I caught a crawfish! Or else it's a lobster, and I'm a giant!",
+    "sellPrice": 200
+  },
+  "soft-shelled-turtle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Soft-Shelled_Turtle_NH_Icon.png/120px-Soft-Shelled_Turtle_NH_Icon.png",
+    "name": "Soft-Shelled Turtle",
+    "description": "I caught a soft-shelled turtle! I should take a shellfie!",
+    "sellPrice": 3750
+  },
+  "snapping-turtle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Snapping_Turtle_NH_Icon.png/120px-Snapping_Turtle_NH_Icon.png",
+    "name": "Snapping Turtle",
+    "description": "I caught a snapping turtle! How can it snap without fingers?",
+    "sellPrice": 5000
+  },
+  "tadpole": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Tadpole_NH_Icon.png/120px-Tadpole_NH_Icon.png",
+    "name": "Tadpole",
+    "description": "I caught a tadpole... It's just a tad small.",
+    "sellPrice": 100
+  },
+  "frog": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2f/Frog_NH_Icon.png/120px-Frog_NH_Icon.png",
+    "name": "Frog",
+    "description": "I caught a frog! Or it's a new neighbor... and I have some apologizing to do.",
+    "sellPrice": 120
+  },
+  "freshwater-goby": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Freshwater_Goby_NH_Icon.png/120px-Freshwater_Goby_NH_Icon.png",
+    "name": "Freshwater Goby",
+    "description": "I caught a freshwater goby! Time to go bye-bye!",
+    "sellPrice": 400
+  },
+  "loach": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Loach_NH_Icon.png/120px-Loach_NH_Icon.png",
+    "name": "Loach",
+    "description": "I caught a loach! It's...looking at me with reproach.",
+    "sellPrice": 400
+  },
+  "catfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Catfish_NH_Icon.png/120px-Catfish_NH_Icon.png",
+    "name": "Catfish",
+    "description": "I caught a catfish! I'm more of a dogfish person...",
+    "sellPrice": 800
+  },
+  "giant-snakehead": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Giant_Snakehead_NH_Icon.png/120px-Giant_Snakehead_NH_Icon.png",
+    "name": "Giant Snakehead",
+    "description": "I caught a giant snakehead! Um...but I asked for a medium?",
+    "sellPrice": 5500
+  },
+  "bluegill": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0c/Bluegill_NH_Icon.png/120px-Bluegill_NH_Icon.png",
+    "name": "Bluegill",
+    "description": "I caught a bluegill! Do you think it calls me \"pinklung\"?",
+    "sellPrice": 180
+  },
+  "yellow-perch": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Yellow_Perch_NH_Icon.png/120px-Yellow_Perch_NH_Icon.png",
+    "name": "Yellow Perch",
+    "description": "I caught a yellow perch! Those yellow birds have to sit somewhere!",
+    "sellPrice": 300
+  },
+  "black-bass": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/00/Black_Bass_NH_Icon.png/120px-Black_Bass_NH_Icon.png",
+    "name": "Black Bass",
+    "description": "I caught a black bass! The most metal of all fish!",
+    "sellPrice": 400
+  },
+  "tilapia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ef/Tilapia_NH_Icon.png/120px-Tilapia_NH_Icon.png",
+    "name": "Tilapia",
+    "description": "I caught a tilapia! It makes me happy-a!",
+    "sellPrice": 800
+  },
+  "pike": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9f/Pike_NH_Icon.png/120px-Pike_NH_Icon.png",
+    "name": "Pike",
+    "description": "I caught a pike! Think a swordfish would be up for a duel?",
+    "sellPrice": 1800
+  },
+  "pond-smelt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Pond_Smelt_NH_Icon.png/120px-Pond_Smelt_NH_Icon.png",
+    "name": "Pond Smelt",
+    "description": "I caught a pond smelt! Whoever smelt it dealt it!",
+    "sellPrice": 400
+  },
+  "sweetfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6a/Sweetfish_NH_Icon.png/120px-Sweetfish_NH_Icon.png",
+    "name": "Sweetfish",
+    "description": "I caught a sweetfish! Hope it's not artificially sweet!",
+    "sellPrice": 900
+  },
+  "cherry-salmon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Cherry_Salmon_NH_Icon.png/120px-Cherry_Salmon_NH_Icon.png",
+    "name": "Cherry Salmon",
+    "description": "I caught a cherry salmon! It's the perfect topper for a marlin sundae!",
+    "sellPrice": 1000
+  },
+  "char": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/80/Char_NH_Icon.png/120px-Char_NH_Icon.png",
+    "name": "Char",
+    "description": "I caught a char! Now I'm gonna sit on it!",
+    "sellPrice": 3800
+  },
+  "golden-trout": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Golden_Trout_NH_Icon.png/120px-Golden_Trout_NH_Icon.png",
+    "name": "Golden Trout",
+    "description": "I caught a golden trout! But the real treasure? Friendship.",
+    "sellPrice": 15000
+  },
+  "stringfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Stringfish_NH_Icon.png/120px-Stringfish_NH_Icon.png",
+    "name": "Stringfish",
+    "description": "OH MY GOSH! I caught a stringfish! Five more and I'll have a guitarfish!",
+    "sellPrice": 15000
+  },
+  "salmon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ca/Salmon_NH_Icon.png/120px-Salmon_NH_Icon.png",
+    "name": "Salmon",
+    "description": "I caught a salmon! It's all upstream from here!",
+    "sellPrice": 700
+  },
+  "king-salmon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e1/King_Salmon_NH_Icon.png/120px-King_Salmon_NH_Icon.png",
+    "name": "King Salmon",
+    "description": "WOO-HOO! I caught a king salmon! Checkmate!",
+    "sellPrice": 1800
+  },
+  "mitten-crab": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9d/Mitten_Crab_NH_Icon.png/120px-Mitten_Crab_NH_Icon.png",
+    "name": "Mitten Crab",
+    "description": "I caught a mitten crab! One more and I'm ready for winter!",
+    "sellPrice": 2000
+  },
+  "guppy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Guppy_NH_Icon.png/120px-Guppy_NH_Icon.png",
+    "name": "Guppy",
+    "description": "I caught a guppy! Welcome to the team, newbie!",
+    "sellPrice": 1300
+  },
+  "nibble-fish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Nibble_Fish_NH_Icon.png/120px-Nibble_Fish_NH_Icon.png",
+    "name": "Nibble Fish",
+    "description": "I caught a nibble fish! Come to think of it, I could use a bite!",
+    "sellPrice": 1500
+  },
+  "angelfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cd/Angelfish_NH_Icon.png/120px-Angelfish_NH_Icon.png",
+    "name": "Angelfish",
+    "description": "I caught an angelfish! That other fish told me to do it!",
+    "sellPrice": 3000
+  },
+  "betta": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Betta_NH_Icon.png/120px-Betta_NH_Icon.png",
+    "name": "Betta",
+    "description": "I caught a betta! I betta not drop it!",
+    "sellPrice": 2500
+  },
+  "neon-tetra": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Neon_Tetra_NH_Icon.png/120px-Neon_Tetra_NH_Icon.png",
+    "name": "Neon Tetra",
+    "description": "I caught a neon tetra! Wasn't hard to track.",
+    "sellPrice": 500
+  },
+  "rainbowfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Rainbowfish_NH_Icon.png/120px-Rainbowfish_NH_Icon.png",
+    "name": "Rainbowfish",
+    "description": "I caught a rainbowfish! Where's my pot of goldfish?",
+    "sellPrice": 800
+  },
+  "piranha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Piranha_NH_Icon.png/120px-Piranha_NH_Icon.png",
+    "name": "Piranha",
+    "description": "I caught a piranha! Sure hope it was the only one!",
+    "sellPrice": 2500
+  },
+  "arowana": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Arowana_NH_Icon.png/120px-Arowana_NH_Icon.png",
+    "name": "Arowana",
+    "description": "I caught an arowana! I'd make a joke but I don't 'wana.",
+    "sellPrice": 10000
+  },
+  "dorado": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fe/Dorado_NH_Icon.png/120px-Dorado_NH_Icon.png",
+    "name": "Dorado",
+    "description": "I caught a dorado! ♪I say \"Dorado\", you say \"Doraydo.\"♪",
+    "sellPrice": 15000
+  },
+  "gar": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a2/Gar_NH_Icon.png/120px-Gar_NH_Icon.png",
+    "name": "Gar",
+    "description": "I caught a gar! Yar! It's a gar! Har Har!",
+    "sellPrice": 6000
+  },
+  "arapaima": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Arapaima_NH_Icon.png/120px-Arapaima_NH_Icon.png",
+    "name": "Arapaima",
+    "description": "I caught an arapaima! How did it get here? Arapaiknow!",
+    "sellPrice": 10000
+  },
+  "saddled-bichir": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/46/Saddled_Bichir_NH_Icon.png/120px-Saddled_Bichir_NH_Icon.png",
+    "name": "Saddled Bichir",
+    "description": "Wow! A saddled bichir! And me without my tiny riding crop...",
+    "sellPrice": 4000
+  },
+  "sturgeon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Sturgeon_NH_Icon.png/120px-Sturgeon_NH_Icon.png",
+    "name": "Sturgeon",
+    "description": "I caught a sturgeon! Wonder if it can perform sturgery...",
+    "sellPrice": 10000
+  },
+  "sea-butterfly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f7/Sea_Butterfly_NH_Icon.png/120px-Sea_Butterfly_NH_Icon.png",
+    "name": "Sea Butterfly",
+    "description": "I caught a sea butterfly! Try not to confuse it for a sea moth!",
+    "sellPrice": 1000
+  },
+  "sea-horse": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/dc/Sea_Horse_NH_Icon.png/120px-Sea_Horse_NH_Icon.png",
+    "name": "Sea Horse",
+    "description": "I caught a sea horse! But... where's its sea jockey?",
+    "sellPrice": 1100
+  },
+  "clown-fish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Clown_Fish_NH_Icon.png/120px-Clown_Fish_NH_Icon.png",
+    "name": "Clown Fish",
+    "description": "I caught a clown fish! How many can fit in a carfish?",
+    "sellPrice": 650
+  },
+  "surgeonfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Surgeonfish_NH_Icon.png/120px-Surgeonfish_NH_Icon.png",
+    "name": "Surgeonfish",
+    "description": "I caught a surgeonfish! Scalpel! Forceps! Fish hook!",
+    "sellPrice": 1000
+  },
+  "butterfly-fish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Butterfly_Fish_NH_Icon.png/120px-Butterfly_Fish_NH_Icon.png",
+    "name": "Butterfly Fish",
+    "description": "I caught a butterfly fish! Did it change from a caterpillar fish?",
+    "sellPrice": 1000
+  },
+  "napoleonfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Napoleonfish_NH_Icon.png/120px-Napoleonfish_NH_Icon.png",
+    "name": "Napoleonfish",
+    "description": "I caught a Napoleonfish! It's not as big as it thinks!",
+    "sellPrice": 10000
+  },
+  "zebra-turkeyfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/85/Zebra_Turkeyfish_NH_Icon.png/120px-Zebra_Turkeyfish_NH_Icon.png",
+    "name": "Zebra Turkeyfish",
+    "description": "I caught a zebra turkeyfish! Land, air, water—make up your mind!",
+    "sellPrice": 500
+  },
+  "blowfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/95/Blowfish_NH_Icon.png/120px-Blowfish_NH_Icon.png",
+    "name": "Blowfish",
+    "description": "I caught a blowfish! I'm blown away!",
+    "sellPrice": 5000
+  },
+  "puffer-fish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ee/Puffer_Fish_NH_Icon.png/120px-Puffer_Fish_NH_Icon.png",
+    "name": "Puffer Fish",
+    "description": "I caught a puffer fish! I thought you would be tougher, fish!",
+    "sellPrice": 250
+  },
+  "anchovy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Anchovy_%28Fish%29_NH_Icon.png/120px-Anchovy_%28Fish%29_NH_Icon.png",
+    "name": "Anchovy",
+    "description": "I caught an anchovy! Stay away from my pizza!",
+    "sellPrice": 200
+  },
+  "horse-mackerel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a3/Horse_Mackerel_NH_Icon.png/120px-Horse_Mackerel_NH_Icon.png",
+    "name": "Horse Mackerel",
+    "description": "I caught a horse mackerel! Of course, mack...er...el.",
+    "sellPrice": 150
+  },
+  "barred-knifejaw": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d5/Barred_Knifejaw_NH_Icon.png/120px-Barred_Knifejaw_NH_Icon.png",
+    "name": "Barred Knifejaw",
+    "description": "I caught a barred knifejaw! They must have a hard time eating!",
+    "sellPrice": 5000
+  },
+  "sea-bass": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/120px-Sea_Bass_NH_Icon.png",
+    "name": "Sea Bass",
+    "description": "I caught a sea bass! No, wait—it's at least a C+!",
+    "sellPrice": 400
+  },
+  "red-snapper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Red_Snapper_NH_Icon.png/120px-Red_Snapper_NH_Icon.png",
+    "name": "Red Snapper",
+    "description": "I caught a red snapper! It looks pretty dapper!",
+    "sellPrice": 3000
+  },
+  "dab": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Dab_NH_Icon.png/120px-Dab_NH_Icon.png",
+    "name": "Dab",
+    "description": "I caught a dab! Not bad!",
+    "sellPrice": 300
+  },
+  "olive-flounder": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Olive_Flounder_NH_Icon.png/120px-Olive_Flounder_NH_Icon.png",
+    "name": "Olive Flounder",
+    "description": "I caught an olive flounder! That's not the pits!",
+    "sellPrice": 800
+  },
+  "squid": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bf/Squid_NH_Icon.png/120px-Squid_NH_Icon.png",
+    "name": "Squid",
+    "description": "I caught a squid! Do they...not actually \"bloop\"?",
+    "sellPrice": 500
+  },
+  "moray-eel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3e/Moray_Eel_NH_Icon.png/120px-Moray_Eel_NH_Icon.png",
+    "name": "Moray Eel",
+    "description": "I caught a moray eel! When you're in love, that's a moray!",
+    "sellPrice": 2000
+  },
+  "ribbon-eel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Ribbon_Eel_NH_Icon.png/120px-Ribbon_Eel_NH_Icon.png",
+    "name": "Ribbon Eel",
+    "description": "I caught a ribbon eel! Can it tie itself into a bow?",
+    "sellPrice": 600
+  },
+  "tuna": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/Tuna_NH_Icon.png/120px-Tuna_NH_Icon.png",
+    "name": "Tuna",
+    "description": "I caught a tuna! It's a little off-key!",
+    "sellPrice": 7000
+  },
+  "blue-marlin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Blue_Marlin_NH_Icon.png/120px-Blue_Marlin_NH_Icon.png",
+    "name": "Blue Marlin",
+    "description": "I caught a blue marlin! Listen to this fish. It's got a point.",
+    "sellPrice": 10000
+  },
+  "giant-trevally": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Giant_Trevally_NH_Icon.png/120px-Giant_Trevally_NH_Icon.png",
+    "name": "Giant Trevally",
+    "description": "I caught a giant trevally! Yeah, I'm pretty well-trevalled.",
+    "sellPrice": 4500
+  },
+  "mahi-mahi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Mahi-Mahi_NH_Icon.png/120px-Mahi-Mahi_NH_Icon.png",
+    "name": "Mahi-Mahi",
+    "description": "I caught a mahi-mahi! It's all mahine-mahine.",
+    "sellPrice": 6000
+  },
+  "ocean-sunfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Ocean_Sunfish_NH_Icon.png/120px-Ocean_Sunfish_NH_Icon.png",
+    "name": "Ocean Sunfish",
+    "description": "I caught an ocean sunfish! Good thing I'm wearing ocean sunscreen!",
+    "sellPrice": 4000
+  },
+  "ray": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Ray_NH_Icon.png/120px-Ray_NH_Icon.png",
+    "name": "Ray",
+    "description": "I caught a ray! A few more and I'll have a tan!",
+    "sellPrice": 3000
+  },
+  "saw-shark": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Saw_Shark_NH_Icon.png/120px-Saw_Shark_NH_Icon.png",
+    "name": "Saw Shark",
+    "description": "I caught a saw shark! You could call it a sea saw!",
+    "sellPrice": 12000
+  },
+  "hammerhead-shark": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Hammerhead_Shark_NH_Icon.png/120px-Hammerhead_Shark_NH_Icon.png",
+    "name": "Hammerhead Shark",
+    "description": "I caught a hammerhead shark! I hit the nail on the head!",
+    "sellPrice": 8000
+  },
+  "great-white-shark": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Great_White_Shark_NH_Icon.png/120px-Great_White_Shark_NH_Icon.png",
+    "name": "Great White Shark",
+    "description": "I caught a great white shark! Watch out for its jaws!",
+    "sellPrice": 15000
+  },
+  "whale-shark": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Whale_Shark_NH_Icon.png/120px-Whale_Shark_NH_Icon.png",
+    "name": "Whale Shark",
+    "description": "Thar she blows! I caught a whale shark! I'm tellin' ya, it was thiiiiiiiiiiiiiiiiiiiis big!",
+    "sellPrice": 13000
+  },
+  "suckerfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/de/Suckerfish_NH_Icon.png/120px-Suckerfish_NH_Icon.png",
+    "name": "Suckerfish",
+    "description": "I caught a suckerfish! I thought it was a shark! Oh, wait——now I get it. \"Sucker\"...",
+    "sellPrice": 1500
+  },
+  "football-fish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/34/Football_Fish_NH_Icon.png/120px-Football_Fish_NH_Icon.png",
+    "name": "Football Fish",
+    "description": "I caught a football fish! Some countries call it a soccer fish!",
+    "sellPrice": 2500
+  },
+  "oarfish": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Oarfish_NH_Icon.png/120px-Oarfish_NH_Icon.png",
+    "name": "Oarfish",
+    "description": "I caught an oarfish! I hope I catch morefish!",
+    "sellPrice": 9000
+  },
+  "barreleye": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e0/Barreleye_NH_Icon.png/120px-Barreleye_NH_Icon.png",
+    "name": "Barreleye",
+    "description": "I caught a barreleye! Like eyeing fish in a barrel!",
+    "sellPrice": 15000
+  },
+  "coelacanth": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Coelacanth_NH_Icon.png/120px-Coelacanth_NH_Icon.png",
+    "name": "Coelacanth",
+    "description": "Blast from the past! I caught a coelacanth! Think positive! Be a coela-CAN!",
+    "sellPrice": 15000
+  }
+}

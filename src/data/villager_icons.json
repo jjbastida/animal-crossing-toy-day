@@ -1,0 +1,1654 @@
+{
+  "ace": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Ace_NH_Villager_Icon.png/120px-Ace_NH_Villager_Icon.png",
+    "name": "Ace"
+  },
+  "admiral": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/82/Admiral_NH_Villager_Icon.png/120px-Admiral_NH_Villager_Icon.png",
+    "name": "Admiral"
+  },
+  "agent-s": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/51/Agent_S_NH_Villager_Icon.png/120px-Agent_S_NH_Villager_Icon.png",
+    "name": "Agent S"
+  },
+  "agnes": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/27/Agnes_NH_Villager_Icon.png/120px-Agnes_NH_Villager_Icon.png",
+    "name": "Agnes"
+  },
+  "al": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Al_NH_Villager_Icon.png/120px-Al_NH_Villager_Icon.png",
+    "name": "Al"
+  },
+  "alfonso": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Alfonso_NH_Villager_Icon.png/120px-Alfonso_NH_Villager_Icon.png",
+    "name": "Alfonso"
+  },
+  "alice": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Alice_NH_Villager_Icon.png/120px-Alice_NH_Villager_Icon.png",
+    "name": "Alice"
+  },
+  "alli": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/54/Alli_NH_Villager_Icon.png/120px-Alli_NH_Villager_Icon.png",
+    "name": "Alli"
+  },
+  "amelia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Amelia_NH_Villager_Icon.png/120px-Amelia_NH_Villager_Icon.png",
+    "name": "Amelia"
+  },
+  "anabelle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Anabelle_NH_Villager_Icon.png/120px-Anabelle_NH_Villager_Icon.png",
+    "name": "Anabelle"
+  },
+  "anchovy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/81/Anchovy_NH_Villager_Icon.png/120px-Anchovy_NH_Villager_Icon.png",
+    "name": "Anchovy"
+  },
+  "angus": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Angus_NH_Villager_Icon.png/120px-Angus_NH_Villager_Icon.png",
+    "name": "Angus"
+  },
+  "anicotti": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/07/Anicotti_NH_Villager_Icon.png/120px-Anicotti_NH_Villager_Icon.png",
+    "name": "Anicotti"
+  },
+  "ankha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1c/Ankha_NH_Villager_Icon.png/120px-Ankha_NH_Villager_Icon.png",
+    "name": "Ankha"
+  },
+  "annalisa": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3d/Annalisa_NH_Villager_Icon.png/120px-Annalisa_NH_Villager_Icon.png",
+    "name": "Annalisa"
+  },
+  "annalise": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/54/Annalise_NH_Villager_Icon.png/120px-Annalise_NH_Villager_Icon.png",
+    "name": "Annalise"
+  },
+  "antonio": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/34/Antonio_NH_Villager_Icon.png/120px-Antonio_NH_Villager_Icon.png",
+    "name": "Antonio"
+  },
+  "apollo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Apollo_NH_Villager_Icon.png/120px-Apollo_NH_Villager_Icon.png",
+    "name": "Apollo"
+  },
+  "apple": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Apple_NH_Villager_Icon.png/120px-Apple_NH_Villager_Icon.png",
+    "name": "Apple"
+  },
+  "astrid": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Astrid_NH_Villager_Icon.png/120px-Astrid_NH_Villager_Icon.png",
+    "name": "Astrid"
+  },
+  "audie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Audie_NH_Villager_Icon.png/120px-Audie_NH_Villager_Icon.png",
+    "name": "Audie"
+  },
+  "aurora": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/25/Aurora_NH_Villager_Icon.png/120px-Aurora_NH_Villager_Icon.png",
+    "name": "Aurora"
+  },
+  "ava": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Ava_NH_Villager_Icon.png/120px-Ava_NH_Villager_Icon.png",
+    "name": "Ava"
+  },
+  "avery": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Avery_NH_Villager_Icon.png/120px-Avery_NH_Villager_Icon.png",
+    "name": "Avery"
+  },
+  "axel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Axel_NH_Villager_Icon.png/120px-Axel_NH_Villager_Icon.png",
+    "name": "Axel"
+  },
+  "azalea": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Azalea_NH_Villager_Icon.png/120px-Azalea_NH_Villager_Icon.png",
+    "name": "Azalea"
+  },
+  "baabara": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4c/Baabara_NH_Villager_Icon.png/120px-Baabara_NH_Villager_Icon.png",
+    "name": "Baabara"
+  },
+  "bam": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fd/Bam_NH_Villager_Icon.png/120px-Bam_NH_Villager_Icon.png",
+    "name": "Bam"
+  },
+  "bangle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Bangle_NH_Villager_Icon.png/120px-Bangle_NH_Villager_Icon.png",
+    "name": "Bangle"
+  },
+  "barold": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b5/Barold_NH_Villager_Icon.png/120px-Barold_NH_Villager_Icon.png",
+    "name": "Barold"
+  },
+  "bea": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f6/Bea_NH_Villager_Icon.png/120px-Bea_NH_Villager_Icon.png",
+    "name": "Bea"
+  },
+  "beardo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/89/Beardo_NH_Villager_Icon.png/120px-Beardo_NH_Villager_Icon.png",
+    "name": "Beardo"
+  },
+  "beau": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Beau_NH_Villager_Icon.png/120px-Beau_NH_Villager_Icon.png",
+    "name": "Beau"
+  },
+  "becky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0c/Becky_NH_Villager_Icon.png/120px-Becky_NH_Villager_Icon.png",
+    "name": "Becky"
+  },
+  "bella": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/53/Bella_NH_Villager_Icon.png/120px-Bella_NH_Villager_Icon.png",
+    "name": "Bella"
+  },
+  "benedict": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Benedict_NH_Villager_Icon.png/120px-Benedict_NH_Villager_Icon.png",
+    "name": "Benedict"
+  },
+  "benjamin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/57/Benjamin_NH_Villager_Icon.png/120px-Benjamin_NH_Villager_Icon.png",
+    "name": "Benjamin"
+  },
+  "bertha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Bertha_NH_Villager_Icon.png/120px-Bertha_NH_Villager_Icon.png",
+    "name": "Bertha"
+  },
+  "bettina": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Bettina_NH_Villager_Icon.png/120px-Bettina_NH_Villager_Icon.png",
+    "name": "Bettina"
+  },
+  "bianca": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ab/Bianca_NH_Villager_Icon.png/120px-Bianca_NH_Villager_Icon.png",
+    "name": "Bianca"
+  },
+  "biff": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/07/Biff_NH_Villager_Icon.png/120px-Biff_NH_Villager_Icon.png",
+    "name": "Biff"
+  },
+  "big-top": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Big_Top_NH_Villager_Icon.png/120px-Big_Top_NH_Villager_Icon.png",
+    "name": "Big Top"
+  },
+  "bill": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0e/Bill_NH_Villager_Icon.png/120px-Bill_NH_Villager_Icon.png",
+    "name": "Bill"
+  },
+  "billy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d1/Billy_NH_Villager_Icon.png/120px-Billy_NH_Villager_Icon.png",
+    "name": "Billy"
+  },
+  "biskit": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/25/Biskit_NH_Villager_Icon.png/120px-Biskit_NH_Villager_Icon.png",
+    "name": "Biskit"
+  },
+  "bitty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Bitty_NH_Villager_Icon.png/120px-Bitty_NH_Villager_Icon.png",
+    "name": "Bitty"
+  },
+  "blaire": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Blaire_NH_Villager_Icon.png/120px-Blaire_NH_Villager_Icon.png",
+    "name": "Blaire"
+  },
+  "blanche": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/28/Blanche_NH_Villager_Icon.png/120px-Blanche_NH_Villager_Icon.png",
+    "name": "Blanche"
+  },
+  "bluebear": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Bluebear_NH_Villager_Icon.png/120px-Bluebear_NH_Villager_Icon.png",
+    "name": "Bluebear"
+  },
+  "bob": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Bob_NH_Villager_Icon.png/120px-Bob_NH_Villager_Icon.png",
+    "name": "Bob"
+  },
+  "bonbon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Bonbon_NH_Villager_Icon.png/120px-Bonbon_NH_Villager_Icon.png",
+    "name": "Bonbon"
+  },
+  "bones": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Bones_NH_Villager_Icon.png/120px-Bones_NH_Villager_Icon.png",
+    "name": "Bones"
+  },
+  "boomer": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5e/Boomer_NH_Villager_Icon.png/120px-Boomer_NH_Villager_Icon.png",
+    "name": "Boomer"
+  },
+  "boone": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7e/Boone_NH_Villager_Icon.png/120px-Boone_NH_Villager_Icon.png",
+    "name": "Boone"
+  },
+  "boots": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/56/Boots_NH_Villager_Icon.png/120px-Boots_NH_Villager_Icon.png",
+    "name": "Boots"
+  },
+  "boris": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Boris_NH_Villager_Icon.png/120px-Boris_NH_Villager_Icon.png",
+    "name": "Boris"
+  },
+  "boyd": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Boyd_NH_Villager_Icon.png/120px-Boyd_NH_Villager_Icon.png",
+    "name": "Boyd"
+  },
+  "bree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Bree_NH_Villager_Icon.png/120px-Bree_NH_Villager_Icon.png",
+    "name": "Bree"
+  },
+  "broccolo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b9/Broccolo_NH_Villager_Icon.png/120px-Broccolo_NH_Villager_Icon.png",
+    "name": "Broccolo"
+  },
+  "broffina": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Broffina_NH_Villager_Icon.png/120px-Broffina_NH_Villager_Icon.png",
+    "name": "Broffina"
+  },
+  "bruce": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Bruce_NH_Villager_Icon.png/120px-Bruce_NH_Villager_Icon.png",
+    "name": "Bruce"
+  },
+  "bubbles": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Bubbles_NH_Villager_Icon.png/120px-Bubbles_NH_Villager_Icon.png",
+    "name": "Bubbles"
+  },
+  "buck": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Buck_NH_Villager_Icon.png/120px-Buck_NH_Villager_Icon.png",
+    "name": "Buck"
+  },
+  "bud": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/34/Bud_NH_Villager_Icon.png/120px-Bud_NH_Villager_Icon.png",
+    "name": "Bud"
+  },
+  "bunnie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f5/Bunnie_NH_Villager_Icon.png/120px-Bunnie_NH_Villager_Icon.png",
+    "name": "Bunnie"
+  },
+  "butch": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Butch_NH_Villager_Icon.png/120px-Butch_NH_Villager_Icon.png",
+    "name": "Butch"
+  },
+  "buzz": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e5/Buzz_NH_Villager_Icon.png/120px-Buzz_NH_Villager_Icon.png",
+    "name": "Buzz"
+  },
+  "cally": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c0/Cally_NH_Villager_Icon.png/120px-Cally_NH_Villager_Icon.png",
+    "name": "Cally"
+  },
+  "camofrog": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/ff/Camofrog_NH_Villager_Icon.png/120px-Camofrog_NH_Villager_Icon.png",
+    "name": "Camofrog"
+  },
+  "canberra": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Canberra_NH_Villager_Icon.png/120px-Canberra_NH_Villager_Icon.png",
+    "name": "Canberra"
+  },
+  "candi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Candi_NH_Villager_Icon.png/120px-Candi_NH_Villager_Icon.png",
+    "name": "Candi"
+  },
+  "carmen": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Carmen_NH_Villager_Icon.png/120px-Carmen_NH_Villager_Icon.png",
+    "name": "Carmen"
+  },
+  "caroline": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d8/Caroline_NH_Villager_Icon.png/120px-Caroline_NH_Villager_Icon.png",
+    "name": "Caroline"
+  },
+  "carrie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/88/Carrie_NH_Villager_Icon.png/120px-Carrie_NH_Villager_Icon.png",
+    "name": "Carrie"
+  },
+  "cashmere": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5f/Cashmere_NH_Villager_Icon.png/120px-Cashmere_NH_Villager_Icon.png",
+    "name": "Cashmere"
+  },
+  "celia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b2/Celia_NH_Villager_Icon.png/120px-Celia_NH_Villager_Icon.png",
+    "name": "Celia"
+  },
+  "cephalobot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Cephalobot_NH_Villager_Icon.png/120px-Cephalobot_NH_Villager_Icon.png",
+    "name": "Cephalobot"
+  },
+  "cesar": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Cesar_NH_Villager_Icon.png/120px-Cesar_NH_Villager_Icon.png",
+    "name": "Cesar"
+  },
+  "chabwick": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Chabwick_NH_Villager_Icon.png/120px-Chabwick_NH_Villager_Icon.png",
+    "name": "Chabwick"
+  },
+  "chadder": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ef/Chadder_NH_Villager_Icon.png/120px-Chadder_NH_Villager_Icon.png",
+    "name": "Chadder"
+  },
+  "chai": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Chai_NH_Villager_Icon.png/120px-Chai_NH_Villager_Icon.png",
+    "name": "Chai"
+  },
+  "charlise": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/aa/Charlise_NH_Villager_Icon.png/120px-Charlise_NH_Villager_Icon.png",
+    "name": "Charlise"
+  },
+  "chelsea": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Chelsea_NH_Villager_Icon.png/120px-Chelsea_NH_Villager_Icon.png",
+    "name": "Chelsea"
+  },
+  "cheri": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Cheri_NH_Villager_Icon.png/120px-Cheri_NH_Villager_Icon.png",
+    "name": "Cheri"
+  },
+  "cherry": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Cherry_NH_Villager_Icon.png/120px-Cherry_NH_Villager_Icon.png",
+    "name": "Cherry"
+  },
+  "chester": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cd/Chester_NH_Villager_Icon.png/120px-Chester_NH_Villager_Icon.png",
+    "name": "Chester"
+  },
+  "chevre": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Chevre_NH_Villager_Icon.png/120px-Chevre_NH_Villager_Icon.png",
+    "name": "Chevre"
+  },
+  "chief": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e6/Chief_NH_Villager_Icon.png/120px-Chief_NH_Villager_Icon.png",
+    "name": "Chief"
+  },
+  "chops": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fd/Chops_NH_Villager_Icon.png/120px-Chops_NH_Villager_Icon.png",
+    "name": "Chops"
+  },
+  "chow": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b5/Chow_NH_Villager_Icon.png/120px-Chow_NH_Villager_Icon.png",
+    "name": "Chow"
+  },
+  "chrissy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Chrissy_NH_Villager_Icon.png/120px-Chrissy_NH_Villager_Icon.png",
+    "name": "Chrissy"
+  },
+  "claude": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Claude_NH_Villager_Icon.png/120px-Claude_NH_Villager_Icon.png",
+    "name": "Claude"
+  },
+  "claudia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Claudia_NH_Villager_Icon.png/120px-Claudia_NH_Villager_Icon.png",
+    "name": "Claudia"
+  },
+  "clay": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Clay_NH_Villager_Icon.png/120px-Clay_NH_Villager_Icon.png",
+    "name": "Clay"
+  },
+  "cleo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Cleo_NH_Villager_Icon.png/120px-Cleo_NH_Villager_Icon.png",
+    "name": "Cleo"
+  },
+  "clyde": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5a/Clyde_NH_Villager_Icon.png/120px-Clyde_NH_Villager_Icon.png",
+    "name": "Clyde"
+  },
+  "coach": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Coach_NH_Villager_Icon.png/120px-Coach_NH_Villager_Icon.png",
+    "name": "Coach"
+  },
+  "cobb": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Cobb_NH_Villager_Icon.png/120px-Cobb_NH_Villager_Icon.png",
+    "name": "Cobb"
+  },
+  "coco": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c2/Coco_NH_Villager_Icon.png/120px-Coco_NH_Villager_Icon.png",
+    "name": "Coco"
+  },
+  "cole": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/79/Cole_NH_Villager_Icon.png/120px-Cole_NH_Villager_Icon.png",
+    "name": "Cole"
+  },
+  "colton": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c5/Colton_NH_Villager_Icon.png/120px-Colton_NH_Villager_Icon.png",
+    "name": "Colton"
+  },
+  "cookie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Cookie_NH_Villager_Icon.png/120px-Cookie_NH_Villager_Icon.png",
+    "name": "Cookie"
+  },
+  "cousteau": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Cousteau_NH_Villager_Icon.png/120px-Cousteau_NH_Villager_Icon.png",
+    "name": "Cousteau"
+  },
+  "cranston": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Cranston_NH_Villager_Icon.png/120px-Cranston_NH_Villager_Icon.png",
+    "name": "Cranston"
+  },
+  "croque": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Croque_NH_Villager_Icon.png/120px-Croque_NH_Villager_Icon.png",
+    "name": "Croque"
+  },
+  "cube": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/be/Cube_NH_Villager_Icon.png/120px-Cube_NH_Villager_Icon.png",
+    "name": "Cube"
+  },
+  "curlos": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d0/Curlos_NH_Villager_Icon.png/120px-Curlos_NH_Villager_Icon.png",
+    "name": "Curlos"
+  },
+  "curly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a3/Curly_NH_Villager_Icon.png/120px-Curly_NH_Villager_Icon.png",
+    "name": "Curly"
+  },
+  "curt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f5/Curt_NH_Villager_Icon.png/120px-Curt_NH_Villager_Icon.png",
+    "name": "Curt"
+  },
+  "cyd": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Cyd_NH_Villager_Icon.png/120px-Cyd_NH_Villager_Icon.png",
+    "name": "Cyd"
+  },
+  "cyrano": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b4/Cyrano_NH_Villager_Icon.png/120px-Cyrano_NH_Villager_Icon.png",
+    "name": "Cyrano"
+  },
+  "daisy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Daisy_NH_Villager_Icon.png/120px-Daisy_NH_Villager_Icon.png",
+    "name": "Daisy"
+  },
+  "deena": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b9/Deena_NH_Villager_Icon.png/120px-Deena_NH_Villager_Icon.png",
+    "name": "Deena"
+  },
+  "deirdre": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Deirdre_NH_Villager_Icon.png/120px-Deirdre_NH_Villager_Icon.png",
+    "name": "Deirdre"
+  },
+  "del": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8b/Del_NH_Villager_Icon.png/120px-Del_NH_Villager_Icon.png",
+    "name": "Del"
+  },
+  "deli": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/da/Deli_NH_Villager_Icon.png/120px-Deli_NH_Villager_Icon.png",
+    "name": "Deli"
+  },
+  "derwin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Derwin_NH_Villager_Icon.png/120px-Derwin_NH_Villager_Icon.png",
+    "name": "Derwin"
+  },
+  "diana": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Diana_NH_Villager_Icon.png/120px-Diana_NH_Villager_Icon.png",
+    "name": "Diana"
+  },
+  "diva": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Diva_NH_Villager_Icon.png/120px-Diva_NH_Villager_Icon.png",
+    "name": "Diva"
+  },
+  "dizzy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/77/Dizzy_NH_Villager_Icon.png/120px-Dizzy_NH_Villager_Icon.png",
+    "name": "Dizzy"
+  },
+  "dobie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ab/Dobie_NH_Villager_Icon.png/120px-Dobie_NH_Villager_Icon.png",
+    "name": "Dobie"
+  },
+  "doc": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Doc_NH_Villager_Icon.png/120px-Doc_NH_Villager_Icon.png",
+    "name": "Doc"
+  },
+  "dom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e1/Dom_NH_Villager_Icon.png/120px-Dom_NH_Villager_Icon.png",
+    "name": "Dom"
+  },
+  "dora": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Dora_NH_Villager_Icon.png/120px-Dora_NH_Villager_Icon.png",
+    "name": "Dora"
+  },
+  "dotty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Dotty_NH_Villager_Icon.png/120px-Dotty_NH_Villager_Icon.png",
+    "name": "Dotty"
+  },
+  "drago": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bd/Drago_NH_Villager_Icon.png/120px-Drago_NH_Villager_Icon.png",
+    "name": "Drago"
+  },
+  "drake": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/be/Drake_NH_Villager_Icon.png/120px-Drake_NH_Villager_Icon.png",
+    "name": "Drake"
+  },
+  "drift": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a7/Drift_NH_Villager_Icon.png/120px-Drift_NH_Villager_Icon.png",
+    "name": "Drift"
+  },
+  "ed": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Ed_NH_Villager_Icon.png/120px-Ed_NH_Villager_Icon.png",
+    "name": "Ed"
+  },
+  "egbert": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Egbert_NH_Villager_Icon.png/120px-Egbert_NH_Villager_Icon.png",
+    "name": "Egbert"
+  },
+  "elise": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/28/Elise_NH_Villager_Icon.png/120px-Elise_NH_Villager_Icon.png",
+    "name": "Elise"
+  },
+  "ellie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Ellie_NH_Villager_Icon.png/120px-Ellie_NH_Villager_Icon.png",
+    "name": "Ellie"
+  },
+  "elmer": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Elmer_NH_Villager_Icon.png/120px-Elmer_NH_Villager_Icon.png",
+    "name": "Elmer"
+  },
+  "eloise": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Eloise_NH_Villager_Icon.png/120px-Eloise_NH_Villager_Icon.png",
+    "name": "Eloise"
+  },
+  "elvis": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Elvis_NH_Villager_Icon.png/120px-Elvis_NH_Villager_Icon.png",
+    "name": "Elvis"
+  },
+  "erik": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b7/Erik_NH_Villager_Icon.png/120px-Erik_NH_Villager_Icon.png",
+    "name": "Erik"
+  },
+  "toile": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/21/%C3%89toile_NH_Villager_Icon.png/120px-%C3%89toile_NH_Villager_Icon.png",
+    "name": "Étoile"
+  },
+  "eugene": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Eugene_NH_Villager_Icon.png/120px-Eugene_NH_Villager_Icon.png",
+    "name": "Eugene"
+  },
+  "eunice": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/55/Eunice_NH_Villager_Icon.png/120px-Eunice_NH_Villager_Icon.png",
+    "name": "Eunice"
+  },
+  "faith": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f9/Faith_NH_Villager_Icon.png/120px-Faith_NH_Villager_Icon.png",
+    "name": "Faith"
+  },
+  "fang": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Fang_NH_Villager_Icon.png/120px-Fang_NH_Villager_Icon.png",
+    "name": "Fang"
+  },
+  "fauna": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/29/Fauna_NH_Villager_Icon.png/120px-Fauna_NH_Villager_Icon.png",
+    "name": "Fauna"
+  },
+  "felicity": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Felicity_NH_Villager_Icon.png/120px-Felicity_NH_Villager_Icon.png",
+    "name": "Felicity"
+  },
+  "filbert": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/70/Filbert_NH_Villager_Icon.png/120px-Filbert_NH_Villager_Icon.png",
+    "name": "Filbert"
+  },
+  "flip": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Flip_NH_Villager_Icon.png/120px-Flip_NH_Villager_Icon.png",
+    "name": "Flip"
+  },
+  "flo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/37/Flo_NH_Villager_Icon.png/120px-Flo_NH_Villager_Icon.png",
+    "name": "Flo"
+  },
+  "flora": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Flora_NH_Villager_Icon.png/120px-Flora_NH_Villager_Icon.png",
+    "name": "Flora"
+  },
+  "flurry": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Flurry_NH_Villager_Icon.png/120px-Flurry_NH_Villager_Icon.png",
+    "name": "Flurry"
+  },
+  "francine": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1c/Francine_NH_Villager_Icon.png/120px-Francine_NH_Villager_Icon.png",
+    "name": "Francine"
+  },
+  "frank": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0e/Frank_NH_Villager_Icon.png/120px-Frank_NH_Villager_Icon.png",
+    "name": "Frank"
+  },
+  "freckles": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Freckles_NH_Villager_Icon.png/120px-Freckles_NH_Villager_Icon.png",
+    "name": "Freckles"
+  },
+  "frett": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Frett_NH_Villager_Icon.png/120px-Frett_NH_Villager_Icon.png",
+    "name": "Frett"
+  },
+  "freya": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/29/Freya_NH_Villager_Icon.png/120px-Freya_NH_Villager_Icon.png",
+    "name": "Freya"
+  },
+  "friga": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/37/Friga_NH_Villager_Icon.png/120px-Friga_NH_Villager_Icon.png",
+    "name": "Friga"
+  },
+  "frita": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Frita_NH_Villager_Icon.png/120px-Frita_NH_Villager_Icon.png",
+    "name": "Frita"
+  },
+  "frobert": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/19/Frobert_NH_Villager_Icon.png/120px-Frobert_NH_Villager_Icon.png",
+    "name": "Frobert"
+  },
+  "fuchsia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Fuchsia_NH_Villager_Icon.png/120px-Fuchsia_NH_Villager_Icon.png",
+    "name": "Fuchsia"
+  },
+  "gabi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e9/Gabi_NH_Villager_Icon.png/120px-Gabi_NH_Villager_Icon.png",
+    "name": "Gabi"
+  },
+  "gala": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f9/Gala_NH_Villager_Icon.png/120px-Gala_NH_Villager_Icon.png",
+    "name": "Gala"
+  },
+  "gaston": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cd/Gaston_NH_Villager_Icon.png/120px-Gaston_NH_Villager_Icon.png",
+    "name": "Gaston"
+  },
+  "gayle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Gayle_NH_Villager_Icon.png/120px-Gayle_NH_Villager_Icon.png",
+    "name": "Gayle"
+  },
+  "genji": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Genji_NH_Villager_Icon.png/120px-Genji_NH_Villager_Icon.png",
+    "name": "Genji"
+  },
+  "gigi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/10/Gigi_NH_Villager_Icon.png/120px-Gigi_NH_Villager_Icon.png",
+    "name": "Gigi"
+  },
+  "gladys": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Gladys_NH_Villager_Icon.png/120px-Gladys_NH_Villager_Icon.png",
+    "name": "Gladys"
+  },
+  "gloria": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Gloria_NH_Villager_Icon.png/120px-Gloria_NH_Villager_Icon.png",
+    "name": "Gloria"
+  },
+  "goldie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Goldie_NH_Villager_Icon.png/120px-Goldie_NH_Villager_Icon.png",
+    "name": "Goldie"
+  },
+  "gonzo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Gonzo_NH_Villager_Icon.png/120px-Gonzo_NH_Villager_Icon.png",
+    "name": "Gonzo"
+  },
+  "goose": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Goose_NH_Villager_Icon.png/120px-Goose_NH_Villager_Icon.png",
+    "name": "Goose"
+  },
+  "graham": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Graham_NH_Villager_Icon.png/120px-Graham_NH_Villager_Icon.png",
+    "name": "Graham"
+  },
+  "greta": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d7/Greta_NH_Villager_Icon.png/120px-Greta_NH_Villager_Icon.png",
+    "name": "Greta"
+  },
+  "grizzly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Grizzly_NH_Villager_Icon.png/120px-Grizzly_NH_Villager_Icon.png",
+    "name": "Grizzly"
+  },
+  "groucho": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Groucho_NH_Villager_Icon.png/120px-Groucho_NH_Villager_Icon.png",
+    "name": "Groucho"
+  },
+  "gruff": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9c/Gruff_NH_Villager_Icon.png/120px-Gruff_NH_Villager_Icon.png",
+    "name": "Gruff"
+  },
+  "gwen": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ed/Gwen_NH_Villager_Icon.png/120px-Gwen_NH_Villager_Icon.png",
+    "name": "Gwen"
+  },
+  "hamlet": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Hamlet_NH_Villager_Icon.png/120px-Hamlet_NH_Villager_Icon.png",
+    "name": "Hamlet"
+  },
+  "hamphrey": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a1/Hamphrey_NH_Villager_Icon.png/120px-Hamphrey_NH_Villager_Icon.png",
+    "name": "Hamphrey"
+  },
+  "hans": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Hans_NH_Villager_Icon.png/120px-Hans_NH_Villager_Icon.png",
+    "name": "Hans"
+  },
+  "harry": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b4/Harry_NH_Villager_Icon.png/120px-Harry_NH_Villager_Icon.png",
+    "name": "Harry"
+  },
+  "hazel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Hazel_NH_Villager_Icon.png/120px-Hazel_NH_Villager_Icon.png",
+    "name": "Hazel"
+  },
+  "henry": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2f/Henry_NH_Villager_Icon.png/120px-Henry_NH_Villager_Icon.png",
+    "name": "Henry"
+  },
+  "hippeux": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Hippeux_NH_Villager_Icon.png/120px-Hippeux_NH_Villager_Icon.png",
+    "name": "Hippeux"
+  },
+  "hopkins": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/Hopkins_NH_Villager_Icon.png/120px-Hopkins_NH_Villager_Icon.png",
+    "name": "Hopkins"
+  },
+  "hopper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/82/Hopper_NH_Villager_Icon.png/120px-Hopper_NH_Villager_Icon.png",
+    "name": "Hopper"
+  },
+  "hornsby": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/77/Hornsby_NH_Villager_Icon.png/120px-Hornsby_NH_Villager_Icon.png",
+    "name": "Hornsby"
+  },
+  "huck": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Huck_NH_Villager_Icon.png/120px-Huck_NH_Villager_Icon.png",
+    "name": "Huck"
+  },
+  "hugh": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b0/Hugh_NH_Villager_Icon.png/120px-Hugh_NH_Villager_Icon.png",
+    "name": "Hugh"
+  },
+  "iggly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/11/Iggly_NH_Villager_Icon.png/120px-Iggly_NH_Villager_Icon.png",
+    "name": "Iggly"
+  },
+  "ike": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c9/Ike_NH_Villager_Icon.png/120px-Ike_NH_Villager_Icon.png",
+    "name": "Ike"
+  },
+  "ione": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Ione_NH_Villager_Icon.png/120px-Ione_NH_Villager_Icon.png",
+    "name": "Ione"
+  },
+  "jacob": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fa/Jacob_NH_Villager_Icon.png/120px-Jacob_NH_Villager_Icon.png",
+    "name": "Jacob"
+  },
+  "jacques": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Jacques_NH_Villager_Icon.png/120px-Jacques_NH_Villager_Icon.png",
+    "name": "Jacques"
+  },
+  "jambette": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/53/Jambette_NH_Villager_Icon.png/120px-Jambette_NH_Villager_Icon.png",
+    "name": "Jambette"
+  },
+  "jay": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ab/Jay_NH_Villager_Icon.png/120px-Jay_NH_Villager_Icon.png",
+    "name": "Jay"
+  },
+  "jeremiah": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Jeremiah_NH_Villager_Icon.png/120px-Jeremiah_NH_Villager_Icon.png",
+    "name": "Jeremiah"
+  },
+  "jitters": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/51/Jitters_NH_Villager_Icon.png/120px-Jitters_NH_Villager_Icon.png",
+    "name": "Jitters"
+  },
+  "joey": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a1/Joey_NH_Villager_Icon.png/120px-Joey_NH_Villager_Icon.png",
+    "name": "Joey"
+  },
+  "judy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Judy_NH_Villager_Icon.png/120px-Judy_NH_Villager_Icon.png",
+    "name": "Judy"
+  },
+  "julia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Julia_NH_Villager_Icon.png/120px-Julia_NH_Villager_Icon.png",
+    "name": "Julia"
+  },
+  "julian": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Julian_NH_Villager_Icon.png/120px-Julian_NH_Villager_Icon.png",
+    "name": "Julian"
+  },
+  "june": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/29/June_NH_Villager_Icon.png/120px-June_NH_Villager_Icon.png",
+    "name": "June"
+  },
+  "kabuki": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/64/Kabuki_NH_Villager_Icon.png/120px-Kabuki_NH_Villager_Icon.png",
+    "name": "Kabuki"
+  },
+  "katt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Katt_NH_Villager_Icon.png/120px-Katt_NH_Villager_Icon.png",
+    "name": "Katt"
+  },
+  "keaton": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/28/Keaton_NH_Villager_Icon.png/120px-Keaton_NH_Villager_Icon.png",
+    "name": "Keaton"
+  },
+  "ken": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Ken_NH_Villager_Icon.png/120px-Ken_NH_Villager_Icon.png",
+    "name": "Ken"
+  },
+  "ketchup": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e5/Ketchup_NH_Villager_Icon.png/120px-Ketchup_NH_Villager_Icon.png",
+    "name": "Ketchup"
+  },
+  "kevin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/89/Kevin_NH_Villager_Icon.png/120px-Kevin_NH_Villager_Icon.png",
+    "name": "Kevin"
+  },
+  "kid-cat": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/18/Kid_Cat_NH_Villager_Icon.png/120px-Kid_Cat_NH_Villager_Icon.png",
+    "name": "Kid Cat"
+  },
+  "kidd": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/64/Kidd_NH_Villager_Icon.png/120px-Kidd_NH_Villager_Icon.png",
+    "name": "Kidd"
+  },
+  "kiki": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Kiki_NH_Villager_Icon.png/120px-Kiki_NH_Villager_Icon.png",
+    "name": "Kiki"
+  },
+  "kitt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fe/Kitt_NH_Villager_Icon.png/120px-Kitt_NH_Villager_Icon.png",
+    "name": "Kitt"
+  },
+  "kitty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a4/Kitty_NH_Villager_Icon.png/120px-Kitty_NH_Villager_Icon.png",
+    "name": "Kitty"
+  },
+  "klaus": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Klaus_NH_Villager_Icon.png/120px-Klaus_NH_Villager_Icon.png",
+    "name": "Klaus"
+  },
+  "knox": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Knox_NH_Villager_Icon.png/120px-Knox_NH_Villager_Icon.png",
+    "name": "Knox"
+  },
+  "kody": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Kody_NH_Villager_Icon.png/120px-Kody_NH_Villager_Icon.png",
+    "name": "Kody"
+  },
+  "kyle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Kyle_NH_Villager_Icon.png/120px-Kyle_NH_Villager_Icon.png",
+    "name": "Kyle"
+  },
+  "leonardo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ca/Leonardo_NH_Villager_Icon.png/120px-Leonardo_NH_Villager_Icon.png",
+    "name": "Leonardo"
+  },
+  "leopold": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/72/Leopold_NH_Villager_Icon.png/120px-Leopold_NH_Villager_Icon.png",
+    "name": "Leopold"
+  },
+  "lily": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Lily_NH_Villager_Icon.png/120px-Lily_NH_Villager_Icon.png",
+    "name": "Lily"
+  },
+  "limberg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/21/Limberg_NH_Villager_Icon.png/120px-Limberg_NH_Villager_Icon.png",
+    "name": "Limberg"
+  },
+  "lionel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Lionel_NH_Villager_Icon.png/120px-Lionel_NH_Villager_Icon.png",
+    "name": "Lionel"
+  },
+  "lobo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/01/Lobo_NH_Villager_Icon.png/120px-Lobo_NH_Villager_Icon.png",
+    "name": "Lobo"
+  },
+  "lolly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6c/Lolly_NH_Villager_Icon.png/120px-Lolly_NH_Villager_Icon.png",
+    "name": "Lolly"
+  },
+  "lopez": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/54/Lopez_NH_Villager_Icon.png/120px-Lopez_NH_Villager_Icon.png",
+    "name": "Lopez"
+  },
+  "louie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/10/Louie_NH_Villager_Icon.png/120px-Louie_NH_Villager_Icon.png",
+    "name": "Louie"
+  },
+  "lucha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Lucha_NH_Villager_Icon.png/120px-Lucha_NH_Villager_Icon.png",
+    "name": "Lucha"
+  },
+  "lucky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/13/Lucky_NH_Villager_Icon.png/120px-Lucky_NH_Villager_Icon.png",
+    "name": "Lucky"
+  },
+  "lucy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Lucy_NH_Villager_Icon.png/120px-Lucy_NH_Villager_Icon.png",
+    "name": "Lucy"
+  },
+  "lyman": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a4/Lyman_NH_Villager_Icon.png/120px-Lyman_NH_Villager_Icon.png",
+    "name": "Lyman"
+  },
+  "mac": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Mac_NH_Villager_Icon.png/120px-Mac_NH_Villager_Icon.png",
+    "name": "Mac"
+  },
+  "maddie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Maddie_NH_Villager_Icon.png/120px-Maddie_NH_Villager_Icon.png",
+    "name": "Maddie"
+  },
+  "maelle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c2/Maelle_NH_Villager_Icon.png/120px-Maelle_NH_Villager_Icon.png",
+    "name": "Maelle"
+  },
+  "maggie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Maggie_NH_Villager_Icon.png/120px-Maggie_NH_Villager_Icon.png",
+    "name": "Maggie"
+  },
+  "mallary": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Mallary_NH_Villager_Icon.png/120px-Mallary_NH_Villager_Icon.png",
+    "name": "Mallary"
+  },
+  "maple": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Maple_NH_Villager_Icon.png/120px-Maple_NH_Villager_Icon.png",
+    "name": "Maple"
+  },
+  "marcel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a7/Marcel_NH_Villager_Icon.png/120px-Marcel_NH_Villager_Icon.png",
+    "name": "Marcel"
+  },
+  "marcie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d5/Marcie_NH_Villager_Icon.png/120px-Marcie_NH_Villager_Icon.png",
+    "name": "Marcie"
+  },
+  "margie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Margie_NH_Villager_Icon.png/120px-Margie_NH_Villager_Icon.png",
+    "name": "Margie"
+  },
+  "marina": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Marina_NH_Villager_Icon.png/120px-Marina_NH_Villager_Icon.png",
+    "name": "Marina"
+  },
+  "marlo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/03/Marlo_NH_Villager_Icon.png/120px-Marlo_NH_Villager_Icon.png",
+    "name": "Marlo"
+  },
+  "marshal": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/99/Marshal_NH_Villager_Icon.png/120px-Marshal_NH_Villager_Icon.png",
+    "name": "Marshal"
+  },
+  "marty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Marty_NH_Villager_Icon.png/120px-Marty_NH_Villager_Icon.png",
+    "name": "Marty"
+  },
+  "mathilda": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Mathilda_NH_Villager_Icon.png/120px-Mathilda_NH_Villager_Icon.png",
+    "name": "Mathilda"
+  },
+  "megan": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/66/Megan_NH_Villager_Icon.png/120px-Megan_NH_Villager_Icon.png",
+    "name": "Megan"
+  },
+  "melba": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Melba_NH_Villager_Icon.png/120px-Melba_NH_Villager_Icon.png",
+    "name": "Melba"
+  },
+  "merengue": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e8/Merengue_NH_Villager_Icon.png/120px-Merengue_NH_Villager_Icon.png",
+    "name": "Merengue"
+  },
+  "merry": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ed/Merry_NH_Villager_Icon.png/120px-Merry_NH_Villager_Icon.png",
+    "name": "Merry"
+  },
+  "midge": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Midge_NH_Villager_Icon.png/120px-Midge_NH_Villager_Icon.png",
+    "name": "Midge"
+  },
+  "mint": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bf/Mint_NH_Villager_Icon.png/120px-Mint_NH_Villager_Icon.png",
+    "name": "Mint"
+  },
+  "mira": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Mira_NH_Villager_Icon.png/120px-Mira_NH_Villager_Icon.png",
+    "name": "Mira"
+  },
+  "miranda": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/83/Miranda_NH_Villager_Icon.png/120px-Miranda_NH_Villager_Icon.png",
+    "name": "Miranda"
+  },
+  "mitzi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Mitzi_NH_Villager_Icon.png/120px-Mitzi_NH_Villager_Icon.png",
+    "name": "Mitzi"
+  },
+  "moe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/03/Moe_NH_Villager_Icon.png/120px-Moe_NH_Villager_Icon.png",
+    "name": "Moe"
+  },
+  "molly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d8/Molly_NH_Villager_Icon.png/120px-Molly_NH_Villager_Icon.png",
+    "name": "Molly"
+  },
+  "monique": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/22/Monique_NH_Villager_Icon.png/120px-Monique_NH_Villager_Icon.png",
+    "name": "Monique"
+  },
+  "monty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/15/Monty_NH_Villager_Icon.png/120px-Monty_NH_Villager_Icon.png",
+    "name": "Monty"
+  },
+  "moose": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Moose_NH_Villager_Icon.png/120px-Moose_NH_Villager_Icon.png",
+    "name": "Moose"
+  },
+  "mott": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Mott_NH_Villager_Icon.png/120px-Mott_NH_Villager_Icon.png",
+    "name": "Mott"
+  },
+  "muffy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Muffy_NH_Villager_Icon.png/120px-Muffy_NH_Villager_Icon.png",
+    "name": "Muffy"
+  },
+  "murphy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Murphy_NH_Villager_Icon.png/120px-Murphy_NH_Villager_Icon.png",
+    "name": "Murphy"
+  },
+  "nan": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/df/Nan_NH_Villager_Icon.png/120px-Nan_NH_Villager_Icon.png",
+    "name": "Nan"
+  },
+  "nana": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Nana_NH_Villager_Icon.png/120px-Nana_NH_Villager_Icon.png",
+    "name": "Nana"
+  },
+  "naomi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a8/Naomi_NH_Villager_Icon.png/120px-Naomi_NH_Villager_Icon.png",
+    "name": "Naomi"
+  },
+  "nate": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/72/Nate_NH_Villager_Icon.png/120px-Nate_NH_Villager_Icon.png",
+    "name": "Nate"
+  },
+  "nibbles": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Nibbles_NH_Villager_Icon.png/120px-Nibbles_NH_Villager_Icon.png",
+    "name": "Nibbles"
+  },
+  "norma": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/69/Norma_NH_Villager_Icon.png/120px-Norma_NH_Villager_Icon.png",
+    "name": "Norma"
+  },
+  "o-hare": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b2/O%27Hare_NH_Villager_Icon.png/120px-O%27Hare_NH_Villager_Icon.png",
+    "name": "O'Hare"
+  },
+  "octavian": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Octavian_NH_Villager_Icon.png/120px-Octavian_NH_Villager_Icon.png",
+    "name": "Octavian"
+  },
+  "olaf": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Olaf_NH_Villager_Icon.png/120px-Olaf_NH_Villager_Icon.png",
+    "name": "Olaf"
+  },
+  "olive": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Olive_NH_Villager_Icon.png/120px-Olive_NH_Villager_Icon.png",
+    "name": "Olive"
+  },
+  "olivia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1e/Olivia_NH_Villager_Icon.png/120px-Olivia_NH_Villager_Icon.png",
+    "name": "Olivia"
+  },
+  "opal": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Opal_NH_Villager_Icon.png/120px-Opal_NH_Villager_Icon.png",
+    "name": "Opal"
+  },
+  "ozzie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Ozzie_NH_Villager_Icon.png/120px-Ozzie_NH_Villager_Icon.png",
+    "name": "Ozzie"
+  },
+  "pancetti": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Pancetti_NH_Villager_Icon.png/120px-Pancetti_NH_Villager_Icon.png",
+    "name": "Pancetti"
+  },
+  "pango": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Pango_NH_Villager_Icon.png/120px-Pango_NH_Villager_Icon.png",
+    "name": "Pango"
+  },
+  "paolo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/df/Paolo_NH_Villager_Icon.png/120px-Paolo_NH_Villager_Icon.png",
+    "name": "Paolo"
+  },
+  "papi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Papi_NH_Villager_Icon.png/120px-Papi_NH_Villager_Icon.png",
+    "name": "Papi"
+  },
+  "pashmina": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Pashmina_NH_Villager_Icon.png/120px-Pashmina_NH_Villager_Icon.png",
+    "name": "Pashmina"
+  },
+  "pate": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e5/Pate_NH_Villager_Icon.png/120px-Pate_NH_Villager_Icon.png",
+    "name": "Pate"
+  },
+  "patty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fe/Patty_NH_Villager_Icon.png/120px-Patty_NH_Villager_Icon.png",
+    "name": "Patty"
+  },
+  "paula": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Paula_NH_Villager_Icon.png/120px-Paula_NH_Villager_Icon.png",
+    "name": "Paula"
+  },
+  "peaches": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e3/Peaches_NH_Villager_Icon.png/120px-Peaches_NH_Villager_Icon.png",
+    "name": "Peaches"
+  },
+  "peanut": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/Peanut_NH_Villager_Icon.png/120px-Peanut_NH_Villager_Icon.png",
+    "name": "Peanut"
+  },
+  "pecan": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/12/Pecan_NH_Villager_Icon.png/120px-Pecan_NH_Villager_Icon.png",
+    "name": "Pecan"
+  },
+  "peck": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c8/Peck_NH_Villager_Icon.png/120px-Peck_NH_Villager_Icon.png",
+    "name": "Peck"
+  },
+  "peewee": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/24/Peewee_NH_Villager_Icon.png/120px-Peewee_NH_Villager_Icon.png",
+    "name": "Peewee"
+  },
+  "peggy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Peggy_NH_Villager_Icon.png/120px-Peggy_NH_Villager_Icon.png",
+    "name": "Peggy"
+  },
+  "pekoe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Pekoe_NH_Villager_Icon.png/120px-Pekoe_NH_Villager_Icon.png",
+    "name": "Pekoe"
+  },
+  "penelope": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/32/Penelope_NH_Villager_Icon.png/120px-Penelope_NH_Villager_Icon.png",
+    "name": "Penelope"
+  },
+  "petri": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/59/Petri_NH_Villager_Icon.png/120px-Petri_NH_Villager_Icon.png",
+    "name": "Petri"
+  },
+  "phil": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/15/Phil_NH_Villager_Icon.png/120px-Phil_NH_Villager_Icon.png",
+    "name": "Phil"
+  },
+  "phoebe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/71/Phoebe_NH_Villager_Icon.png/120px-Phoebe_NH_Villager_Icon.png",
+    "name": "Phoebe"
+  },
+  "pierce": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8d/Pierce_NH_Villager_Icon.png/120px-Pierce_NH_Villager_Icon.png",
+    "name": "Pierce"
+  },
+  "pietro": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/56/Pietro_NH_Villager_Icon.png/120px-Pietro_NH_Villager_Icon.png",
+    "name": "Pietro"
+  },
+  "pinky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Pinky_NH_Villager_Icon.png/120px-Pinky_NH_Villager_Icon.png",
+    "name": "Pinky"
+  },
+  "piper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Piper_NH_Villager_Icon.png/120px-Piper_NH_Villager_Icon.png",
+    "name": "Piper"
+  },
+  "pippy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Pippy_NH_Villager_Icon.png/120px-Pippy_NH_Villager_Icon.png",
+    "name": "Pippy"
+  },
+  "plucky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Plucky_NH_Villager_Icon.png/120px-Plucky_NH_Villager_Icon.png",
+    "name": "Plucky"
+  },
+  "pompom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Pompom_NH_Villager_Icon.png/120px-Pompom_NH_Villager_Icon.png",
+    "name": "Pompom"
+  },
+  "poncho": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Poncho_NH_Villager_Icon.png/120px-Poncho_NH_Villager_Icon.png",
+    "name": "Poncho"
+  },
+  "poppy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Poppy_NH_Villager_Icon.png/120px-Poppy_NH_Villager_Icon.png",
+    "name": "Poppy"
+  },
+  "portia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/de/Portia_NH_Villager_Icon.png/120px-Portia_NH_Villager_Icon.png",
+    "name": "Portia"
+  },
+  "prince": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/99/Prince_NH_Villager_Icon.png/120px-Prince_NH_Villager_Icon.png",
+    "name": "Prince"
+  },
+  "puck": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Puck_NH_Villager_Icon.png/120px-Puck_NH_Villager_Icon.png",
+    "name": "Puck"
+  },
+  "puddles": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f8/Puddles_NH_Villager_Icon.png/120px-Puddles_NH_Villager_Icon.png",
+    "name": "Puddles"
+  },
+  "pudge": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Pudge_NH_Villager_Icon.png/120px-Pudge_NH_Villager_Icon.png",
+    "name": "Pudge"
+  },
+  "punchy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Punchy_NH_Villager_Icon.png/120px-Punchy_NH_Villager_Icon.png",
+    "name": "Punchy"
+  },
+  "purrl": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Purrl_NH_Villager_Icon.png/120px-Purrl_NH_Villager_Icon.png",
+    "name": "Purrl"
+  },
+  "queenie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/15/Queenie_NH_Villager_Icon.png/120px-Queenie_NH_Villager_Icon.png",
+    "name": "Queenie"
+  },
+  "quillson": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1c/Quillson_NH_Villager_Icon.png/120px-Quillson_NH_Villager_Icon.png",
+    "name": "Quillson"
+  },
+  "quinn": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Quinn_NH_Villager_Icon.png/120px-Quinn_NH_Villager_Icon.png",
+    "name": "Quinn"
+  },
+  "raddle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Raddle_NH_Villager_Icon.png/120px-Raddle_NH_Villager_Icon.png",
+    "name": "Raddle"
+  },
+  "rasher": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Rasher_NH_Villager_Icon.png/120px-Rasher_NH_Villager_Icon.png",
+    "name": "Rasher"
+  },
+  "raymond": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f2/Raymond_NH_Villager_Icon.png/120px-Raymond_NH_Villager_Icon.png",
+    "name": "Raymond"
+  },
+  "ren-e": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f6/Ren%C3%A9e_NH_Villager_Icon.png/120px-Ren%C3%A9e_NH_Villager_Icon.png",
+    "name": "Renée"
+  },
+  "reneigh": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Reneigh_NH_Villager_Icon.png/120px-Reneigh_NH_Villager_Icon.png",
+    "name": "Reneigh"
+  },
+  "rex": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Rex_NH_Villager_Icon.png/120px-Rex_NH_Villager_Icon.png",
+    "name": "Rex"
+  },
+  "rhonda": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9c/Rhonda_NH_Villager_Icon.png/120px-Rhonda_NH_Villager_Icon.png",
+    "name": "Rhonda"
+  },
+  "ribbot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/87/Ribbot_NH_Villager_Icon.png/120px-Ribbot_NH_Villager_Icon.png",
+    "name": "Ribbot"
+  },
+  "ricky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/dd/Ricky_NH_Villager_Icon.png/120px-Ricky_NH_Villager_Icon.png",
+    "name": "Ricky"
+  },
+  "rilla": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bc/Rilla_NH_Villager_Icon.png/120px-Rilla_NH_Villager_Icon.png",
+    "name": "Rilla"
+  },
+  "rio": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/12/Rio_NH_Villager_Icon.png/120px-Rio_NH_Villager_Icon.png",
+    "name": "Rio"
+  },
+  "rizzo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Rizzo_NH_Villager_Icon.png/120px-Rizzo_NH_Villager_Icon.png",
+    "name": "Rizzo"
+  },
+  "roald": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Roald_NH_Villager_Icon.png/120px-Roald_NH_Villager_Icon.png",
+    "name": "Roald"
+  },
+  "robin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Robin_NH_Villager_Icon.png/120px-Robin_NH_Villager_Icon.png",
+    "name": "Robin"
+  },
+  "rocco": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/36/Rocco_NH_Villager_Icon.png/120px-Rocco_NH_Villager_Icon.png",
+    "name": "Rocco"
+  },
+  "rocket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Rocket_NH_Villager_Icon.png/120px-Rocket_NH_Villager_Icon.png",
+    "name": "Rocket"
+  },
+  "rod": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/16/Rod_NH_Villager_Icon.png/120px-Rod_NH_Villager_Icon.png",
+    "name": "Rod"
+  },
+  "rodeo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/99/Rodeo_NH_Villager_Icon.png/120px-Rodeo_NH_Villager_Icon.png",
+    "name": "Rodeo"
+  },
+  "rodney": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/14/Rodney_NH_Villager_Icon.png/120px-Rodney_NH_Villager_Icon.png",
+    "name": "Rodney"
+  },
+  "rolf": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Rolf_NH_Villager_Icon.png/120px-Rolf_NH_Villager_Icon.png",
+    "name": "Rolf"
+  },
+  "rooney": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Rooney_NH_Villager_Icon.png/120px-Rooney_NH_Villager_Icon.png",
+    "name": "Rooney"
+  },
+  "rory": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fa/Rory_NH_Villager_Icon.png/120px-Rory_NH_Villager_Icon.png",
+    "name": "Rory"
+  },
+  "roscoe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f9/Roscoe_NH_Villager_Icon.png/120px-Roscoe_NH_Villager_Icon.png",
+    "name": "Roscoe"
+  },
+  "rosie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/92/Rosie_NH_Villager_Icon.png/120px-Rosie_NH_Villager_Icon.png",
+    "name": "Rosie"
+  },
+  "roswell": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/77/Roswell_NH_Villager_Icon.png/120px-Roswell_NH_Villager_Icon.png",
+    "name": "Roswell"
+  },
+  "rowan": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Rowan_NH_Villager_Icon.png/120px-Rowan_NH_Villager_Icon.png",
+    "name": "Rowan"
+  },
+  "ruby": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Ruby_NH_Villager_Icon.png/120px-Ruby_NH_Villager_Icon.png",
+    "name": "Ruby"
+  },
+  "rudy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Rudy_NH_Villager_Icon.png/120px-Rudy_NH_Villager_Icon.png",
+    "name": "Rudy"
+  },
+  "sally": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8c/Sally_NH_Villager_Icon.png/120px-Sally_NH_Villager_Icon.png",
+    "name": "Sally"
+  },
+  "samson": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Samson_NH_Villager_Icon.png/120px-Samson_NH_Villager_Icon.png",
+    "name": "Samson"
+  },
+  "sandy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/97/Sandy_NH_Villager_Icon.png/120px-Sandy_NH_Villager_Icon.png",
+    "name": "Sandy"
+  },
+  "sasha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/86/Sasha_NH_Villager_Icon.png/120px-Sasha_NH_Villager_Icon.png",
+    "name": "Sasha"
+  },
+  "savannah": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Savannah_NH_Villager_Icon.png/120px-Savannah_NH_Villager_Icon.png",
+    "name": "Savannah"
+  },
+  "scoot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/37/Scoot_NH_Villager_Icon.png/120px-Scoot_NH_Villager_Icon.png",
+    "name": "Scoot"
+  },
+  "shari": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Shari_NH_Villager_Icon.png/120px-Shari_NH_Villager_Icon.png",
+    "name": "Shari"
+  },
+  "sheldon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9a/Sheldon_NH_Villager_Icon.png/120px-Sheldon_NH_Villager_Icon.png",
+    "name": "Sheldon"
+  },
+  "shep": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a8/Shep_NH_Villager_Icon.png/120px-Shep_NH_Villager_Icon.png",
+    "name": "Shep"
+  },
+  "sherb": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Sherb_NH_Villager_Icon.png/120px-Sherb_NH_Villager_Icon.png",
+    "name": "Sherb"
+  },
+  "shino": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9a/Shino_NH_Villager_Icon.png/120px-Shino_NH_Villager_Icon.png",
+    "name": "Shino"
+  },
+  "simon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7a/Simon_NH_Villager_Icon.png/120px-Simon_NH_Villager_Icon.png",
+    "name": "Simon"
+  },
+  "skye": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/92/Skye_NH_Villager_Icon.png/120px-Skye_NH_Villager_Icon.png",
+    "name": "Skye"
+  },
+  "sly": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Sly_NH_Villager_Icon.png/120px-Sly_NH_Villager_Icon.png",
+    "name": "Sly"
+  },
+  "snake": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Snake_NH_Villager_Icon.png/120px-Snake_NH_Villager_Icon.png",
+    "name": "Snake"
+  },
+  "snooty": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/79/Snooty_NH_Villager_Icon.png/120px-Snooty_NH_Villager_Icon.png",
+    "name": "Snooty"
+  },
+  "soleil": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5f/Soleil_NH_Villager_Icon.png/120px-Soleil_NH_Villager_Icon.png",
+    "name": "Soleil"
+  },
+  "sparro": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0c/Sparro_NH_Villager_Icon.png/120px-Sparro_NH_Villager_Icon.png",
+    "name": "Sparro"
+  },
+  "spike": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ab/Spike_NH_Villager_Icon.png/120px-Spike_NH_Villager_Icon.png",
+    "name": "Spike"
+  },
+  "spork": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c2/Spork_NH_Villager_Icon.png/120px-Spork_NH_Villager_Icon.png",
+    "name": "Spork"
+  },
+  "sprinkle": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Sprinkle_NH_Villager_Icon.png/120px-Sprinkle_NH_Villager_Icon.png",
+    "name": "Sprinkle"
+  },
+  "sprocket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Sprocket_NH_Villager_Icon.png/120px-Sprocket_NH_Villager_Icon.png",
+    "name": "Sprocket"
+  },
+  "static": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/70/Static_NH_Villager_Icon.png/120px-Static_NH_Villager_Icon.png",
+    "name": "Static"
+  },
+  "stella": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Stella_NH_Villager_Icon.png/120px-Stella_NH_Villager_Icon.png",
+    "name": "Stella"
+  },
+  "sterling": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/da/Sterling_NH_Villager_Icon.png/120px-Sterling_NH_Villager_Icon.png",
+    "name": "Sterling"
+  },
+  "stinky": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ca/Stinky_NH_Villager_Icon.png/120px-Stinky_NH_Villager_Icon.png",
+    "name": "Stinky"
+  },
+  "stitches": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/dd/Stitches_NH_Villager_Icon.png/120px-Stitches_NH_Villager_Icon.png",
+    "name": "Stitches"
+  },
+  "stu": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ea/Stu_NH_Villager_Icon.png/120px-Stu_NH_Villager_Icon.png",
+    "name": "Stu"
+  },
+  "sydney": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Sydney_NH_Villager_Icon.png/120px-Sydney_NH_Villager_Icon.png",
+    "name": "Sydney"
+  },
+  "sylvana": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Sylvana_NH_Villager_Icon.png/120px-Sylvana_NH_Villager_Icon.png",
+    "name": "Sylvana"
+  },
+  "sylvia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Sylvia_NH_Villager_Icon.png/120px-Sylvia_NH_Villager_Icon.png",
+    "name": "Sylvia"
+  },
+  "t-bone": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/16/T-Bone_NH_Villager_Icon.png/120px-T-Bone_NH_Villager_Icon.png",
+    "name": "T-Bone"
+  },
+  "tabby": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Tabby_NH_Villager_Icon.png/120px-Tabby_NH_Villager_Icon.png",
+    "name": "Tabby"
+  },
+  "tad": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e6/Tad_NH_Villager_Icon.png/120px-Tad_NH_Villager_Icon.png",
+    "name": "Tad"
+  },
+  "tammi": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d8/Tammi_NH_Villager_Icon.png/120px-Tammi_NH_Villager_Icon.png",
+    "name": "Tammi"
+  },
+  "tammy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/25/Tammy_NH_Villager_Icon.png/120px-Tammy_NH_Villager_Icon.png",
+    "name": "Tammy"
+  },
+  "tangy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e3/Tangy_NH_Villager_Icon.png/120px-Tangy_NH_Villager_Icon.png",
+    "name": "Tangy"
+  },
+  "tank": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a1/Tank_NH_Villager_Icon.png/120px-Tank_NH_Villager_Icon.png",
+    "name": "Tank"
+  },
+  "tasha": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Tasha_NH_Villager_Icon.png/120px-Tasha_NH_Villager_Icon.png",
+    "name": "Tasha"
+  },
+  "teddy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bd/Teddy_NH_Villager_Icon.png/120px-Teddy_NH_Villager_Icon.png",
+    "name": "Teddy"
+  },
+  "tex": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Tex_NH_Villager_Icon.png/120px-Tex_NH_Villager_Icon.png",
+    "name": "Tex"
+  },
+  "tia": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Tia_NH_Villager_Icon.png/120px-Tia_NH_Villager_Icon.png",
+    "name": "Tia"
+  },
+  "tiansheng": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Tiansheng_NH_Villager_Icon.png/120px-Tiansheng_NH_Villager_Icon.png",
+    "name": "Tiansheng"
+  },
+  "tiffany": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Tiffany_NH_Villager_Icon.png/120px-Tiffany_NH_Villager_Icon.png",
+    "name": "Tiffany"
+  },
+  "timbra": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Timbra_NH_Villager_Icon.png/120px-Timbra_NH_Villager_Icon.png",
+    "name": "Timbra"
+  },
+  "tipper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/Tipper_NH_Villager_Icon.png/120px-Tipper_NH_Villager_Icon.png",
+    "name": "Tipper"
+  },
+  "toby": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/12/Toby_NH_Villager_Icon.png/120px-Toby_NH_Villager_Icon.png",
+    "name": "Toby"
+  },
+  "tom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6f/Tom_NH_Villager_Icon.png/120px-Tom_NH_Villager_Icon.png",
+    "name": "Tom"
+  },
+  "truffles": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/da/Truffles_NH_Villager_Icon.png/120px-Truffles_NH_Villager_Icon.png",
+    "name": "Truffles"
+  },
+  "tucker": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Tucker_NH_Villager_Icon.png/120px-Tucker_NH_Villager_Icon.png",
+    "name": "Tucker"
+  },
+  "tutu": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Tutu_NH_Villager_Icon.png/120px-Tutu_NH_Villager_Icon.png",
+    "name": "Tutu"
+  },
+  "twiggy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Twiggy_NH_Villager_Icon.png/120px-Twiggy_NH_Villager_Icon.png",
+    "name": "Twiggy"
+  },
+  "tybalt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Tybalt_NH_Villager_Icon.png/120px-Tybalt_NH_Villager_Icon.png",
+    "name": "Tybalt"
+  },
+  "ursala": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Ursala_NH_Villager_Icon.png/120px-Ursala_NH_Villager_Icon.png",
+    "name": "Ursala"
+  },
+  "velma": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cf/Velma_NH_Villager_Icon.png/120px-Velma_NH_Villager_Icon.png",
+    "name": "Velma"
+  },
+  "vesta": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Vesta_NH_Villager_Icon.png/120px-Vesta_NH_Villager_Icon.png",
+    "name": "Vesta"
+  },
+  "vic": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a1/Vic_NH_Villager_Icon.png/120px-Vic_NH_Villager_Icon.png",
+    "name": "Vic"
+  },
+  "victoria": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/72/Victoria_NH_Villager_Icon.png/120px-Victoria_NH_Villager_Icon.png",
+    "name": "Victoria"
+  },
+  "violet": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a4/Violet_NH_Villager_Icon.png/120px-Violet_NH_Villager_Icon.png",
+    "name": "Violet"
+  },
+  "vivian": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Vivian_NH_Villager_Icon.png/120px-Vivian_NH_Villager_Icon.png",
+    "name": "Vivian"
+  },
+  "vladimir": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Vladimir_NH_Villager_Icon.png/120px-Vladimir_NH_Villager_Icon.png",
+    "name": "Vladimir"
+  },
+  "wade": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Wade_NH_Villager_Icon.png/120px-Wade_NH_Villager_Icon.png",
+    "name": "Wade"
+  },
+  "walker": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Walker_NH_Villager_Icon.png/120px-Walker_NH_Villager_Icon.png",
+    "name": "Walker"
+  },
+  "walt": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Walt_NH_Villager_Icon.png/120px-Walt_NH_Villager_Icon.png",
+    "name": "Walt"
+  },
+  "wart-jr": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fd/Wart_Jr._NH_Villager_Icon.png/120px-Wart_Jr._NH_Villager_Icon.png",
+    "name": "Wart Jr."
+  },
+  "weber": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/74/Weber_NH_Villager_Icon.png/120px-Weber_NH_Villager_Icon.png",
+    "name": "Weber"
+  },
+  "wendy": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c0/Wendy_NH_Villager_Icon.png/120px-Wendy_NH_Villager_Icon.png",
+    "name": "Wendy"
+  },
+  "whitney": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Whitney_NH_Villager_Icon.png/120px-Whitney_NH_Villager_Icon.png",
+    "name": "Whitney"
+  },
+  "willow": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Willow_NH_Villager_Icon.png/120px-Willow_NH_Villager_Icon.png",
+    "name": "Willow"
+  },
+  "winnie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Winnie_NH_Villager_Icon.png/120px-Winnie_NH_Villager_Icon.png",
+    "name": "Winnie"
+  },
+  "wolfgang": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Wolfgang_NH_Villager_Icon.png/120px-Wolfgang_NH_Villager_Icon.png",
+    "name": "Wolfgang"
+  },
+  "yuka": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Yuka_NH_Villager_Icon.png/120px-Yuka_NH_Villager_Icon.png",
+    "name": "Yuka"
+  },
+  "zell": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Zell_NH_Villager_Icon.png/120px-Zell_NH_Villager_Icon.png",
+    "name": "Zell"
+  },
+  "zoe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Zoe_NH_Villager_Icon.png/120px-Zoe_NH_Villager_Icon.png",
+    "name": "Zoe"
+  },
+  "zucker": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Zucker_NH_Villager_Icon.png/120px-Zucker_NH_Villager_Icon.png",
+    "name": "Zucker"
+  }
+}

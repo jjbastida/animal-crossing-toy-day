@@ -1,0 +1,367 @@
+{
+  "acanthostega": {
+    "name": "Acanthostega",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2000
+  },
+  "amber": {
+    "name": "Amber",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1200
+  },
+  "ammonite": {
+    "name": "Ammonite",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1100
+  },
+  "ankylo-skull": {
+    "name": "Ankylo skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "ankylo-tail": {
+    "name": "Ankylo tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "ankylo-torso": {
+    "name": "Ankylo torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "anomalocaris": {
+    "name": "Anomalocaris",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2000
+  },
+  "archaeopteryx": {
+    "name": "Archaeopteryx",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1300
+  },
+  "archelon-skull": {
+    "name": "Archelon skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "archelon-tail": {
+    "name": "Archelon tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "australopith": {
+    "name": "Australopith",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1100
+  },
+  "brachio-chest": {
+    "name": "Brachio chest",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "brachio-pelvis": {
+    "name": "Brachio pelvis",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "brachio-skull": {
+    "name": "Brachio skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 6000
+  },
+  "brachio-tail": {
+    "name": "Brachio tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "coprolite": {
+    "name": "Coprolite",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1100
+  },
+  "deinony-tail": {
+    "name": "Deinony tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "deinony-torso": {
+    "name": "Deinony torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "dimetrodon-skull": {
+    "name": "Dimetrodon skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "dimetrodon-torso": {
+    "name": "Dimetrodon torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "dinosaur-track": {
+    "name": "Dinosaur track",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1000
+  },
+  "diplo-chest": {
+    "name": "Diplo chest",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "diplo-neck": {
+    "name": "Diplo neck",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "diplo-pelvis": {
+    "name": "Diplo pelvis",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "diplo-skull": {
+    "name": "Diplo skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "diplo-tail": {
+    "name": "Diplo tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "diplo-tail-tip": {
+    "name": "Diplo tail tip",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "dunkleosteus": {
+    "name": "Dunkleosteus",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "eusthenopteron": {
+    "name": "Eusthenopteron",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2000
+  },
+  "iguanodon-skull": {
+    "name": "Iguanodon skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "iguanodon-tail": {
+    "name": "Iguanodon tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "iguanodon-torso": {
+    "name": "Iguanodon torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "juramaia": {
+    "name": "Juramaia",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1500
+  },
+  "left-megalo-side": {
+    "name": "Left megalo side",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "left-ptera-wing": {
+    "name": "Left ptera wing",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "left-quetzal-wing": {
+    "name": "Left quetzal wing",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "mammoth-skull": {
+    "name": "Mammoth skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "mammoth-torso": {
+    "name": "Mammoth torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "megacero-skull": {
+    "name": "Megacero skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "megacero-tail": {
+    "name": "Megacero tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "megacero-torso": {
+    "name": "Megacero torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "myllokunmingia": {
+    "name": "Myllokunmingia",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1500
+  },
+  "ophthalmo-skull": {
+    "name": "Ophthalmo skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "ophthalmo-torso": {
+    "name": "Ophthalmo torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2000
+  },
+  "pachy-skull": {
+    "name": "Pachy skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "pachy-tail": {
+    "name": "Pachy tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "parasaur-skull": {
+    "name": "Parasaur skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3500
+  },
+  "parasaur-tail": {
+    "name": "Parasaur tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "parasaur-torso": {
+    "name": "Parasaur torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "plesio-skull": {
+    "name": "Plesio skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "plesio-tail": {
+    "name": "Plesio tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "plesio-torso": {
+    "name": "Plesio torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "ptera-body": {
+    "name": "Ptera body",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "quetzal-torso": {
+    "name": "Quetzal torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "right-megalo-side": {
+    "name": "Right megalo side",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "right-ptera-wing": {
+    "name": "Right ptera wing",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "right-quetzal-wing": {
+    "name": "Right quetzal wing",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "sabertooth-skull": {
+    "name": "Sabertooth skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "sabertooth-tail": {
+    "name": "Sabertooth tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2000
+  },
+  "shark-tooth-pattern": {
+    "name": "Shark-tooth pattern",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1000
+  },
+  "spino-skull": {
+    "name": "Spino skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "spino-tail": {
+    "name": "Spino tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 2500
+  },
+  "spino-torso": {
+    "name": "Spino torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 3000
+  },
+  "stego-skull": {
+    "name": "Stego skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "stego-tail": {
+    "name": "Stego tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4000
+  },
+  "stego-torso": {
+    "name": "Stego torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "t-rex-skull": {
+    "name": "T. rex skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 6000
+  },
+  "t-rex-tail": {
+    "name": "T. rex tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "t-rex-torso": {
+    "name": "T. rex torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "tricera-skull": {
+    "name": "Tricera skull",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5500
+  },
+  "tricera-tail": {
+    "name": "Tricera tail",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 4500
+  },
+  "tricera-torso": {
+    "name": "Tricera torso",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 5000
+  },
+  "trilobite": {
+    "name": "Trilobite",
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "sellPrice": 1300
+  }
+}

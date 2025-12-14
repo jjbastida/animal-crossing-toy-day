@@ -1,0 +1,57 @@
+import { css, SerializedStyles } from "@emotion/react";
+import { TypographySize, TypographyVariant } from "./Typography.types";
+
+const typographyStyles: Record<TypographyVariant, SerializedStyles> = {
+  display: css`
+    font-family: Rodin, sans-serif;
+  `,
+  body: css`
+    font-family: Seurat, sans-serif;
+    letter-spacing: 0.03em;
+  `,
+};
+
+const sizeStyles: Record<TypographySize, SerializedStyles> = {
+  "xs": css`
+    font-size: 0.75rem;
+    line-height: 1.2;
+  `,
+  "sm": css`
+    font-size: 0.875rem;
+    line-height: 1.3;
+  `,
+  "md": css`
+    font-size: 1rem;
+    line-height: 1.5;
+  `,
+  "lg": css`
+    font-size: 1.125rem;
+    line-height: 1.5;
+  `,
+  "xl": css`
+    font-size: 1.25rem;
+    line-height: 1.4;
+  `,
+  "2xl": css`
+    font-size: 1.5rem;
+    line-height: 1.4;
+  `,
+  "3xl": css`
+    font-size: 1.875rem;
+    line-height: 1.3;
+  `,
+  "4xl": css`
+    font-size: 2.25rem;
+    line-height: 1.2;
+  `,
+  "5xl": css`
+    font-size: 3rem;
+    line-height: 1.1;
+  `,
+  "6xl": css`
+    font-size: 3.75rem;
+    line-height: 1.1;
+  `
+};
+
+export { typographyStyles, sizeStyles };

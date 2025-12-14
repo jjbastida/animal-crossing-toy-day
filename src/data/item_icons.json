@@ -1,0 +1,922 @@
+{
+  "bells": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a2/100_Bells_NH_Inv_Icon.png/120px-100_Bells_NH_Inv_Icon.png",
+    "name": "Bells"
+  },
+  "1-000-bells": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6c/1%2C000_Bells_NH_Inv_Icon.png/120px-1%2C000_Bells_NH_Inv_Icon.png",
+    "name": "1,000 Bells"
+  },
+  "30-000-bells": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d2/30%2C000_Bells_NH_Inv_Icon.png/120px-30%2C000_Bells_NH_Inv_Icon.png",
+    "name": "30,000 Bells"
+  },
+  "99k-bells": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1e/99k_Bells_NH_Inv_Icon.png/120px-99k_Bells_NH_Inv_Icon.png",
+    "name": "99k Bells"
+  },
+  "fishing-rod": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/22/Fishing_Rod_NH_Inv_Icon.png/120px-Fishing_Rod_NH_Inv_Icon.png",
+    "name": "Fishing Rod"
+  },
+  "net": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Net_NH_Inv_Icon.png/120px-Net_NH_Inv_Icon.png",
+    "name": "Net"
+  },
+  "stone-axe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Stone_Axe_NH_Inv_Icon.png/120px-Stone_Axe_NH_Inv_Icon.png",
+    "name": "Stone Axe"
+  },
+  "axe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Axe_NH_Inv_Icon.png/120px-Axe_NH_Inv_Icon.png",
+    "name": "Axe"
+  },
+  "shovel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Shovel_NH_Inv_Icon.png/120px-Shovel_NH_Inv_Icon.png",
+    "name": "Shovel"
+  },
+  "watering-can": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Watering_Can_NH_Inv_Icon.png/120px-Watering_Can_NH_Inv_Icon.png",
+    "name": "Watering Can"
+  },
+  "vaulting-pole": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c2/Vaulting_Pole_NH_Inv_Icon.png/120px-Vaulting_Pole_NH_Inv_Icon.png",
+    "name": "Vaulting Pole"
+  },
+  "ladder": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Ladder_NH_Inv_Icon.png/120px-Ladder_NH_Inv_Icon.png",
+    "name": "Ladder"
+  },
+  "slingshot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fb/Slingshot_NH_Inv_Icon.png/120px-Slingshot_NH_Inv_Icon.png",
+    "name": "Slingshot"
+  },
+  "timer": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2c/Timer_NH_Inv_Icon.png/120px-Timer_NH_Inv_Icon.png",
+    "name": "Timer"
+  },
+  "wand": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Wand_NH_Inv_Icon.png/120px-Wand_NH_Inv_Icon.png",
+    "name": "Wand"
+  },
+  "balloon": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/32/Balloon_NH_Inv_Icon.png/120px-Balloon_NH_Inv_Icon.png",
+    "name": "Balloon"
+  },
+  "furniture": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/82/Furniture_NH_Inv_Icon.png/120px-Furniture_NH_Inv_Icon.png",
+    "name": "Furniture"
+  },
+  "customized-furniture": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Furniture_%28Custom_Design%29_NH_Inv_Icon.png/120px-Furniture_%28Custom_Design%29_NH_Inv_Icon.png",
+    "name": "Customized furniture"
+  },
+  "flooring": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Flooring_NH_Inv_Icon.png/120px-Flooring_NH_Inv_Icon.png",
+    "name": "Flooring"
+  },
+  "wallpaper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Wallpaper_NH_Inv_Icon.png/120px-Wallpaper_NH_Inv_Icon.png",
+    "name": "Wallpaper"
+  },
+  "rug": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6a/Rug_NH_Inv_Icon.png/120px-Rug_NH_Inv_Icon.png",
+    "name": "Rug"
+  },
+  "top": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/37/Top_NH_Inv_Icon.png/120px-Top_NH_Inv_Icon.png",
+    "name": "Top"
+  },
+  "bottoms": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0c/Bottoms_NH_Inv_Icon.png/120px-Bottoms_NH_Inv_Icon.png",
+    "name": "Bottoms"
+  },
+  "dress-up": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Dress-Up_NH_Inv_Icon.png/120px-Dress-Up_NH_Inv_Icon.png",
+    "name": "Dress-Up"
+  },
+  "headwear": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Headwear_NH_Inv_Icon.png/120px-Headwear_NH_Inv_Icon.png",
+    "name": "Headwear"
+  },
+  "helmet": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/33/Helmet_NH_Inv_Icon.png/120px-Helmet_NH_Inv_Icon.png",
+    "name": "Helmet"
+  },
+  "accessory": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/90/Accessory_NH_Inv_Icon.png/120px-Accessory_NH_Inv_Icon.png",
+    "name": "Accessory"
+  },
+  "socks": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/83/Socks_NH_Inv_Icon.png/120px-Socks_NH_Inv_Icon.png",
+    "name": "Socks"
+  },
+  "shoes": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Shoes_NH_Inv_Icon.png/120px-Shoes_NH_Inv_Icon.png",
+    "name": "Shoes"
+  },
+  "bag": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d0/Bag_NH_Inv_Icon.png/120px-Bag_NH_Inv_Icon.png",
+    "name": "Bag"
+  },
+  "umbrella": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b7/Umbrella_NH_Inv_Icon.png/120px-Umbrella_NH_Inv_Icon.png",
+    "name": "Umbrella"
+  },
+  "wet-suit": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Wet_Suit_NH_Inv_Icon.png/120px-Wet_Suit_NH_Inv_Icon.png",
+    "name": "Wet Suit"
+  },
+  "diy-recipe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3d/DIY_Recipe_NH_Inv_Icon.png/120px-DIY_Recipe_NH_Inv_Icon.png",
+    "name": "DIY recipe"
+  },
+  "fence-diy-recipe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/22/Fence_DIY_Recipe_NH_Inv_Icon.png/120px-Fence_DIY_Recipe_NH_Inv_Icon.png",
+    "name": "Fence DIY recipe"
+  },
+  "furniture-diy-recipe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/21/Furniture_DIY_Recipe_NH_Inv_Icon.png/120px-Furniture_DIY_Recipe_NH_Inv_Icon.png",
+    "name": "Furniture DIY recipe"
+  },
+  "cooking-recipe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/33/Cooking_Recipe_NH_Inv_Icon.png/120px-Cooking_Recipe_NH_Inv_Icon.png",
+    "name": "Cooking recipe"
+  },
+  "nook-miles-ticket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Nook_Miles_Ticket_NH_Inv_Icon.png/120px-Nook_Miles_Ticket_NH_Inv_Icon.png",
+    "name": "Nook Miles Ticket"
+  },
+  "bell-voucher": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Bell_Voucher_NH_Inv_Icon.png/120px-Bell_Voucher_NH_Inv_Icon.png",
+    "name": "Bell Voucher"
+  },
+  "tailors-ticket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Tailors_Ticket_NH_Inv_Icon.png/120px-Tailors_Ticket_NH_Inv_Icon.png",
+    "name": "Tailors Ticket"
+  },
+  "saharah-ticket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Saharah_Ticket_NH_Inv_Icon.png/120px-Saharah_Ticket_NH_Inv_Icon.png",
+    "name": "Saharah Ticket"
+  },
+  "dream-bell-exchange-ticket": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/19/Dream_Bell_Exchange_Ticket_NH_Inv_Icon.png/120px-Dream_Bell_Exchange_Ticket_NH_Inv_Icon.png",
+    "name": "Dream Bell Exchange Ticket"
+  },
+  "fossil": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/57/Fossil_NH_Inv_Icon.png/120px-Fossil_NH_Inv_Icon.png",
+    "name": "Fossil"
+  },
+  "fossil-identified": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
+    "name": "Fossil (identified)"
+  },
+  "tree-branch": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Tree_Branch_NH_Inv_Icon.png/120px-Tree_Branch_NH_Inv_Icon.png",
+    "name": "Tree Branch"
+  },
+  "wasp-nest": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ee/Wasp_Nest_NH_Inv_Icon.png/120px-Wasp_Nest_NH_Inv_Icon.png",
+    "name": "Wasp Nest"
+  },
+  "wood": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/de/Wood_NH_Inv_Icon.png/120px-Wood_NH_Inv_Icon.png",
+    "name": "Wood"
+  },
+  "hardwood": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Hardwood_NH_Inv_Icon.png/120px-Hardwood_NH_Inv_Icon.png",
+    "name": "Hardwood"
+  },
+  "softwood": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Softwood_NH_Inv_Icon.png/120px-Softwood_NH_Inv_Icon.png",
+    "name": "Softwood"
+  },
+  "clump-of-weeds": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Clump_of_Weeds_NH_Inv_Icon.png/120px-Clump_of_Weeds_NH_Inv_Icon.png",
+    "name": "Clump of Weeds"
+  },
+  "stone": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Stone_NH_Inv_Icon.png/120px-Stone_NH_Inv_Icon.png",
+    "name": "Stone"
+  },
+  "clay": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/82/Clay_NH_Inv_Icon.png/120px-Clay_NH_Inv_Icon.png",
+    "name": "Clay"
+  },
+  "iron-nugget": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/72/Iron_Nugget_NH_Inv_Icon.png/120px-Iron_Nugget_NH_Inv_Icon.png",
+    "name": "Iron Nugget"
+  },
+  "gold-nugget": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f0/Gold_Nugget_NH_Inv_Icon.png/120px-Gold_Nugget_NH_Inv_Icon.png",
+    "name": "Gold Nugget"
+  },
+  "boot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Boot_NH_Inv_Icon.png/120px-Boot_NH_Inv_Icon.png",
+    "name": "Boot"
+  },
+  "empty-can": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Empty_Can_NH_Inv_Icon.png/120px-Empty_Can_NH_Inv_Icon.png",
+    "name": "Empty Can"
+  },
+  "old-tire": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Old_Tire_NH_Inv_Icon.png/120px-Old_Tire_NH_Inv_Icon.png",
+    "name": "Old Tire"
+  },
+  "bamboo-piece": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Bamboo_Piece_NH_Inv_Icon.png/120px-Bamboo_Piece_NH_Inv_Icon.png",
+    "name": "Bamboo Piece"
+  },
+  "young-spring-bamboo": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/89/Young_Spring_Bamboo_NH_Inv_Icon.png/120px-Young_Spring_Bamboo_NH_Inv_Icon.png",
+    "name": "Young Spring Bamboo"
+  },
+  "bamboo-shoot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5f/Bamboo_Shoot_NH_Inv_Icon.png/120px-Bamboo_Shoot_NH_Inv_Icon.png",
+    "name": "Bamboo Shoot"
+  },
+  "summer-shell": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Summer_Shell_NH_Inv_Icon.png/120px-Summer_Shell_NH_Inv_Icon.png",
+    "name": "Summer Shell"
+  },
+  "acorn": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Acorn_NH_Inv_Icon.png/120px-Acorn_NH_Inv_Icon.png",
+    "name": "Acorn"
+  },
+  "pine-cone": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b4/Pine_Cone_NH_Inv_Icon.png/120px-Pine_Cone_NH_Inv_Icon.png",
+    "name": "Pine Cone"
+  },
+  "elegant-mushroom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/60/Elegant_Mushroom_NH_Inv_Icon.png/120px-Elegant_Mushroom_NH_Inv_Icon.png",
+    "name": "Elegant Mushroom"
+  },
+  "flat-mushroom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Flat_Mushroom_NH_Inv_Icon.png/120px-Flat_Mushroom_NH_Inv_Icon.png",
+    "name": "Flat Mushroom"
+  },
+  "round-mushroom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ea/Round_Mushroom_NH_Inv_Icon.png/120px-Round_Mushroom_NH_Inv_Icon.png",
+    "name": "Round Mushroom"
+  },
+  "rare-mushroom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Rare_Mushroom_NH_Inv_Icon.png/120px-Rare_Mushroom_NH_Inv_Icon.png",
+    "name": "Rare Mushroom"
+  },
+  "skinny-mushroom": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/70/Skinny_Mushroom_NH_Inv_Icon.png/120px-Skinny_Mushroom_NH_Inv_Icon.png",
+    "name": "Skinny Mushroom"
+  },
+  "maple-leaf": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/13/Maple_Leaf_NH_Inv_Icon.png/120px-Maple_Leaf_NH_Inv_Icon.png",
+    "name": "Maple Leaf"
+  },
+  "large-snowflake": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Large_Snowflake_NH_Inv_Icon.png/120px-Large_Snowflake_NH_Inv_Icon.png",
+    "name": "Large Snowflake"
+  },
+  "snowflake": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Snowflake_NH_Inv_Icon.png/120px-Snowflake_NH_Inv_Icon.png",
+    "name": "Snowflake"
+  },
+  "conch": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5a/Conch_NH_Inv_Icon.png/120px-Conch_NH_Inv_Icon.png",
+    "name": "Conch"
+  },
+  "coral": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Coral_NH_Inv_Icon.png/120px-Coral_NH_Inv_Icon.png",
+    "name": "Coral"
+  },
+  "cowrie": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Cowrie_NH_Inv_Icon.png/120px-Cowrie_NH_Inv_Icon.png",
+    "name": "Cowrie"
+  },
+  "giant-clam": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Giant_Clam_NH_Inv_Icon.png/120px-Giant_Clam_NH_Inv_Icon.png",
+    "name": "Giant Clam"
+  },
+  "sea-snail": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Sea_Snail_Shell_NH_Inv_Icon.png/120px-Sea_Snail_Shell_NH_Inv_Icon.png",
+    "name": "Sea Snail"
+  },
+  "sand-dollar": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Sand_Dollar_NH_Inv_Icon.png/120px-Sand_Dollar_NH_Inv_Icon.png",
+    "name": "Sand Dollar"
+  },
+  "venus-comb": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/01/Venus_Comb_NH_Inv_Icon.png/120px-Venus_Comb_NH_Inv_Icon.png",
+    "name": "Venus Comb"
+  },
+  "aircheck": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Aircheck_NH_Inv_Icon.png/120px-Aircheck_NH_Inv_Icon.png",
+    "name": "Aircheck"
+  },
+  "heart-crystal": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3c/Heart_Crystal_NH_Inv_Icon.png/120px-Heart_Crystal_NH_Inv_Icon.png",
+    "name": "Heart Crystal"
+  },
+  "ocarina": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Ocarina_NH_Inv_Icon.png/120px-Ocarina_NH_Inv_Icon.png",
+    "name": "Ocarina"
+  },
+  "pan-flute": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/aa/Pan_Flute_NH_Inv_Icon.png/120px-Pan_Flute_NH_Inv_Icon.png",
+    "name": "Pan Flute"
+  },
+  "tambourine": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Tambourine_NH_Inv_Icon.png/120px-Tambourine_NH_Inv_Icon.png",
+    "name": "Tambourine"
+  },
+  "present": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Present_NH_Inv_Icon.png/120px-Present_NH_Inv_Icon.png",
+    "name": "Present"
+  },
+  "wrapped-gift": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Wrapped_Gift_NH_Inv_Icon.png/120px-Wrapped_Gift_NH_Inv_Icon.png",
+    "name": "Wrapped Gift"
+  },
+  "black-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cd/Black_Wrapping_Paper_NH_Inv_Icon.png/120px-Black_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Black Wrapping Paper"
+  },
+  "blue-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4c/Blue_Wrapping_Paper_NH_Inv_Icon.png/120px-Blue_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Blue Wrapping Paper"
+  },
+  "brown-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b4/Brown_Wrapping_Paper_NH_Inv_Icon.png/120px-Brown_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Brown Wrapping Paper"
+  },
+  "chartreuse-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Chartreuse_Wrapping_Paper_NH_Inv_Icon.png/120px-Chartreuse_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Chartreuse Wrapping Paper"
+  },
+  "gold-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Gold_Wrapping_Paper_NH_Inv_Icon.png/120px-Gold_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Gold Wrapping Paper"
+  },
+  "gray-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a8/Gray_Wrapping_Paper_NH_Inv_Icon.png/120px-Gray_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Gray Wrapping Paper"
+  },
+  "green-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/59/Green_Wrapping_Paper_NH_Inv_Icon.png/120px-Green_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Green Wrapping Paper"
+  },
+  "light-blue-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bc/Light-Blue_Wrapping_Paper_NH_Inv_Icon.png/120px-Light-Blue_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Light-Blue Wrapping Paper"
+  },
+  "mint-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Mint_Wrapping_Paper_NH_Inv_Icon.png/120px-Mint_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Mint Wrapping Paper"
+  },
+  "navy-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Navy_Wrapping_Paper_NH_Inv_Icon.png/120px-Navy_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Navy Wrapping Paper"
+  },
+  "pink-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Pink_Wrapping_Paper_NH_Inv_Icon.png/120px-Pink_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Pink Wrapping Paper"
+  },
+  "purple-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Purple_Wrapping_Paper_NH_Inv_Icon.png/120px-Purple_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Purple Wrapping Paper"
+  },
+  "red-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Red_Wrapping_Paper_NH_Inv_Icon.png/120px-Red_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Red Wrapping Paper"
+  },
+  "white-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f9/White_Wrapping_Paper_NH_Inv_Icon.png/120px-White_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "White Wrapping Paper"
+  },
+  "yellow-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8c/Yellow_Wrapping_Paper_NH_Inv_Icon.png/120px-Yellow_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Yellow Wrapping Paper"
+  },
+  "festive-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/48/Festive_Wrapping_Paper_NH_Inv_Icon.png/120px-Festive_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Festive Wrapping Paper"
+  },
+  "construction-kit": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Construction_Kit_NH_Inv_Icon.png/120px-Construction_Kit_NH_Inv_Icon.png",
+    "name": "Construction Kit"
+  },
+  "tent": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Tent_NH_Inv_Icon.png/120px-Tent_NH_Inv_Icon.png",
+    "name": "Tent"
+  },
+  "cliff-construction-permit": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7a/Cliff_Construction_Permit_NH_Inv_Icon.png/120px-Cliff_Construction_Permit_NH_Inv_Icon.png",
+    "name": "Cliff Construction Permit"
+  },
+  "waterscaping-permit": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/55/Waterscaping_Permit_NH_Inv_Icon.png/120px-Waterscaping_Permit_NH_Inv_Icon.png",
+    "name": "Waterscaping Permit"
+  },
+  "bush-start": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f8/Bush_NH_Inv_Icon.png/120px-Bush_NH_Inv_Icon.png",
+    "name": "Bush Start"
+  },
+  "pink-camellia-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2c/Pink-Camellia_Bush_NH_Inv_Icon.png/120px-Pink-Camellia_Bush_NH_Inv_Icon.png",
+    "name": "Pink-Camellia Bush"
+  },
+  "red-camellia-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Red-Camellia_Bush_NH_Inv_Icon.png/120px-Red-Camellia_Bush_NH_Inv_Icon.png",
+    "name": "Red-Camellia Bush"
+  },
+  "pink-azalea-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Pink-Azalea_Bush_NH_Inv_Icon.png/120px-Pink-Azalea_Bush_NH_Inv_Icon.png",
+    "name": "Pink-Azalea Bush"
+  },
+  "white-azalea-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/White-Azalea_Bush_NH_Inv_Icon.png/120px-White-Azalea_Bush_NH_Inv_Icon.png",
+    "name": "White-Azalea Bush"
+  },
+  "blue-hydrangea-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f2/Blue-Hydrangea_Bush_NH_Inv_Icon.png/120px-Blue-Hydrangea_Bush_NH_Inv_Icon.png",
+    "name": "Blue-Hydrangea Bush"
+  },
+  "pink-hydrangea-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9f/Pink-Hydrangea_Bush_NH_Inv_Icon.png/120px-Pink-Hydrangea_Bush_NH_Inv_Icon.png",
+    "name": "Pink-Hydrangea Bush"
+  },
+  "pink-plumeria-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Pink-Plumeria_Bush_NH_Inv_Icon.png/120px-Pink-Plumeria_Bush_NH_Inv_Icon.png",
+    "name": "Pink-Plumeria Bush"
+  },
+  "white-plumeria-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/42/White-Plumeria_Bush_NH_Inv_Icon.png/120px-White-Plumeria_Bush_NH_Inv_Icon.png",
+    "name": "White-Plumeria Bush"
+  },
+  "red-hibiscus-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Red-Hibiscus_Bush_NH_Inv_Icon.png/120px-Red-Hibiscus_Bush_NH_Inv_Icon.png",
+    "name": "Red-Hibiscus Bush"
+  },
+  "yellow-hibiscus-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Yellow-Hibiscus_Bush_NH_Inv_Icon.png/120px-Yellow-Hibiscus_Bush_NH_Inv_Icon.png",
+    "name": "Yellow-Hibiscus Bush"
+  },
+  "yellow-tea-olive-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0e/Yellow-Tea-Olive_Bush_NH_Inv_Icon.png/120px-Yellow-Tea-Olive_Bush_NH_Inv_Icon.png",
+    "name": "Yellow-Tea-Olive Bush"
+  },
+  "holly-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Holly_Bush_NH_Inv_Icon.png/120px-Holly_Bush_NH_Inv_Icon.png",
+    "name": "Holly Bush"
+  },
+  "hardwood-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Hardwood_Tree_NH_Inv_Icon.png/120px-Hardwood_Tree_NH_Inv_Icon.png",
+    "name": "Hardwood Tree"
+  },
+  "cedar-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Cedar_Tree_NH_Inv_Icon.png/120px-Cedar_Tree_NH_Inv_Icon.png",
+    "name": "Cedar Tree"
+  },
+  "bamboo-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2b/Bamboo_Tree_NH_Inv_Icon.png/120px-Bamboo_Tree_NH_Inv_Icon.png",
+    "name": "Bamboo Tree"
+  },
+  "money-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Money_Tree_NH_Inv_Icon.png/120px-Money_Tree_NH_Inv_Icon.png",
+    "name": "Money Tree"
+  },
+  "red-flower-bag": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/94/Red-Flower_Bag_NH_Inv_Icon.png/120px-Red-Flower_Bag_NH_Inv_Icon.png",
+    "name": "Red-Flower Bag"
+  },
+  "white-flower-bag": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/68/White-Flower_Bag_NH_Inv_Icon.png/120px-White-Flower_Bag_NH_Inv_Icon.png",
+    "name": "White-Flower Bag"
+  },
+  "yellow-flower-bag": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f6/Yellow-Flower_Bag_NH_Inv_Icon.png/120px-Yellow-Flower_Bag_NH_Inv_Icon.png",
+    "name": "Yellow-Flower Bag"
+  },
+  "black-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8d/Black-Cosmos_Plant_NH_Inv_Icon.png/120px-Black-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "Black-Cosmos Plant"
+  },
+  "black-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/99/Black-Lily_Plant_NH_Inv_Icon.png/120px-Black-Lily_Plant_NH_Inv_Icon.png",
+    "name": "Black-Lily Plant"
+  },
+  "black-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Black-Rose_Plant_NH_Inv_Icon.png/120px-Black-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Black-Rose Plant"
+  },
+  "black-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Black-Tulip_Plant_NH_Inv_Icon.png/120px-Black-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Black-Tulip Plant"
+  },
+  "blue-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/51/Blue-Hyacinth_Plant_NH_Inv_Icon.png/120px-Blue-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Blue-Hyacinth Plant"
+  },
+  "blue-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Blue-Pansy_Plant_NH_Inv_Icon.png/120px-Blue-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "Blue-Pansy Plant"
+  },
+  "blue-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Blue-Rose_Plant_NH_Inv_Icon.png/120px-Blue-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Blue-Rose Plant"
+  },
+  "blue-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Blue-Windflower_Plant_NH_Inv_Icon.png/120px-Blue-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "Blue-Windflower Plant"
+  },
+  "gold-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Gold-Rose_Plant_NH_Inv_Icon.png/120px-Gold-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Gold-Rose Plant"
+  },
+  "green-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Green-Mum_Plant_NH_Inv_Icon.png/120px-Green-Mum_Plant_NH_Inv_Icon.png",
+    "name": "Green-Mum Plant"
+  },
+  "lily-of-the-valley-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Lily-of-the-Valley_Plant_NH_Inv_Icon.png/120px-Lily-of-the-Valley_Plant_NH_Inv_Icon.png",
+    "name": "Lily-of-the-Valley Plant"
+  },
+  "pink-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Pink-Cosmos_Plant_NH_Inv_Icon.png/120px-Pink-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Cosmos Plant"
+  },
+  "pink-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/49/Pink-Hyacinth_Plant_NH_Inv_Icon.png/120px-Pink-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Hyacinth Plant"
+  },
+  "pink-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Pink-Lily_Plant_NH_Inv_Icon.png/120px-Pink-Lily_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Lily Plant"
+  },
+  "pink-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Pink-Mum_Plant_NH_Inv_Icon.png/120px-Pink-Mum_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Mum Plant"
+  },
+  "pink-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f1/Pink-Rose_Plant_NH_Inv_Icon.png/120px-Pink-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Rose Plant"
+  },
+  "pink-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b8/Pink-Tulip_Plant_NH_Inv_Icon.png/120px-Pink-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Tulip Plant"
+  },
+  "pink-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ae/Pink-Windflower_Plant_NH_Inv_Icon.png/120px-Pink-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "Pink-Windflower Plant"
+  },
+  "purple-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Purple-Hyacinth_Plant_NH_Inv_Icon.png/120px-Purple-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Hyacinth Plant"
+  },
+  "purple-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a4/Purple-Mum_Plant_NH_Inv_Icon.png/120px-Purple-Mum_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Mum Plant"
+  },
+  "purple-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Purple-Pansy_Plant_NH_Inv_Icon.png/120px-Purple-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Pansy Plant"
+  },
+  "purple-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Purple-Rose_Plant_NH_Inv_Icon.png/120px-Purple-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Rose Plant"
+  },
+  "purple-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a7/Purple-Tulip_Plant_NH_Inv_Icon.png/120px-Purple-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Tulip Plant"
+  },
+  "purple-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/ce/Purple-Windflower_Plant_NH_Inv_Icon.png/120px-Purple-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "Purple-Windflower Plant"
+  },
+  "red-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/84/Red-Cosmos_Plant_NH_Inv_Icon.png/120px-Red-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "Red-Cosmos Plant"
+  },
+  "red-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8c/Red-Hyacinth_Plant_NH_Inv_Icon.png/120px-Red-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Red-Hyacinth Plant"
+  },
+  "red-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Red-Lily_Plant_NH_Inv_Icon.png/120px-Red-Lily_Plant_NH_Inv_Icon.png",
+    "name": "Red-Lily Plant"
+  },
+  "red-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/81/Red-Mum_Plant_NH_Inv_Icon.png/120px-Red-Mum_Plant_NH_Inv_Icon.png",
+    "name": "Red-Mum Plant"
+  },
+  "red-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6c/Red-Pansy_Plant_NH_Inv_Icon.png/120px-Red-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "Red-Pansy Plant"
+  },
+  "red-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/ff/Red-Rose_Plant_NH_Inv_Icon.png/120px-Red-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Red-Rose Plant"
+  },
+  "red-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Red-Tulip_Plant_NH_Inv_Icon.png/120px-Red-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Red-Tulip Plant"
+  },
+  "red-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Red-Windflower_Plant_NH_Inv_Icon.png/120px-Red-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "Red-Windflower Plant"
+  },
+  "white-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f8/White-Cosmos_Plant_NH_Inv_Icon.png/120px-White-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "White-Cosmos Plant"
+  },
+  "white-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/White-Hyacinth_Plant_NH_Inv_Icon.png/120px-White-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "White-Hyacinth Plant"
+  },
+  "white-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b7/White-Lily_Plant_NH_Inv_Icon.png/120px-White-Lily_Plant_NH_Inv_Icon.png",
+    "name": "White-Lily Plant"
+  },
+  "white-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/dc/White-Mum_Plant_NH_Inv_Icon.png/120px-White-Mum_Plant_NH_Inv_Icon.png",
+    "name": "White-Mum Plant"
+  },
+  "white-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/White-Pansy_Plant_NH_Inv_Icon.png/120px-White-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "White-Pansy Plant"
+  },
+  "white-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/23/White-Rose_Plant_NH_Inv_Icon.png/120px-White-Rose_Plant_NH_Inv_Icon.png",
+    "name": "White-Rose Plant"
+  },
+  "white-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e0/White-Tulip_Plant_NH_Inv_Icon.png/120px-White-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "White-Tulip Plant"
+  },
+  "white-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/White-Windflower_Plant_NH_Inv_Icon.png/120px-White-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "White-Windflower Plant"
+  },
+  "yellow-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/46/Yellow-Cosmos_Plant_NH_Inv_Icon.png/120px-Yellow-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Cosmos Plant"
+  },
+  "yellow-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/be/Yellow-Hyacinth_Plant_NH_Inv_Icon.png/120px-Yellow-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Hyacinth Plant"
+  },
+  "yellow-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Yellow-Lily_Plant_NH_Inv_Icon.png/120px-Yellow-Lily_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Lily Plant"
+  },
+  "yellow-mum-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Yellow-Mum_Plant_NH_Inv_Icon.png/120px-Yellow-Mum_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Mum Plant"
+  },
+  "yellow-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Yellow-Pansy_Plant_NH_Inv_Icon.png/120px-Yellow-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Pansy Plant"
+  },
+  "yellow-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/24/Yellow-Rose_Plant_NH_Inv_Icon.png/120px-Yellow-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Rose Plant"
+  },
+  "yellow-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8f/Yellow-Tulip_Plant_NH_Inv_Icon.png/120px-Yellow-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Yellow-Tulip Plant"
+  },
+  "produce-start": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Produce_Start_NH_Inv_Icon.png/120px-Produce_Start_NH_Inv_Icon.png",
+    "name": "Produce Start"
+  },
+  "ripe-carrot-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Ripe_Carrot_Plant_NH_Inv_Icon.png/120px-Ripe_Carrot_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Carrot Plant"
+  },
+  "ripe-green-pumpkin-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e6/Ripe_Green-Pumpkin_Plant_NH_Inv_Icon.png/120px-Ripe_Green-Pumpkin_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Green-Pumpkin Plant"
+  },
+  "ripe-white-pumpkin-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Ripe_White-Pumpkin_Plant_NH_Inv_Icon.png/120px-Ripe_White-Pumpkin_Plant_NH_Inv_Icon.png",
+    "name": "Ripe White-Pumpkin Plant"
+  },
+  "ripe-yellow-pumpkin-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Ripe_Yellow-Pumpkin_Plant_NH_Inv_Icon.png/120px-Ripe_Yellow-Pumpkin_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Yellow-Pumpkin Plant"
+  },
+  "ripe-potato-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a6/Ripe_Potato_Plant_NH_Inv_Icon.png/120px-Ripe_Potato_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Potato Plant"
+  },
+  "ripe-sugarcane-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Ripe_Sugarcane_Plant_NH_Inv_Icon.png/120px-Ripe_Sugarcane_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Sugarcane Plant"
+  },
+  "ripe-tomato-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/bc/Ripe_Tomato_Plant_NH_Inv_Icon.png/120px-Ripe_Tomato_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Tomato Plant"
+  },
+  "ripe-wheat-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/98/Ripe_Wheat_Plant_NH_Inv_Icon.png/120px-Ripe_Wheat_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Wheat Plant"
+  },
+  "carrot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Carrot_NH_Inv_Icon.png/120px-Carrot_NH_Inv_Icon.png",
+    "name": "Carrot"
+  },
+  "potato": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Potato_NH_Inv_Icon.png/120px-Potato_NH_Inv_Icon.png",
+    "name": "Potato"
+  },
+  "green-pumpkin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/ff/Green_Pumpkin_NH_Inv_Icon.png/120px-Green_Pumpkin_NH_Inv_Icon.png",
+    "name": "Green Pumpkin"
+  },
+  "white-pumpkin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/43/White_Pumpkin_NH_Inv_Icon.png/120px-White_Pumpkin_NH_Inv_Icon.png",
+    "name": "White Pumpkin"
+  },
+  "yellow-pumpkin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/88/Yellow_Pumpkin_NH_Inv_Icon.png/120px-Yellow_Pumpkin_NH_Inv_Icon.png",
+    "name": "Yellow Pumpkin"
+  },
+  "sugarcane": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/68/Sugarcane_NH_Inv_Icon.png/120px-Sugarcane_NH_Inv_Icon.png",
+    "name": "Sugarcane"
+  },
+  "tomato": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Tomato_NH_Inv_Icon.png/120px-Tomato_NH_Inv_Icon.png",
+    "name": "Tomato"
+  },
+  "wheat": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Wheat_NH_Inv_Icon.png/120px-Wheat_NH_Inv_Icon.png",
+    "name": "Wheat"
+  },
+  "brown-sugar": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/60/Brown_Sugar_NH_Inv_Icon.png/120px-Brown_Sugar_NH_Inv_Icon.png",
+    "name": "Brown Sugar"
+  },
+  "flour": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/46/Flour_NH_Inv_Icon.png/120px-Flour_NH_Inv_Icon.png",
+    "name": "Flour"
+  },
+  "sugar": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Sugar_NH_Inv_Icon.png/120px-Sugar_NH_Inv_Icon.png",
+    "name": "Sugar"
+  },
+  "whole-wheat-flour": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b5/Whole-Wheat_Flour_NH_Inv_Icon.png/120px-Whole-Wheat_Flour_NH_Inv_Icon.png",
+    "name": "Whole-Wheat Flour"
+  },
+  "gyroid-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/69/Gyroid_Fragment_NH_Inv_Icon.png/120px-Gyroid_Fragment_NH_Inv_Icon.png",
+    "name": "Gyroid Fragment"
+  },
+  "gyroid": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Gyroid_NH_Inv_Icon.png/120px-Gyroid_NH_Inv_Icon.png",
+    "name": "Gyroid"
+  },
+  "earth-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Earth_Egg_NH_Inv_Icon.png/120px-Earth_Egg_NH_Inv_Icon.png",
+    "name": "Earth Egg"
+  },
+  "leaf-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Leaf_Egg_NH_Inv_Icon.png/120px-Leaf_Egg_NH_Inv_Icon.png",
+    "name": "Leaf Egg"
+  },
+  "sky-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Sky_Egg_NH_Inv_Icon.png/120px-Sky_Egg_NH_Inv_Icon.png",
+    "name": "Sky Egg"
+  },
+  "stone-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Stone_Egg_NH_Inv_Icon.png/120px-Stone_Egg_NH_Inv_Icon.png",
+    "name": "Stone Egg"
+  },
+  "water-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Water_Egg_NH_Inv_Icon.png/120px-Water_Egg_NH_Inv_Icon.png",
+    "name": "Water Egg"
+  },
+  "wood-egg": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9c/Wood_Egg_NH_Inv_Icon.png/120px-Wood_Egg_NH_Inv_Icon.png",
+    "name": "Wood Egg"
+  },
+  "blue-feather": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Blue_Feather_NH_Inv_Icon.png/120px-Blue_Feather_NH_Inv_Icon.png",
+    "name": "Blue Feather"
+  },
+  "green-feather": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/b6/Green_Feather_NH_Inv_Icon.png/120px-Green_Feather_NH_Inv_Icon.png",
+    "name": "Green Feather"
+  },
+  "purple-feather": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e0/Purple_Feather_NH_Inv_Icon.png/120px-Purple_Feather_NH_Inv_Icon.png",
+    "name": "Purple Feather"
+  },
+  "red-feather": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Red_Feather_NH_Inv_Icon.png/120px-Red_Feather_NH_Inv_Icon.png",
+    "name": "Red Feather"
+  },
+  "rainbow-feather": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Rainbow_Feather_NH_Inv_Icon.png/120px-Rainbow_Feather_NH_Inv_Icon.png",
+    "name": "Rainbow Feather"
+  },
+  "blue-ornament": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Blue_Ornament_NH_Inv_Icon.png/120px-Blue_Ornament_NH_Inv_Icon.png",
+    "name": "Blue Ornament"
+  },
+  "gold-ornament": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/54/Gold_Ornament_NH_Inv_Icon.png/120px-Gold_Ornament_NH_Inv_Icon.png",
+    "name": "Gold Ornament"
+  },
+  "red-ornament": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/ad/Red_Ornament_NH_Inv_Icon.png/120px-Red_Ornament_NH_Inv_Icon.png",
+    "name": "Red Ornament"
+  },
+  "star-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Star_Fragment_NH_Inv_Icon.png/120px-Star_Fragment_NH_Inv_Icon.png",
+    "name": "Star Fragment"
+  },
+  "aries-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Aries_Fragment_NH_Inv_Icon.png/120px-Aries_Fragment_NH_Inv_Icon.png",
+    "name": "Aries Fragment"
+  },
+  "taurus-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/2/23/Taurus_Fragment_NH_Inv_Icon.png/120px-Taurus_Fragment_NH_Inv_Icon.png",
+    "name": "Taurus Fragment"
+  },
+  "gemini-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e6/Gemini_Fragment_NH_Inv_Icon.png/120px-Gemini_Fragment_NH_Inv_Icon.png",
+    "name": "Gemini Fragment"
+  },
+  "cancer-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Cancer_Fragment_NH_Inv_Icon.png/120px-Cancer_Fragment_NH_Inv_Icon.png",
+    "name": "Cancer Fragment"
+  },
+  "leo-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Leo_Fragment_NH_Inv_Icon.png/120px-Leo_Fragment_NH_Inv_Icon.png",
+    "name": "Leo Fragment"
+  },
+  "virgo-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Virgo_Fragment_NH_Inv_Icon.png/120px-Virgo_Fragment_NH_Inv_Icon.png",
+    "name": "Virgo Fragment"
+  },
+  "libra-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d1/Libra_Fragment_NH_Inv_Icon.png/120px-Libra_Fragment_NH_Inv_Icon.png",
+    "name": "Libra Fragment"
+  },
+  "scorpius-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Scorpius_Fragment_NH_Inv_Icon.png/120px-Scorpius_Fragment_NH_Inv_Icon.png",
+    "name": "Scorpius Fragment"
+  },
+  "sagittarius-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Sagittarius_Fragment_NH_Inv_Icon.png/120px-Sagittarius_Fragment_NH_Inv_Icon.png",
+    "name": "Sagittarius Fragment"
+  },
+  "capricorn-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c8/Capricorn_Fragment_NH_Inv_Icon.png/120px-Capricorn_Fragment_NH_Inv_Icon.png",
+    "name": "Capricorn Fragment"
+  },
+  "aquarius-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/40/Aquarius_Fragment_NH_Inv_Icon.png/120px-Aquarius_Fragment_NH_Inv_Icon.png",
+    "name": "Aquarius Fragment"
+  },
+  "pisces-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f1/Pisces_Fragment_NH_Inv_Icon.png/120px-Pisces_Fragment_NH_Inv_Icon.png",
+    "name": "Pisces Fragment"
+  },
+  "large-star-fragment": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Large_Star_Fragment_NH_Inv_Icon.png/120px-Large_Star_Fragment_NH_Inv_Icon.png",
+    "name": "Large Star Fragment"
+  },
+  "golden-rod": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/85/Golden_Rod_NH_Inv_Icon.png/120px-Golden_Rod_NH_Inv_Icon.png",
+    "name": "Golden Rod"
+  },
+  "golden-net": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Golden_Net_NH_Inv_Icon.png/120px-Golden_Net_NH_Inv_Icon.png",
+    "name": "Golden Net"
+  },
+  "golden-axe": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Golden_Axe_NH_Inv_Icon.png/120px-Golden_Axe_NH_Inv_Icon.png",
+    "name": "Golden Axe"
+  },
+  "golden-shovel": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Golden_Shovel_NH_Inv_Icon.png/120px-Golden_Shovel_NH_Inv_Icon.png",
+    "name": "Golden Shovel"
+  },
+  "golden-watering-can": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Golden_Watering_Can_NH_Inv_Icon.png/120px-Golden_Watering_Can_NH_Inv_Icon.png",
+    "name": "Golden Watering Can"
+  },
+  "golden-slingshot": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/f6/Golden_Slingshot_NH_Inv_Icon.png/120px-Golden_Slingshot_NH_Inv_Icon.png",
+    "name": "Golden Slingshot"
+  },
+  "wisp-spirit-piece": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/4/49/Wisp_Spirit_Piece_NH_Inv_Icon.png/120px-Wisp_Spirit_Piece_NH_Inv_Icon.png",
+    "name": "Wisp Spirit Piece"
+  },
+  "miscellaneous-items": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/f/ff/Paper_Bag_NH_Inv_Icon.png/120px-Paper_Bag_NH_Inv_Icon.png",
+    "name": "Miscellaneous items"
+  }
+}

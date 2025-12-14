@@ -1,0 +1,694 @@
+{
+  "opening-theme": {
+    "name": "Opening Theme",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/01. Opening Theme.flac"
+  },
+  "12-00-am-sunny": {
+    "name": "12:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/02. 1200 AM (Sunny).flac"
+  },
+  "1-00-am-sunny": {
+    "name": "1:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/03. 100 AM (Sunny).flac"
+  },
+  "2-00-am-sunny": {
+    "name": "2:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/04. 200 AM (Sunny).flac"
+  },
+  "3-00-am-sunny": {
+    "name": "3:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/05. 300 AM (Sunny).flac"
+  },
+  "4-00-am-sunny": {
+    "name": "4:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/06. 400 AM (Sunny).flac"
+  },
+  "5-00-am-sunny": {
+    "name": "5:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/07. 500 AM (Sunny).flac"
+  },
+  "6-00-am-sunny": {
+    "name": "6:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/08. 600 AM (Sunny).flac"
+  },
+  "7-00-am-sunny": {
+    "name": "7:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/09. 700 AM (Sunny).flac"
+  },
+  "8-00-am-sunny": {
+    "name": "8:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/10. 800 AM (Sunny).flac"
+  },
+  "9-00-am-sunny": {
+    "name": "9:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/11. 900 AM (Sunny).flac"
+  },
+  "10-00-am-sunny": {
+    "name": "10:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/12. 1000 AM (Sunny).flac"
+  },
+  "11-00-am-sunny": {
+    "name": "11:00 AM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/13. 1100 AM (Sunny).flac"
+  },
+  "12-00-pm-sunny": {
+    "name": "12:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/14. 1200 PM (Sunny).flac"
+  },
+  "1-00-pm-sunny": {
+    "name": "1:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/15. 100 PM (Sunny).flac"
+  },
+  "2-00-pm-sunny": {
+    "name": "2:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/16. 200 PM (Sunny).flac"
+  },
+  "3-00-pm-sunny": {
+    "name": "3:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/17. 300 PM (Sunny).flac"
+  },
+  "4-00-pm-sunny": {
+    "name": "4:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/18. 400 PM (Sunny).flac"
+  },
+  "5-00-pm-sunny": {
+    "name": "5:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/19. 500 PM (Sunny).flac"
+  },
+  "6-00-pm-sunny": {
+    "name": "6:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/20. 600 PM (Sunny).flac"
+  },
+  "7-00-pm-sunny": {
+    "name": "7:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/21. 700 PM (Sunny).flac"
+  },
+  "8-00-pm-sunny": {
+    "name": "8:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/22. 800 PM (Sunny).flac"
+  },
+  "9-00-pm-sunny": {
+    "name": "9:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/23. 900 PM (Sunny).flac"
+  },
+  "10-00-pm-sunny": {
+    "name": "10:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/24. 1000 PM (Sunny).flac"
+  },
+  "11-00-pm-sunny": {
+    "name": "11:00 PM (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 1/25. 1100 PM (Sunny).flac"
+  },
+  "12-00-am-rainy": {
+    "name": "12:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/01. 1200 AM (Rainy).flac"
+  },
+  "1-00-am-rainy": {
+    "name": "1:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/02. 100 AM (Rainy).flac"
+  },
+  "2-00-am-rainy": {
+    "name": "2:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/03. 200 AM (Rainy).flac"
+  },
+  "3-00-am-rainy": {
+    "name": "3:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/04. 300 AM (Rainy).flac"
+  },
+  "4-00-am-rainy": {
+    "name": "4:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/05. 400 AM (Rainy).flac"
+  },
+  "5-00-am-rainy": {
+    "name": "5:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/06. 500 AM (Rainy).flac"
+  },
+  "6-00-am-rainy": {
+    "name": "6:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/07. 600 AM (Rainy).flac"
+  },
+  "7-00-am-rainy": {
+    "name": "7:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/08. 700 AM (Rainy).flac"
+  },
+  "8-00-am-rainy": {
+    "name": "8:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/09. 800 AM (Rainy).flac"
+  },
+  "9-00-am-rainy": {
+    "name": "9:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/10. 900 AM (Rainy).flac"
+  },
+  "10-00-am-rainy": {
+    "name": "10:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/11. 1000 AM (Rainy).flac"
+  },
+  "11-00-am-rainy": {
+    "name": "11:00 AM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/12. 1100 AM (Rainy).flac"
+  },
+  "12-00-pm-rainy": {
+    "name": "12:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/13. 1200 PM (Rainy).flac"
+  },
+  "1-00-pm-rainy": {
+    "name": "1:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/14. 100 PM (Rainy).flac"
+  },
+  "2-00-pm-rainy": {
+    "name": "2:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/15. 200 PM (Rainy).flac"
+  },
+  "3-00-pm-rainy": {
+    "name": "3:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/16. 300 PM (Rainy).flac"
+  },
+  "4-00-pm-rainy": {
+    "name": "4:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/17. 400 PM (Rainy).flac"
+  },
+  "5-00-pm-rainy": {
+    "name": "5:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/18. 500 PM (Rainy).flac"
+  },
+  "6-00-pm-rainy": {
+    "name": "6:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/19. 600 PM (Rainy).flac"
+  },
+  "7-00-pm-rainy": {
+    "name": "7:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/20. 700 PM (Rainy).flac"
+  },
+  "8-00-pm-rainy": {
+    "name": "8:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/21. 800 PM (Rainy).flac"
+  },
+  "9-00-pm-rainy": {
+    "name": "9:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/22. 900 PM (Rainy).flac"
+  },
+  "10-00-pm-rainy": {
+    "name": "10:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/23. 1000 PM (Rainy).flac"
+  },
+  "11-00-pm-rainy": {
+    "name": "11:00 PM (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/24. 1100 PM (Rainy).flac"
+  },
+  "12-00-am-snowy": {
+    "name": "12:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/25. 1200 AM (Snowy).flac"
+  },
+  "1-00-am-snowy": {
+    "name": "1:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/26. 100 AM (Snowy).flac"
+  },
+  "2-00-am-snowy": {
+    "name": "2:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/27. 200 AM (Snowy).flac"
+  },
+  "3-00-am-snowy": {
+    "name": "3:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/28. 300 AM (Snowy).flac"
+  },
+  "4-00-am-snowy": {
+    "name": "4:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/29. 400 AM (Snowy).flac"
+  },
+  "5-00-am-snowy": {
+    "name": "5:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/30. 500 AM (Snowy).flac"
+  },
+  "6-00-am-snowy": {
+    "name": "6:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/31. 600 AM (Snowy).flac"
+  },
+  "7-00-am-snowy": {
+    "name": "7:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/32. 700 AM (Snowy).flac"
+  },
+  "8-00-am-snowy": {
+    "name": "8:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/33. 800 AM (Snowy).flac"
+  },
+  "9-00-am-snowy": {
+    "name": "9:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/34. 900 AM (Snowy).flac"
+  },
+  "10-00-am-snowy": {
+    "name": "10:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/35. 1000 AM (Snowy).flac"
+  },
+  "11-00-am-snowy": {
+    "name": "11:00 AM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/36. 1100 AM (Snowy).flac"
+  },
+  "12-00-pm-snowy": {
+    "name": "12:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/37. 1200 PM (Snowy).flac"
+  },
+  "1-00-pm-snowy": {
+    "name": "1:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/38. 100 PM (Snowy).flac"
+  },
+  "2-00-pm-snowy": {
+    "name": "2:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/39. 200 PM (Snowy).flac"
+  },
+  "3-00-pm-snowy": {
+    "name": "3:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/40. 300 PM (Snowy).flac"
+  },
+  "4-00-pm-snowy": {
+    "name": "4:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/41. 400 PM (Snowy).flac"
+  },
+  "5-00-pm-snowy": {
+    "name": "5:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/42. 500 PM (Snowy).flac"
+  },
+  "6-00-pm-snowy": {
+    "name": "6:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/43. 600 PM (Snowy).flac"
+  },
+  "7-00-pm-snowy": {
+    "name": "7:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/44. 700 PM (Snowy).flac"
+  },
+  "8-00-pm-snowy": {
+    "name": "8:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/45. 800 PM (Snowy).flac"
+  },
+  "9-00-pm-snowy": {
+    "name": "9:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/46. 900 PM (Snowy).flac"
+  },
+  "10-00-pm-snowy": {
+    "name": "10:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/47. 1000 PM (Snowy).flac"
+  },
+  "11-00-pm-snowy": {
+    "name": "11:00 PM (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 2/48. 1100 PM (Snowy).flac"
+  },
+  "resident-services-tent": {
+    "name": "Resident Services (Tent)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/01. Resident Services (Tent).flac"
+  },
+  "resident-services": {
+    "name": "Resident Services",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/02. Resident Services.flac"
+  },
+  "blathers-tent": {
+    "name": "Blathers' Tent",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/03. Blathers' Tent.flac"
+  },
+  "museum-entrance": {
+    "name": "Museum (Entrance)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/04. Museum (Entrance).flac"
+  },
+  "museum-fish-room": {
+    "name": "Museum (Fish Room)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/05. Museum (Fish Room).flac"
+  },
+  "museum-insect-room": {
+    "name": "Museum (Insect Room)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/06. Museum (Insect Room).flac"
+  },
+  "museum-fossil-room": {
+    "name": "Museum (Fossil Room)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/07. Museum (Fossil Room).flac"
+  },
+  "museum-art-room": {
+    "name": "Museum (Art Room)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/08. Museum (Art Room).flac"
+  },
+  "airport-lobby-speaker-version": {
+    "name": "Airport Lobby (Speaker Version)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/09. Airport Lobby (Speaker Version).flac"
+  },
+  "airport-lobby-full-sound-version": {
+    "name": "Airport Lobby (Full Sound Version)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/10. Airport Lobby (Full Sound Version).flac"
+  },
+  "able-sisters": {
+    "name": "Able Sisters",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/11. Able Sisters.flac"
+  },
+  "nook-cranny-small": {
+    "name": "Nook's Cranny (Small)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/12. Nook's Cranny (Small).flac"
+  },
+  "nook-cranny-big": {
+    "name": "Nook's Cranny (Big)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/13. Nook's Cranny (Big).flac"
+  },
+  "nook-cranny-before-closing": {
+    "name": "Nook's Cranny (Before Closing)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/14. Nook's Cranny (Before Closing).flac"
+  },
+  "jolly-redd-treasure-trawler": {
+    "name": "Jolly Redd's Treasure Trawler",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/15. Jolly Redd's Treasure Trawler.flac"
+  },
+  "dreaming": {
+    "name": "Dreaming",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/16. Dreaming.flac"
+  },
+  "island-life-orientation-1": {
+    "name": "Island Life Orientation 1",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/17. Island Life Orientation 1.flac"
+  },
+  "island-life-orientation-2": {
+    "name": "Island Life Orientation 2",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/18. Island Life Orientation 2.flac"
+  },
+  "island-life-orientation-3": {
+    "name": "Island Life Orientation 3",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/19. Island Life Orientation 3.flac"
+  },
+  "island-life-orientation-4-campfire-evening": {
+    "name": "Island Life Orientation 4 (Campfire Evening)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/20. Island Life Orientation 4 (Campfire Evening).flac"
+  },
+  "island-life-orientation-5-sunny": {
+    "name": "Island Life Orientation 5 (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/21. Island Life Orientation 5 (Sunny).flac"
+  },
+  "island-life-orientation-5-rainy": {
+    "name": "Island Life Orientation 5 (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/22. Island Life Orientation 5 (Rainy).flac"
+  },
+  "island-life-orientation-5-snowy": {
+    "name": "Island Life Orientation 5 (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/23. Island Life Orientation 5 (Snowy).flac"
+  },
+  "island-life-orientation-6-sunny": {
+    "name": "Island Life Orientation 6 (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/24. Island Life Orientation 6 (Sunny).flac"
+  },
+  "island-life-orientation-6-rainy": {
+    "name": "Island Life Orientation 6 (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/25. Island Life Orientation 6 (Rainy).flac"
+  },
+  "island-life-orientation-6-snowy": {
+    "name": "Island Life Orientation 6 (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/26. Island Life Orientation 6 (Snowy).flac"
+  },
+  "island-life-orientation-7-sunny": {
+    "name": "Island Life Orientation 7 (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/27. Island Life Orientation 7 (Sunny).flac"
+  },
+  "island-life-orientation-7-rainy": {
+    "name": "Island Life Orientation 7 (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/28. Island Life Orientation 7 (Rainy).flac"
+  },
+  "island-life-orientation-7-snowy": {
+    "name": "Island Life Orientation 7 (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/29. Island Life Orientation 7 (Snowy).flac"
+  },
+  "mystery-island-tour-noon-sunny": {
+    "name": "Mystery Island Tour: Noon (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/30. Mystery Island Tour Noon (Sunny).flac"
+  },
+  "mystery-island-tour-noon-rainy": {
+    "name": "Mystery Island Tour: Noon (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/31. Mystery Island Tour Noon (Rainy).flac"
+  },
+  "mystery-island-tour-noon-snowy": {
+    "name": "Mystery Island Tour: Noon (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/32. Mystery Island Tour Noon (Snowy).flac"
+  },
+  "mystery-island-tour-evening-sunny": {
+    "name": "Mystery Island Tour: Evening (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/33. Mystery Island Tour Evening (Sunny).flac"
+  },
+  "mystery-island-tour-evening-rainy": {
+    "name": "Mystery Island Tour: Evening (Rainy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/34. Mystery Island Tour Evening (Rainy).flac"
+  },
+  "mystery-island-tour-evening-snowy": {
+    "name": "Mystery Island Tour: Evening (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 3/35. Mystery Island Tour Evening (Snowy).flac"
+  },
+  "tournament-in-progress": {
+    "name": "Tournament (In Progress)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/01. Tournament (In Progress).flac"
+  },
+  "tournament-joining": {
+    "name": "Tournament (Joining)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/02. Tournament (Joining).flac"
+  },
+  "bunny-day": {
+    "name": "Bunny Day",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/03. Bunny Day.flac"
+  },
+  "wedding-season-reese-cyrus": {
+    "name": "Wedding Season (Reese & Cyrus)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/04. Wedding Season (Reese & Cyrus).flac"
+  },
+  "wedding-season-party": {
+    "name": "Wedding Season (Party)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/05. Wedding Season (Party).flac"
+  },
+  "fireworks-show": {
+    "name": "Fireworks Show",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/06. Fireworks Show.flac"
+  },
+  "halloween": {
+    "name": "Halloween",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/07. Halloween.flac"
+  },
+  "turkey-day": {
+    "name": "Turkey Day",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/08. Turkey Day.flac"
+  },
+  "turkey-day-cooking-start": {
+    "name": "Turkey Day (Cooking Start)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/09. Turkey Day (Cooking Start).flac"
+  },
+  "turkey-day-cooking-complete": {
+    "name": "Turkey Day (Cooking Complete)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/10. Turkey Day (Cooking Complete).flac"
+  },
+  "toy-day-snowy": {
+    "name": "Toy Day (Snowy)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/11. Toy Day (Snowy).flac"
+  },
+  "toy-day-sunny": {
+    "name": "Toy Day (Sunny)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/12. Toy Day (Sunny).flac"
+  },
+  "countdown-11-00-pm": {
+    "name": "Countdown (11:00 PM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/13. Countdown (1100 PM).flac"
+  },
+  "countdown-11-30-pm": {
+    "name": "Countdown (11:30 PM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/14. Countdown (1130 PM).flac"
+  },
+  "countdown-11-50-pm": {
+    "name": "Countdown (11:50 PM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/15. Countdown (1150 PM).flac"
+  },
+  "countdown-11-55-pm": {
+    "name": "Countdown (11:55 PM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/16. Countdown (1155 PM).flac"
+  },
+  "new-year-happy-new-year": {
+    "name": "New Year (Happy New Year)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/17. New Year (Happy New Year).flac"
+  },
+  "new-year-12-00-am": {
+    "name": "New Year (12:00 AM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/18. New Year (1200 AM).flac"
+  },
+  "new-year-2-00-am": {
+    "name": "New Year (2:00 AM)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/19. New Year (200 AM).flac"
+  },
+  "new-year-day": {
+    "name": "New Year's Day",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/20. New Year's Day.flac"
+  },
+  "festivale": {
+    "name": "Festivale",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/21. Festivale.flac"
+  },
+  "festivale-kimedance-normal": {
+    "name": "Festivale Kimedance (Normal)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/22. Festivale Kimedance (Normal).flac"
+  },
+  "festivale-kimedance-complete": {
+    "name": "Festivale Kimedance (Complete)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/23. Festivale Kimedance (Complete).flac"
+  },
+  "nook-inc-deserted-island-getaway-package-check-in-counter": {
+    "name": "Nook Inc. Deserted Island Getaway Package Check-in Counter",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/24. Nook Inc. Deserted Island Getaway Package Check-in Counter.flac"
+  },
+  "k-k-slider-dream": {
+    "name": "K.K. Slider Dream",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/25. K.K. Slider Dream.flac"
+  },
+  "island-broadcast-tom-nook": {
+    "name": "Island Broadcast (Tom Nook)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/26. Island Broadcast (Tom Nook).flac"
+  },
+  "island-broadcast-isabelle": {
+    "name": "Island Broadcast (Isabelle)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/27. Island Broadcast (Isabelle).flac"
+  },
+  "facility-completion-ceremony": {
+    "name": "Facility Completion Ceremony",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/28. Facility Completion Ceremony.flac"
+  },
+  "outing-dal-fanfare": {
+    "name": "Outing (DAL Fanfare)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/29. Outing (DAL Fanfare).flac"
+  },
+  "outing-in-flight-broadcast": {
+    "name": "Outing (In-Flight Broadcast)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/30. Outing (In-Flight Broadcast).flac"
+  },
+  "outing-waiting": {
+    "name": "Outing (Waiting)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/31. Outing (Waiting).flac"
+  },
+  "outing-meeting": {
+    "name": "Outing (Meeting)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/32. Outing (Meeting).flac"
+  },
+  "outing-farewell": {
+    "name": "Outing (Farewell)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/33. Outing (Farewell).flac"
+  },
+  "rescue-service": {
+    "name": "Rescue Service",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/34. Rescue Service.flac"
+  },
+  "amiibo-invitation": {
+    "name": "amiibo Invitation",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/35. amiibo Invitation.flac"
+  },
+  "chased-by-bee": {
+    "name": "Chased by Bee",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/36. Chased by Bee.flac"
+  },
+  "stung-by-bee": {
+    "name": "Stung by Bee",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/37. Stung by Bee.flac"
+  },
+  "stung-by-scorpion-tarantula": {
+    "name": "Stung by Scorpion/Tarantula",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/38. Stung by ScorpionTarantula.flac"
+  },
+  "get-fanfare": {
+    "name": "Get Fanfare",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/39. Get Fanfare.flac"
+  },
+  "complete-fanfare": {
+    "name": "Complete Fanfare",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/40. Complete Fanfare.flac"
+  },
+  "radio-jingle-morning-1": {
+    "name": "Radio Jingle (Morning 1)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/41. Radio Jingle (Morning 1).flac"
+  },
+  "radio-jingle-morning-2": {
+    "name": "Radio Jingle (Morning 2)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/42. Radio Jingle (Morning 2).flac"
+  },
+  "radio-jingle-morning-3": {
+    "name": "Radio Jingle (Morning 3)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/43. Radio Jingle (Morning 3).flac"
+  },
+  "radio-jingle-morning-4": {
+    "name": "Radio Jingle (Morning 4)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/44. Radio Jingle (Morning 4).flac"
+  },
+  "radio-jingle-morning-5": {
+    "name": "Radio Jingle (Morning 5)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/45. Radio Jingle (Morning 5).flac"
+  },
+  "radio-jingle-morning-6": {
+    "name": "Radio Jingle (Morning 6)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/46. Radio Jingle (Morning 6).flac"
+  },
+  "radio-jingle-noon-1": {
+    "name": "Radio Jingle (Noon 1)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/47. Radio Jingle (Noon 1).flac"
+  },
+  "radio-jingle-noon-2": {
+    "name": "Radio Jingle (Noon 2)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/48. Radio Jingle (Noon 2).flac"
+  },
+  "radio-jingle-noon-3": {
+    "name": "Radio Jingle (Noon 3)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/49. Radio Jingle (Noon 3).flac"
+  },
+  "radio-jingle-noon-4": {
+    "name": "Radio Jingle (Noon 4)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/50. Radio Jingle (Noon 4).flac"
+  },
+  "radio-jingle-noon-5": {
+    "name": "Radio Jingle (Noon 5)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/51. Radio Jingle (Noon 5).flac"
+  },
+  "radio-jingle-noon-6": {
+    "name": "Radio Jingle (Noon 6)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/52. Radio Jingle (Noon 6).flac"
+  },
+  "radio-jingle-evening-1": {
+    "name": "Radio Jingle (Evening 1)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/53. Radio Jingle (Evening 1).flac"
+  },
+  "radio-jingle-evening-2": {
+    "name": "Radio Jingle (Evening 2)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/54. Radio Jingle (Evening 2).flac"
+  },
+  "radio-jingle-evening-3": {
+    "name": "Radio Jingle (Evening 3)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/55. Radio Jingle (Evening 3).flac"
+  },
+  "radio-jingle-evening-4": {
+    "name": "Radio Jingle (Evening 4)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/56. Radio Jingle (Evening 4).flac"
+  },
+  "radio-jingle-evening-5": {
+    "name": "Radio Jingle (Evening 5)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/57. Radio Jingle (Evening 5).flac"
+  },
+  "radio-jingle-evening-6": {
+    "name": "Radio Jingle (Evening 6)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/58. Radio Jingle (Evening 6).flac"
+  },
+  "radio-jingle-bunny-day": {
+    "name": "Radio Jingle (Bunny Day)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/59. Radio Jingle (Bunny Day).flac"
+  },
+  "radio-jingle-halloween": {
+    "name": "Radio Jingle (Halloween)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/60. Radio Jingle (Halloween).flac"
+  },
+  "radio-jingle-turkey-day": {
+    "name": "Radio Jingle (Turkey Day)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/61. Radio Jingle (Turkey Day).flac"
+  },
+  "radio-jingle-toy-day": {
+    "name": "Radio Jingle (Toy Day)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/62. Radio Jingle (Toy Day).flac"
+  },
+  "radio-jingle-countdown": {
+    "name": "Radio Jingle (Countdown)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/63. Radio Jingle (Countdown).flac"
+  },
+  "radio-jingle-carnival": {
+    "name": "Radio Jingle (Carnival)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/64. Radio Jingle (Carnival).flac"
+  },
+  "opening-theme-remote-performance": {
+    "name": "Opening Theme (Remote Performance)",
+    "audioUrl": "https://archive.org/download/acnr-soundtrack/Disc 4/65. Opening Theme (Remote Performance).flac"
+  }
+}
