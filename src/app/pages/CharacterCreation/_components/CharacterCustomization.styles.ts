@@ -1,10 +1,10 @@
 import { css } from "@emotion/react";
 
 const playerColors: Record<number, string> = {
-  0: '#FF6C00',
+  0: '#C27BF6',
   1: '#829FF6',
   2: '#4CB89C',
-  3: '#C27BF6',
+  3: '#FF6C00',
 };
 
 const underlineSvg = (color: string) =>
@@ -49,6 +49,12 @@ const playerContainer = css`
 
 const inputContainer = (index: number) => css`
   position: relative;
+  width: 80%;
+  margin: 0 auto;
+
+  &::selection {
+    background-color: ${playerColors[index]}20;
+  }
 
   &::after {
     content: "";
@@ -61,13 +67,7 @@ const inputContainer = (index: number) => css`
     background-image: url("data:image/svg+xml,${underlineSvg("#EFEADD")}");
   }
 
-  &:hover {
-    &::after {
-      background-image: url("data:image/svg+xml,${underlineSvg("#B9B3A0")}");
-    }
-  }
-
-  &:focus-within {
+  &:hover, &:focus-within {
     &::after {
       background-image: url("data:image/svg+xml,${underlineSvg(playerColors[index])}");
     }
