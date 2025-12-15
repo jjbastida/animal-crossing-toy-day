@@ -21,13 +21,13 @@ const selectionButton = (selected: boolean) => css`
 `;
 
 const sizeSmall = css`
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 `;
 
 const sizeLarge = css`
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 `;
 
 const sizeVariants = {

@@ -2,6 +2,20 @@ import { createContext, useState, useCallback } from 'react';
 import { Player, ShopItem, GamePhase, ActionType } from '../types/general';
 import { GameContextValue, GameProviderProps } from './GameContext.types';
 
+const dummyPlayers = [
+  {
+    id: 1,
+    name: 'Player 1',
+    avatar: 'ace',
+    fruit: 'apple',
+    fruitValue: 50,
+    inventory: [],
+    presents: [],
+    bells: 1500,
+    points: 0,
+  },
+] as Player[];
+
 export const GameContext = createContext<GameContextValue>({
   players: [],
   setPlayers: () => {},
@@ -20,7 +34,7 @@ export const GameContext = createContext<GameContextValue>({
 });
 
 export function GameProvider({ children, totalRounds = 12 }: GameProviderProps) {
-  const [players, setPlayers] = useState<Player[]>([]);
+  const [players, setPlayers] = useState<Player[]>([...dummyPlayers]);
   const [gamePhase, setGamePhase] = useState<GamePhase>('characterCreation');
   const [currentRound, setCurrentRound] = useState<number>(1);
   const [currentAction, setCurrentAction] = useState<ActionType>(null);

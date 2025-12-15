@@ -11,9 +11,21 @@ const container = css`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 80px 32px;
-  gap: 32px;
+  padding: 5rem 4rem;
+  gap: 3rem;
   background: var(--background-secondary);
+`;
+
+const cardContainer = css`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1440px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const playerContainer = css`
@@ -23,18 +35,10 @@ const playerContainer = css`
   justify-content: center;
   gap: 1rem;
   flex: 1;
-`;
-
-const cardContainer = css`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  margin: 0 auto;
   width: 100%;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 `;
+
 
 const inputContainer = css`
   position: relative;
@@ -46,6 +50,7 @@ const inputContainer = css`
     height: 100%;
     bottom: -50%;
     left: 0;
+    pointer-events: none;
     background-image: url("data:image/svg+xml,${underlineSvg("#EFEADD")}");
   }
 

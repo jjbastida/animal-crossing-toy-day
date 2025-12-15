@@ -43,3 +43,7 @@ html, body {
   box-sizing: border-box;
   outline: none;
 }
+
+*:not(input):not(textarea):not(button):not(select):not(option):not(a):not(img) {
+  user-select: none;
+}

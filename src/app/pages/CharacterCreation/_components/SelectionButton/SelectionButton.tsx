@@ -1,6 +1,6 @@
 import React from 'react';
 import { Interpolation, Theme } from '@emotion/react';
-import * as styles from './SelectionButton.styles';
+import * as styles from './SelectionButton.styles.ts';
 
 type SelectionButtonSize = 'small' | 'large';
 

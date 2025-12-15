@@ -1,39 +1,29 @@
-export type FruitType = "apple" | "banana" | "cherry" | "peach" | "orange" | "pear";
+import villagerIcons from '@data/villager_icons.json';
+export type FruitType = "apple" | "cherry" | "peach" | "orange" | "pear" | "coconut";
+export type AvatarType = keyof typeof villagerIcons
 
 export interface Present {
   id: string;
   color: string;
   items: Item;
   position: number;
+  action?: (Player: Player) => void;
 }
 
 export interface Item {
   name: string;
   description: string;
   imageURL: string;
-  cost: number;
-  value: number;
-  function: (Player: Player) => void;
-}
-
-export interface Fruit {
-  id: FruitType;
-  name: string;
-  imageURL: string;
-}
-
-export interface Avatar {
-  id: string;
-  name: string;
-  imageURL: string;
+  cost?: number;
+  value?: number;
 }
 
 export interface Player {
   id: number;
   name?: string;
-  order?: number;
-  avatar?: Avatar;
-  fruit?: Fruit;
+  avatar?: AvatarType;
+  fruit?: FruitType;
+  fruitValue?: number;
   inventory?: Item[];
   presents?: Present[];
   bells?: number;

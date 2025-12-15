@@ -9,6 +9,11 @@ const tooltipWrapper = css`
     visibility: visible;
     transform: var(--tooltip-transform-visible);
   }
+  &[data-open="false"] > [role="tooltip"] {
+    opacity: 0;
+    visibility: hidden;
+    transform: var(--tooltip-transform-hidden);
+  }
 `;
 
 const tooltipContainer = css`
@@ -27,6 +32,7 @@ const tooltipContainer = css`
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0.03em;
   overflow: visible;
   display: -webkit-box;
   -webkit-line-clamp: 2;

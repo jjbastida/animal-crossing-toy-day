@@ -17,11 +17,13 @@
   },
   "fishing-rod": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/22/Fishing_Rod_NH_Inv_Icon.png/120px-Fishing_Rod_NH_Inv_Icon.png",
-    "name": "Fishing Rod"
+    "name": "Fishing Rod",
+    "type": "tool"
   },
   "net": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Net_NH_Inv_Icon.png/120px-Net_NH_Inv_Icon.png",
-    "name": "Net"
+    "name": "Net",
+    "type": "tool"
   },
   "stone-axe": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Stone_Axe_NH_Inv_Icon.png/120px-Stone_Axe_NH_Inv_Icon.png",
@@ -33,7 +35,8 @@
   },
   "shovel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Shovel_NH_Inv_Icon.png/120px-Shovel_NH_Inv_Icon.png",
-    "name": "Shovel"
+    "name": "Shovel",
+    "type": "tool"
   },
   "watering-can": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Watering_Can_NH_Inv_Icon.png/120px-Watering_Can_NH_Inv_Icon.png",
@@ -125,7 +128,8 @@
   },
   "wet-suit": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Wet_Suit_NH_Inv_Icon.png/120px-Wet_Suit_NH_Inv_Icon.png",
-    "name": "Wet Suit"
+    "name": "Wet Suit",
+    "type": "tool"
   },
   "diy-recipe": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3d/DIY_Recipe_NH_Inv_Icon.png/120px-DIY_Recipe_NH_Inv_Icon.png",
@@ -886,30 +890,6 @@
   "large-star-fragment": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Large_Star_Fragment_NH_Inv_Icon.png/120px-Large_Star_Fragment_NH_Inv_Icon.png",
     "name": "Large Star Fragment"
-  },
-  "golden-rod": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/8/85/Golden_Rod_NH_Inv_Icon.png/120px-Golden_Rod_NH_Inv_Icon.png",
-    "name": "Golden Rod"
-  },
-  "golden-net": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Golden_Net_NH_Inv_Icon.png/120px-Golden_Net_NH_Inv_Icon.png",
-    "name": "Golden Net"
-  },
-  "golden-axe": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Golden_Axe_NH_Inv_Icon.png/120px-Golden_Axe_NH_Inv_Icon.png",
-    "name": "Golden Axe"
-  },
-  "golden-shovel": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Golden_Shovel_NH_Inv_Icon.png/120px-Golden_Shovel_NH_Inv_Icon.png",
-    "name": "Golden Shovel"
-  },
-  "golden-watering-can": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/7/73/Golden_Watering_Can_NH_Inv_Icon.png/120px-Golden_Watering_Can_NH_Inv_Icon.png",
-    "name": "Golden Watering Can"
-  },
-  "golden-slingshot": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/f/f6/Golden_Slingshot_NH_Inv_Icon.png/120px-Golden_Slingshot_NH_Inv_Icon.png",
-    "name": "Golden Slingshot"
   },
   "wisp-spirit-piece": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/49/Wisp_Spirit_Piece_NH_Inv_Icon.png/120px-Wisp_Spirit_Piece_NH_Inv_Icon.png",

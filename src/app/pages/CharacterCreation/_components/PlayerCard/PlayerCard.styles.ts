@@ -1,12 +1,15 @@
 import { css } from "@emotion/react";
 
 const playerCard = css`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-  min-height: 40vh;
+  min-height: 50vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `;
 
 const asset = css`
@@ -20,4 +23,25 @@ const assetPlaceholder = css`
   opacity: 0.5;
 `;
 
-export { playerCard, asset, assetPlaceholder };
+const clearButton = css`
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  & > button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & > button:hover,
+  & > button:active {
+    color: var(--foreground-active);
+  }
+`;
+
+export { playerCard, asset, assetPlaceholder, clearButton };

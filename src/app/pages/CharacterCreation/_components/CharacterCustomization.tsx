@@ -1,27 +1,27 @@
-import React, { useState, ChangeEvent, useContext } from 'react';
-import { Avatar, Fruit, FruitType } from '@/types/general';
+import React, { ChangeEvent, useContext, useState } from 'react';
+import { AvatarType, FruitType } from '@/types/general';
 import villagerIcons from '@data/villager_icons.json';
 import * as styles from './CharacterCustomization.styles';
-import fruitIcons from '@data/fruit_icons.json';
 import soundEffects from '@data/sound_effects.json';
 import { GameContext, MusicContext } from '@/context';
 import PlayerCard from './PlayerCard/PlayerCard';
 import AvatarModal from './AvatarModal/AvatarModal';
 import FruitModal from './FruitModal/FruitModal';
 
-const allVillagers = Object.values(villagerIcons);
+const allVillagers = Object.keys(villagerIcons) as AvatarType[];
 const shuffled = [...allVillagers].sort(() => Math.random() - 0.5);
-const randomPlaceholderAvatars = shuffled.slice(0, 4).map(v => v.imageUrl);
+const randomPlaceholderAvatars = shuffled.slice(0, 4);
 
 interface CharacterCustomizationProps {
-  modifyPlayer: (playerId: number, key: string, value: any) => void;
+  modifyPlayer: (playerId: number, key: string, value: string | number | FruitType | AvatarType) => void;
+  modalOpen: 'avatar' | 'fruit' | null;
+  setModalOpen: (modal: 'avatar' | 'fruit' | null) => void;
 }
 
-function CharacterCustomization({ modifyPlayer }: CharacterCustomizationProps): React.ReactNode {
+function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: CharacterCustomizationProps): React.ReactNode {
   const { players, setPlayers } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
-  const [avatarModalOpen, setAvatarModalOpen] = useState<number | null>(null);
-  const [fruitModalOpen, setFruitModalOpen] = useState<number | null>(null);
+  const [selectedPlayerId, setSelectedPlayerId] = useState<number | null>(null);
 
   function ensurePlayerExists(playerId: number) {
     const existingPlayer = players.find(p => p.id === playerId);
@@ -30,33 +30,33 @@ function CharacterCustomization({ modifyPlayer }: CharacterCustomizationProps): 
     }
   }
 
-  function handleAvatarSelect(playerId: number, villagerKey: string, villagerData: { name: string; imageUrl: string }) {
-    const avatar: Avatar = {
-      id: villagerKey,
-      name: villagerData.name,
-      imageURL: villagerData.imageUrl
-    };
-    
+  function handleAvatarSelect(villagerKey: string, _villagerData: { name: string; imageUrl: string }) {
+    if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects['UI_Cmn_Open'].audioUrl);
-    modifyPlayer(playerId, 'avatar', avatar);
-    setAvatarModalOpen(null);
+    modifyPlayer(selectedPlayerId, 'avatar', villagerKey);
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
-  function handleFruitSelect(playerId: number, fruitType: FruitType) {
-    const fruitData = fruitIcons[fruitType as keyof typeof fruitIcons];
-    const fruit: Fruit = {
-      id: fruitType,
-      name: fruitData.name,
-      imageURL: fruitData.imageUrl
-    };
-    
+  function handleFruitSelect(fruitType: FruitType) {
+    if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects['UI_Cmn_Open'].audioUrl);
-    modifyPlayer(playerId, 'fruit', fruit);
-    setFruitModalOpen(null);
+    modifyPlayer(selectedPlayerId, 'fruit', fruitType);
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
   function handleNameChange(playerId: number, value: string) {
     modifyPlayer(playerId, 'name', value);
+  }
+
+  function handleClearPlayer(playerId: number) {
+    setPlayers(prev => prev.filter(p => p.id !== playerId));
+  }
+
+  function handleClose() {
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
   const defaultPlayers = [1, 2, 3, 4].map(id => {
@@ -74,12 +74,15 @@ function CharacterCustomization({ modifyPlayer }: CharacterCustomizationProps): 
             placeholderAvatarUrl={randomPlaceholderAvatars[player.id - 1]}
             onAvatarClick={() => {
               ensurePlayerExists(player.id);
-              setAvatarModalOpen(player.id);
+              setSelectedPlayerId(player.id);
+              setModalOpen('avatar');
             }}
             onFruitClick={() => {
               ensurePlayerExists(player.id);
-              setFruitModalOpen(player.id);
+              setSelectedPlayerId(player.id);
+              setModalOpen('fruit');
             }}
+            onClear={player.avatar || player.fruit || player.name ? () => handleClearPlayer(player.id) : undefined}
           />
           <div css={styles.inputContainer}>
             <input
@@ -94,18 +97,18 @@ function CharacterCustomization({ modifyPlayer }: CharacterCustomizationProps): 
               }}
             />
           </div>
-          <AvatarModal
-            isOpen={avatarModalOpen === player.id}
-            onClose={() => setAvatarModalOpen(null)}
-            onSelect={(villagerKey, villagerData) => handleAvatarSelect(player.id, villagerKey, villagerData)}
-          />
-          <FruitModal
-            isOpen={fruitModalOpen === player.id}
-            onClose={() => setFruitModalOpen(null)}
-            onSelect={(fruitType) => handleFruitSelect(player.id, fruitType)}
-          />
         </div>
       ))}
+      <AvatarModal
+        isOpen={modalOpen === 'avatar'}
+        onClose={handleClose}
+        onSelect={handleAvatarSelect}
+      />
+      <FruitModal
+        isOpen={modalOpen === 'fruit'}
+        onClose={handleClose}
+        onSelect={handleFruitSelect}
+      />
     </div>
   );
 }

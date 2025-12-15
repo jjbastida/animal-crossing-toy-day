@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Interpolation, Theme } from '@emotion/react';
 import * as styles from './Modal.styles.ts';
 import useHandleKeydown from '@/hooks/handleKeydown.ts';
@@ -15,6 +15,7 @@ interface ModalProps {
 
 function Modal({ isOpen, onClose, children, css }: ModalProps): React.ReactNode {
   const { playSoundEffect } = useContext(MusicContext);
+  const [renderModal, setRenderModal] = useState(isOpen);
   
   const handleClose = () => {
     if (isOpen) {
@@ -27,17 +28,25 @@ function Modal({ isOpen, onClose, children, css }: ModalProps): React.ReactNode 
   
   useEffect(() => {
     if (isOpen) {
+      setRenderModal(true);
       playSoundEffect(soundEffects['UI_WorkBench_Open'].audioUrl);
+    } else {
+      const timer = setTimeout(() => {
+        setRenderModal(false);
+      }, 300);
+      return () => {
+        clearTimeout(timer);
+      };
     }
   }, [isOpen, playSoundEffect]);
 
-  return isOpen && (
-    <div css={styles.modalOverlay} onClick={handleClose}>
+  return renderModal ? (
+    <div css={styles.modalOverlay} data-open={isOpen} onClick={handleClose}>
       <div css={[styles.modalContent, css]} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>
-  );
+  ) : null;
 }
 
 export function ModalGrid({ children, ...props }: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {

@@ -27,7 +27,7 @@ export function Routing(): React.ReactNode {
         break;
       case "playerTurn":
         stopTrack();
-        playTrack("/assets/music/gameplay.mp3");
+        playTrack(songData['7-00-am-sunny'].audioUrl);
         break;
       case "gatherResource":
         stopTrack();
