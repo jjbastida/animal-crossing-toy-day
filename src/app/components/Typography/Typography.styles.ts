@@ -4,10 +4,14 @@ import { TypographySize, TypographyVariant } from "./Typography.types";
 const typographyStyles: Record<TypographyVariant, SerializedStyles> = {
   display: css`
     font-family: Rodin, sans-serif;
+    margin: 0;
+    padding: 0;
   `,
   body: css`
     font-family: Seurat, sans-serif;
     letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
   `,
 };
 

@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Copy } from 'phosphor-react';
+import { Copy, Pause, Play } from 'phosphor-react';
 import villagerIcons from '@data/villager_icons.json';
 import itemIcons from '@data/item_icons.json';
 import fishIcons from '@data/fish_icons.json';
@@ -7,8 +7,9 @@ import bugIcons from '@data/bug_icons.json';
 import fossilIcons from '@data/fossil_icons.json';
 import furnitureData from '@data/filtered_furniture.json';
 import songData from '@data/acnh_songs.json';
+import soundEffects from '@data/sound_effects.json';
 import * as styles from './DebugComponent.styles.ts';
-import { Typography } from '@components';
+import { Card, Typography } from '@components';
 
 interface DataSet {
   name: string;
@@ -29,11 +30,20 @@ const DATA_SETS: DataSet[] = [
   { name: 'Fossils', data: fossilIcons },
   { name: 'Furniture', data: furnitureData },
   { name: 'Songs', data: songData },
+  { name: 'Sound Effects', data: Object.entries(soundEffects).reduce((acc, [key, value]) => {
+    acc[key] = {
+      name: key.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase()),
+      audioUrl: value.audioUrl,
+    };
+    return acc;
+  }, {} as Record<string, { name: string; audioUrl: string }>)},
 ];
 
 function DebugComponent(): React.ReactNode {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState(0);
+  const [playingAudioUrl, setPlayingAudioUrl] = useState<string | null>(null);
+  const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
 
   const filteredDataSets = useMemo(() => {
     if (!searchQuery.trim()) {
@@ -65,6 +75,15 @@ function DebugComponent(): React.ReactNode {
       }
     }
   }, [filteredDataSets, hasResults]);
+
+  useEffect(() => {
+    return () => {
+      if (audioElement) {
+        audioElement.pause();
+        audioElement.src = '';
+      }
+    };
+  }, [audioElement]);
 
   return (
     <div css={styles.container}>
@@ -110,11 +129,32 @@ function DebugComponent(): React.ReactNode {
               };
 
               return (
-                <div key={key} css={styles.dataItem}>
+                <Card key={key} css={styles.dataItem}>
                   <button onClick={handleCopy} css={styles.copyButton} aria-label="Copy key">
                     <Copy size={18} />
                   </button>
-                  <img src={value?.imageUrl || ''} height={100} width={100} />
+                  {value?.audioUrl && <button onClick={() => {
+                    if (playingAudioUrl === value.audioUrl && audioElement) {
+                      audioElement.pause();
+                      setPlayingAudioUrl(null);
+                    } else {
+                      if (audioElement) {
+                        audioElement.pause();
+                      }
+                      const newAudio = new Audio(value.audioUrl);
+                      newAudio.play().catch((err) => {
+                        console.error('Failed to play audio:', err);
+                      });
+                      newAudio.addEventListener('ended', () => {
+                        setPlayingAudioUrl(null);
+                      });
+                      setAudioElement(newAudio);
+                      setPlayingAudioUrl(value.audioUrl);
+                    }
+                  }} aria-label={playingAudioUrl === value?.audioUrl ? "Pause audio" : "Play audio"}>
+                    {playingAudioUrl === value?.audioUrl ? <Pause size={18} /> : <Play size={18} />}
+                  </button>}
+                  {value?.imageUrl && <img src={value?.imageUrl} height={100} width={100} />}
                   <div css={styles.dataItemContent}>
                   <Typography variant="display" size="md" css={styles.dataItemHeader}>
                     {key}
@@ -134,7 +174,7 @@ function DebugComponent(): React.ReactNode {
                     ))}
                   </Typography>
                   </div>
-                </div>
+                </Card>
               );
             })}
           </div>

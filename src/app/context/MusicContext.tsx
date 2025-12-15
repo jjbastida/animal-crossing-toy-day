@@ -8,7 +8,8 @@ export const MusicContext = createContext<MusicContextValue>({
   stopTrack: () => {},
   pauseTrack: () => {},
   resumeTrack: () => {},
-  setVolume: () => {}
+  setVolume: () => {},
+  playSoundEffect: () => {}
 });
 
 export function MusicProvider({ children }: MusicProviderProps) {
@@ -16,7 +17,7 @@ export function MusicProvider({ children }: MusicProviderProps) {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const playTrack = useCallback(function(trackPath: string, options: MusicOptions = {}) {
+  const playTrack = useCallback(function(trackPath: string, options: MusicOptions = { volume: 0.5 }) {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current = null;
@@ -75,6 +76,16 @@ export function MusicProvider({ children }: MusicProviderProps) {
     }
   }, []);
 
+  const playSoundEffect = useCallback(function(soundPath: string, volume: number = 1) {
+    const soundEffect = new Audio(soundPath);
+    soundEffect.loop = false;
+    soundEffect.volume = Math.max(0, Math.min(1, volume));
+    
+    soundEffect.play().catch((error: Error) => {
+      console.error('Error playing sound effect:', error);
+    });
+  }, []);
+
   useEffect(() => {
     return () => {
       if (audioRef.current) {
@@ -91,7 +102,8 @@ export function MusicProvider({ children }: MusicProviderProps) {
     stopTrack,
     pauseTrack,
     resumeTrack,
-    setVolume
+    setVolume,
+    playSoundEffect
   };
 
   return (

@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
 `;
 
-const splashContainer: SerializedStyles = css`
+const splashContainer = css`
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -21,26 +21,26 @@ const splashContainer: SerializedStyles = css`
   position: relative;
 `;
 
-const toyDayLogo: SerializedStyles = css`
+const toyDayLogo = css`
   margin-top: -30vh;
   margin-right: -5vw;
   width: clamp(100px, 800px, 40vw);
-  animation: ${fadeIn} 1s ease-out 3.7s forwards 1;
+  animation: ${fadeIn} 1s ease-out 2.7s forwards 1;
   opacity: 0;
 `;
 
-const prompt: SerializedStyles = css`
+const prompt = css`
   position: absolute;
   bottom: 6rem;
   opacity: 0;
   color: white;
-  animation: ${fadeIn} 1s ease-out 4.3s forwards 1;
+  animation: ${fadeIn} 1s ease-out 3.3s forwards 1;
   text-align: center;
   left: 50%;
   translate: -50% 0;
 `;
 
-const madeWithLove: SerializedStyles = css`
+const madeWithLove = css`
   position: absolute;
   bottom: 3rem;
   opacity: 0;

@@ -1,6 +1,6 @@
 import { ElementType } from "react";
 import { TypographyProps } from "./Typography.types";
-import { typographyStyles, sizeStyles } from "./Typography.styles";
+import { typographyStyles, sizeStyles } from "./Typography.styles.ts";
 
 function Typography<E extends ElementType = ElementType>({
   variant = "body",

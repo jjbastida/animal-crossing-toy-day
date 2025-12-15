@@ -1,24 +1,21 @@
-import React, { useEffect, useRef, useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { GameContext } from '../../../context/GameContext';
 import * as styles from './SplashScreen.styles.ts';
 import { ActionText, Typography } from '@components';
 import { MusicContext } from '@context';
 import songData from '@data/acnh_songs.json';
+import soundEffects from '@data/sound_effects.json';
 
 function SplashScreen({ mounted }: { mounted: boolean }): React.ReactNode {
   const { setGamePhase } = useContext(GameContext);
-  const { playTrack } = useContext(MusicContext);
-  const clickSoundRef = useRef<HTMLAudioElement | null>(null);
+  const { playTrack, playSoundEffect } = useContext(MusicContext);
   const animationPlayState = mounted ? {animationPlayState: 'running'} : {animationPlayState: 'paused'}
-  const clickSound = new Audio('/assets/sounds/click.mp3');
-  clickSound.volume = 0.3;
-  clickSoundRef.current = clickSound;
 
   function handleKeyPress(): void {
-    if (clickSoundRef.current) {
-      clickSoundRef.current.play().catch(() => {});
-    }
-    setGamePhase('characterCreation');
+    playSoundEffect(soundEffects['UI_Decide_Title'].audioUrl);
+    setTimeout(() => {
+      setGamePhase('characterCreation');
+    }, 1000);
   }
 
   useEffect(() => {

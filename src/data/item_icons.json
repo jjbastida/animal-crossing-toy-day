@@ -918,5 +918,85 @@
   "miscellaneous-items": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/ff/Paper_Bag_NH_Inv_Icon.png/120px-Paper_Bag_NH_Inv_Icon.png",
     "name": "Miscellaneous items"
+  },
+  "cherry-blossom-petal": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/6/60/Cherry-Blossom_Petal_NH_Inv_Icon.png/120px-Cherry-Blossom_Petal_NH_Inv_Icon.png",
+    "name": "Cherry-Blossom Petal"
+  },
+  "pearl": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Pearl_NH_Inv_Icon.png/120px-Pearl_NH_Inv_Icon.png",
+    "name": "Pearl"
+  },
+  "orange-wrapping-paper": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Orange_Wrapping_Paper_NH_Inv_Icon.png/120px-Orange_Wrapping_Paper_NH_Inv_Icon.png",
+    "name": "Orange Wrapping Paper"
+  },
+  "orange-tea-olive-bush": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/10/Orange-Tea-Olive_Bush_NH_Inv_Icon.png/120px-Orange-Tea-Olive_Bush_NH_Inv_Icon.png",
+    "name": "Orange-Tea-Olive Bush"
+  },
+  "coconut-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d9/Coconut_Tree_NH_Inv_Icon.png/120px-Coconut_Tree_NH_Inv_Icon.png",
+    "name": "Coconut Tree"
+  },
+  "apple-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/02/Apple_Tree_NH_Inv_Icon.png/120px-Apple_Tree_NH_Inv_Icon.png",
+    "name": "Apple Tree"
+  },
+  "cherry-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/8/8d/Cherry_Tree_NH_Inv_Icon.png/120px-Cherry_Tree_NH_Inv_Icon.png",
+    "name": "Cherry Tree"
+  },
+  "orange-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/98/Orange_Tree_NH_Inv_Icon.png/120px-Orange_Tree_NH_Inv_Icon.png",
+    "name": "Orange Tree"
+  },
+  "peach-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/59/Peach_Tree_NH_Inv_Icon.png/120px-Peach_Tree_NH_Inv_Icon.png",
+    "name": "Peach Tree"
+  },
+  "pear-tree": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Pear_Tree_NH_Inv_Icon.png/120px-Pear_Tree_NH_Inv_Icon.png",
+    "name": "Pear Tree"
+  },
+  "orange-flower-bag": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/d/d5/Orange-Flower_Bag_NH_Inv_Icon.png/120px-Orange-Flower_Bag_NH_Inv_Icon.png",
+    "name": "Orange-Flower Bag"
+  },
+  "orange-cosmos-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Orange-Cosmos_Plant_NH_Inv_Icon.png/120px-Orange-Cosmos_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Cosmos Plant"
+  },
+  "orange-hyacinth-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/5e/Orange-Hyacinth_Plant_NH_Inv_Icon.png/120px-Orange-Hyacinth_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Hyacinth Plant"
+  },
+  "orange-lily-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/9a/Orange-Lily_Plant_NH_Inv_Icon.png/120px-Orange-Lily_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Lily Plant"
+  },
+  "orange-pansy-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/b/be/Orange-Pansy_Plant_NH_Inv_Icon.png/120px-Orange-Pansy_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Pansy Plant"
+  },
+  "orange-rose-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/5/56/Orange-Rose_Plant_NH_Inv_Icon.png/120px-Orange-Rose_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Rose Plant"
+  },
+  "orange-tulip-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/3/3f/Orange-Tulip_Plant_NH_Inv_Icon.png/120px-Orange-Tulip_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Tulip Plant"
+  },
+  "orange-windflower-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/9/98/Orange-Windflower_Plant_NH_Inv_Icon.png/120px-Orange-Windflower_Plant_NH_Inv_Icon.png",
+    "name": "Orange-Windflower Plant"
+  },
+  "ripe-orange-pumpkin-plant": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/a/a6/Ripe_Orange-Pumpkin_Plant_NH_Inv_Icon.png/120px-Ripe_Orange-Pumpkin_Plant_NH_Inv_Icon.png",
+    "name": "Ripe Orange-Pumpkin Plant"
+  },
+  "orange-pumpkin": {
+    "imageUrl": "https://dodo.ac/np/images/thumb/1/11/Orange_Pumpkin_NH_Inv_Icon.png/120px-Orange_Pumpkin_NH_Inv_Icon.png",
+    "name": "Orange Pumpkin"
   }
 }

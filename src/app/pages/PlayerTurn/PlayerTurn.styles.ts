@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from '@emotion/react';
 
-export const pageContainer: SerializedStyles = css`
+export const pageContainer = css`
   min-height: 100vh;
   padding: 2rem;
   display: flex;
@@ -10,7 +10,7 @@ export const pageContainer: SerializedStyles = css`
   position: relative;
 `;
 
-export const roundIndicator: SerializedStyles = css`
+export const roundIndicator = css`
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -21,7 +21,7 @@ export const roundIndicator: SerializedStyles = css`
   font-weight: 600;
 `;
 
-export const actionsRemainingIndicator: SerializedStyles = css`
+export const actionsRemainingIndicator = css`
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -33,7 +33,7 @@ export const actionsRemainingIndicator: SerializedStyles = css`
   font-size: 1.1rem;
 `;
 
-export const actionsGrid: SerializedStyles = css`
+export const actionsGrid = css`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -42,7 +42,7 @@ export const actionsGrid: SerializedStyles = css`
   margin-top: 4rem;
 `;
 
-export const actionCard: SerializedStyles = css`
+export const actionCard = css`
   background: white;
   border-radius: 12px;
   padding: 2rem;
@@ -59,14 +59,14 @@ export const actionCard: SerializedStyles = css`
   }
 `;
 
-export const actionTitle: SerializedStyles = css`
+export const actionTitle = css`
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
   color: #333;
 `;
 
-export const actionDescription: SerializedStyles = css`
+export const actionDescription = css`
   font-size: 1rem;
   color: #666;
   text-align: center;
@@ -74,7 +74,7 @@ export const actionDescription: SerializedStyles = css`
   line-height: 1.5;
 `;
 
-export const actionButton: SerializedStyles = css`
+export const actionButton = css`
   padding: 0.75rem 2rem;
   background: #007bff;
   color: white;

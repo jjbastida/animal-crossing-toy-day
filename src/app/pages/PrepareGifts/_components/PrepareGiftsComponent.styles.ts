@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from '@emotion/react';
 
-export const container: SerializedStyles = css`
+export const container = css`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,12 @@ export const container: SerializedStyles = css`
   background: #f9f9f9;
 `;
 
-export const title: SerializedStyles = css`
+export const title = css`
   margin: 0;
   font-size: 1.5rem;
 `;
 
-export const form: SerializedStyles = css`
+export const form = css`
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -24,7 +24,7 @@ export const form: SerializedStyles = css`
   max-width: 300px;
 `;
 
-export const input: SerializedStyles = css`
+export const input = css`
   padding: 0.75rem;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -36,7 +36,7 @@ export const input: SerializedStyles = css`
   }
 `;
 
-export const button: SerializedStyles = css`
+export const button = css`
   padding: 1rem 2rem;
   background: #ffc107;
   color: #333;
@@ -56,7 +56,7 @@ export const button: SerializedStyles = css`
   }
 `;
 
-export const giftsList: SerializedStyles = css`
+export const giftsList = css`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -64,7 +64,7 @@ export const giftsList: SerializedStyles = css`
   max-width: 300px;
 `;
 
-export const giftItem: SerializedStyles = css`
+export const giftItem = css`
   padding: 0.5rem;
   background: white;
   border-radius: 4px;

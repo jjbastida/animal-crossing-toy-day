@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from '@emotion/react';
 
-export const container: SerializedStyles = css`
+export const container = css`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,12 @@ export const container: SerializedStyles = css`
   background: #f9f9f9;
 `;
 
-export const title: SerializedStyles = css`
+export const title = css`
   margin: 0;
   font-size: 1.5rem;
 `;
 
-export const button: SerializedStyles = css`
+export const button = css`
   padding: 1rem 2rem;
   background: #28a745;
   color: white;
@@ -36,7 +36,7 @@ export const button: SerializedStyles = css`
   }
 `;
 
-export const resourceCount: SerializedStyles = css`
+export const resourceCount = css`
   font-size: 1.25rem;
   font-weight: 600;
   color: #333;

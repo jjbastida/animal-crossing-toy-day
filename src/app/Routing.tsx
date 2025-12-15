@@ -10,6 +10,7 @@ import {
   DebugPage,
 } from "@pages";
 import { useContext, useEffect } from "react";
+import songData from '@data/acnh_songs.json';
 
 export function Routing(): React.ReactNode {
   const { gamePhase } = useContext(GameContext);
@@ -22,7 +23,7 @@ export function Routing(): React.ReactNode {
         return;
       case "characterCreation":
         stopTrack();
-        playTrack("/assets/music/character-select.mp3");
+        playTrack(songData['fireworks-show'].audioUrl);
         break;
       case "playerTurn":
         stopTrack();
@@ -50,6 +51,7 @@ export function Routing(): React.ReactNode {
   }, [gamePhase, playTrack, stopTrack]);
 
   if (window.location.hash === '#debug' || window.location.pathname === '/debug') {
+    stopTrack();
     return <DebugPage />;
   }
 

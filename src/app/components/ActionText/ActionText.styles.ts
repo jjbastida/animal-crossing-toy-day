@@ -1,10 +1,7 @@
 import { css, keyframes } from "@emotion/react";
 
 const squishBounce = keyframes`
-  0%, 100%, 30% {
-    transform: scale(1, 1) translateY(0);
-  }
-  20% {
+  0%, 20%, 100%  {
     transform: scale(1, 1) translateY(0);
   }
   25% {

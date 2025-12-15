@@ -1,33 +1,32 @@
 import { createContext, useState, useCallback } from 'react';
-import { GamePlayer, Gift, ShopItem, GamePhase, ActionType } from '../types/general';
+import { Player, ShopItem, GamePhase, ActionType } from '../types/general';
 import { GameContextValue, GameProviderProps } from './GameContext.types';
 
 export const GameContext = createContext<GameContextValue>({
-  player: null,
-  resources: 0,
-  gifts: [],
-  items: [],
+  players: [],
+  setPlayers: () => {},
+  currentPlayer: null,
+  setCurrentPlayer: () => {},
   gamePhase: 'landing',
   currentRound: 1,
   totalRounds: 12,
+  currentAction: null,
+  actionsRemaining: 2,
+  setGamePhase: () => {},
+  setAction: () => {},
+  completePlayerAction: () => {},
+  shopItems: [],
+  setShopItems: () => {}
 });
 
 export function GameProvider({ children, totalRounds = 12 }: GameProviderProps) {
-  const [player, setPlayer] = useState<GamePlayer | null>(null);
-  const [resources, setResources] = useState<number>(0);
-  const [gifts, setGifts] = useState<Gift[]>([]);
-  const [items, setItems] = useState<ShopItem[]>([]);
-  const [gamePhase, setGamePhase] = useState<GamePhase>('landing');
+  const [players, setPlayers] = useState<Player[]>([]);
+  const [gamePhase, setGamePhase] = useState<GamePhase>('characterCreation');
   const [currentRound, setCurrentRound] = useState<number>(1);
   const [currentAction, setCurrentAction] = useState<ActionType>(null);
   const [actionsRemaining, setActionsRemaining] = useState<number>(2);
-
-  const customizeCharacter = useCallback(function(characterData: GamePlayer) {
-    setPlayer(characterData);
-    setCurrentRound(1);
-    setActionsRemaining(2);
-    setGamePhase('playerTurn');
-  }, []);
+  const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
+  const [shopItems, setShopItems] = useState<ShopItem[]>([]);
 
   const completePlayerAction = useCallback(function() {
     setActionsRemaining(prev => {
@@ -49,23 +48,6 @@ export function GameProvider({ children, totalRounds = 12 }: GameProviderProps) 
     });
   }, [currentRound, totalRounds]);
 
-  const gatherResource = useCallback(function() {
-    setResources(prev => prev + 1);
-  }, []);
-
-  const prepareGift = useCallback(function(giftData: Gift) {
-    setGifts(prev => [...prev, giftData]);
-  }, []);
-
-  const shopItem = useCallback(function(itemData: ShopItem): boolean {
-    if (resources >= itemData.cost) {
-      setResources(prev => prev - itemData.cost);
-      setItems(prev => [...prev, itemData]);
-      return true;
-    }
-    return false;
-  }, [resources]);
-
   const setAction = useCallback(function(action: ActionType) {
     setCurrentAction(action);
     if (action) {
@@ -74,19 +56,17 @@ export function GameProvider({ children, totalRounds = 12 }: GameProviderProps) 
   }, []);
 
   const value: GameContextValue = {
-    player,
-    resources,
-    gifts,
-    items,
+    players,
+    setPlayers,
     gamePhase,
     currentRound,
     totalRounds,
     currentAction,
     actionsRemaining,
-    customizeCharacter,
-    gatherResource,
-    prepareGift,
-    shopItem,
+    currentPlayer,
+    setCurrentPlayer,
+    shopItems,
+    setShopItems,
     setGamePhase,
     setAction,
     completePlayerAction

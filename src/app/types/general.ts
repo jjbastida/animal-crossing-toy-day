@@ -19,7 +19,6 @@ export interface Item {
 export interface Fruit {
   id: FruitType;
   name: string;
-  description: string;
   imageURL: string;
 }
 
@@ -30,7 +29,7 @@ export interface Avatar {
 }
 
 export interface Player {
-  id: string;
+  id: number;
   name?: string;
   order?: number;
   avatar?: Avatar;

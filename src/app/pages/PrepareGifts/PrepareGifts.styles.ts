@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from '@emotion/react';
 
-export const pageContainer: SerializedStyles = css`
+export const pageContainer = css`
   min-height: 100vh;
   padding: 2rem;
   display: flex;
@@ -10,7 +10,7 @@ export const pageContainer: SerializedStyles = css`
   position: relative;
 `;
 
-export const roundIndicator: SerializedStyles = css`
+export const roundIndicator = css`
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -21,7 +21,7 @@ export const roundIndicator: SerializedStyles = css`
   font-weight: 600;
 `;
 
-export const actionsRemainingIndicator: SerializedStyles = css`
+export const actionsRemainingIndicator = css`
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -33,7 +33,7 @@ export const actionsRemainingIndicator: SerializedStyles = css`
   font-size: 1.1rem;
 `;
 
-export const completeButton: SerializedStyles = css`
+export const completeButton = css`
   position: absolute;
   bottom: 2rem;
   padding: 0.75rem 2rem;

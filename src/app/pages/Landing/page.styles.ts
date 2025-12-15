@@ -38,7 +38,7 @@ const getPresentContainer = (revealed: boolean) => css`
   align-items: center;
   justify-content: center;
   z-index: 2;
-  background: var(--background-primary);
+  background: var(--white);
   clip-path: ${revealed ? 'circle(0px at 50% 50%)' : 'circle(200vmax at 50% 50%)'};
   transition: clip-path 1.2s cubic-bezier(0.4, 0, 0.2, 1);
   ${revealed && 'pointer-events: none;'}
@@ -82,4 +82,8 @@ const textSubtitle = css`
   color: var(--foreground-secondary);
 `;  
 
-export { landingWrapper, splashLayer, getPresentContainer, presentIcon, presentPulse, textContainer, textSubtitle };
+const textTitle = css`
+  color: var(--black);
+`;
+
+export { landingWrapper, splashLayer, getPresentContainer, presentIcon, presentPulse, textContainer, textSubtitle, textTitle };

@@ -1,22 +1,20 @@
-import { GamePlayer, Gift, ShopItem, GamePhase, ActionType } from '../types/general';
+import { GamePhase, ActionType, Player, ShopItem } from '../types/general';
 
 export interface GameContextValue {
-  player: GamePlayer | null;
-  resources: number;
-  gifts: Gift[];
-  items: ShopItem[];
+  players: Player[];
+  setPlayers: (players: Player[] | ((prev: Player[]) => Player[])) => void;
+  currentPlayer: Player | null;
+  setCurrentPlayer: (player: Player | null | ((prev: Player | null) => Player | null)) => void;
   gamePhase: GamePhase;
   currentRound: number;
   totalRounds: number;
   currentAction: ActionType;
   actionsRemaining: number;
-  customizeCharacter: (characterData: GamePlayer) => void;
-  gatherResource: () => void;
-  prepareGift: (giftData: Gift) => void;
-  shopItem: (itemData: ShopItem) => boolean;
   setGamePhase: (phase: GamePhase) => void;
   setAction: (action: ActionType) => void;
   completePlayerAction: () => void;
+  shopItems: ShopItem[];
+  setShopItems: (shopItems: ShopItem[]) => void;
 }
 
 export interface GameProviderProps {

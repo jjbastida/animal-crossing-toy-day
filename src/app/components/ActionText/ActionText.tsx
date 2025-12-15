@@ -1,5 +1,5 @@
 import { ActionTextProps } from "./ActionText.types";
-import { createCharStyle } from "./ActionText.styles";
+import { createCharStyle } from "./ActionText.styles.ts";
 
 function ActionText({ children, speed = 1, ...rest }: ActionTextProps) {
   const text = String(children);

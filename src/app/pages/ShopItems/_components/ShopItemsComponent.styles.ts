@@ -1,6 +1,6 @@
 import { css, SerializedStyles } from '@emotion/react';
 
-export const container: SerializedStyles = css`
+export const container = css`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,18 +11,18 @@ export const container: SerializedStyles = css`
   background: #f9f9f9;
 `;
 
-export const title: SerializedStyles = css`
+export const title = css`
   margin: 0;
   font-size: 1.5rem;
 `;
 
-export const resourceCount: SerializedStyles = css`
+export const resourceCount = css`
   font-size: 1.25rem;
   font-weight: 600;
   color: #333;
 `;
 
-export const itemsGrid: SerializedStyles = css`
+export const itemsGrid = css`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
@@ -30,7 +30,7 @@ export const itemsGrid: SerializedStyles = css`
   max-width: 500px;
 `;
 
-export const itemCard: SerializedStyles = css`
+export const itemCard = css`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -40,16 +40,16 @@ export const itemCard: SerializedStyles = css`
   border: 2px solid #ddd;
 `;
 
-export const itemName: SerializedStyles = css`
+export const itemName = css`
   font-weight: 600;
 `;
 
-export const itemCost: SerializedStyles = css`
+export const itemCost = css`
   color: #666;
   font-size: 0.9rem;
 `;
 
-export const getButtonStyle = (disabled: boolean): SerializedStyles => css`
+export const getButtonStyle = (disabled: boolean) => css`
   padding: 0.75rem 1.5rem;
   background: ${disabled ? '#ccc' : '#dc3545'};
   color: white;
@@ -69,13 +69,13 @@ export const getButtonStyle = (disabled: boolean): SerializedStyles => css`
   }
 `;
 
-export const titleSmall: SerializedStyles = css`
+export const titleSmall = css`
   margin: 0;
   font-size: 1.25rem;
   margin-top: 1rem;
 `;
 
-export const itemsList: SerializedStyles = css`
+export const itemsList = css`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -83,7 +83,7 @@ export const itemsList: SerializedStyles = css`
   max-width: 300px;
 `;
 
-export const item: SerializedStyles = css`
+export const item = css`
   padding: 0.5rem;
   background: white;
   border-radius: 4px;

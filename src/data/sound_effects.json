@@ -1,0 +1,986 @@
+{
+  "Event_Count_1": {
+    "audioUrl": "/assets/sounds/Event_Count_1.wav"
+  },
+  "Event_Count_2": {
+    "audioUrl": "/assets/sounds/Event_Count_2.wav"
+  },
+  "Event_Count_3": {
+    "audioUrl": "/assets/sounds/Event_Count_3.wav"
+  },
+  "Event_Count_Finish": {
+    "audioUrl": "/assets/sounds/Event_Count_Finish.wav"
+  },
+  "Event_Harvest_Bell00": {
+    "audioUrl": "/assets/sounds/Event_Harvest_Bell00.wav"
+  },
+  "Event_Quest_Finish": {
+    "audioUrl": "/assets/sounds/Event_Quest_Finish.wav"
+  },
+  "Event_Quest_Start": {
+    "audioUrl": "/assets/sounds/Event_Quest_Start.wav"
+  },
+  "Event_Ranger": {
+    "audioUrl": "/assets/sounds/Event_Ranger.wav"
+  },
+  "Event_TsunekichiChance00": {
+    "audioUrl": "/assets/sounds/Event_TsunekichiChance00.wav"
+  },
+  "System_Camera_Move_Zoom_In_FirstPerson": {
+    "audioUrl": "/assets/sounds/System_Camera_Move_Zoom_In_FirstPerson.wav"
+  },
+  "System_Camera_Move_Zoom_In": {
+    "audioUrl": "/assets/sounds/System_Camera_Move_Zoom_In.wav"
+  },
+  "System_Camera_Move_Zoom_Out_Tripot": {
+    "audioUrl": "/assets/sounds/System_Camera_Move_Zoom_Out_Tripot.wav"
+  },
+  "System_Camera_Move_Zoom_Out": {
+    "audioUrl": "/assets/sounds/System_Camera_Move_Zoom_Out.wav"
+  },
+  "System_Chara_Attention_Off": {
+    "audioUrl": "/assets/sounds/System_Chara_Attention_Off.wav"
+  },
+  "System_Chara_Attention_On": {
+    "audioUrl": "/assets/sounds/System_Chara_Attention_On.wav"
+  },
+  "System_Lumi_01": {
+    "audioUrl": "/assets/sounds/System_Lumi_01.wav"
+  },
+  "System_Lumi_02": {
+    "audioUrl": "/assets/sounds/System_Lumi_02.wav"
+  },
+  "System_Lumi_03": {
+    "audioUrl": "/assets/sounds/System_Lumi_03.wav"
+  },
+  "System_Lumi_04": {
+    "audioUrl": "/assets/sounds/System_Lumi_04.wav"
+  },
+  "System_Message_Katsu": {
+    "audioUrl": "/assets/sounds/System_Message_Katsu.wav"
+  },
+  "System_Message_PlaneAnnounceOff": {
+    "audioUrl": "/assets/sounds/System_Message_PlaneAnnounceOff.wav"
+  },
+  "System_Message_PlaneAnnounceOn": {
+    "audioUrl": "/assets/sounds/System_Message_PlaneAnnounceOn.wav"
+  },
+  "System_SurveyCamera_Off": {
+    "audioUrl": "/assets/sounds/System_SurveyCamera_Off.wav"
+  },
+  "System_SurveyCamera_On": {
+    "audioUrl": "/assets/sounds/System_SurveyCamera_On.wav"
+  },
+  "System_Timer_CountDown": {
+    "audioUrl": "/assets/sounds/System_Timer_CountDown.wav"
+  },
+  "System_Timer_Finish_Event": {
+    "audioUrl": "/assets/sounds/System_Timer_Finish_Event.wav"
+  },
+  "System_Timer_Finish": {
+    "audioUrl": "/assets/sounds/System_Timer_Finish.wav"
+  },
+  "System_Timer_Start_Event": {
+    "audioUrl": "/assets/sounds/System_Timer_Start_Event.wav"
+  },
+  "System_Timer_Start": {
+    "audioUrl": "/assets/sounds/System_Timer_Start.wav"
+  },
+  "UI_AirportPanel_Lamp_1": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Lamp_1.wav"
+  },
+  "UI_AirportPanel_Lamp_2": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Lamp_2.wav"
+  },
+  "UI_AirportPanel_Lamp_3": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Lamp_3.wav"
+  },
+  "UI_AirportPanel_Lamp_4": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Lamp_4.wav"
+  },
+  "UI_AirportPanel_Lamp_5": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Lamp_5.wav"
+  },
+  "UI_AirportPanel_Large_1": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Large_1.wav"
+  },
+  "UI_AirportPanel_Large_2": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Large_2.wav"
+  },
+  "UI_AirportPanel_Small": {
+    "audioUrl": "/assets/sounds/UI_AirportPanel_Small.wav"
+  },
+  "UI_AlbumSubmit_Finish": {
+    "audioUrl": "/assets/sounds/UI_AlbumSubmit_Finish.wav"
+  },
+  "UI_AlbumSubmit_Out": {
+    "audioUrl": "/assets/sounds/UI_AlbumSubmit_Out.wav"
+  },
+  "UI_Amiibo_Success": {
+    "audioUrl": "/assets/sounds/UI_Amiibo_Success.wav"
+  },
+  "UI_Amiibo_Wait": {
+    "audioUrl": "/assets/sounds/UI_Amiibo_Wait.wav"
+  },
+  "UI_Announce_New_Friend": {
+    "audioUrl": "/assets/sounds/UI_Announce_New_Friend.wav"
+  },
+  "UI_Announce_New": {
+    "audioUrl": "/assets/sounds/UI_Announce_New.wav"
+  },
+  "UI_AppWipe_In": {
+    "audioUrl": "/assets/sounds/UI_AppWipe_In.wav"
+  },
+  "UI_Attention": {
+    "audioUrl": "/assets/sounds/UI_Attention.wav"
+  },
+  "UI_Board_Update": {
+    "audioUrl": "/assets/sounds/UI_Board_Update.wav"
+  },
+  "UI_Camera_Zoom": {
+    "audioUrl": "/assets/sounds/UI_Camera_Zoom.wav"
+  },
+  "UI_Cancel": {
+    "audioUrl": "/assets/sounds/UI_Cancel.wav"
+  },
+  "UI_Cast_NpcChange": {
+    "audioUrl": "/assets/sounds/UI_Cast_NpcChange.wav"
+  },
+  "UI_Check_Small": {
+    "audioUrl": "/assets/sounds/UI_Check_Small.wav"
+  },
+  "UI_Check": {
+    "audioUrl": "/assets/sounds/UI_Check.wav"
+  },
+  "UI_Closet_In": {
+    "audioUrl": "/assets/sounds/UI_Closet_In.wav"
+  },
+  "UI_Cmn_Close_Short": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Close_Short.wav"
+  },
+  "UI_Cmn_Close": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Close.wav"
+  },
+  "UI_Cmn_Open_Short": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Open_Short.wav"
+  },
+  "UI_Cmn_Open_Small_Short": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Open_Small_Short.wav"
+  },
+  "UI_Cmn_Open_Small": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Open_Small.wav"
+  },
+  "UI_Cmn_Open": {
+    "audioUrl": "/assets/sounds/UI_Cmn_Open.wav"
+  },
+  "UI_Code_Finish": {
+    "audioUrl": "/assets/sounds/UI_Code_Finish.wav"
+  },
+  "UI_ConstructionPortfolio_Upload": {
+    "audioUrl": "/assets/sounds/UI_ConstructionPortfolio_Upload.wav"
+  },
+  "UI_Copy": {
+    "audioUrl": "/assets/sounds/UI_Copy.wav"
+  },
+  "UI_Count_Coin_Finish": {
+    "audioUrl": "/assets/sounds/UI_Count_Coin_Finish.wav"
+  },
+  "UI_Count_Coin_Reapeat_1": {
+    "audioUrl": "/assets/sounds/UI_Count_Coin_Reapeat_1.wav"
+  },
+  "UI_Count_Coin_Reapeat_2": {
+    "audioUrl": "/assets/sounds/UI_Count_Coin_Reapeat_2.wav"
+  },
+  "UI_Count_MealEffect_01": {
+    "audioUrl": "/assets/sounds/UI_Count_MealEffect_01.wav"
+  },
+  "UI_Count_MealEffect_02": {
+    "audioUrl": "/assets/sounds/UI_Count_MealEffect_02.wav"
+  },
+  "UI_Count_Mile_Finish": {
+    "audioUrl": "/assets/sounds/UI_Count_Mile_Finish.wav"
+  },
+  "UI_Count_Mile_Repeat_01": {
+    "audioUrl": "/assets/sounds/UI_Count_Mile_Repeat_01.wav"
+  },
+  "UI_Count_Mile_Repeat_02": {
+    "audioUrl": "/assets/sounds/UI_Count_Mile_Repeat_02.wav"
+  },
+  "UI_Count_Poki_Finish": {
+    "audioUrl": "/assets/sounds/UI_Count_Poki_Finish.wav"
+  },
+  "UI_Count_Poki_Repeat_01": {
+    "audioUrl": "/assets/sounds/UI_Count_Poki_Repeat_01.wav"
+  },
+  "UI_Count_Poki_Repeat_02": {
+    "audioUrl": "/assets/sounds/UI_Count_Poki_Repeat_02.wav"
+  },
+  "UI_CountDown": {
+    "audioUrl": "/assets/sounds/UI_CountDown.wav"
+  },
+  "UI_CountUp": {
+    "audioUrl": "/assets/sounds/UI_CountUp.wav"
+  },
+  "UI_Decide_Erase": {
+    "audioUrl": "/assets/sounds/UI_Decide_Erase.wav"
+  },
+  "UI_Decide_Small_Echo": {
+    "audioUrl": "/assets/sounds/UI_Decide_Small_Echo.wav"
+  },
+  "UI_Decide_Small": {
+    "audioUrl": "/assets/sounds/UI_Decide_Small.wav"
+  },
+  "UI_Decide_Sub": {
+    "audioUrl": "/assets/sounds/UI_Decide_Sub.wav"
+  },
+  "UI_Decide_Title": {
+    "audioUrl": "/assets/sounds/UI_Decide_Title.wav"
+  },
+  "UI_Decide": {
+    "audioUrl": "/assets/sounds/UI_Decide.wav"
+  },
+  "UI_Delete_Small": {
+    "audioUrl": "/assets/sounds/UI_Delete_Small.wav"
+  },
+  "UI_Disable": {
+    "audioUrl": "/assets/sounds/UI_Disable.wav"
+  },
+  "UI_DragEnd_Money": {
+    "audioUrl": "/assets/sounds/UI_DragEnd_Money.wav"
+  },
+  "UI_DragEnd": {
+    "audioUrl": "/assets/sounds/UI_DragEnd.wav"
+  },
+  "UI_DragStart": {
+    "audioUrl": "/assets/sounds/UI_DragStart.wav"
+  },
+  "UI_EquipIn": {
+    "audioUrl": "/assets/sounds/UI_EquipIn.wav"
+  },
+  "UI_EquipOut": {
+    "audioUrl": "/assets/sounds/UI_EquipOut.wav"
+  },
+  "UI_Erase_TouchOn": {
+    "audioUrl": "/assets/sounds/UI_Erase_TouchOn.wav"
+  },
+  "UI_Eraser": {
+    "audioUrl": "/assets/sounds/UI_Eraser.wav"
+  },
+  "UI_Facility_ThemeStart_In": {
+    "audioUrl": "/assets/sounds/UI_Facility_ThemeStart_In.wav"
+  },
+  "UI_Guide_In": {
+    "audioUrl": "/assets/sounds/UI_Guide_In.wav"
+  },
+  "UI_HeartWipeIn00": {
+    "audioUrl": "/assets/sounds/UI_HeartWipeIn00.wav"
+  },
+  "UI_HeartWipeOut00": {
+    "audioUrl": "/assets/sounds/UI_HeartWipeOut00.wav"
+  },
+  "UI_HighAndLow_Card_1": {
+    "audioUrl": "/assets/sounds/UI_HighAndLow_Card_1.wav"
+  },
+  "UI_HighAndLow_Card_2": {
+    "audioUrl": "/assets/sounds/UI_HighAndLow_Card_2.wav"
+  },
+  "UI_Interior_Camera": {
+    "audioUrl": "/assets/sounds/UI_Interior_Camera.wav"
+  },
+  "UI_Interior_ChangeMode": {
+    "audioUrl": "/assets/sounds/UI_Interior_ChangeMode.wav"
+  },
+  "UI_Interior_Cursor_Area": {
+    "audioUrl": "/assets/sounds/UI_Interior_Cursor_Area.wav"
+  },
+  "UI_Interior_Cursor": {
+    "audioUrl": "/assets/sounds/UI_Interior_Cursor.wav"
+  },
+  "UI_Interior_Focus": {
+    "audioUrl": "/assets/sounds/UI_Interior_Focus.wav"
+  },
+  "UI_Interior_Move": {
+    "audioUrl": "/assets/sounds/UI_Interior_Move.wav"
+  },
+  "UI_Interior_MultiSelect_Off": {
+    "audioUrl": "/assets/sounds/UI_Interior_MultiSelect_Off.wav"
+  },
+  "UI_Interior_MultiSelect_On": {
+    "audioUrl": "/assets/sounds/UI_Interior_MultiSelect_On.wav"
+  },
+  "UI_Interior_Rotate_45": {
+    "audioUrl": "/assets/sounds/UI_Interior_Rotate_45.wav"
+  },
+  "UI_Interior_Rotate_90": {
+    "audioUrl": "/assets/sounds/UI_Interior_Rotate_90.wav"
+  },
+  "UI_Interior_Rotate_180": {
+    "audioUrl": "/assets/sounds/UI_Interior_Rotate_180.wav"
+  },
+  "UI_Interior_Wipe_Off": {
+    "audioUrl": "/assets/sounds/UI_Interior_Wipe_Off.wav"
+  },
+  "UI_Interior_Wipe_On": {
+    "audioUrl": "/assets/sounds/UI_Interior_Wipe_On.wav"
+  },
+  "UI_InteriorStudio_Wipe_Off": {
+    "audioUrl": "/assets/sounds/UI_InteriorStudio_Wipe_Off.wav"
+  },
+  "UI_InteriorStudio_Wipe_On": {
+    "audioUrl": "/assets/sounds/UI_InteriorStudio_Wipe_On.wav"
+  },
+  "UI_Invalid": {
+    "audioUrl": "/assets/sounds/UI_Invalid.wav"
+  },
+  "UI_Keyboard_In": {
+    "audioUrl": "/assets/sounds/UI_Keyboard_In.wav"
+  },
+  "UI_Keyboard_Out": {
+    "audioUrl": "/assets/sounds/UI_Keyboard_Out.wav"
+  },
+  "UI_LifeSupport_Swap": {
+    "audioUrl": "/assets/sounds/UI_LifeSupport_Swap.wav"
+  },
+  "UI_MealEffect_Down": {
+    "audioUrl": "/assets/sounds/UI_MealEffect_Down.wav"
+  },
+  "UI_MealEffect_Up": {
+    "audioUrl": "/assets/sounds/UI_MealEffect_Up.wav"
+  },
+  "UI_MenuPointTopBar_In": {
+    "audioUrl": "/assets/sounds/UI_MenuPointTopBar_In.wav"
+  },
+  "UI_MessageCard_PresentOn": {
+    "audioUrl": "/assets/sounds/UI_MessageCard_PresentOn.wav"
+  },
+  "UI_MessageWindow_Open": {
+    "audioUrl": "/assets/sounds/UI_MessageWindow_Open.wav"
+  },
+  "UI_MinigameCounter_Attack": {
+    "audioUrl": "/assets/sounds/UI_MinigameCounter_Attack.wav"
+  },
+  "UI_MinigameCounter_Count": {
+    "audioUrl": "/assets/sounds/UI_MinigameCounter_Count.wav"
+  },
+  "UI_MyDesign_Delete": {
+    "audioUrl": "/assets/sounds/UI_MyDesign_Delete.wav"
+  },
+  "UI_MyDesignEdit_ColorBar_Slide": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_ColorBar_Slide.wav"
+  },
+  "UI_MyDesignEdit_Finish": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Finish.wav"
+  },
+  "UI_MyDesignEdit_Move": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Move.wav"
+  },
+  "UI_MyDesignEdit_MovePen": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_MovePen.wav"
+  },
+  "UI_MyDesignEdit_Paint_All": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Paint_All.wav"
+  },
+  "UI_MyDesignEdit_Paint": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Paint.wav"
+  },
+  "UI_MyDesignEdit_Pen_Soft": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Pen_Soft.wav"
+  },
+  "UI_MyDesignEdit_Pen": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Pen.wav"
+  },
+  "UI_MyDesignEdit_Spoit_Off": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Spoit_Off.wav"
+  },
+  "UI_MyDesignEdit_Spoit_On": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Spoit_On.wav"
+  },
+  "UI_MyDesignEdit_Spoit": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Spoit.wav"
+  },
+  "UI_MyDesignEdit_Stamp": {
+    "audioUrl": "/assets/sounds/UI_MyDesignEdit_Stamp.wav"
+  },
+  "UI_OrderList_In": {
+    "audioUrl": "/assets/sounds/UI_OrderList_In.wav"
+  },
+  "UI_OrderList_ItemIn": {
+    "audioUrl": "/assets/sounds/UI_OrderList_ItemIn.wav"
+  },
+  "UI_Page_Back": {
+    "audioUrl": "/assets/sounds/UI_Page_Back.wav"
+  },
+  "UI_Page_Next": {
+    "audioUrl": "/assets/sounds/UI_Page_Next.wav"
+  },
+  "UI_Pair_Finish": {
+    "audioUrl": "/assets/sounds/UI_Pair_Finish.wav"
+  },
+  "UI_Paper_In": {
+    "audioUrl": "/assets/sounds/UI_Paper_In.wav"
+  },
+  "UI_Paper_Slide": {
+    "audioUrl": "/assets/sounds/UI_Paper_Slide.wav"
+  },
+  "UI_Pen_L_TouchOn": {
+    "audioUrl": "/assets/sounds/UI_Pen_L_TouchOn.wav"
+  },
+  "UI_Pen_L": {
+    "audioUrl": "/assets/sounds/UI_Pen_L.wav"
+  },
+  "UI_Pen_M_TouchOn": {
+    "audioUrl": "/assets/sounds/UI_Pen_M_TouchOn.wav"
+  },
+  "UI_Pen_M": {
+    "audioUrl": "/assets/sounds/UI_Pen_M.wav"
+  },
+  "UI_Pen_S_TouchOn": {
+    "audioUrl": "/assets/sounds/UI_Pen_S_TouchOn.wav"
+  },
+  "UI_Pen_S": {
+    "audioUrl": "/assets/sounds/UI_Pen_S.wav"
+  },
+  "UI_Phone_Close": {
+    "audioUrl": "/assets/sounds/UI_Phone_Close.wav"
+  },
+  "UI_Phone_Install": {
+    "audioUrl": "/assets/sounds/UI_Phone_Install.wav"
+  },
+  "UI_Phone_InstallFinish_1": {
+    "audioUrl": "/assets/sounds/UI_Phone_InstallFinish_1.wav"
+  },
+  "UI_Phone_InstallFinish_2": {
+    "audioUrl": "/assets/sounds/UI_Phone_InstallFinish_2.wav"
+  },
+  "UI_Phone_Open": {
+    "audioUrl": "/assets/sounds/UI_Phone_Open.wav"
+  },
+  "UI_Phone_Start_1": {
+    "audioUrl": "/assets/sounds/UI_Phone_Start_1.wav"
+  },
+  "UI_Phone_Start_2": {
+    "audioUrl": "/assets/sounds/UI_Phone_Start_2.wav"
+  },
+  "UI_Phone_Start_3": {
+    "audioUrl": "/assets/sounds/UI_Phone_Start_3.wav"
+  },
+  "UI_Phone_Start_4": {
+    "audioUrl": "/assets/sounds/UI_Phone_Start_4.wav"
+  },
+  "UI_Phone_Start_5": {
+    "audioUrl": "/assets/sounds/UI_Phone_Start_5.wav"
+  },
+  "UI_PocketMenu_Close": {
+    "audioUrl": "/assets/sounds/UI_PocketMenu_Close.wav"
+  },
+  "UI_PocketMenu_Open": {
+    "audioUrl": "/assets/sounds/UI_PocketMenu_Open.wav"
+  },
+  "UI_Point_Flag": {
+    "audioUrl": "/assets/sounds/UI_Point_Flag.wav"
+  },
+  "UI_Point_Footstep": {
+    "audioUrl": "/assets/sounds/UI_Point_Footstep.wav"
+  },
+  "UI_Point_Get": {
+    "audioUrl": "/assets/sounds/UI_Point_Get.wav"
+  },
+  "UI_Point_Stamp": {
+    "audioUrl": "/assets/sounds/UI_Point_Stamp.wav"
+  },
+  "UI_Post_Delete": {
+    "audioUrl": "/assets/sounds/UI_Post_Delete.wav"
+  },
+  "UI_Post_MovePresent": {
+    "audioUrl": "/assets/sounds/UI_Post_MovePresent.wav"
+  },
+  "UI_Redo": {
+    "audioUrl": "/assets/sounds/UI_Redo.wav"
+  },
+  "UI_Return_SinglePlay": {
+    "audioUrl": "/assets/sounds/UI_Return_SinglePlay.wav"
+  },
+  "UI_Return_Title": {
+    "audioUrl": "/assets/sounds/UI_Return_Title.wav"
+  },
+  "UI_RingMenu_Close": {
+    "audioUrl": "/assets/sounds/UI_RingMenu_Close.wav"
+  },
+  "UI_RingMenu_Code_Open": {
+    "audioUrl": "/assets/sounds/UI_RingMenu_Code_Open.wav"
+  },
+  "UI_RingMenu_Open": {
+    "audioUrl": "/assets/sounds/UI_RingMenu_Open.wav"
+  },
+  "UI_RingMenu_Registration": {
+    "audioUrl": "/assets/sounds/UI_RingMenu_Registration.wav"
+  },
+  "UI_Scroll_Fast": {
+    "audioUrl": "/assets/sounds/UI_Scroll_Fast.wav"
+  },
+  "UI_Scroll": {
+    "audioUrl": "/assets/sounds/UI_Scroll.wav"
+  },
+  "UI_Select_Short": {
+    "audioUrl": "/assets/sounds/UI_Select_Short.wav"
+  },
+  "UI_Select": {
+    "audioUrl": "/assets/sounds/UI_Select.wav"
+  },
+  "UI_Shutter": {
+    "audioUrl": "/assets/sounds/UI_Shutter.wav"
+  },
+  "UI_Storage_In": {
+    "audioUrl": "/assets/sounds/UI_Storage_In.wav"
+  },
+  "UI_SurveyCamera_Move": {
+    "audioUrl": "/assets/sounds/UI_SurveyCamera_Move.wav"
+  },
+  "UI_Swkbd_BackSpace": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_BackSpace.wav"
+  },
+  "UI_Swkbd_BalloonAppear": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_BalloonAppear.wav"
+  },
+  "UI_Swkbd_Cursor_L": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Cursor_L.wav"
+  },
+  "UI_Swkbd_Cursor_R": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Cursor_R.wav"
+  },
+  "UI_Swkbd_Enter": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Enter.wav"
+  },
+  "UI_Swkbd_Invalid": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Invalid.wav"
+  },
+  "UI_Swkbd_Limit": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Limit.wav"
+  },
+  "UI_Swkbd_Normal": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Normal.wav"
+  },
+  "UI_Swkbd_Select": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Select.wav"
+  },
+  "UI_Swkbd_Space": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Space.wav"
+  },
+  "UI_Swkbd_Sub": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Sub.wav"
+  },
+  "UI_Swkbd_Toggle_Off": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Toggle_Off.wav"
+  },
+  "UI_Swkbd_Toggle_On": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Toggle_On.wav"
+  },
+  "UI_Swkbd_Unselect": {
+    "audioUrl": "/assets/sounds/UI_Swkbd_Unselect.wav"
+  },
+  "UI_Tab_L": {
+    "audioUrl": "/assets/sounds/UI_Tab_L.wav"
+  },
+  "UI_Tab_Limit": {
+    "audioUrl": "/assets/sounds/UI_Tab_Limit.wav"
+  },
+  "UI_Tab_R": {
+    "audioUrl": "/assets/sounds/UI_Tab_R.wav"
+  },
+  "UI_Telop_Network": {
+    "audioUrl": "/assets/sounds/UI_Telop_Network.wav"
+  },
+  "UI_ThemeStart_In": {
+    "audioUrl": "/assets/sounds/UI_ThemeStart_In.wav"
+  },
+  "UI_Undo": {
+    "audioUrl": "/assets/sounds/UI_Undo.wav"
+  },
+  "UI_Wait": {
+    "audioUrl": "/assets/sounds/UI_Wait.wav"
+  },
+  "UI_WhereanMap_In": {
+    "audioUrl": "/assets/sounds/UI_WhereanMap_In.wav"
+  },
+  "UI_WhereanMap_Out": {
+    "audioUrl": "/assets/sounds/UI_WhereanMap_Out.wav"
+  },
+  "UI_WipeRemake_In": {
+    "audioUrl": "/assets/sounds/UI_WipeRemake_In.wav"
+  },
+  "UI_WipeStudy_OutputOut": {
+    "audioUrl": "/assets/sounds/UI_WipeStudy_OutputOut.wav"
+  },
+  "UI_WipeToIdrDream": {
+    "audioUrl": "/assets/sounds/UI_WipeToIdrDream.wav"
+  },
+  "UI_WorkBench_Open": {
+    "audioUrl": "/assets/sounds/UI_WorkBench_Open.wav"
+  },
+  "UI_Wrapping_Open_Appear": {
+    "audioUrl": "/assets/sounds/UI_Wrapping_Open_Appear.wav"
+  },
+  "UI_Wrapping_Open_Basic": {
+    "audioUrl": "/assets/sounds/UI_Wrapping_Open_Basic.wav"
+  },
+  "UI_Wrapping_Wrap_Basic": {
+    "audioUrl": "/assets/sounds/UI_Wrapping_Wrap_Basic.wav"
+  },
+  "WhereanAmiibo_Off": {
+    "audioUrl": "/assets/sounds/WhereanAmiibo_Off.wav"
+  },
+  "WhereanAmiibo_On": {
+    "audioUrl": "/assets/sounds/WhereanAmiibo_On.wav"
+  },
+  "Demo_AirportAnnounce": {
+    "audioUrl": "/assets/sounds/Demo_AirportAnnounce.wav"
+  },
+  "Demo_Berurina_DanceFinish_B_mono": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceFinish_B_mono.wav"
+  },
+  "Demo_Berurina_DanceFinish_B": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceFinish_B.wav"
+  },
+  "Demo_Berurina_DanceFinish_C": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceFinish_C.wav"
+  },
+  "Demo_Berurina_DanceFinish_Stereo": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceFinish_Stereo.wav"
+  },
+  "Demo_Berurina_DanceLoop_A": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceLoop_A.wav"
+  },
+  "Demo_Berurina_DanceLoop_B": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_DanceLoop_B.wav"
+  },
+  "Demo_Berurina_Intro_Twice": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_Intro_Twice.wav"
+  },
+  "Demo_Berurina_Rainbow_Finish": {
+    "audioUrl": "/assets/sounds/Demo_Berurina_Rainbow_Finish.wav"
+  },
+  "Demo_Boat_Start": {
+    "audioUrl": "/assets/sounds/Demo_Boat_Start.wav"
+  },
+  "Demo_Boat_Stop_Return": {
+    "audioUrl": "/assets/sounds/Demo_Boat_Stop_Return.wav"
+  },
+  "Demo_Boat_Stop_Way": {
+    "audioUrl": "/assets/sounds/Demo_Boat_Stop_Way.wav"
+  },
+  "Demo_Cafe_AfterDrink_Coffee": {
+    "audioUrl": "/assets/sounds/Demo_Cafe_AfterDrink_Coffee.wav"
+  },
+  "Demo_Cafe_AfterDrink_Water": {
+    "audioUrl": "/assets/sounds/Demo_Cafe_AfterDrink_Water.wav"
+  },
+  "Demo_Campfire_Cheers": {
+    "audioUrl": "/assets/sounds/Demo_Campfire_Cheers.wav"
+  },
+  "Demo_CleanFinish": {
+    "audioUrl": "/assets/sounds/Demo_CleanFinish.wav"
+  },
+  "Demo_Complete_Edit": {
+    "audioUrl": "/assets/sounds/Demo_Complete_Edit.wav"
+  },
+  "Demo_Cooking_Back": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_Back.wav"
+  },
+  "Demo_Cooking_CuttingVegetable": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_CuttingVegetable.wav"
+  },
+  "Demo_Cooking_Expect": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_Expect.wav"
+  },
+  "Demo_Cooking_Fryingpan": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_Fryingpan.wav"
+  },
+  "Demo_Cooking_ScatterringSalt": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_ScatterringSalt.wav"
+  },
+  "Demo_Cooking_Start": {
+    "audioUrl": "/assets/sounds/Demo_Cooking_Start.wav"
+  },
+  "Demo_Cut_CathrineCutting": {
+    "audioUrl": "/assets/sounds/Demo_Cut_CathrineCutting.wav"
+  },
+  "Demo_Cut_FinishCutting": {
+    "audioUrl": "/assets/sounds/Demo_Cut_FinishCutting.wav"
+  },
+  "Demo_Edit_Finish_Facility": {
+    "audioUrl": "/assets/sounds/Demo_Edit_Finish_Facility.wav"
+  },
+  "Demo_Edit_Finish_NpcHouse": {
+    "audioUrl": "/assets/sounds/Demo_Edit_Finish_NpcHouse.wav"
+  },
+  "Demo_Fortune_EndFlash": {
+    "audioUrl": "/assets/sounds/Demo_Fortune_EndFlash.wav"
+  },
+  "Demo_Fortune_StartDarkness": {
+    "audioUrl": "/assets/sounds/Demo_Fortune_StartDarkness.wav"
+  },
+  "Demo_Fortune_StrongFlash": {
+    "audioUrl": "/assets/sounds/Demo_Fortune_StrongFlash.wav"
+  },
+  "Demo_GoToAmiiboPhone": {
+    "audioUrl": "/assets/sounds/Demo_GoToAmiiboPhone.wav"
+  },
+  "Demo_Manpu_Update_RequestOkay": {
+    "audioUrl": "/assets/sounds/Demo_Manpu_Update_RequestOkay.wav"
+  },
+  "Demo_Oshigoto_Wipe": {
+    "audioUrl": "/assets/sounds/Demo_Oshigoto_Wipe.wav"
+  },
+  "Demo_Plane_Flight": {
+    "audioUrl": "/assets/sounds/Demo_Plane_Flight.wav"
+  },
+  "Demo_Plane_Inside": {
+    "audioUrl": "/assets/sounds/Demo_Plane_Inside.wav"
+  },
+  "Demo_Plane_Landing": {
+    "audioUrl": "/assets/sounds/Demo_Plane_Landing.wav"
+  },
+  "Demo_Plane_TakeOff_Short": {
+    "audioUrl": "/assets/sounds/Demo_Plane_TakeOff_Short.wav"
+  },
+  "Demo_Prologue_IntoDream": {
+    "audioUrl": "/assets/sounds/Demo_Prologue_IntoDream.wav"
+  },
+  "Demo_ResortPlanner_Door": {
+    "audioUrl": "/assets/sounds/Demo_ResortPlanner_Door.wav"
+  },
+  "Demo_ReturnFromAmiiboPhone": {
+    "audioUrl": "/assets/sounds/Demo_ReturnFromAmiiboPhone.wav"
+  },
+  "Demo_SchoolChimeStart00": {
+    "audioUrl": "/assets/sounds/Demo_SchoolChimeStart00.wav"
+  },
+  "Demo_WherearenFade_Boat00": {
+    "audioUrl": "/assets/sounds/Demo_WherearenFade_Boat00.wav"
+  },
+  "Demo_WorkBench_Making_Back": {
+    "audioUrl": "/assets/sounds/Demo_WorkBench_Making_Back.wav"
+  },
+  "Env_Seagull": {
+    "audioUrl": "/assets/sounds/Env_Seagull.wav"
+  },
+  "Event_Cafe_Wait_AmiiboCalling": {
+    "audioUrl": "/assets/sounds/Event_Cafe_Wait_AmiiboCalling.wav"
+  },
+  "Idr_CandleWall_Off00": {
+    "audioUrl": "/assets/sounds/Idr_CandleWall_Off00.wav"
+  },
+  "Idr_CandleWall_On00": {
+    "audioUrl": "/assets/sounds/Idr_CandleWall_On00.wav"
+  },
+  "Idr_ChangeFloor": {
+    "audioUrl": "/assets/sounds/Idr_ChangeFloor.wav"
+  },
+  "Idr_ChangeWall": {
+    "audioUrl": "/assets/sounds/Idr_ChangeWall.wav"
+  },
+  "Idr_MagicFloorLoop00": {
+    "audioUrl": "/assets/sounds/Idr_MagicFloorLoop00.wav"
+  },
+  "Idr_MagicFloorPre00": {
+    "audioUrl": "/assets/sounds/Idr_MagicFloorPre00.wav"
+  },
+  "Idr_MagicFloorStart00": {
+    "audioUrl": "/assets/sounds/Idr_MagicFloorStart00.wav"
+  },
+  "Idr_Museum_CameraKimeBreath00": {
+    "audioUrl": "/assets/sounds/Idr_Museum_CameraKimeBreath00.wav"
+  },
+  "Idr_Museum_WaterTankBubblesTiny01": {
+    "audioUrl": "/assets/sounds/Idr_Museum_WaterTankBubblesTiny01.wav"
+  },
+  "Idr_MuseumFountain_Water": {
+    "audioUrl": "/assets/sounds/Idr_MuseumFountain_Water.wav"
+  },
+  "Idr_MuseumFountain_WaterOff": {
+    "audioUrl": "/assets/sounds/Idr_MuseumFountain_WaterOff.wav"
+  },
+  "Idr_WrestlingWall_Flash00": {
+    "audioUrl": "/assets/sounds/Idr_WrestlingWall_Flash00.wav"
+  },
+  "Idr_WrestlingWall_Flash01": {
+    "audioUrl": "/assets/sounds/Idr_WrestlingWall_Flash01.wav"
+  },
+  "IdrObj_SiphoneBoiling": {
+    "audioUrl": "/assets/sounds/IdrObj_SiphoneBoiling.wav"
+  },
+  "IdrObj_SiphonePooring": {
+    "audioUrl": "/assets/sounds/IdrObj_SiphonePooring.wav"
+  },
+  "IdrObj_SiphonePut": {
+    "audioUrl": "/assets/sounds/IdrObj_SiphonePut.wav"
+  },
+  "IdrObj_SiphoneTaken": {
+    "audioUrl": "/assets/sounds/IdrObj_SiphoneTaken.wav"
+  },
+  "IdrObj_TailorFittingRoom_Close": {
+    "audioUrl": "/assets/sounds/IdrObj_TailorFittingRoom_Close.wav"
+  },
+  "IdrObj_TailorFittingRoom_Open": {
+    "audioUrl": "/assets/sounds/IdrObj_TailorFittingRoom_Open.wav"
+  },
+  "IdrObj_TailorSewingMachine_Move00": {
+    "audioUrl": "/assets/sounds/IdrObj_TailorSewingMachine_Move00.wav"
+  },
+  "IdrObjFlapperGate_CloseEnd00": {
+    "audioUrl": "/assets/sounds/IdrObjFlapperGate_CloseEnd00.wav"
+  },
+  "IdrObjFlapperGate_CloseStart00": {
+    "audioUrl": "/assets/sounds/IdrObjFlapperGate_CloseStart00.wav"
+  },
+  "IdrObjFlapperGate_OpenEnd00": {
+    "audioUrl": "/assets/sounds/IdrObjFlapperGate_OpenEnd00.wav"
+  },
+  "IdrObjMarket01Shelf_CloseEnd00": {
+    "audioUrl": "/assets/sounds/IdrObjMarket01Shelf_CloseEnd00.wav"
+  },
+  "IdrObjMarket01Shelf_OpenEnd00": {
+    "audioUrl": "/assets/sounds/IdrObjMarket01Shelf_OpenEnd00.wav"
+  },
+  "IdrObjMarket01Shelf_Slide00": {
+    "audioUrl": "/assets/sounds/IdrObjMarket01Shelf_Slide00.wav"
+  },
+  "IdrObjOfficeDeskFan_On00": {
+    "audioUrl": "/assets/sounds/IdrObjOfficeDeskFan_On00.wav"
+  },
+  "IdrObjTsunekichi00SoldOut_Appear00": {
+    "audioUrl": "/assets/sounds/IdrObjTsunekichi00SoldOut_Appear00.wav"
+  },
+  "LightSwitch_Off": {
+    "audioUrl": "/assets/sounds/LightSwitch_Off.wav"
+  },
+  "LightSwitch_On": {
+    "audioUrl": "/assets/sounds/LightSwitch_On.wav"
+  },
+  "LostItemBox_Close00": {
+    "audioUrl": "/assets/sounds/LostItemBox_Close00.wav"
+  },
+  "LostItemBox_Open00": {
+    "audioUrl": "/assets/sounds/LostItemBox_Open00.wav"
+  },
+  "LostItemBox_OpenEnd00": {
+    "audioUrl": "/assets/sounds/LostItemBox_OpenEnd00.wav"
+  },
+  "Npc_ArrangeRemoveForCooking_PassiveLoop": {
+    "audioUrl": "/assets/sounds/Npc_ArrangeRemoveForCooking_PassiveLoop.wav"
+  },
+  "NpcSpecial_ArrangeRemove_Loop": {
+    "audioUrl": "/assets/sounds/NpcSpecial_ArrangeRemove_Loop.wav"
+  },
+  "NpcSpecial_fox_ArrangeRemove_FireWorks": {
+    "audioUrl": "/assets/sounds/NpcSpecial_fox_ArrangeRemove_FireWorks.wav"
+  },
+  "PhotoStudio_WindSpinner_Rolling00": {
+    "audioUrl": "/assets/sounds/PhotoStudio_WindSpinner_Rolling00.wav"
+  },
+  "PhotoStudio_WindSpinner_RollingTr00": {
+    "audioUrl": "/assets/sounds/PhotoStudio_WindSpinner_RollingTr00.wav"
+  },
+  "PhotoStudio_WindSpinner_RollingTr01": {
+    "audioUrl": "/assets/sounds/PhotoStudio_WindSpinner_RollingTr01.wav"
+  },
+  "PhotoStudio_WindSpinner_RollingTr02": {
+    "audioUrl": "/assets/sounds/PhotoStudio_WindSpinner_RollingTr02.wav"
+  },
+  "PhotoStudio_WindSpinner_RollingTr03": {
+    "audioUrl": "/assets/sounds/PhotoStudio_WindSpinner_RollingTr03.wav"
+  },
+  "RoomCurtain_Blind_Close": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Blind_Close.wav"
+  },
+  "RoomCurtain_Blind_Open": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Blind_Open.wav"
+  },
+  "RoomCurtain_Twin_Close": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Twin_Close.wav"
+  },
+  "RoomCurtain_Twin_Open": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Twin_Open.wav"
+  },
+  "RoomCurtain_Vertical_Close": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Vertical_Close.wav"
+  },
+  "RoomCurtain_Vertical_Open": {
+    "audioUrl": "/assets/sounds/RoomCurtain_Vertical_Open.wav"
+  },
+  "SettlerQuestFtrBox_Close00": {
+    "audioUrl": "/assets/sounds/SettlerQuestFtrBox_Close00.wav"
+  },
+  "SettlerQuestFtrBox_Open00": {
+    "audioUrl": "/assets/sounds/SettlerQuestFtrBox_Open00.wav"
+  },
+  "Str_Door_Knock_Iron": {
+    "audioUrl": "/assets/sounds/Str_Door_Knock_Iron.wav"
+  },
+  "Str_Door_Knock_Wood": {
+    "audioUrl": "/assets/sounds/Str_Door_Knock_Wood.wav"
+  },
+  "Str_Door_Latch_Close_Wood": {
+    "audioUrl": "/assets/sounds/Str_Door_Latch_Close_Wood.wav"
+  },
+  "Str_Door_Latch_Open_Wood": {
+    "audioUrl": "/assets/sounds/Str_Door_Latch_Open_Wood.wav"
+  },
+  "Str_Door_NoLatch_Close_Iron": {
+    "audioUrl": "/assets/sounds/Str_Door_NoLatch_Close_Iron.wav"
+  },
+  "Str_Door_NoLatch_Close_Wood": {
+    "audioUrl": "/assets/sounds/Str_Door_NoLatch_Close_Wood.wav"
+  },
+  "Str_Door_NoLatch_Open_Iron": {
+    "audioUrl": "/assets/sounds/Str_Door_NoLatch_Open_Iron.wav"
+  },
+  "Str_Door_NoLatch_Open_Wood": {
+    "audioUrl": "/assets/sounds/Str_Door_NoLatch_Open_Wood.wav"
+  },
+  "Str_Door_Office_Close": {
+    "audioUrl": "/assets/sounds/Str_Door_Office_Close.wav"
+  },
+  "Str_Door_Office_Open": {
+    "audioUrl": "/assets/sounds/Str_Door_Office_Open.wav"
+  },
+  "Str_Door_PhotoStudio_CloseAdd00": {
+    "audioUrl": "/assets/sounds/Str_Door_PhotoStudio_CloseAdd00.wav"
+  },
+  "Str_Door_PhotoStudio_OpenAdd00": {
+    "audioUrl": "/assets/sounds/Str_Door_PhotoStudio_OpenAdd00.wav"
+  },
+  "Str_Tent_Facility_Close": {
+    "audioUrl": "/assets/sounds/Str_Tent_Facility_Close.wav"
+  },
+  "Str_Tent_Facility_Open": {
+    "audioUrl": "/assets/sounds/Str_Tent_Facility_Open.wav"
+  },
+  "Str_Tent_Player_Close": {
+    "audioUrl": "/assets/sounds/Str_Tent_Player_Close.wav"
+  },
+  "Str_Tent_Player_Open": {
+    "audioUrl": "/assets/sounds/Str_Tent_Player_Open.wav"
+  },
+  "StrcMarketBox_CloseEnd00": {
+    "audioUrl": "/assets/sounds/StrcMarketBox_CloseEnd00.wav"
+  },
+  "StrcMarketBox_OpenEnd00": {
+    "audioUrl": "/assets/sounds/StrcMarketBox_OpenEnd00.wav"
+  },
+  "StrcMarketBox_OpenStart00": {
+    "audioUrl": "/assets/sounds/StrcMarketBox_OpenStart00.wav"
+  },
+  "StrcTsunekichi_Engine00": {
+    "audioUrl": "/assets/sounds/StrcTsunekichi_Engine00.wav"
+  },
+  "Tailor_Wind00": {
+    "audioUrl": "/assets/sounds/Tailor_Wind00.wav"
+  },
+  "Pl_PresentOpen_00": {
+    "audioUrl": "/assets/sounds/Pl_PresentOpen_00.wav"
+  },
+  "Pl_Pickup_02": {
+    "audioUrl": "/assets/sounds/Pl_Pickup_02.wav"
+  }
+}

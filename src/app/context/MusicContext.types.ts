@@ -11,6 +11,7 @@ export interface MusicContextValue {
   pauseTrack: () => void;
   resumeTrack: () => void;
   setVolume: (volume: number) => void;
+  playSoundEffect: (soundPath: string, volume?: number) => void;
 }
 
 export interface MusicProviderProps {

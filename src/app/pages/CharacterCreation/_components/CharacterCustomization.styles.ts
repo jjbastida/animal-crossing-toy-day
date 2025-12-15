@@ -1,78 +1,90 @@
-import { css, SerializedStyles } from '@emotion/react';
+import { css } from "@emotion/react";
 
-export const container: SerializedStyles = css`
+const underlineSvg = (color: string) =>
+  encodeURIComponent(`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="50%" x2="100%" y2="50%" stroke="${color}" stroke-width="4" stroke-dasharray="7, 15" stroke-linecap="round" />
+  </svg>`);
+
+const container = css`
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  padding: 2rem;
-  max-width: 600px;
-  margin: 0 auto;
+  justify-content: flex-start;
+  padding: 80px 32px;
+  gap: 32px;
+  background: var(--background-secondary);
 `;
 
-export const title: SerializedStyles = css`
-  font-size: 2rem;
-  margin: 0;
-`;
-
-export const form: SerializedStyles = css`
+const playerContainer = css`
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+`;
+
+const cardContainer = css`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
   width: 100%;
-`;
 
-export const formGroup: SerializedStyles = css`
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-`;
-
-export const label: SerializedStyles = css`
-  font-weight: 600;
-`;
-
-export const input: SerializedStyles = css`
-  padding: 0.75rem;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-
-  &:focus {
-    outline: none;
-    border-color: #007bff;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 `;
 
-export const select: SerializedStyles = css`
-  padding: 0.75rem;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  background: white;
+const inputContainer = css`
+  position: relative;
 
-  &:focus {
-    outline: none;
-    border-color: #007bff;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -50%;
+    left: 0;
+    background-image: url("data:image/svg+xml,${underlineSvg("#EFEADD")}");
   }
-`;
-
-export const button: SerializedStyles = css`
-  padding: 1rem 2rem;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
 
   &:hover {
-    background: #0056b3;
+    &::after {
+      background-image: url("data:image/svg+xml,${underlineSvg("#B9B3A0")}");
+    }
   }
 
-  &:active {
-    transform: scale(0.98);
+  &:focus-within {
+    &::after {
+      background-image: url("data:image/svg+xml,${underlineSvg("#63BEAD")}");
+    }
   }
 `;
+
+const nameInput = css`
+  width: 100%;
+  padding: 0.5rem 0;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  font-family: Seurat, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--foreground-primary);
+
+  &::placeholder {
+    color: var(--foreground-secondary);
+  }
+`;
+
+export {
+  container,
+  playerContainer,
+  cardContainer,
+  inputContainer,
+  nameInput,
+};
