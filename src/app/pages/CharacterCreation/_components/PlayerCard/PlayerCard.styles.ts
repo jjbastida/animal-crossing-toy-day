@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { playerColors } from '../CharacterCustomization.styles';
 
 const playerCard = css`
   position: relative;
@@ -23,7 +24,7 @@ const assetPlaceholder = css`
   opacity: 0.5;
 `;
 
-const clearButton = css`
+const clearButton = (index: number) => css`
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -36,12 +37,15 @@ const clearButton = css`
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--foreground-secondary);
+    transition: color 0.2s ease;
+
+    &:hover,
+    &:active {
+      color: ${playerColors[index]};
+    }
   }
 
-  & > button:hover,
-  & > button:active {
-    color: var(--foreground-active);
-  }
 `;
 
 export { playerCard, asset, assetPlaceholder, clearButton };

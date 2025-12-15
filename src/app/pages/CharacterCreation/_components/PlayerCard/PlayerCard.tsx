@@ -7,8 +7,10 @@ import fruitIcons from '@data/fruit_icons.json';
 import * as styles from './PlayerCard.styles.ts';
 import villagerIcons from '@data/villager_icons.json';
 import { X } from 'phosphor-react';
+import { playerColors } from '../CharacterCustomization.styles';
 
 interface PlayerCardProps {
+  index: number;
   avatar?: AvatarType;
   fruit?: FruitType;
   placeholderAvatarUrl?: AvatarType;
@@ -23,20 +25,22 @@ function PlayerCard({
   placeholderAvatarUrl,
   onAvatarClick,
   onFruitClick,
+  index,
   onClear,
 }: PlayerCardProps): React.ReactNode {
   return (
     <Card css={styles.playerCard}>
       {onClear && (
-        <Tooltip label="Remove player" css={styles.clearButton}>
+        <Tooltip label="Remove player" css={styles.clearButton(index)} color={playerColors[index]}>
           <button onClick={onClear} aria-label="Clear player">
             <X size={20} weight="bold" />
           </button>
         </Tooltip>
       )}
-      <Tooltip label={avatar ? "Change avatar" : "Pick avatar"}>
+      <Tooltip label={avatar ? "Change avatar" : "Pick avatar"} color={playerColors[index]}>
         <SelectionButton
-          selected={!!avatar}
+          selected={!!avatar} 
+          index={index}
           size="large"
           onClick={onAvatarClick}
           aria-label={avatar ? "Change avatar" : "Pick avatar"}
@@ -48,9 +52,10 @@ function PlayerCard({
           )}
         </SelectionButton>
       </Tooltip>
-      <Tooltip label={fruit ? "Change fruit" : "Pick fruit"}>
+      <Tooltip label={fruit ? "Change fruit" : "Pick fruit"} color={playerColors[index]}>
         <SelectionButton
           selected={!!fruit}
+          index={index}
           size="small"
           onClick={onFruitClick}
           aria-label={fruit ? "Change fruit" : "Pick fruit"}

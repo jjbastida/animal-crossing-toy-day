@@ -28,7 +28,7 @@ function AvatarModal({ isOpen, onClose, onSelect }: AvatarModalProps): React.Rea
           return (
             <Tooltip label={data.name} key={key} open={isSelected ? false : undefined}>
               <Modal.Item onClick={() => onSelect(key, data)}  aria-disabled={isSelected} css={styles.avatarItem}>
-                {data.imageUrl && <img src={data.imageUrl} alt={data.name}/>}
+                {data.imageUrl && <img src={data.imageUrl} alt={data.name} />}
               </Modal.Item>
             </Tooltip>
           );

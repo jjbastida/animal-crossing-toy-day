@@ -7,6 +7,7 @@ import { GameContext, MusicContext } from '@/context';
 import PlayerCard from './PlayerCard/PlayerCard';
 import AvatarModal from './AvatarModal/AvatarModal';
 import FruitModal from './FruitModal/FruitModal';
+import Typography from '@/components/Typography/Typography';
 
 const allVillagers = Object.keys(villagerIcons) as AvatarType[];
 const shuffled = [...allVillagers].sort(() => Math.random() - 0.5);
@@ -66,11 +67,13 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
 
   return (
     <div css={styles.cardContainer}>
-      {defaultPlayers.map(player => (
+      {defaultPlayers.map((player, index) => (
         <div key={player.id} css={styles.playerContainer}>
+          <Typography variant="body" size="lg" css={styles.playerNumber(index, !!player.avatar && !!player.fruit && !!player.name)}>Player {index + 1}</Typography>
           <PlayerCard
             avatar={player.avatar}
             fruit={player.fruit}
+            index={index}
             placeholderAvatarUrl={randomPlaceholderAvatars[player.id - 1]}
             onAvatarClick={() => {
               ensurePlayerExists(player.id);
@@ -84,7 +87,7 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
             }}
             onClear={player.avatar || player.fruit || player.name ? () => handleClearPlayer(player.id) : undefined}
           />
-          <div css={styles.inputContainer}>
+          <div css={styles.inputContainer(index)}>
             <input
               css={styles.nameInput}
               type="text"

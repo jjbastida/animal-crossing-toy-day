@@ -7,6 +7,7 @@ type SelectionButtonSize = 'small' | 'large';
 interface SelectionButtonProps {
   selected: boolean;
   size?: SelectionButtonSize;
+  index: number;
   onClick: () => void;
   children: React.ReactNode;
   css?: Interpolation<Theme>;
@@ -16,6 +17,7 @@ interface SelectionButtonProps {
 function SelectionButton({
   selected,
   size = 'small',
+  index,
   onClick,
   children,
   css,
@@ -23,7 +25,7 @@ function SelectionButton({
 }: SelectionButtonProps): React.ReactNode {
   return (
     <button
-      css={[styles.selectionButton(selected), styles.sizeVariants[size], css]}
+      css={[styles.selectionButton(selected, index), styles.sizeVariants[size], css]}
       onClick={onClick}
       type="button"
       aria-label={ariaLabel}

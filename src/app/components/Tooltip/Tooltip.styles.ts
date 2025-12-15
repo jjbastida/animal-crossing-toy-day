@@ -16,14 +16,14 @@ const tooltipWrapper = css`
   }
 `;
 
-const tooltipContainer = css`
+const tooltipContainer = (color: string) => css`
   position: absolute;
   display: flex;
   padding: 4px 8px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: var(--foreground-active);
+  background: ${color};
   max-width: 160px;
   max-height: 40px;
   color: var(--foreground-inverse);
@@ -58,8 +58,8 @@ const tooltipContainer = css`
 
 const tooltipText = css``;
 
-const positionStyles: Record<TooltipPosition, ReturnType<typeof css>> = {
-  top: css`
+const positionStyles: Record<TooltipPosition, (color: string) => ReturnType<typeof css>> = {
+  top: (color: string) => css`
     --tooltip-transform-visible: translateX(-50%) translateY(0);
     bottom: calc(100% + 8px);
     left: 50%;
@@ -70,10 +70,10 @@ const positionStyles: Record<TooltipPosition, ReturnType<typeof css>> = {
       left: 50%;
       transform: translateX(-50%);
       border-width: 6px 6px 0 6px;
-      border-color: var(--foreground-active) transparent transparent transparent;
+      border-color: ${color} transparent transparent transparent;
     }
   `,
-  bottom: css`
+  bottom: (color: string) => css`
     --tooltip-transform-visible: translateX(-50%) translateY(0);
     top: calc(100% + 8px);
     left: 50%;
@@ -84,10 +84,10 @@ const positionStyles: Record<TooltipPosition, ReturnType<typeof css>> = {
       left: 50%;
       transform: translateX(-50%);
       border-width: 0 6px 6px 6px;
-      border-color: transparent transparent var(--foreground-active) transparent;
+      border-color: transparent transparent ${color} transparent;
     }
   `,
-  left: css`
+  left: (color: string) => css`
     --tooltip-transform-visible: translateX(0) translateY(-50%);
     right: calc(100% + 8px);
     top: 50%;
@@ -98,10 +98,10 @@ const positionStyles: Record<TooltipPosition, ReturnType<typeof css>> = {
       top: 50%;
       transform: translateY(-50%);
       border-width: 6px 0 6px 6px;
-      border-color: transparent transparent transparent var(--foreground-active);
+      border-color: transparent transparent transparent ${color};
     }
   `,
-  right: css`
+  right: (color: string) => css`
     --tooltip-transform-visible: translateX(0) translateY(-50%);
     left: calc(100% + 8px);
     top: 50%;
@@ -112,7 +112,7 @@ const positionStyles: Record<TooltipPosition, ReturnType<typeof css>> = {
       top: 50%;
       transform: translateY(-50%);
       border-width: 6px 6px 6px 0;
-      border-color: transparent var(--foreground-active) transparent transparent;
+      border-color: transparent ${color} transparent transparent;
     }
   `,
 };

@@ -63,13 +63,16 @@ const modalItem = css`
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s;
+  position: relative;
 
   &:hover {
-    transform: scale(1.1);
+      transform: scale(1.1);
   }
 
   img {
     width: 100%;
+    max-width: 100px;
+    max-height: 100px;
     height: auto;
   }
 `;

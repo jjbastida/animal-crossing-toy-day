@@ -1,5 +1,12 @@
 import { css } from "@emotion/react";
 
+const playerColors: Record<number, string> = {
+  0: '#FF6C00',
+  1: '#829FF6',
+  2: '#4CB89C',
+  3: '#C27BF6',
+};
+
 const underlineSvg = (color: string) =>
   encodeURIComponent(`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <line x1="0" y1="50%" x2="100%" y2="50%" stroke="${color}" stroke-width="4" stroke-dasharray="7, 15" stroke-linecap="round" />
@@ -11,7 +18,7 @@ const container = css`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 5rem 4rem;
+  padding: 4rem 3rem;
   gap: 3rem;
   background: var(--background-secondary);
 `;
@@ -40,7 +47,7 @@ const playerContainer = css`
 `;
 
 
-const inputContainer = css`
+const inputContainer = (index: number) => css`
   position: relative;
 
   &::after {
@@ -62,7 +69,7 @@ const inputContainer = css`
 
   &:focus-within {
     &::after {
-      background-image: url("data:image/svg+xml,${underlineSvg("#63BEAD")}");
+      background-image: url("data:image/svg+xml,${underlineSvg(playerColors[index])}");
     }
   }
 `;
@@ -86,10 +93,18 @@ const nameInput = css`
   }
 `;
 
+const playerNumber = (index: number, active: boolean) => css`
+  text-align: center;
+  color: ${active ? playerColors[index] : 'var(--foreground-secondary)'};
+`;
+
+
 export {
   container,
   playerContainer,
   cardContainer,
   inputContainer,
   nameInput,
+  playerNumber,
+  playerColors,
 };
