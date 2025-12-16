@@ -1,18 +1,9 @@
 import React from "react";
 import { Modal, Typography, Button } from "@/components";
-import { Item } from "@/types/general";
-import { ResourceType, ResourceConfig } from "../ResourceCard/ResourceCard";
+import { ResourceType, ResourceConfig } from "../ResourceCard/ResourceCard.types";
 import * as styles from "./ResourceCollectionModal.styles";
 import pluralize from "pluralize";
-
-interface ResourceCollectionModalProps {
-  isOpen: boolean;
-  selectedResource: ResourceType | null;
-  resourceConfig: ResourceConfig | null;
-  collectedItem: Item | null;
-  onAddToInventory: () => void;
-  onClose: () => void;
-}
+import { ResourceCollectionModalProps } from "./ResourceCollectionModal.types";
 
 function ResourceCollectionModal({
   isOpen,

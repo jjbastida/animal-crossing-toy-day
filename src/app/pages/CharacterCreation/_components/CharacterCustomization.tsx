@@ -8,20 +8,11 @@ import PlayerCard from "./PlayerCard/PlayerCard";
 import AvatarModal from "./AvatarModal/AvatarModal";
 import FruitModal from "./FruitModal/FruitModal";
 import Typography from "@/components/Typography/Typography";
+import { CharacterCustomizationProps } from "./CharacterCustomization.types";
 
 const allVillagers = Object.keys(villagerIcons) as AvatarType[];
 const shuffled = [...allVillagers].sort(() => Math.random() - 0.5);
 const randomPlaceholderAvatars = shuffled.slice(0, 4);
-
-interface CharacterCustomizationProps {
-  modifyPlayer: (
-    playerId: number,
-    key: string,
-    value: string | number | FruitType | AvatarType,
-  ) => void;
-  modalOpen: "avatar" | "fruit" | null;
-  setModalOpen: (modal: "avatar" | "fruit" | null) => void;
-}
 
 function CharacterCustomization({
   modifyPlayer,

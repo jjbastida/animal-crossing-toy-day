@@ -6,12 +6,7 @@ import { FruitType } from "@/types/general";
 import { parseHighlightedText } from "@/helper/general";
 import { GameContext } from "@/context/GameContext";
 import * as styles from "./FruitModal.styles";
-
-interface FruitModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  onSelect: (fruitType: FruitType) => void;
-}
+import { FruitModalProps } from "./FruitModal.types";
 
 const fruitAbilities = {
   apple: { content: "Start with {{5,000 Bells}}!", helper: "More bells means more money." },

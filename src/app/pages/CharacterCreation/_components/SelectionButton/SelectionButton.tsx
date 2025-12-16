@@ -1,18 +1,6 @@
 import React from "react";
-import { Interpolation, Theme } from "@emotion/react";
 import * as styles from "./SelectionButton.styles.ts";
-
-type SelectionButtonSize = "small" | "large";
-
-interface SelectionButtonProps {
-  "selected": boolean;
-  "size"?: SelectionButtonSize;
-  "index": number;
-  "onClick": () => void;
-  "children": React.ReactNode;
-  "css"?: Interpolation<Theme>;
-  "aria-label"?: string;
-}
+import { SelectionButtonProps } from "./SelectionButton.types";
 
 function SelectionButton({
   selected,

@@ -11,20 +11,7 @@ import soundEffects from "@data/sound_effects.json";
 import seaCreatureIcons from "@data/sea_creatures_icons.json";
 import * as styles from "./DebugComponent.styles.ts";
 import { Card, Typography } from "@components";
-
-interface DataSet {
-  name: string;
-  data: Record<
-    string,
-    {
-      imageUrl?: string;
-      audioUrl?: string;
-      name: string;
-      description?: string;
-      sellPrice?: number;
-    }
-  >;
-}
+import { DataSet } from "./DebugComponent.types";
 
 const DATA_SETS: DataSet[] = [
   { name: "Villagers", data: villagerIcons },

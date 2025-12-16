@@ -5,12 +5,7 @@ import villagerIcons from "@data/villager_icons.json";
 import { GameContext } from "@/context/GameContext";
 import * as styles from "./AvatarModal.styles";
 import { AvatarType } from "@/types/general";
-
-interface AvatarModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  onSelect: (villagerKey: string, villagerData: { name: string; imageUrl: string }) => void;
-}
+import { AvatarModalProps } from "./AvatarModal.types";
 
 function AvatarModal({ isOpen, onClose, onSelect }: AvatarModalProps): React.ReactNode {
   const { players } = useContext(GameContext);

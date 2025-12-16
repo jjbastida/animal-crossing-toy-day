@@ -5,8 +5,9 @@ import { ActionText, Typography } from "@components";
 import { MusicContext } from "@context";
 import songData from "@data/acnh_songs.json";
 import soundEffects from "@data/sound_effects.json";
+import { SplashScreenProps } from "./SplashScreen.types";
 
-function SplashScreen({ mounted }: { mounted: boolean }): React.ReactNode {
+function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
   const { setGamePhase } = useContext(GameContext);
   const { playTrack, playSoundEffect } = useContext(MusicContext);
   const animationPlayState = mounted

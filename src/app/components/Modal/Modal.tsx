@@ -1,18 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Interpolation, Theme } from "@emotion/react";
 import * as styles from "./Modal.styles.ts";
 import useHandleKeydown from "@/hooks/handleKeydown.ts";
 import soundEffects from "@data/sound_effects.json";
 import { MusicContext } from "@/context/MusicContext.tsx";
 import { Typography } from "../index.ts";
-
-interface ModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  children: React.ReactNode;
-  css?: Interpolation<Theme>;
-  disableEscape?: boolean;
-}
+import { ModalProps } from "./Modal.types";
 
 function Modal({
   isOpen,

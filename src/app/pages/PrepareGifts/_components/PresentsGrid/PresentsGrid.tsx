@@ -1,15 +1,7 @@
 import { Present } from "@/types/general";
 import PresentSlot from "../PresentSlot/PresentSlot";
 import * as styles from "./PresentsGrid.styles";
-
-interface PresentsGridProps {
-  presents: Present[];
-  draggedOverSlot: number | null;
-  onPresentClick: (present: Present) => void;
-  onDragOver: (position: number, e: React.DragEvent) => void;
-  onDragLeave: () => void;
-  onDrop: (position: number) => void;
-}
+import { PresentsGridProps } from "./PresentsGrid.types";
 
 const GRID_SIZE = 3;
 const TOTAL_SLOTS = GRID_SIZE * GRID_SIZE;

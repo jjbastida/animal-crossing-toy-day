@@ -1,12 +1,7 @@
 import { Item } from "@/types/general";
 import canWrapItem from "../utils/canWrapItem";
 import * as styles from "./InventoryItem.styles";
-
-interface InventoryItemProps {
-  item: Item;
-  onDragStart: (item: Item, e: React.DragEvent) => void;
-  onDragEnd: () => void;
-}
+import { InventoryItemProps } from "./InventoryItem.types";
 
 function InventoryItem({ item, onDragStart, onDragEnd }: InventoryItemProps): React.ReactNode {
   const isWrappable = canWrapItem(item);

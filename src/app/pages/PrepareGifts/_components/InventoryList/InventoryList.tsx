@@ -1,12 +1,7 @@
 import { Item } from "@/types/general";
 import InventoryItem from "../InventoryItem/InventoryItem";
 import * as styles from "./InventoryList.styles";
-
-interface InventoryListProps {
-  inventory: Item[];
-  onDragStart: (item: Item, e: React.DragEvent) => void;
-  onDragEnd: () => void;
-}
+import { InventoryListProps } from "./InventoryList.types";
 
 const MIN_INVENTORY_SLOTS = 12;
 

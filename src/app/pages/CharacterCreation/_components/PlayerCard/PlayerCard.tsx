@@ -8,16 +8,7 @@ import * as styles from "./PlayerCard.styles.ts";
 import villagerIcons from "@data/villager_icons.json";
 import { X } from "phosphor-react";
 import { playerColors } from "@/App.styles";
-
-interface PlayerCardProps {
-  index: number;
-  avatar?: AvatarType;
-  fruit?: FruitType;
-  placeholderAvatarUrl?: AvatarType;
-  onAvatarClick: () => void;
-  onFruitClick: () => void;
-  onClear?: () => void;
-}
+import { PlayerCardProps } from "./PlayerCard.types";
 
 function PlayerCard({
   avatar,

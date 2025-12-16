@@ -2,16 +2,7 @@ import { Present } from "@/types/general";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./PresentSlot.styles";
-
-interface PresentSlotProps {
-  present: Present | null;
-  position: number;
-  isDragOver: boolean;
-  onPresentClick: (present: Present) => void;
-  onDragOver: (e: React.DragEvent) => void;
-  onDragLeave: () => void;
-  onDrop: (e: React.DragEvent) => void;
-}
+import { PresentSlotProps } from "./PresentSlot.types";
 
 function PresentSlot({
   present,

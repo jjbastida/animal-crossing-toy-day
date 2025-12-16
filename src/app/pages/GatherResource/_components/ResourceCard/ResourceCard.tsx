@@ -2,23 +2,9 @@ import React from "react";
 import { Card, Typography } from "@/components";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import * as styles from "./ResourceCard.styles";
+import { ResourceType, ResourceConfig, ResourceCardProps } from "./ResourceCard.types";
 
-export type ResourceType = "fruit" | "fish" | "bugs" | "sea-creatures" | "fossils";
-
-export interface ResourceConfig {
-  name: string;
-  requiredItem: string | null;
-  icon: string;
-  tooltip: string;
-  flavourText: string;
-}
-
-interface ResourceCardProps {
-  resourceType: ResourceType;
-  config: ResourceConfig;
-  isEnabled: boolean;
-  onClick: (resourceType: ResourceType) => void;
-}
+export type { ResourceType, ResourceConfig };
 
 function ResourceCard({
   resourceType,

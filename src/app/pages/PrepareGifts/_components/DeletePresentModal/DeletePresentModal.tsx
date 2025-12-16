@@ -1,12 +1,7 @@
 import Modal, { ModalTitle } from "@/components/Modal/Modal";
 import { Button } from "@/components";
 import * as styles from "./DeletePresentModal.styles";
-
-interface DeletePresentModalProps {
-  isOpen: boolean;
-  onConfirm: () => void;
-  onCancel: () => void;
-}
+import { DeletePresentModalProps } from "./DeletePresentModal.types";
 
 function DeletePresentModal({
   isOpen,
