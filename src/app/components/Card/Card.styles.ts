@@ -1,6 +1,6 @@
-import { css } from '@emotion/react';
+import { css } from "@emotion/react";
 
-export const card = css`
+const card = css`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,3 +11,5 @@ export const card = css`
   border: 2px solid var(--shadow);
   box-shadow: 4px 8px 0px var(--shadow);
 `;
+
+export { card };

@@ -1,4 +1,4 @@
-import { css, keyframes } from '@emotion/react';
+import { css, keyframes } from "@emotion/react";
 
 const pulse = keyframes`
   0%, 100% {
@@ -39,9 +39,9 @@ const getPresentContainer = (revealed: boolean) => css`
   justify-content: center;
   z-index: 2;
   background: var(--white);
-  clip-path: ${revealed ? 'circle(0px at 50% 50%)' : 'circle(200vmax at 50% 50%)'};
+  clip-path: ${revealed ? "circle(0px at 50% 50%)" : "circle(200vmax at 50% 50%)"};
   transition: clip-path 1.2s cubic-bezier(0.4, 0, 0.2, 1);
-  ${revealed && 'pointer-events: none;'}
+  ${revealed && "pointer-events: none;"}
 `;
 
 const presentIcon = css`
@@ -80,10 +80,19 @@ const textSubtitle = css`
   margin-top: 0.5rem;
   text-align: center;
   color: var(--foreground-secondary);
-`;  
+`;
 
 const textTitle = css`
   color: var(--black);
 `;
 
-export { landingWrapper, splashLayer, getPresentContainer, presentIcon, presentPulse, textContainer, textSubtitle, textTitle };
+export {
+  landingWrapper,
+  splashLayer,
+  getPresentContainer,
+  presentIcon,
+  presentPulse,
+  textContainer,
+  textSubtitle,
+  textTitle,
+};

@@ -1,6 +1,6 @@
-import { css, SerializedStyles } from '@emotion/react';
+import { css } from "@emotion/react";
 
-export const pageContainer = css`
+const pageContainer = css`
   min-height: 100vh;
   padding: 2rem;
   display: flex;
@@ -10,7 +10,7 @@ export const pageContainer = css`
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 `;
 
-export const contentCard = css`
+const contentCard = css`
   background: white;
   padding: 3rem;
   border-radius: 16px;
@@ -22,24 +22,26 @@ export const contentCard = css`
   gap: 2rem;
 `;
 
-export const section = css`
+const section = css`
   display: flex;
   flex-direction: column;
   gap: 1rem;
 `;
 
-export const statRow = css`
+const statRow = css`
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 0;
   border-bottom: 1px solid #eee;
 `;
 
-export const statLabel = css`
+const statLabel = css`
   color: #666;
 `;
 
-export const statValue = css`
+const statValue = css`
   font-weight: 600;
   color: #333;
 `;
+
+export { pageContainer, contentCard, section, statRow, statLabel, statValue };

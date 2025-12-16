@@ -1,54 +1,81 @@
-import { useContext } from 'react';
-import { GameContext } from '../../context/GameContext';
-import { pageContainer, roundIndicator, actionsRemainingIndicator, actionsGrid, actionCard, actionTitle, actionDescription, actionButton } from './PlayerTurn.styles.ts';
+import { useContext, useState } from "react";
+import { GameContext } from "../../context/GameContext";
+import itemIcons from "@data/item_icons.json";
+import * as styles from "./PlayerTurn.styles.ts";
+import { Button, Card, Typography } from "@/components/index.ts";
+import InventoryModal from "@/components/InventoryModal/InventoryModal";
+import { SquaresFour } from "phosphor-react";
+import usePlayerColor from "@/hooks/usePlayerColor";
 
 function PlayerTurnPage(): React.ReactNode {
-  const { currentRound, totalRounds, actionsRemaining, setAction, resources } = useContext(GameContext);
+  const { setAction, currentPlayer, actionsRemaining } = useContext(GameContext);
+  const { playerColor } = usePlayerColor(currentPlayer);
+  const [isInventoryOpen, setIsInventoryOpen] = useState(false);
 
   const actions = [
     {
-      id: 'gatherResource' as const,
-      title: 'Gather Resource',
-      description: 'Collect resources to use for shopping'
+      id: "gatherResource" as const,
+      title: "Gather Resource",
+      description: "Collect resources to use for shopping",
+      image: itemIcons[`${currentPlayer?.fruit}-tree` as keyof typeof itemIcons].imageUrl,
     },
     {
-      id: 'prepareGifts' as const,
-      title: 'Prepare Gifts',
-      description: 'Create gifts for your friends'
+      id: "prepareGifts" as const,
+      title: "Prepare Presents",
+      description: "Create presents from your items",
+      image: itemIcons["present"].imageUrl,
     },
     {
-      id: 'shopItems' as const,
-      title: 'Shop Items',
-      description: 'Buy items with your resources'
-    }
+      id: "shopItems" as const,
+      title: "Shop Items",
+      description: "Buy or sell items using bells",
+      image: itemIcons["furniture"].imageUrl,
+    },
   ];
 
-  function handleActionClick(actionId: 'gatherResource' | 'prepareGifts' | 'shopItems'): void {
+  function handleActionClick(actionId: "gatherResource" | "prepareGifts" | "shopItems"): void {
     setAction(actionId);
   }
 
   return (
-    <div css={pageContainer}>
-      <div css={roundIndicator}>Round {currentRound} / {totalRounds}</div>
-      <div css={actionsRemainingIndicator}>
-        Actions Remaining: {actionsRemaining}
+    <div css={styles.pageContainer}>
+      <div css={styles.contentContainer}>
+        <Typography variant="display" size="3xl" css={styles.title(playerColor)}>
+          {currentPlayer?.name}'s Turn
+        </Typography>
+        <Typography variant="body" size="md" css={styles.description}>
+          You may pick any {actionsRemaining > 1 ? `${actionsRemaining} actions` : "action"} to
+          continue your turn.
+        </Typography>
       </div>
-      <div css={actionsGrid}>
+      <div css={styles.actionsGrid}>
         {actions.map((action) => (
-          <div css={actionCard} key={action.id}>
-            <h2 css={actionTitle}>{action.title}</h2>
-            <p css={actionDescription}>{action.description}</p>
-            {action.id === 'shopItems' && (
-              <p css={actionDescription}>Resources: {resources}</p>
-            )}
-            <button css={actionButton} onClick={() => handleActionClick(action.id)}>
+          <Card key={action.id} css={styles.actionCard}>
+            <img src={action.image} alt={action.title} css={styles.actionImage} />
+            <div css={styles.actionContent}>
+              <Typography variant="display" size="xl" css={styles.actionTitle}>
+                {action.title}
+              </Typography>
+              <Typography variant="body" size="sm" css={styles.actionDescription}>
+                {action.description}
+              </Typography>
+            </div>
+            <Button variant="secondary" onClick={() => handleActionClick(action.id)}>
               Select Action
-            </button>
-          </div>
+            </Button>
+          </Card>
         ))}
       </div>
+      <Button
+        variant="secondary"
+        css={styles.inventoryButton}
+        onClick={() => setIsInventoryOpen(true)}
+      >
+        <SquaresFour weight="fill" /> Inventory
+      </Button>
+      <InventoryModal isOpen={isInventoryOpen} onClose={() => setIsInventoryOpen(false)} />
     </div>
   );
-};
+}
 
 export default PlayerTurnPage;

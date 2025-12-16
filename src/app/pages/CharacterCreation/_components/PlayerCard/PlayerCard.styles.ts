@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { playerColors } from '../CharacterCustomization.styles';
+import { playerColors } from "@/App.styles";
 
 const playerCard = css`
   position: relative;
@@ -20,7 +20,7 @@ const asset = css`
 
 const assetPlaceholder = css`
   filter: brightness(0) saturate(100%) invert(82%) sepia(22%) saturate(100%) hue-rotate(8deg)
-  brightness(100%) contrast(88%);
+    brightness(100%) contrast(88%);
   opacity: 0.5;
 `;
 
@@ -45,7 +45,6 @@ const clearButton = (index: number) => css`
       color: ${playerColors[index]};
     }
   }
-
 `;
 
 export { playerCard, asset, assetPlaceholder, clearButton };

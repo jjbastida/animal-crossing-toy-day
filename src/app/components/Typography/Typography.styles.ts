@@ -1,7 +1,7 @@
-import { css, SerializedStyles } from "@emotion/react";
+import { css, Theme, Interpolation } from "@emotion/react";
 import { TypographySize, TypographyVariant } from "./Typography.types";
 
-const typographyStyles: Record<TypographyVariant, SerializedStyles> = {
+const typographyStyles: Record<TypographyVariant, Interpolation<Theme>> = {
   display: css`
     font-family: Rodin, sans-serif;
     margin: 0;
@@ -12,10 +12,11 @@ const typographyStyles: Record<TypographyVariant, SerializedStyles> = {
     letter-spacing: 0.03em;
     margin: 0;
     padding: 0;
+    max-width: 400px;
   `,
 };
 
-const sizeStyles: Record<TypographySize, SerializedStyles> = {
+const sizeStyles: Record<TypographySize, Interpolation<Theme>> = {
   "xs": css`
     font-size: 0.75rem;
     line-height: 1.2;
@@ -55,7 +56,7 @@ const sizeStyles: Record<TypographySize, SerializedStyles> = {
   "6xl": css`
     font-size: 3.75rem;
     line-height: 1.1;
-  `
+  `,
 };
 
 export { typographyStyles, sizeStyles };

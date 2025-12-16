@@ -1,35 +1,45 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { Interpolation, Theme } from '@emotion/react';
-import * as styles from './Modal.styles.ts';
-import useHandleKeydown from '@/hooks/handleKeydown.ts';
-import soundEffects from '@data/sound_effects.json';
-import { MusicContext } from '@/context/MusicContext.tsx';
-import { Typography } from '../index.ts';
+import React, { useContext, useEffect, useState } from "react";
+import { Interpolation, Theme } from "@emotion/react";
+import * as styles from "./Modal.styles.ts";
+import useHandleKeydown from "@/hooks/handleKeydown.ts";
+import soundEffects from "@data/sound_effects.json";
+import { MusicContext } from "@/context/MusicContext.tsx";
+import { Typography } from "../index.ts";
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: React.ReactNode;
-  css?: Interpolation<Theme>
+  css?: Interpolation<Theme>;
+  disableEscape?: boolean;
 }
 
-function Modal({ isOpen, onClose, children, css }: ModalProps): React.ReactNode {
+function Modal({
+  isOpen,
+  onClose,
+  children,
+  disableEscape,
+  css,
+  ...props
+}: ModalProps): React.ReactNode {
   const { playSoundEffect } = useContext(MusicContext);
   const [renderModal, setRenderModal] = useState(isOpen);
-  
+
   const handleClose = () => {
     if (isOpen) {
-      playSoundEffect(soundEffects['UI_Cmn_Close'].audioUrl);
+      playSoundEffect(soundEffects["UI_Cmn_Close"].audioUrl);
       onClose();
     }
+  };
+
+  if (!disableEscape) {
+    useHandleKeydown("Escape", handleClose, isOpen);
   }
 
-  useHandleKeydown('Escape', handleClose, isOpen);
-  
   useEffect(() => {
     if (isOpen) {
       setRenderModal(true);
-      playSoundEffect(soundEffects['UI_WorkBench_Open'].audioUrl);
+      playSoundEffect(soundEffects["UI_WorkBench_Open"].audioUrl);
     } else {
       const timer = setTimeout(() => {
         setRenderModal(false);
@@ -41,21 +51,33 @@ function Modal({ isOpen, onClose, children, css }: ModalProps): React.ReactNode 
   }, [isOpen, playSoundEffect]);
 
   return renderModal ? (
-    <div css={styles.modalOverlay} data-open={isOpen} onClick={handleClose}>
-      <div css={[styles.modalContent, css]} onClick={(e) => e.stopPropagation()}>
+    <div
+      css={styles.modalOverlay}
+      data-open={isOpen}
+      onClick={disableEscape ? undefined : handleClose}
+    >
+      <div css={[styles.modalContent, css]} {...props} onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>
   ) : null;
 }
 
-export function ModalGrid({ children, ...props }: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
+export function ModalGrid({
+  children,
+  ...props
+}: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
   return (
-    <div css={styles.modalGrid} {...props}>{children}</div>
+    <div css={styles.modalGrid} {...props}>
+      {children}
+    </div>
   );
 }
 
-export function ModalItem({ children, ...props }: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
+export function ModalItem({
+  children,
+  ...props
+}: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
   return (
     <div css={styles.modalItem} {...props}>
       {children}
@@ -63,7 +85,10 @@ export function ModalItem({ children, ...props }: React.HTMLAttributes<HTMLDivEl
   );
 }
 
-export function ModalTitle({ children, ...props }: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
+export function ModalTitle({
+  children,
+  ...props
+}: React.HTMLAttributes<HTMLDivElement>): React.ReactNode {
   return (
     <Typography variant="display" size="2xl" css={styles.modalTitle} {...props}>
       {children}

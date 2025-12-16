@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\""
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "fast-average-color": "^9.5.0",
     "phosphor-react": "^1.4.1",
+    "pluralize": "^8.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -19,6 +21,7 @@
     "@babel/preset-typescript": "^7.23.0",
     "@emotion/babel-plugin": "^11.13.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.6.2",
+    "@types/pluralize": "^0.0.33",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "babel-loader": "^9.1.3",

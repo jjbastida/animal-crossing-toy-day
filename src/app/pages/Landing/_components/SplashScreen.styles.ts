@@ -1,4 +1,4 @@
-import { css, keyframes, SerializedStyles } from '@emotion/react';
+import { css, keyframes } from "@emotion/react";
 
 const fadeIn = keyframes`
   from {
@@ -17,7 +17,7 @@ const splashContainer = css`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 100%);
+  background: linear-gradient(135deg, #87ceeb 0%, #98d8c8 100%);
   position: relative;
 `;
 

@@ -9,12 +9,15 @@ import {
   ResultsPage,
   DebugPage,
 } from "@pages";
+import Navigation from "./components/Navigation/Navigation";
 import { useContext, useEffect } from "react";
-import songData from '@data/acnh_songs.json';
+import songData from "@data/acnh_songs.json";
+import useBeforeUnload from "./hooks/useBeforeUnload";
 
 export function Routing(): React.ReactNode {
   const { gamePhase } = useContext(GameContext);
   const { playTrack, stopTrack } = useContext(MusicContext)!;
+  useBeforeUnload();
 
   useEffect(() => {
     switch (gamePhase) {
@@ -23,23 +26,23 @@ export function Routing(): React.ReactNode {
         return;
       case "characterCreation":
         stopTrack();
-        playTrack(songData['fireworks-show'].audioUrl);
+        playTrack(songData["fireworks-show"].audioUrl);
         break;
       case "playerTurn":
         stopTrack();
-        playTrack(songData['7-00-am-sunny'].audioUrl);
+        playTrack(songData["7-00-am-sunny"].audioUrl);
         break;
       case "gatherResource":
         stopTrack();
-        playTrack("/assets/music/gather-resource.mp3");
+        playTrack(songData["12-00-pm-sunny"].audioUrl);
         break;
       case "prepareGifts":
         stopTrack();
-        playTrack("/assets/music/prepare-gifts.mp3");
+        playTrack(songData["8-00-am-snowy"].audioUrl);
         break;
       case "shopItems":
         stopTrack();
-        playTrack("/assets/music/nooks-cranny.mp3");
+        playTrack(songData["nook-cranny-small"].audioUrl);
         break;
       case "results":
         stopTrack();
@@ -50,27 +53,44 @@ export function Routing(): React.ReactNode {
     }
   }, [gamePhase, playTrack, stopTrack]);
 
-  if (window.location.hash === '#debug' || window.location.pathname === '/debug') {
+  if (window.location.hash === "#debug" || window.location.pathname === "/debug") {
     stopTrack();
     return <DebugPage />;
   }
 
-  switch (gamePhase) {
-    case "landing":
-      return <LandingPage />;
-    case "characterCreation":
-      return <CharacterCreationPage />;
-    case "playerTurn":
-      return <PlayerTurnPage />;
-    case "gatherResource":
-      return <GatherResourcePage />;
-    case "prepareGifts":
-      return <PrepareGiftsPage />;
-    case "shopItems":
-      return <ShopItemsPage />;
-    case "results":
-      return <ResultsPage />;
-    default:
-      return <LandingPage />;
-  }
+  const showNavigation = [
+    "playerTurn",
+    "gatherResource",
+    "prepareGifts",
+    "shopItems",
+    "results",
+  ].includes(gamePhase);
+
+  const renderPage = () => {
+    switch (gamePhase) {
+      case "landing":
+        return <LandingPage />;
+      case "characterCreation":
+        return <CharacterCreationPage />;
+      case "playerTurn":
+        return <PlayerTurnPage />;
+      case "gatherResource":
+        return <GatherResourcePage />;
+      case "prepareGifts":
+        return <PrepareGiftsPage />;
+      case "shopItems":
+        return <ShopItemsPage />;
+      case "results":
+        return <ResultsPage />;
+      default:
+        return <LandingPage />;
+    }
+  };
+
+  return (
+    <>
+      {showNavigation && <Navigation />}
+      {renderPage()}
+    </>
+  );
 }

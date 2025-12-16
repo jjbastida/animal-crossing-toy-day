@@ -1,4 +1,4 @@
-import { css } from '@emotion/react';
+import { css } from "@emotion/react";
 
 const container = css`
   padding: 2rem;
@@ -142,4 +142,18 @@ const dataItemContent = css`
   }
 `;
 
-export { container, searchInput, tabsContainer, tab, tabActive, tabDisabled, dataSection, dataGrid, dataItem, dataItemHeader, dataItemContent, sectionTitle, copyButton };
+export {
+  container,
+  searchInput,
+  tabsContainer,
+  tab,
+  tabActive,
+  tabDisabled,
+  dataSection,
+  dataGrid,
+  dataItem,
+  dataItemHeader,
+  dataItemContent,
+  sectionTitle,
+  copyButton,
+};

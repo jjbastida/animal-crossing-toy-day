@@ -23,7 +23,6 @@ const buttonPrimary = css`
   &:hover {
     background-color: var(--foreground-button-primary-hover);
   }
-
 `;
 
 const buttonSecondary = css`
@@ -39,7 +38,7 @@ const buttonGhost = css`
   color: inherit;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -66,4 +65,4 @@ const buttonVariants = {
   ghost: buttonGhost,
 };
 
-export {coreButton, buttonVariants };
+export { coreButton, buttonVariants };

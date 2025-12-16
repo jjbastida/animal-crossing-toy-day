@@ -1,4 +1,4 @@
-import { GamePhase, ActionType, Player, ShopItem } from '../types/general';
+import { GamePhase, ActionType, Player, ShopItem } from "../types/general";
 
 export interface GameContextValue {
   players: Player[];

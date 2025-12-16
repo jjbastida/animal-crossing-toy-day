@@ -15,10 +15,12 @@ const squishBounce = keyframes`
   }
 `;
 
-export const createCharStyle = (index: number, speed: number) => css`
+const createCharStyle = (index: number, speed: number) => css`
   display: inline-block;
   font-size: 1em;
-  animation: ${squishBounce} ${2 / (speed * .35)}s ease-in-out infinite;
-  animation-delay: ${index * 0.08 / (speed * .8)}s;
+  animation: ${squishBounce} ${2 / (speed * 0.35)}s ease-in-out infinite;
+  animation-delay: ${(index * 0.08) / (speed * 0.8)}s;
   transform-origin: bottom;
 `;
+
+export { createCharStyle };

@@ -14,26 +14,26 @@ interface FruitModalProps {
 }
 
 const fruitAbilities = {
-  apple: { content: "Start with {{1500 Bells}}!", helper: "More bells means more money." },
+  apple: { content: "Start with {{5,000 Bells}}!", helper: "More bells means more money." },
   cherry: {
     content: "Start with a {{Fishing Rod}}!",
     helper: "Most fish sell for high prices but beware of boots and garbage.",
   },
   peach: {
-    content: "Worth {{100 Bells Each}}!",
-    helper: "This fruit is worth double the normal amount of bells.",
+    content: "Worth {{500 Bells Each}}!",
+    helper: "This fruit is worth five times the normal amount of bells.",
   },
   orange: {
     content: "Start with a {{Bug Net}}!",
     helper: "Most insects sell cheap but rare insects sell for a lot.",
   },
-  coconut: {
-    content: "Start with a {{Shop Coupon}}!",
-    helper: "A coupon can be used to get a free item from the shop.",
-  },
   pear: {
     content: "Start with a {{Shovel}}!",
     helper: "Fossils are all consistently well priced.",
+  },
+  coconut: {
+    content: "Start with a {{Shop Coupon}}!",
+    helper: "A coupon can be used to get a free item from the shop.",
   },
 };
 

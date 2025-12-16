@@ -1,58 +1,69 @@
-import React, { ChangeEvent, useContext, useState } from 'react';
-import { AvatarType, FruitType } from '@/types/general';
-import villagerIcons from '@data/villager_icons.json';
-import * as styles from './CharacterCustomization.styles';
-import soundEffects from '@data/sound_effects.json';
-import { GameContext, MusicContext } from '@/context';
-import PlayerCard from './PlayerCard/PlayerCard';
-import AvatarModal from './AvatarModal/AvatarModal';
-import FruitModal from './FruitModal/FruitModal';
-import Typography from '@/components/Typography/Typography';
+import React, { ChangeEvent, useContext, useState } from "react";
+import { AvatarType, FruitType } from "@/types/general";
+import villagerIcons from "@data/villager_icons.json";
+import * as styles from "./CharacterCustomization.styles";
+import soundEffects from "@data/sound_effects.json";
+import { GameContext, MusicContext } from "@/context";
+import PlayerCard from "./PlayerCard/PlayerCard";
+import AvatarModal from "./AvatarModal/AvatarModal";
+import FruitModal from "./FruitModal/FruitModal";
+import Typography from "@/components/Typography/Typography";
 
 const allVillagers = Object.keys(villagerIcons) as AvatarType[];
 const shuffled = [...allVillagers].sort(() => Math.random() - 0.5);
 const randomPlaceholderAvatars = shuffled.slice(0, 4);
 
 interface CharacterCustomizationProps {
-  modifyPlayer: (playerId: number, key: string, value: string | number | FruitType | AvatarType) => void;
-  modalOpen: 'avatar' | 'fruit' | null;
-  setModalOpen: (modal: 'avatar' | 'fruit' | null) => void;
+  modifyPlayer: (
+    playerId: number,
+    key: string,
+    value: string | number | FruitType | AvatarType,
+  ) => void;
+  modalOpen: "avatar" | "fruit" | null;
+  setModalOpen: (modal: "avatar" | "fruit" | null) => void;
 }
 
-function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: CharacterCustomizationProps): React.ReactNode {
+function CharacterCustomization({
+  modifyPlayer,
+  modalOpen,
+  setModalOpen,
+}: CharacterCustomizationProps): React.ReactNode {
   const { players, setPlayers } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
   const [selectedPlayerId, setSelectedPlayerId] = useState<number | null>(null);
 
   function ensurePlayerExists(playerId: number) {
-    const existingPlayer = players.find(p => p.id === playerId);
+    const existingPlayer = players.find((p) => p.id === playerId);
     if (!existingPlayer) {
-      setPlayers(prev => [...prev, { id: playerId }]);
+      setPlayers((prev) => [...prev, { id: playerId }]);
     }
   }
 
-  function handleAvatarSelect(villagerKey: string, _villagerData: { name: string; imageUrl: string }) {
+  function handleAvatarSelect(
+    villagerKey: string,
+    _villagerData: { name: string; imageUrl: string },
+  ) {
     if (selectedPlayerId === null) return;
-    playSoundEffect(soundEffects['UI_Cmn_Open'].audioUrl);
-    modifyPlayer(selectedPlayerId, 'avatar', villagerKey);
+    playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
+    modifyPlayer(selectedPlayerId, "avatar", villagerKey);
     setModalOpen(null);
     setSelectedPlayerId(null);
   }
 
   function handleFruitSelect(fruitType: FruitType) {
     if (selectedPlayerId === null) return;
-    playSoundEffect(soundEffects['UI_Cmn_Open'].audioUrl);
-    modifyPlayer(selectedPlayerId, 'fruit', fruitType);
+    playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
+    modifyPlayer(selectedPlayerId, "fruit", fruitType);
     setModalOpen(null);
     setSelectedPlayerId(null);
   }
 
   function handleNameChange(playerId: number, value: string) {
-    modifyPlayer(playerId, 'name', value);
+    modifyPlayer(playerId, "name", value);
   }
 
   function handleClearPlayer(playerId: number) {
-    setPlayers(prev => prev.filter(p => p.id !== playerId));
+    setPlayers((prev) => prev.filter((p) => p.id !== playerId));
   }
 
   function handleClose() {
@@ -60,8 +71,8 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
     setSelectedPlayerId(null);
   }
 
-  const defaultPlayers = [1, 2, 3, 4].map(id => {
-    const existingPlayer = players.find(p => p.id === id);
+  const defaultPlayers = [1, 2, 3, 4].map((id) => {
+    const existingPlayer = players.find((p) => p.id === id);
     return existingPlayer || { id };
   });
 
@@ -69,7 +80,13 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
     <div css={styles.cardContainer}>
       {defaultPlayers.map((player, index) => (
         <div key={player.id} css={styles.playerContainer}>
-          <Typography variant="body" size="lg" css={styles.playerNumber(index, !!player.avatar && !!player.fruit && !!player.name)}>Player {index + 1}</Typography>
+          <Typography
+            variant="body"
+            size="lg"
+            css={styles.playerNumber(index, !!player.avatar && !!player.fruit && !!player.name)}
+          >
+            Player {index + 1}
+          </Typography>
           <PlayerCard
             avatar={player.avatar}
             fruit={player.fruit}
@@ -78,21 +95,25 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
             onAvatarClick={() => {
               ensurePlayerExists(player.id);
               setSelectedPlayerId(player.id);
-              setModalOpen('avatar');
+              setModalOpen("avatar");
             }}
             onFruitClick={() => {
               ensurePlayerExists(player.id);
               setSelectedPlayerId(player.id);
-              setModalOpen('fruit');
+              setModalOpen("fruit");
             }}
-            onClear={player.avatar || player.fruit || player.name ? () => handleClearPlayer(player.id) : undefined}
+            onClear={
+              player.avatar || player.fruit || player.name
+                ? () => handleClearPlayer(player.id)
+                : undefined
+            }
           />
           <div css={styles.inputContainer(index)}>
             <input
               css={styles.nameInput}
               type="text"
               placeholder="Enter your name..."
-              value={player.name || ''}
+              value={player.name || ""}
               aria-label="Name"
               onChange={(e: ChangeEvent<HTMLInputElement>) => {
                 ensurePlayerExists(player.id);
@@ -103,12 +124,12 @@ function CharacterCustomization({ modifyPlayer, modalOpen, setModalOpen }: Chara
         </div>
       ))}
       <AvatarModal
-        isOpen={modalOpen === 'avatar'}
+        isOpen={modalOpen === "avatar"}
         onClose={handleClose}
         onSelect={handleAvatarSelect}
       />
       <FruitModal
-        isOpen={modalOpen === 'fruit'}
+        isOpen={modalOpen === "fruit"}
         onClose={handleClose}
         onSelect={handleFruitSelect}
       />

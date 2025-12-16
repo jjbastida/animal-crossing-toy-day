@@ -1,367 +1,440 @@
 {
   "acanthostega": {
     "name": "Acanthostega",
+    "description": "The missing link between swimming and walking. Talk about a fish out of water.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2000
+    "sellPrice": 800
   },
   "amber": {
     "name": "Amber",
+    "description": "Sap happens. Just ask the mosquito trapped inside.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1200
+    "sellPrice": 800
   },
   "ammonite": {
     "name": "Ammonite",
+    "description": "This shell has been spiraling out of control for millions of years.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1100
+    "sellPrice": 800
   },
   "ankylo-skull": {
     "name": "Ankylo skull",
+    "description": "A seriously hard-headed approach to prehistoric problems.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "ankylo-tail": {
     "name": "Ankylo tail",
+    "description": "The original heavy metal club. It was a smashing hit!",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "ankylo-torso": {
     "name": "Ankylo torso",
+    "description": "Built like a tank, but with significantly worse gas mileage.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "anomalocaris": {
     "name": "Anomalocaris",
+    "description": "Looks like a shrimp that went to the gym and got weird.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2000
+    "sellPrice": 800
   },
   "archaeopteryx": {
     "name": "Archaeopteryx",
+    "description": "The early bird catches the... fossilization process?",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1300
+    "sellPrice": 800
   },
   "archelon-skull": {
     "name": "Archelon skull",
+    "description": "This turtle head is definitely coming out of its shell.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "archelon-tail": {
     "name": "Archelon tail",
+    "description": "Trailing behind the world's slowest giant. Try to keep up.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "australopith": {
     "name": "Australopith",
+    "description": "Grandpa? Is that you? You haven't aged a day!",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1100
+    "sellPrice": 800
   },
   "brachio-chest": {
     "name": "Brachio chest",
+    "description": "You need a big heart to pump blood up that neck. Literally.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "brachio-pelvis": {
     "name": "Brachio pelvis",
+    "description": "Hips don't lie, and these hips say this guy was absolutely massive.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "brachio-skull": {
     "name": "Brachio skull",
+    "description": "So much height, so little brain power. Head in the clouds!",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 6000
+    "sellPrice": 800
   },
   "brachio-tail": {
     "name": "Brachio tail",
+    "description": "A tail so long it usually arrives five minutes after the head.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "coprolite": {
     "name": "Coprolite",
+    "description": "It’s fossilized poop. That's it. That's the joke. It's number two.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1100
+    "sellPrice": 800
   },
   "deinony-tail": {
     "name": "Deinony tail",
+    "description": "A balancing act for a creature that definitely skipped leg day.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "deinony-torso": {
     "name": "Deinony torso",
+    "description": "Ribs for days, but I wouldn't suggest a BBQ.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "dimetrodon-skull": {
     "name": "Dimetrodon skull",
+    "description": "Not actually a dinosaur, but he's trying his best to fit in.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "dimetrodon-torso": {
     "name": "Dimetrodon torso",
+    "description": "Rocking the big sail before windsurfing was even cool.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "dinosaur-track": {
     "name": "Dinosaur track",
+    "description": "Someone really made a lasting impression here.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1000
+    "sellPrice": 800
   },
   "diplo-chest": {
     "name": "Diplo chest",
+    "description": "A chest so big it technically needs its own zip code.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "diplo-neck": {
     "name": "Diplo neck",
+    "description": "A real pain in the neck to excavate, frankly.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "diplo-pelvis": {
     "name": "Diplo pelvis",
+    "description": "The structural support for a very heavy backside.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "diplo-skull": {
     "name": "Diplo skull",
+    "description": "Small head, big dreams, and a very long commute for food to the stomach.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "diplo-tail": {
     "name": "Diplo tail",
+    "description": "Whip it good! The original tail-whip attack.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "diplo-tail-tip": {
     "name": "Diplo tail tip",
+    "description": "Just the tip... of a very, very long tail.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "dunkleosteus": {
     "name": "Dunkleosteus",
+    "description": "With a face like that, no wonder he was always in a bad mood.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "eusthenopteron": {
     "name": "Eusthenopteron",
+    "description": "Part fish, part leg, fully confused about evolution.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2000
+    "sellPrice": 800
   },
   "iguanodon-skull": {
     "name": "Iguanodon skull",
+    "description": "Known for giving a big thumbs up to extinction.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "iguanodon-tail": {
     "name": "Iguanodon tail",
+    "description": "A sturdy tail to balance out that 'cool guy' attitude.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "iguanodon-torso": {
     "name": "Iguanodon torso",
+    "description": "The body of a lizard, the soul of a hitchhiker.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "juramaia": {
     "name": "Juramaia",
+    "description": "The great-great-great-grandmother of all rats. Respect your elders.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1500
+    "sellPrice": 800
   },
   "left-megalo-side": {
     "name": "Left megalo side",
+    "description": "The left side of a deer that was definitely a big deal.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "left-ptera-wing": {
     "name": "Left ptera wing",
+    "description": "Just winging it on the left side. Don't leave him hanging.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "left-quetzal-wing": {
     "name": "Left quetzal wing",
+    "description": "This wing is the size of a small plane. No frequent flyer miles included.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "mammoth-skull": {
     "name": "Mammoth skull",
+    "description": "Tusk, tusk. Look what happened to this hairy fellow.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "mammoth-torso": {
     "name": "Mammoth torso",
+    "description": "A ribcage built for cold weather and heavy lifting.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "megacero-skull": {
     "name": "Megacero skull",
+    "description": "Nice rack! The antlers, I mean. Get your mind out of the gutter.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "megacero-tail": {
     "name": "Megacero tail",
+    "description": "A tiny tail for a massive deer. Evolution is funny like that.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "megacero-torso": {
     "name": "Megacero torso",
+    "description": "The torso of the ultimate stag party king.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "myllokunmingia": {
     "name": "Myllokunmingia",
+    "description": "It's small, it's old, and it's impossible to pronounce on the first try.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1500
+    "sellPrice": 800
   },
   "ophthalmo-skull": {
     "name": "Ophthalmo skull",
+    "description": "Eye see what you did there. This guy saw everything.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "ophthalmo-torso": {
     "name": "Ophthalmo torso",
+    "description": "Looks like a dolphin, acts like a lizard, smells like a rock.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2000
+    "sellPrice": 800
   },
   "pachy-skull": {
     "name": "Pachy skull",
+    "description": "The ultimate headbanger. No heavy metal music required.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "pachy-tail": {
     "name": "Pachy tail",
+    "description": "Stiff and straight, just like my back after digging this up.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "parasaur-skull": {
     "name": "Parasaur skull",
+    "description": "Business in the front, musical instrument in the back of the head.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3500
+    "sellPrice": 800
   },
   "parasaur-tail": {
     "name": "Parasaur tail",
+    "description": "A tail used for swimming? Or just looking fabulous? We may never know.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "parasaur-torso": {
     "name": "Parasaur torso",
+    "description": "Standard dino body, but with a flair for the dramatic.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "plesio-skull": {
     "name": "Plesio skull",
+    "description": "The Loch Ness Monster's distinctively less elusive cousin.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "plesio-tail": {
     "name": "Plesio tail",
+    "description": "Steering gear for a prehistoric submarine.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "plesio-torso": {
     "name": "Plesio torso",
+    "description": "Paddle power! The engine room of the sea.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "ptera-body": {
     "name": "Ptera body",
+    "description": "Small body, big dreams of flight. The aviator of the Jurassic.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "quetzal-torso": {
     "name": "Quetzal torso",
+    "description": "This torso supported a beak the size of a surfboard.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "right-megalo-side": {
     "name": "Right megalo side",
+    "description": "The right side is clearly the right choice for elk enthusiasts.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "right-ptera-wing": {
     "name": "Right ptera wing",
+    "description": "The right wingman for any aerial adventure.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "right-quetzal-wing": {
     "name": "Right quetzal wing",
+    "description": "Right wing, cleared for takeoff. Please stow your tray tables.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "sabertooth-skull": {
     "name": "Sabertooth skull",
+    "description": "My, what big teeth you have! Better for biting you with.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "sabertooth-tail": {
     "name": "Sabertooth tail",
+    "description": "A bobtail cat, essentially. Just slightly more deadly.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2000
+    "sellPrice": 800
   },
   "shark-tooth-pattern": {
     "name": "Shark-tooth pattern",
+    "description": "The dental plan for this guy must have been a financial nightmare.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1000
+    "sellPrice": 800
   },
   "spino-skull": {
     "name": "Spino skull",
+    "description": "A snout made for fishing, a roar made for the movies.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "spino-tail": {
     "name": "Spino tail",
+    "description": "A powerful tail for a dino that really loved to go for a swim.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 2500
+    "sellPrice": 800
   },
   "spino-torso": {
     "name": "Spino torso",
+    "description": "Carrying a sail on your back seems exhausting. Nice spine though.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 3000
+    "sellPrice": 800
   },
   "stego-skull": {
     "name": "Stego skull",
+    "description": "Brain the size of a walnut. Bless his pointy heart.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "stego-tail": {
     "name": "Stego tail",
+    "description": "Watch out for the Thagomizer! Yes, that is the real scientific name.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4000
+    "sellPrice": 800
   },
   "stego-torso": {
     "name": "Stego torso",
+    "description": "Plates on the back imply a very defensive dining etiquette.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "t-rex-skull": {
     "name": "T. rex skull",
+    "description": "The King. The Legend. The reason we check the rearview mirror.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 6000
+    "sellPrice": 800
   },
   "t-rex-tail": {
     "name": "T. rex tail",
+    "description": "The perfect counterbalance for a massive head and a massive ego.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "t-rex-torso": {
     "name": "T. rex torso",
+    "description": "This guy skipped arm day for 65 million years straight.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "tricera-skull": {
     "name": "Tricera skull",
+    "description": "Three horns, one bad attitude. The tank of the Cretaceous.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5500
+    "sellPrice": 800
   },
   "tricera-tail": {
     "name": "Tricera tail",
+    "description": "A heavy tail to drag around while looking imposing.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 4500
+    "sellPrice": 800
   },
   "tricera-torso": {
     "name": "Tricera torso",
+    "description": "Ribs built to withstand a T-Rex attack. Or a very big hug.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 5000
+    "sellPrice": 800
   },
   "trilobite": {
     "name": "Trilobite",
+    "description": "The cockroach of the ocean floor. But, you know, fancier.",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Identified_Fossil_NH_Inv_Icon.png/120px-Identified_Fossil_NH_Inv_Icon.png",
-    "sellPrice": 1300
+    "sellPrice": 800
   }
 }

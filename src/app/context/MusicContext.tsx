@@ -1,5 +1,5 @@
-import { createContext, useState, useRef, useEffect, useCallback } from 'react';
-import { MusicOptions, MusicContextValue, MusicProviderProps } from './MusicContext.types';
+import { createContext, useState, useRef, useEffect, useCallback } from "react";
+import { MusicOptions, MusicContextValue, MusicProviderProps } from "./MusicContext.types";
 
 export const MusicContext = createContext<MusicContextValue>({
   currentTrack: null,
@@ -9,7 +9,7 @@ export const MusicContext = createContext<MusicContextValue>({
   pauseTrack: () => {},
   resumeTrack: () => {},
   setVolume: () => {},
-  playSoundEffect: () => {}
+  playSoundEffect: () => {},
 });
 
 export function MusicProvider({ children }: MusicProviderProps) {
@@ -17,7 +17,10 @@ export function MusicProvider({ children }: MusicProviderProps) {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const playTrack = useCallback(function(trackPath: string, options: MusicOptions = { volume: 0.5 }) {
+  const playTrack = useCallback(function (
+    trackPath: string,
+    options: MusicOptions = { volume: 0.07 },
+  ) {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current = null;
@@ -27,13 +30,16 @@ export function MusicProvider({ children }: MusicProviderProps) {
     audio.loop = options.loop !== false;
     audio.volume = options.volume !== undefined ? options.volume : 0.5;
 
-    audio.play().then(() => {
-      setIsPlaying(true);
-    }).catch((error: Error) => {
-      console.error('Error playing audio:', error);
-    });
+    audio
+      .play()
+      .then(() => {
+        setIsPlaying(true);
+      })
+      .catch((error: Error) => {
+        console.error("Error playing audio:", error);
+      });
 
-    audio.addEventListener('ended', () => {
+    audio.addEventListener("ended", () => {
       if (!audio.loop) {
         setIsPlaying(false);
       }
@@ -43,7 +49,7 @@ export function MusicProvider({ children }: MusicProviderProps) {
     setCurrentTrack(trackPath);
   }, []);
 
-  const stopTrack = useCallback(function() {
+  const stopTrack = useCallback(function () {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -53,36 +59,45 @@ export function MusicProvider({ children }: MusicProviderProps) {
     }
   }, []);
 
-  const pauseTrack = useCallback(function() {
-    if (audioRef.current && isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(false);
-    }
-  }, [isPlaying]);
+  const pauseTrack = useCallback(
+    function () {
+      if (audioRef.current && isPlaying) {
+        audioRef.current.pause();
+        setIsPlaying(false);
+      }
+    },
+    [isPlaying],
+  );
 
-  const resumeTrack = useCallback(function() {
-    if (audioRef.current && !isPlaying) {
-      audioRef.current.play().then(() => {
-        setIsPlaying(true);
-      }).catch((error: Error) => {
-        console.error('Error resuming audio:', error);
-      });
-    }
-  }, [isPlaying]);
+  const resumeTrack = useCallback(
+    function () {
+      if (audioRef.current && !isPlaying) {
+        audioRef.current
+          .play()
+          .then(() => {
+            setIsPlaying(true);
+          })
+          .catch((error: Error) => {
+            console.error("Error resuming audio:", error);
+          });
+      }
+    },
+    [isPlaying],
+  );
 
-  const setVolume = useCallback(function(volume: number) {
+  const setVolume = useCallback(function (volume: number) {
     if (audioRef.current) {
       audioRef.current.volume = Math.max(0, Math.min(1, volume));
     }
   }, []);
 
-  const playSoundEffect = useCallback(function(soundPath: string, volume: number = 1) {
+  const playSoundEffect = useCallback(function (soundPath: string, volume: number = 1) {
     const soundEffect = new Audio(soundPath);
     soundEffect.loop = false;
     soundEffect.volume = Math.max(0, Math.min(1, volume));
-    
+
     soundEffect.play().catch((error: Error) => {
-      console.error('Error playing sound effect:', error);
+      console.error("Error playing sound effect:", error);
     });
   }, []);
 
@@ -103,12 +118,8 @@ export function MusicProvider({ children }: MusicProviderProps) {
     pauseTrack,
     resumeTrack,
     setVolume,
-    playSoundEffect
+    playSoundEffect,
   };
 
-  return (
-    <MusicContext.Provider value={value}>
-      {children}
-    </MusicContext.Provider>
-  );
-};
+  return <MusicContext.Provider value={value}>{children}</MusicContext.Provider>;
+}

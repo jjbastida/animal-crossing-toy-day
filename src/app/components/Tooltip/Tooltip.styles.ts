@@ -24,8 +24,8 @@ const tooltipContainer = (color: string) => css`
   align-items: center;
   border-radius: 4px;
   background: ${color};
-  max-width: 160px;
-  max-height: 40px;
+  max-width: 200px;
+  max-height: 3.5em;
   color: var(--foreground-inverse);
   font-family: Seurat, sans-serif;
   font-size: 12px;
@@ -43,8 +43,12 @@ const tooltipContainer = (color: string) => css`
   z-index: 1000;
   opacity: 0;
   border-radius: 999px;
+  text-align: center;
   visibility: hidden;
-  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out, transform 200ms ease-in-out;
+  transition:
+    opacity 200ms ease-in-out,
+    visibility 200ms ease-in-out,
+    transform 200ms ease-in-out;
 
   &::after {
     content: "";
@@ -53,7 +57,6 @@ const tooltipContainer = (color: string) => css`
     height: 0;
     border-style: solid;
   }
-
 `;
 
 const tooltipText = css``;

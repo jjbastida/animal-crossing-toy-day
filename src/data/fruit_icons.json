@@ -1,26 +1,32 @@
 {
   "apple": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f4/Apple_NH_Inv_Icon.png/120px-Apple_NH_Inv_Icon.png",
-    "name": "Apple"
+    "name": "Apple",
+    "description": "An apple a day keeps the doctor away... if you throw it hard enough."
   },
   "cherry": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Cherry_NH_Inv_Icon.png/120px-Cherry_NH_Inv_Icon.png",
-    "name": "Cherry"
+    "name": "Cherry",
+    "description": "Life is just a bowl of these, just watch out for the pits."
   },
   "coconut": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/dc/Coconut_NH_Inv_Icon.png/120px-Coconut_NH_Inv_Icon.png",
-    "name": "Coconut"
+    "name": "Coconut",
+    "description": "I'm absolutely coco-nuts for this fruit."
   },
   "orange": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/49/Orange_NH_Inv_Icon.png/120px-Orange_NH_Inv_Icon.png",
-    "name": "Orange"
+    "name": "Orange",
+    "description": "Orange you glad I didn't say banana?"
   },
   "peach": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Peach_NH_Inv_Icon.png/120px-Peach_NH_Inv_Icon.png",
-    "name": "Peach"
+    "name": "Peach",
+    "description": "Feeling fuzzy? Well, this fruit is peachy keen."
   },
   "pear": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Pear_NH_Inv_Icon.png/120px-Pear_NH_Inv_Icon.png",
-    "name": "Pear"
+    "name": "Pear",
+    "description": "We make a great pear, sweet and refreshing."
   }
 }

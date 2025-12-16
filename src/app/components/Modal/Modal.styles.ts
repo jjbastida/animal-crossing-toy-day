@@ -16,7 +16,9 @@ const modalOverlay = css`
   justify-content: center;
   z-index: 1000;
   opacity: 1;
-  transition: opacity 0.2s ease-out, display 0.2s ease-out allow-discrete;
+  transition:
+    opacity 0.2s ease-out,
+    display 0.2s ease-out allow-discrete;
 
   &[data-open="false"] {
     display: none;
@@ -37,7 +39,9 @@ const modalContent = css`
   overflow-y: auto;
   opacity: 1;
   transform: scale(1) translateY(0);
-  transition: opacity 0.2s ease-out, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition:
+    opacity 0.2s ease-out,
+    transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 
   [data-open="false"] & {
     opacity: 0;
@@ -66,7 +70,7 @@ const modalItem = css`
   position: relative;
 
   &:hover {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   img {

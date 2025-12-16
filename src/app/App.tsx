@@ -1,8 +1,8 @@
-import React from 'react';
-import { GameProvider } from './context/GameContext';
-import { MusicProvider } from './context/MusicContext';
-import { Routing } from './Routing';
-import { appContainer } from './App.styles.ts';
+import React from "react";
+import { GameProvider } from "./context/GameContext";
+import { MusicProvider } from "./context/MusicContext";
+import { Routing } from "./Routing";
+import { appContainer } from "./App.styles.ts";
 
 const TOTAL_ROUNDS = 12;
 
@@ -16,6 +16,6 @@ function App(): React.ReactNode {
       </GameProvider>
     </MusicProvider>
   );
-};
+}
 
 export default App;

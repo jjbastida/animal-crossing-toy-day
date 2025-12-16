@@ -1,13 +1,13 @@
-import React from 'react';
-import { Card } from '@/components';
-import SelectionButton from '../SelectionButton/SelectionButton';
-import Tooltip from '@/components/Tooltip/Tooltip';
-import { AvatarType, FruitType } from '@/types/general';
-import fruitIcons from '@data/fruit_icons.json';
-import * as styles from './PlayerCard.styles.ts';
-import villagerIcons from '@data/villager_icons.json';
-import { X } from 'phosphor-react';
-import { playerColors } from '../CharacterCustomization.styles';
+import React from "react";
+import { Card } from "@/components";
+import SelectionButton from "../SelectionButton/SelectionButton";
+import Tooltip from "@/components/Tooltip/Tooltip";
+import { AvatarType, FruitType } from "@/types/general";
+import fruitIcons from "@data/fruit_icons.json";
+import * as styles from "./PlayerCard.styles.ts";
+import villagerIcons from "@data/villager_icons.json";
+import { X } from "phosphor-react";
+import { playerColors } from "@/App.styles";
 
 interface PlayerCardProps {
   index: number;
@@ -39,16 +39,24 @@ function PlayerCard({
       )}
       <Tooltip label={avatar ? "Change avatar" : "Pick avatar"} color={playerColors[index]}>
         <SelectionButton
-          selected={!!avatar} 
+          selected={!!avatar}
           index={index}
           size="large"
           onClick={onAvatarClick}
           aria-label={avatar ? "Change avatar" : "Pick avatar"}
         >
           {avatar ? (
-            <img src={villagerIcons[avatar as keyof typeof villagerIcons].imageUrl} alt={villagerIcons[avatar as keyof typeof villagerIcons].name} css={styles.asset} />
+            <img
+              src={villagerIcons[avatar as keyof typeof villagerIcons].imageUrl}
+              alt={villagerIcons[avatar as keyof typeof villagerIcons].name}
+              css={styles.asset}
+            />
           ) : (
-            <img src={villagerIcons[placeholderAvatarUrl as keyof typeof villagerIcons].imageUrl} alt={villagerIcons[placeholderAvatarUrl as keyof typeof villagerIcons].name} css={[styles.asset, styles.assetPlaceholder]} />
+            <img
+              src={villagerIcons[placeholderAvatarUrl as keyof typeof villagerIcons].imageUrl}
+              alt={villagerIcons[placeholderAvatarUrl as keyof typeof villagerIcons].name}
+              css={[styles.asset, styles.assetPlaceholder]}
+            />
           )}
         </SelectionButton>
       </Tooltip>
@@ -61,9 +69,17 @@ function PlayerCard({
           aria-label={fruit ? "Change fruit" : "Pick fruit"}
         >
           {fruit ? (
-            <img src={fruitIcons[fruit as keyof typeof fruitIcons].imageUrl} alt={fruitIcons[fruit as keyof typeof fruitIcons].name} css={styles.asset} />
+            <img
+              src={fruitIcons[fruit as keyof typeof fruitIcons].imageUrl}
+              alt={fruitIcons[fruit as keyof typeof fruitIcons].name}
+              css={styles.asset}
+            />
           ) : (
-            <img src={fruitIcons['apple'].imageUrl} alt="Select Fruit" css={[styles.asset, styles.assetPlaceholder]} />
+            <img
+              src={fruitIcons["apple"].imageUrl}
+              alt="Select Fruit"
+              css={[styles.asset, styles.assetPlaceholder]}
+            />
           )}
         </SelectionButton>
       </Tooltip>

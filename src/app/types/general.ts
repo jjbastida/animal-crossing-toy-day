@@ -1,6 +1,6 @@
-import villagerIcons from '@data/villager_icons.json';
+import villagerIcons from "@data/villager_icons.json";
 export type FruitType = "apple" | "cherry" | "peach" | "orange" | "pear" | "coconut";
-export type AvatarType = keyof typeof villagerIcons
+export type AvatarType = keyof typeof villagerIcons;
 
 export interface Present {
   id: string;
@@ -12,10 +12,11 @@ export interface Present {
 
 export interface Item {
   name: string;
-  description: string;
+  description?: string;
   imageURL: string;
   cost?: number;
   value?: number;
+  count?: number;
 }
 
 export interface Player {

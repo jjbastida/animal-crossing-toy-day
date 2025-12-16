@@ -1,6 +1,6 @@
-import React from 'react';
-import itemIcons from '@data/item_icons.json';
-import * as styles from './general.styles.ts';
+import React from "react";
+import itemIcons from "@data/item_icons.json";
+import * as styles from "./general.styles.ts";
 
 function parseIconText(text: string) {
   const parts: (string | React.ReactElement)[] = [];
@@ -11,7 +11,7 @@ function parseIconText(text: string) {
   while ((match = regex.exec(text)) !== null) {
     const [fullMatch, key] = match;
     const beforeText = text.slice(lastIndex, match.index);
-    
+
     if (beforeText) {
       parts.push(beforeText);
     }
@@ -19,12 +19,12 @@ function parseIconText(text: string) {
     if (itemIcons[key as keyof typeof itemIcons]) {
       const iconData = itemIcons[key as keyof typeof itemIcons];
       parts.push(
-        <img 
-          key={`icon-${key}-${match.index}`} 
-          src={iconData.imageUrl} 
-          alt={iconData.name} 
+        <img
+          key={`icon-${key}-${match.index}`}
+          src={iconData.imageUrl}
+          alt={iconData.name}
           css={styles.icon}
-        />
+        />,
       );
     } else {
       parts.push(fullMatch);
@@ -50,7 +50,7 @@ function parseHighlightedText(text: string) {
   while ((match = regex.exec(text)) !== null) {
     const [fullMatch, key] = match;
     const beforeText = text.slice(lastIndex, match.index);
-    
+
     if (beforeText) {
       parts.push(beforeText);
     }
@@ -58,7 +58,7 @@ function parseHighlightedText(text: string) {
     parts.push(
       <span key={`highlight-${key}-${match.index}`} css={styles.highlighted}>
         {key}
-      </span>
+      </span>,
     );
 
     lastIndex = match.index + fullMatch.length;
@@ -72,4 +72,14 @@ function parseHighlightedText(text: string) {
   return <>{parts}</>;
 }
 
-export { parseIconText, parseHighlightedText };
+function formatMoney(value: number) {
+  return value
+    .toLocaleString("en-US", {
+      style: "currency",
+      currency: "USD",
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    })
+    .replace("$", "");
+}
+export { parseIconText, parseHighlightedText, formatMoney };

@@ -1,4 +1,4 @@
-import DebugComponent from './_components/DebugComponent';
+import DebugComponent from "./_components/DebugComponent";
 
 function DebugPage(): React.ReactNode {
   return <DebugComponent />;

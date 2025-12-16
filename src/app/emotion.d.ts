@@ -1,7 +1,7 @@
-import '@emotion/react';
-import type { Interpolation, Theme } from '@emotion/react';
+import "@emotion/react";
+import type { Interpolation, Theme } from "@emotion/react";
 
-declare module 'react' {
+declare module "react" {
   interface Attributes {
     css?: Interpolation<Theme>;
   }

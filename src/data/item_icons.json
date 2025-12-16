@@ -199,10 +199,6 @@
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Clump_of_Weeds_NH_Inv_Icon.png/120px-Clump_of_Weeds_NH_Inv_Icon.png",
     "name": "Clump of Weeds"
   },
-  "stone": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Stone_NH_Inv_Icon.png/120px-Stone_NH_Inv_Icon.png",
-    "name": "Stone"
-  },
   "clay": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/82/Clay_NH_Inv_Icon.png/120px-Clay_NH_Inv_Icon.png",
     "name": "Clay"
@@ -215,18 +211,6 @@
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f0/Gold_Nugget_NH_Inv_Icon.png/120px-Gold_Nugget_NH_Inv_Icon.png",
     "name": "Gold Nugget"
   },
-  "boot": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Boot_NH_Inv_Icon.png/120px-Boot_NH_Inv_Icon.png",
-    "name": "Boot"
-  },
-  "empty-can": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Empty_Can_NH_Inv_Icon.png/120px-Empty_Can_NH_Inv_Icon.png",
-    "name": "Empty Can"
-  },
-  "old-tire": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Old_Tire_NH_Inv_Icon.png/120px-Old_Tire_NH_Inv_Icon.png",
-    "name": "Old Tire"
-  },
   "bamboo-piece": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Bamboo_Piece_NH_Inv_Icon.png/120px-Bamboo_Piece_NH_Inv_Icon.png",
     "name": "Bamboo Piece"
@@ -238,10 +222,6 @@
   "bamboo-shoot": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5f/Bamboo_Shoot_NH_Inv_Icon.png/120px-Bamboo_Shoot_NH_Inv_Icon.png",
     "name": "Bamboo Shoot"
-  },
-  "summer-shell": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Summer_Shell_NH_Inv_Icon.png/120px-Summer_Shell_NH_Inv_Icon.png",
-    "name": "Summer Shell"
   },
   "acorn": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Acorn_NH_Inv_Icon.png/120px-Acorn_NH_Inv_Icon.png",
@@ -282,34 +262,6 @@
   "snowflake": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Snowflake_NH_Inv_Icon.png/120px-Snowflake_NH_Inv_Icon.png",
     "name": "Snowflake"
-  },
-  "conch": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/5/5a/Conch_NH_Inv_Icon.png/120px-Conch_NH_Inv_Icon.png",
-    "name": "Conch"
-  },
-  "coral": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Coral_NH_Inv_Icon.png/120px-Coral_NH_Inv_Icon.png",
-    "name": "Coral"
-  },
-  "cowrie": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Cowrie_NH_Inv_Icon.png/120px-Cowrie_NH_Inv_Icon.png",
-    "name": "Cowrie"
-  },
-  "giant-clam": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/5/52/Giant_Clam_NH_Inv_Icon.png/120px-Giant_Clam_NH_Inv_Icon.png",
-    "name": "Giant Clam"
-  },
-  "sea-snail": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Sea_Snail_Shell_NH_Inv_Icon.png/120px-Sea_Snail_Shell_NH_Inv_Icon.png",
-    "name": "Sea Snail"
-  },
-  "sand-dollar": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Sand_Dollar_NH_Inv_Icon.png/120px-Sand_Dollar_NH_Inv_Icon.png",
-    "name": "Sand Dollar"
-  },
-  "venus-comb": {
-    "imageUrl": "https://dodo.ac/np/images/thumb/0/01/Venus_Comb_NH_Inv_Icon.png/120px-Venus_Comb_NH_Inv_Icon.png",
-    "name": "Venus Comb"
   },
   "aircheck": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Aircheck_NH_Inv_Icon.png/120px-Aircheck_NH_Inv_Icon.png",

@@ -1,4 +1,7 @@
-export const modalOverlaySvg = (dotColor: string, size: number) => `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 2000 1400" color="${dotColor}" opacity="0.2">
+export const modalOverlaySvg = (
+  dotColor: string,
+  size: number,
+) => `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 2000 1400" color="${dotColor}" opacity="0.2">
   <circle cx="0" cy="38.5" r="${size}" stroke="none" stroke-width="0" fill="currentColor"/>
    <circle cx="77" cy="38.5" r="${size}" stroke="none" stroke-width="0" fill="currentColor"/>
    <circle cx="154" cy="38.5" r="${size}" stroke="none" stroke-width="0" fill="currentColor"/>

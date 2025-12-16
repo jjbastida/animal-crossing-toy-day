@@ -1,94 +1,129 @@
-import { createContext, useState, useCallback } from 'react';
-import { Player, ShopItem, GamePhase, ActionType } from '../types/general';
-import { GameContextValue, GameProviderProps } from './GameContext.types';
+import { createContext, useState, useRef, useEffect } from "react";
+import { Player, ShopItem, GamePhase, ActionType } from "../types/general";
+import { GameContextValue, GameProviderProps } from "./GameContext.types";
+import {
+  DUMMY_PLAYERS,
+  DEFAULT_TOTAL_ROUNDS,
+  DEFAULT_ACTIONS_PER_TURN,
+  DEFAULT_VALUES,
+} from "./GameContext.constants";
+import { getNextPlayerIndex, findPlayerIndex } from "./GameContext.utils";
 
-const dummyPlayers = [
-  {
-    id: 1,
-    name: 'Player 1',
-    avatar: 'ace',
-    fruit: 'apple',
-    fruitValue: 50,
-    inventory: [],
-    presents: [],
-    bells: 1500,
-    points: 0,
-  },
-] as Player[];
+export const GameContext = createContext<GameContextValue>(DEFAULT_VALUES);
 
-export const GameContext = createContext<GameContextValue>({
-  players: [],
-  setPlayers: () => {},
-  currentPlayer: null,
-  setCurrentPlayer: () => {},
-  gamePhase: 'landing',
-  currentRound: 1,
-  totalRounds: 12,
-  currentAction: null,
-  actionsRemaining: 2,
-  setGamePhase: () => {},
-  setAction: () => {},
-  completePlayerAction: () => {},
-  shopItems: [],
-  setShopItems: () => {}
-});
-
-export function GameProvider({ children, totalRounds = 12 }: GameProviderProps) {
-  const [players, setPlayers] = useState<Player[]>([...dummyPlayers]);
-  const [gamePhase, setGamePhase] = useState<GamePhase>('characterCreation');
+export function GameProvider({ children, totalRounds = DEFAULT_TOTAL_ROUNDS }: GameProviderProps) {
+  const [players, setPlayers] = useState<Player[]>(DUMMY_PLAYERS);
+  const [gamePhase, setGamePhase] = useState<GamePhase>("landing");
   const [currentRound, setCurrentRound] = useState<number>(1);
   const [currentAction, setCurrentAction] = useState<ActionType>(null);
-  const [actionsRemaining, setActionsRemaining] = useState<number>(2);
-  const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
+  const [actionsRemaining, setActionsRemaining] = useState<number>(DEFAULT_ACTIONS_PER_TURN);
+  const [currentPlayer, setCurrentPlayer] = useState<Player | null>(DUMMY_PLAYERS[0]);
   const [shopItems, setShopItems] = useState<ShopItem[]>([]);
 
-  const completePlayerAction = useCallback(function() {
-    setActionsRemaining(prev => {
-      const newRemaining = prev - 1;
+  const gameStateRef = useRef({ players, currentPlayer, currentRound });
+
+  useEffect(() => {
+    gameStateRef.current = { players, currentPlayer, currentRound };
+  }, [players, currentPlayer, currentRound]);
+
+  useEffect(() => {
+    if (!currentPlayer) return;
+
+    const updatedPlayer = players.find((p) => p.id === currentPlayer.id);
+    if (updatedPlayer && updatedPlayer !== currentPlayer) {
+      setCurrentPlayer(updatedPlayer);
+    }
+  }, [players, currentPlayer]);
+
+  function advanceToNextPlayer(
+    currentPlayers: Player[],
+    currentPlayerValue: Player,
+  ): number | null {
+    const currentIndex = findPlayerIndex(currentPlayers, currentPlayerValue.id);
+    const nextIndex = getNextPlayerIndex(currentIndex, currentPlayers.length);
+
+    if (nextIndex !== null) {
+      setCurrentPlayer(currentPlayers[nextIndex]);
+      setGamePhase("playerTurn");
+      return DEFAULT_ACTIONS_PER_TURN;
+    }
+
+    return null;
+  }
+
+  function advanceToNextRound(currentPlayers: Player[], currentRoundValue: number): number {
+    if (currentRoundValue >= totalRounds) {
+      setCurrentPlayer(currentPlayers[0]);
+      setGamePhase("results");
+      return 0;
+    }
+
+    setCurrentPlayer(currentPlayers[0]);
+    setCurrentRound(function (prev) {
+      return prev + 1;
+    });
+    setGamePhase("playerTurn");
+    return DEFAULT_ACTIONS_PER_TURN;
+  }
+
+  function completePlayerAction(): void {
+    setActionsRemaining(function (prevActions) {
+      const newRemaining = prevActions - 1;
+
       if (newRemaining === 0) {
         setCurrentAction(null);
-        if (currentRound >= totalRounds) {
-          setGamePhase('results');
-        } else {
-          setCurrentRound(round => round + 1);
-          setActionsRemaining(2);
-          setGamePhase('playerTurn');
+        const {
+          players: currentPlayers,
+          currentPlayer: currentPlayerValue,
+          currentRound: currentRoundValue,
+        } = gameStateRef.current;
+
+        if (!currentPlayerValue) {
+          setGamePhase("playerTurn");
+          return DEFAULT_ACTIONS_PER_TURN;
         }
-      } else {
-        setCurrentAction(null);
-        setGamePhase('playerTurn');
+
+        const nextActions = advanceToNextPlayer(currentPlayers, currentPlayerValue);
+        if (nextActions !== null) {
+          return nextActions;
+        }
+
+        return advanceToNextRound(currentPlayers, currentRoundValue);
       }
+
+      setCurrentAction(null);
+      setGamePhase("playerTurn");
       return newRemaining;
     });
-  }, [currentRound, totalRounds]);
+  }
 
-  const setAction = useCallback(function(action: ActionType) {
+  function setAction(action: ActionType): void {
     setCurrentAction(action);
     if (action) {
       setGamePhase(action);
     }
-  }, []);
-
-  const value: GameContextValue = {
-    players,
-    setPlayers,
-    gamePhase,
-    currentRound,
-    totalRounds,
-    currentAction,
-    actionsRemaining,
-    currentPlayer,
-    setCurrentPlayer,
-    shopItems,
-    setShopItems,
-    setGamePhase,
-    setAction,
-    completePlayerAction
-  };
+  }
 
   return (
-    <GameContext.Provider value={value}>
+    <GameContext.Provider
+      value={{
+        players,
+        setPlayers,
+        gamePhase,
+        currentRound,
+        totalRounds,
+        currentAction,
+        actionsRemaining,
+        currentPlayer,
+        setCurrentPlayer,
+        shopItems,
+        setShopItems,
+        setGamePhase,
+        setAction,
+        completePlayerAction,
+      }}
+    >
       {children}
     </GameContext.Provider>
   );
-};
+}

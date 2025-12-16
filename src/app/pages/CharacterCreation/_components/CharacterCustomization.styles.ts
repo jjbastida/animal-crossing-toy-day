@@ -1,11 +1,5 @@
 import { css } from "@emotion/react";
-
-const playerColors: Record<number, string> = {
-  0: '#C27BF6',
-  1: '#829FF6',
-  2: '#4CB89C',
-  3: '#FF6C00',
-};
+import { playerColors } from "@/App.styles";
 
 const underlineSvg = (color: string) =>
   encodeURIComponent(`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +40,6 @@ const playerContainer = css`
   width: 100%;
 `;
 
-
 const inputContainer = (index: number) => css`
   position: relative;
   width: 80%;
@@ -67,7 +60,8 @@ const inputContainer = (index: number) => css`
     background-image: url("data:image/svg+xml,${underlineSvg("#EFEADD")}");
   }
 
-  &:hover, &:focus-within {
+  &:hover,
+  &:focus-within {
     &::after {
       background-image: url("data:image/svg+xml,${underlineSvg(playerColors[index])}");
     }
@@ -95,9 +89,8 @@ const nameInput = css`
 
 const playerNumber = (index: number, active: boolean) => css`
   text-align: center;
-  color: ${active ? playerColors[index] : 'var(--foreground-secondary)'};
+  color: ${active ? playerColors[index] : "var(--foreground-secondary)"};
 `;
-
 
 export {
   container,
