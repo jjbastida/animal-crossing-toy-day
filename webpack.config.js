@@ -62,7 +62,7 @@ module.exports = (env, argv) => {
         patterns: [
           {
             from: 'public',
-            to: 'public',
+            to: '.',
             noErrorOnMissing: true
           }
         ]
