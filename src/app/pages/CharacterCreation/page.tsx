@@ -30,7 +30,7 @@ function handleFruitAbilities(players: Player[]): Player[] {
         updatedPlayer.inventory = [
           ...updatedPlayer.inventory,
           {
-            name: itemIcons["net"].name,
+            name: "Bug Net",
             description: "A tool for catching bugs.",
             imageURL: itemIcons["net"].imageUrl,
           },
@@ -52,8 +52,8 @@ function handleFruitAbilities(players: Player[]): Player[] {
         updatedPlayer.inventory = [
           ...updatedPlayer.inventory,
           {
-            name: itemIcons["nook-miles-ticket"].name,
-            description: "A coupon can be used to get a free item from the shop.",
+            name: "Shop Coupon",
+            description: "A coupon to get a free item from the shop.",
             imageURL: itemIcons["nook-miles-ticket"].imageUrl,
           },
         ];

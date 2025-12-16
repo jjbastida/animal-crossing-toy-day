@@ -2,13 +2,15 @@ import { css } from "@emotion/react";
 
 const fruitAbility = css`
   text-align: center;
-  margin: 2rem 0 0.5rem 0;
+  margin: 2rem auto 0.5rem auto;
   color: var(--foreground-primary);
 `;
 
 const fruitHelperText = css`
   text-align: center;
   color: var(--foreground-secondary);
+  margin: 0 auto;
+  max-width: none;
 `;
 
 const fruitItem = css`

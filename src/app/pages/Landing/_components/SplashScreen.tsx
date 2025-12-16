@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import { GameContext } from "../../../context/GameContext";
 import * as styles from "./SplashScreen.styles.ts";
 import { ActionText, Typography } from "@components";
@@ -8,6 +8,7 @@ import soundEffects from "@data/sound_effects.json";
 import { SplashScreenProps } from "./SplashScreen.types";
 
 function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
+  const [soundPlayed, setSoundPlayed] = useState(false);
   const { setGamePhase } = useContext(GameContext);
   const { playTrack, playSoundEffect } = useContext(MusicContext);
   const animationPlayState = mounted
@@ -15,10 +16,14 @@ function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
     : { animationPlayState: "paused" };
 
   function handleKeyPress(): void {
-    playSoundEffect(soundEffects["UI_Decide_Title"].audioUrl);
-    setTimeout(() => {
-      setGamePhase("characterCreation");
-    }, 1000);
+    if (mounted && !soundPlayed) {
+      playSoundEffect(soundEffects["UI_Decide_Title"].audioUrl);
+      setSoundPlayed(true);
+
+      setTimeout(() => {
+        setGamePhase("characterCreation");
+      }, 1000);
+    }
   }
 
   useEffect(() => {

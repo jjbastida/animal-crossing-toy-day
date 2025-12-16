@@ -21,31 +21,22 @@ export function Routing(): React.ReactNode {
 
   useEffect(() => {
     switch (gamePhase) {
-      case "landing":
-        stopTrack();
-        return;
       case "characterCreation":
-        stopTrack();
         playTrack(songData["fireworks-show"].audioUrl);
         break;
       case "playerTurn":
-        stopTrack();
         playTrack(songData["7-00-am-sunny"].audioUrl);
         break;
       case "gatherResource":
-        stopTrack();
         playTrack(songData["12-00-pm-sunny"].audioUrl);
         break;
       case "prepareGifts":
-        stopTrack();
         playTrack(songData["8-00-am-snowy"].audioUrl);
         break;
       case "shopItems":
-        stopTrack();
         playTrack(songData["nook-cranny-small"].audioUrl);
         break;
       case "results":
-        stopTrack();
         playTrack("/assets/music/results.mp3");
         break;
       default:
@@ -54,7 +45,7 @@ export function Routing(): React.ReactNode {
   }, [gamePhase, playTrack, stopTrack]);
 
   if (window.location.hash === "#debug" || window.location.pathname === "/debug") {
-    stopTrack();
+    
     return <DebugPage />;
   }
 

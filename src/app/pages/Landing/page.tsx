@@ -8,10 +8,14 @@ import { MusicContext } from "@/context/MusicContext.tsx";
 
 function LandingPage(): React.ReactNode {
   const [showSplash, setShowSplash] = useState(false);
+  const [soundPlayed, setSoundPlayed] = useState(false);
   const { playSoundEffect } = useContext(MusicContext);
 
   function onPresentClick(): void {
-    playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
+    if (!soundPlayed && !showSplash) {
+      playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
+      setSoundPlayed(true);
+    }
     setShowSplash(true);
   }
 
