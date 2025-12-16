@@ -1,8 +1,9 @@
 /** @jsxImportSource @emotion/react */
-import { tooltipWrapper, tooltipContainer, positionStyles } from "./Tooltip.styles.ts";
+import * as styles from "./Tooltip.styles.ts";
 import type { TooltipProps } from "./Tooltip.types";
 
 function Tooltip({
+  disabled,
   children,
   label,
   position = "top",
@@ -12,11 +13,12 @@ function Tooltip({
   ...rest
 }: TooltipProps) {
   return (
-    <span {...rest} css={tooltipWrapper} data-open={open}>
+    <span {...rest} css={styles.tooltipWrapper} data-open={open}>
       {children}
       <div
-        css={[tooltipContainer(color), positionStyles[position](color)]}
+        css={[styles.tooltipContainer(color), styles.positionStyles[position](color)]}
         role="tooltip"
+        data-disabled={disabled}
         {...tooltipProps}
       >
         {label}

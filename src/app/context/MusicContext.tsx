@@ -18,7 +18,7 @@ export function MusicProvider({ children }: MusicProviderProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const soundEffectRef = useRef<HTMLAudioElement | null>(null);
 
-  function playTrack(trackPath: string, options: MusicOptions = { volume: 0.07 }): void {
+  function playTrack(trackPath: string, options: MusicOptions = { volume: 0.1 }): void {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current = null;

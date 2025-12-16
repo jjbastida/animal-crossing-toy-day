@@ -3,8 +3,8 @@ import type { TooltipPosition } from "./Tooltip.types";
 
 const tooltipWrapper = css`
   position: relative;
-  &:hover > [role="tooltip"],
-  &[data-open="true"] > [role="tooltip"] {
+  &:not([data-disabled="true"]):hover > [role="tooltip"],
+  &:not([data-disabled="true"])[data-open="true"] > [role="tooltip"] {
     opacity: 1;
     visibility: visible;
     transform: var(--tooltip-transform-visible);
@@ -120,4 +120,10 @@ const positionStyles: Record<TooltipPosition, (color: string) => ReturnType<type
   `,
 };
 
-export { tooltipWrapper, tooltipContainer, tooltipText, positionStyles };
+const disabled = css`
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+`;
+
+export { tooltipWrapper, tooltipContainer, tooltipText, positionStyles, disabled };

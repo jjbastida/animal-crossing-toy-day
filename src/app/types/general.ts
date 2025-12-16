@@ -1,10 +1,11 @@
 import villagerIcons from "@data/villager_icons.json";
 export type FruitType = "apple" | "cherry" | "peach" | "orange" | "pear" | "coconut";
+export type Color = "red" | "orange" | "green" | "purple";
 export type AvatarType = keyof typeof villagerIcons;
 
 export interface Present {
   id: string;
-  color: string;
+  color: Color;
   items: Item;
   position: number;
   action?: (Player: Player) => void;
@@ -36,10 +37,10 @@ export interface Gift {
   name: string;
 }
 
-export interface ShopItem {
-  id: number;
-  name: string;
+export interface ShopItem extends Item {
+  id: string;
   cost: number;
+  sold: boolean;
 }
 
 export type GamePhase =

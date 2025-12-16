@@ -65,7 +65,6 @@ const modalItem = css`
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   transition: transform 0.2s;
   position: relative;
 
@@ -74,7 +73,6 @@ const modalItem = css`
   }
 
   img {
-    width: 100%;
     max-width: 100px;
     max-height: 100px;
     height: auto;

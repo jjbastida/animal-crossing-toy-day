@@ -5,8 +5,8 @@ export interface PresentSlotProps {
   position: number;
   isDragOver: boolean;
   onPresentClick: (present: Present) => void;
-  onDragOver: (e: React.DragEvent) => void;
-  onDragLeave: () => void;
-  onDrop: (e: React.DragEvent) => void;
+  onMouseEnter: () => void;
+  onMouseLeave: () => void;
+  onMouseUp: () => void;
 }
 

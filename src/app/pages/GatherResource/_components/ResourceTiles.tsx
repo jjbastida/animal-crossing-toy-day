@@ -31,29 +31,29 @@ function ResourceTiles(): React.ReactNode {
       name: "Fish",
       requiredItem: "Fishing Rod",
       icon: fishIcons["sweetfish"].imageUrl,
-      flavourText: `A ${fishIcons["sweetfish"].name.toLowerCase()}.`,
       tooltip: "Most fish sell high but beware garbage.",
+      flavourText: 'Cast your line in the river to catch fish.',
     },
     "bugs": {
       name: "Bugs",
-      requiredItem: "Net",
+      requiredItem: "Bug Net",
       icon: bugIcons["common-butterfly"].imageUrl,
-      flavourText: `A ${bugIcons["common-butterfly"].name.toLowerCase()}.`,
       tooltip: "Most bugs sell cheap but rare ones sell high.",
+      flavourText: 'Search the forest for bugs.',
     },
     "sea-creatures": {
       name: "Sea Creatures",
       requiredItem: "Wet Suit",
       icon: seaCreatureIcons["spiny-lobster"].imageUrl,
-      flavourText: `A ${seaCreatureIcons["spiny-lobster"].name.toLowerCase()}.`,
       tooltip: "Sea creatures sell at random prices.",
+      flavourText: 'Jump into the ocean to catch sea creatures.',
     },
     "fossils": {
       name: "Fossils",
       requiredItem: "Shovel",
       icon: itemIcons["fossil"].imageUrl,
-      flavourText: `A fossil: ${itemIcons["fossil"].name}.`,
       tooltip: "Fossils sell at a consistent price.",
+      flavourText: 'Dig up fossils on the beach.',
     },
   };
 
@@ -108,8 +108,6 @@ function ResourceTiles(): React.ReactNode {
   }
 
   function handleResourceClick(resourceType: ResourceType): void {
-    if (!hasRequiredItem(resourceType)) return;
-
     const item = collectResourceItem(resourceType);
     setCollectedItem(item);
     setSelectedResource(resourceType);

@@ -1,6 +1,6 @@
 import { Item } from "@/types/general";
 import itemIcons from "@data/item_icons.json";
-import furnitureData from "@data/filtered_furniture.json";
+import furnitureData from "@data/furniture.json";
 
 function canWrapItem(item: Item): boolean {
   const isFurniture = Object.values(furnitureData).some(

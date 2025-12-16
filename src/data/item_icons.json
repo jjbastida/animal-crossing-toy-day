@@ -18,11 +18,13 @@
   "fishing-rod": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/22/Fishing_Rod_NH_Inv_Icon.png/120px-Fishing_Rod_NH_Inv_Icon.png",
     "name": "Fishing Rod",
+    "description": "A tool for catching fish.",
     "type": "tool"
   },
   "net": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Net_NH_Inv_Icon.png/120px-Net_NH_Inv_Icon.png",
-    "name": "Net",
+    "name": "Bug Net",
+    "description": "A tool for catching bugs.",
     "type": "tool"
   },
   "stone-axe": {
@@ -36,6 +38,7 @@
   "shovel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Shovel_NH_Inv_Icon.png/120px-Shovel_NH_Inv_Icon.png",
     "name": "Shovel",
+    "description": "A tool for digging up fossils.",
     "type": "tool"
   },
   "watering-can": {
@@ -129,6 +132,7 @@
   "wet-suit": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Wet_Suit_NH_Inv_Icon.png/120px-Wet_Suit_NH_Inv_Icon.png",
     "name": "Wet Suit",
+    "description": "A tool for catching sea creatures.",
     "type": "tool"
   },
   "diy-recipe": {

@@ -1,10 +1,11 @@
+import { Dispatch, SetStateAction } from "react";
 import { GamePhase, ActionType, Player, ShopItem } from "../types/general";
 
 export interface GameContextValue {
   players: Player[];
-  setPlayers: (players: Player[] | ((prev: Player[]) => Player[])) => void;
+  setPlayers: Dispatch<SetStateAction<Player[]>>;
   currentPlayer: Player | null;
-  setCurrentPlayer: (player: Player | null | ((prev: Player | null) => Player | null)) => void;
+  setCurrentPlayer: (prevPlayer: Player | null) => void;
   gamePhase: GamePhase;
   currentRound: number;
   totalRounds: number;

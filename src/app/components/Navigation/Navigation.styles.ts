@@ -47,17 +47,6 @@ const bells = css`
   color: var(--foreground-primary);
 `;
 
-const pillContainer = (color: string) => css`
-  position: fixed;
-  top: 2rem;
-  left: 2rem;
-  background: ${color}A0;
-  padding: 1rem 1.5rem;
-  border-radius: 999px;
-  color: var(--foreground-inverse);
-  z-index: 1;
-`;
-
 const bellIcon = css`
   width: 1.5em;
   height: 1.5em;
@@ -65,4 +54,4 @@ const bellIcon = css`
   vertical-align: bottom;
 `;
 
-export { playerName, bellIcon, playerInfoContainer, avatar, playerInfo, bells, pillContainer };
+export { playerName, bellIcon, playerInfoContainer, avatar, playerInfo, bells };

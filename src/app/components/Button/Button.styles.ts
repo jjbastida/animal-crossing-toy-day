@@ -14,9 +14,24 @@ const coreButton = css`
   position: relative;
   overflow: hidden;
   background: transparent;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
 `;
 
 const buttonPrimary = css`
+  background-color: var(--foreground-button-secondary);
+  color: var(--foreground-inverse);
+
+  &:hover {
+    background-color: var(--foreground-button-secondary-hover);
+  }
+`;
+
+const buttonSecondary = css`
   background-color: var(--foreground-button-primary);
   color: var(--foreground-primary);
 
@@ -25,14 +40,6 @@ const buttonPrimary = css`
   }
 `;
 
-const buttonSecondary = css`
-  background-color: var(--foreground-button-secondary);
-  color: var(--foreground-inverse);
-
-  &:hover {
-    background-color: var(--foreground-button-secondary-hover);
-  }
-`;
 
 const buttonGhost = css`
   color: inherit;

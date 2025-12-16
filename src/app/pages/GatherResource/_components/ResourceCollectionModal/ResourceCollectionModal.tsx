@@ -1,6 +1,5 @@
 import React from "react";
 import { Modal, Typography, Button } from "@/components";
-import { ResourceType, ResourceConfig } from "../ResourceCard/ResourceCard.types";
 import * as styles from "./ResourceCollectionModal.styles";
 import pluralize from "pluralize";
 import { ResourceCollectionModalProps } from "./ResourceCollectionModal.types";
@@ -13,11 +12,11 @@ function ResourceCollectionModal({
   onAddToInventory,
   onClose,
 }: ResourceCollectionModalProps): React.ReactNode {
-  if (!collectedItem) return null;
+  if (!isOpen || !collectedItem) return null;
 
   return (
     <Modal isOpen={isOpen} onClose={onClose} disableEscape={true} css={styles.modalWrapper}>
-      <Modal.Title>Collected {resourceConfig?.name || ""}!</Modal.Title>
+      <Modal.Title>You found a {pluralize(resourceConfig?.name || "", 1)}!</Modal.Title>
       <div css={styles.modalItemContainer}>
         <div css={styles.modalImageContainer}>
           <img src={collectedItem.imageURL} alt={collectedItem.name} css={styles.modalItemImage} />
@@ -41,7 +40,7 @@ function ResourceCollectionModal({
         </div>
       </div>
       <div css={styles.modalActions}>
-        <Button variant="secondary" onClick={onAddToInventory}>
+        <Button variant="primary" onClick={onAddToInventory}>
           Add to Inventory
         </Button>
       </div>

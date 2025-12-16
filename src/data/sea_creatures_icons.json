@@ -2,241 +2,241 @@
   "seaweed": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8c/Seaweed_NH_Icon.png/120px-Seaweed_NH_Icon.png",
     "name": "Seaweed",
-    "description": "I got some seaweed! I couldn't kelp myself.",
+    "description": "I couldn't kelp myself.",
     "sellPrice": 600
   },
   "sea-grapes": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Sea_Grapes_NH_Icon.png/120px-Sea_Grapes_NH_Icon.png",
     "name": "Sea Grapes",
-    "description": "I got some sea grapes! Can't let these go sour.",
+    "description": "Can't let these go sour.",
     "sellPrice": 900
   },
   "sea-cucumber": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Sea_Cucumber_NH_Icon.png/120px-Sea_Cucumber_NH_Icon.png",
     "name": "Sea Cucumber",
-    "description": "I got a sea cucumber! It's a bit cumbersome...",
+    "description": "It's a bit cumbersome...",
     "sellPrice": 500
   },
   "sea-pig": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Sea_Pig_NH_Icon.png/120px-Sea_Pig_NH_Icon.png",
     "name": "Sea Pig",
-    "description": "I got a sea pig! What's next? Air pigs?",
+    "description": "What's next? Air pigs?",
     "sellPrice": 10000
   },
   "sea-star": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6c/Sea_Star_NH_Icon.png/120px-Sea_Star_NH_Icon.png",
     "name": "Sea Star",
-    "description": "I got a sea star! Maybe it'll give me an autograph!",
+    "description": "Maybe it'll give me an autograph.",
     "sellPrice": 500
   },
   "sea-urchin": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9c/Sea_Urchin_NH_Icon.png/120px-Sea_Urchin_NH_Icon.png",
     "name": "Sea Urchin",
-    "description": "I got a sea urchin! Wasn't even 'earchin for it.",
+    "description": "Wasn't even 'earchin for it.",
     "sellPrice": 1700
   },
   "slate-pencil-urchin": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/05/Slate_Pencil_Urchin_NH_Icon.png/120px-Slate_Pencil_Urchin_NH_Icon.png",
     "name": "Slate Pencil Urchin",
-    "description": "I got a slate pencil urchin! Its handwriting is gorgeous.",
+    "description": "Its handwriting is gorgeous.",
     "sellPrice": 2000
   },
   "sea-anemone": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e9/Sea_Anemone_NH_Icon.png/120px-Sea_Anemone_NH_Icon.png",
     "name": "Sea Anemone",
-    "description": "I got a sea anemone! The enemy of my anemone is my afrenome!",
+    "description": "The enemy of my anemone is my afrenome.",
     "sellPrice": 500
   },
   "moon-jellyfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f9/Moon_Jellyfish_NH_Icon.png/120px-Moon_Jellyfish_NH_Icon.png",
     "name": "Moon Jellyfish",
-    "description": "I got a moon jellyfish! Now to find a sun peanutbutterfish.",
+    "description": "Now to find a sun peanutbutterfish.",
     "sellPrice": 600
   },
   "sea-slug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/54/Sea_Slug_NH_Icon.png/120px-Sea_Slug_NH_Icon.png",
     "name": "Sea Slug",
-    "description": "I got a sea slug! It's kinda salty about that.",
+    "description": "It's kinda salty about that.",
     "sellPrice": 600
   },
   "pearl-oyster": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Pearl_Oyster_NH_Icon.png/120px-Pearl_Oyster_NH_Icon.png",
     "name": "Pearl Oyster",
-    "description": "I got a pearl oyster! Aw, shucks. Don't clam up now!",
+    "description": "Aw, shucks. Don't clam up now!",
     "sellPrice": 2800
   },
   "mussel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6c/Mussel_NH_Icon.png/120px-Mussel_NH_Icon.png",
     "name": "Mussel",
-    "description": "I got a mussel! It's been working out",
+    "description": "It's been working out",
     "sellPrice": 1500
   },
   "oyster": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Oyster_NH_Icon.png/120px-Oyster_NH_Icon.png",
     "name": "Oyster",
-    "description": "I got an oyster! It's a little shellfish.",
+    "description": "It's a little shellfish.",
     "sellPrice": 1100
   },
   "scallop": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/55/Scallop_NH_Icon.png/120px-Scallop_NH_Icon.png",
     "name": "Scallop",
-    "description": "I got a scallop! It otter be savored.",
+    "description": "It otter be savored.",
     "sellPrice": 1200
   },
   "whelk": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5e/Whelk_NH_Icon.png/120px-Whelk_NH_Icon.png",
     "name": "Whelk",
-    "description": "I got a whelk! Happy snails to ya.",
+    "description": "Happy snails to ya.",
     "sellPrice": 1000
   },
   "turban-shell": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/93/Turban_Shell_NH_Icon.png/120px-Turban_Shell_NH_Icon.png",
     "name": "Turban Shell",
-    "description": "I got a turban shell! It's totally TURB...ular!",
+    "description": "It's totally TURB...ular!",
     "sellPrice": 1000
   },
   "abalone": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Abalone_NH_Icon.png/120px-Abalone_NH_Icon.png",
     "name": "Abalone",
-    "description": "I got an abalone! Why do I want a sandwich now?",
+    "description": "Why do I want a sandwich now?",
     "sellPrice": 2000
   },
   "gigas-giant-clam": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/ca/Gigas_Giant_Clam_NH_Icon.png/120px-Gigas_Giant_Clam_NH_Icon.png",
     "name": "Gigas Giant Clam",
-    "description": "I got a gigas giant clam! It's kind of a big deal.",
+    "description": "It's kind of a big deal.",
     "sellPrice": 15000
   },
   "chambered-nautilus": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/98/Chambered_Nautilus_NH_Icon.png/120px-Chambered_Nautilus_NH_Icon.png",
     "name": "Chambered Nautilus",
-    "description": "I got a chambered nautilus! Is it on the naughty list?",
+    "description": "Is it on the naughty list?",
     "sellPrice": 1800
   },
   "octopus": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/58/Octopus_NH_Icon.png/120px-Octopus_NH_Icon.png",
     "name": "Octopus",
-    "description": "I got an octopus! It can give four hugs at once!",
+    "description": "It can give four hugs at once!",
     "sellPrice": 1200
   },
   "umbrella-octopus": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Umbrella_Octopus_NH_Icon.png/120px-Umbrella_Octopus_NH_Icon.png",
     "name": "Umbrella Octopus",
-    "description": "I got an umbrella octopus! Too bad I'm already soaked.",
+    "description": "Too bad I'm already soaked.",
     "sellPrice": 6000
   },
   "vampire-squid": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Vampire_Squid_NH_Icon.png/120px-Vampire_Squid_NH_Icon.png",
     "name": "Vampire Squid",
-    "description": "I got a vampire squid! A lot was at stake.",
+    "description": "A lot was at stake.",
     "sellPrice": 10000
   },
   "firefly-squid": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d0/Firefly_Squid_NH_Icon.png/120px-Firefly_Squid_NH_Icon.png",
     "name": "Firefly Squid",
-    "description": "I got a firefly squid! More like a glowswim squid.",
+    "description": "More like a glowswim squid.",
     "sellPrice": 1400
   },
   "gazami-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/60/Gazami_Crab_NH_Icon.png/120px-Gazami_Crab_NH_Icon.png",
     "name": "Gazami Crab",
-    "description": "I got a gazami crab! What a gripping find!",
+    "description": "What a gripping find!",
     "sellPrice": 2200
   },
   "dungeness-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Dungeness_Crab_NH_Icon.png/120px-Dungeness_Crab_NH_Icon.png",
     "name": "Dungeness Crab",
-    "description": "I got a Dungeness crab! Dun dun duuuun...geness.",
+    "description": "Dun dun duuuun...geness.",
     "sellPrice": 1900
   },
   "snow-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Snow_Crab_NH_Icon.png/120px-Snow_Crab_NH_Icon.png",
     "name": "Snow Crab",
-    "description": "I got a snow crab! It's giving me the cold shoulder.",
+    "description": "It's giving me the cold shoulder.",
     "sellPrice": 6000
   },
   "red-king-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9d/Red_King_Crab_NH_Icon.png/120px-Red_King_Crab_NH_Icon.png",
     "name": "Red King Crab",
-    "description": "You caught a red king crab! It's royally flushed.",
+    "description": "It's royally flushed.",
     "sellPrice": 8000
   },
   "acorn-barnacle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a4/Acorn_Barnacle_NH_Icon.png/120px-Acorn_Barnacle_NH_Icon.png",
     "name": "Acorn Barnacle",
-    "description": "I got an acorn barnacle! Will it grow into an oak barnacle?",
+    "description": "Will it grow into an oak barnacle?",
     "sellPrice": 600
   },
   "spider-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Spider_Crab_NH_Icon.png/120px-Spider_Crab_NH_Icon.png",
     "name": "Spider Crab",
-    "description": "I got a spider crab! Water bugs can rest easy.",
+    "description": "Water bugs can rest easy.",
     "sellPrice": 12000
   },
   "tiger-prawn": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Tiger_Prawn_NH_Icon.png/120px-Tiger_Prawn_NH_Icon.png",
     "name": "Tiger Prawn",
-    "description": "I got a tiger prawn! I ain't lion!",
+    "description": "I ain't lion!",
     "sellPrice": 3000
   },
   "sweet-shrimp": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Sweet_Shrimp_NH_Icon.png/120px-Sweet_Shrimp_NH_Icon.png",
     "name": "Sweet Shrimp",
-    "description": "I got a sweet shrimp! It's being very considerate.",
+    "description": "It's being very considerate.",
     "sellPrice": 1400
   },
   "mantis-shrimp": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7d/Mantis_Shrimp_NH_Icon.png/120px-Mantis_Shrimp_NH_Icon.png",
     "name": "Mantis Shrimp",
-    "description": "I got a mantis shrimp! Shrimply amazing!",
+    "description": "Shrimply amazing!",
     "sellPrice": 2500
   },
   "spiny-lobster": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8c/Spiny_Lobster_NH_Icon.png/120px-Spiny_Lobster_NH_Icon.png",
     "name": "Spiny Lobster",
-    "description": "I got a spiny lobster! It's got a lot of backbone!",
+    "description": "It's got a lot of backbone!",
     "sellPrice": 5000
   },
   "lobster": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a9/Lobster_NH_Icon.png/120px-Lobster_NH_Icon.png",
     "name": "Lobster",
-    "description": "I got a lobster! Lobjective complete.",
+    "description": "Lobjective complete.",
     "sellPrice": 4500
   },
   "giant-isopod": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/00/Giant_Isopod_NH_Icon.png/120px-Giant_Isopod_NH_Icon.png",
     "name": "Giant Isopod",
-    "description": "GAAAAH! I got a giant isopod! It's the crustodian of the sea.",
+    "description": "It's the crustodian of the sea.",
     "sellPrice": 12000
   },
   "horseshoe-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5b/Horseshoe_Crab_NH_Icon.png/120px-Horseshoe_Crab_NH_Icon.png",
     "name": "Horseshoe Crab",
-    "description": "I got a horseshoe crab! I hope it's lucky!",
+    "description": "I hope it's lucky!",
     "sellPrice": 2500
   },
   "sea-pineapple": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Sea_Pineapple_NH_Icon.png/120px-Sea_Pineapple_NH_Icon.png",
     "name": "Sea Pineapple",
-    "description": "I got a sea pineapple! Your move, sea pizzas.",
+      "description": "Your move, sea pizzas.",
     "sellPrice": 1500
   },
   "spotted-garden-eel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/aa/Spotted_Garden_Eel_NH_Icon.png/120px-Spotted_Garden_Eel_NH_Icon.png",
     "name": "Spotted Garden Eel",
-    "description": "I got a spotted garden eel! Was it un-spotted before I saw it?",
+    "description": "Was it un-spotted before I saw it?",
     "sellPrice": 1100
   },
   "flatworm": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/07/Flatworm_NH_Icon.png/120px-Flatworm_NH_Icon.png",
     "name": "Flatworm",
-    "description": "I got a flatworm! Guess it forgot its spareworm.",
+    "description": "Guess it forgot its spareworm.",
     "sellPrice": 700
   },
   "venus-flower-basket": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6a/Venus%27_Flower_Basket_NH_Icon.png/120px-Venus%27_Flower_Basket_NH_Icon.png",
     "name": "Venus' Flower Basket",
-    "description": "I got a Venus' flower basket! Why was she picking flowers here?",
+    "description": "Why was she picking flowers here?",
     "sellPrice": 5000
   }
 }

@@ -8,19 +8,11 @@ import { formatMoney } from "../../helper/general";
 import usePlayerColor from "@/hooks/usePlayerColor";
 
 function Navigation(): React.ReactNode {
-  const { currentRound, totalRounds, actionsRemaining, currentPlayer } = useContext(GameContext);
+  const { currentPlayer } = useContext(GameContext);
   const { playerColor } = usePlayerColor(currentPlayer);
 
   return (
     <>
-      <Typography
-        variant="body"
-        size="md"
-        css={styles.pillContainer(playerColor)}
-        style={{ top: "2rem", left: "2rem" }}
-      >
-        Round {currentRound} / {totalRounds}
-      </Typography>
       {currentPlayer && (
         <div css={styles.playerInfoContainer}>
           {currentPlayer.avatar && (
@@ -41,14 +33,6 @@ function Navigation(): React.ReactNode {
           </div>
         </div>
       )}
-      <Typography
-        variant="body"
-        size="md"
-        css={styles.pillContainer(playerColor)}
-        style={{ bottom: "2rem", left: "50%", transform: "translateX(-50%)", top: "auto" }}
-      >
-        {actionsRemaining} Actions Left
-      </Typography>
     </>
   );
 }

@@ -1,7 +1,8 @@
 import Modal, { ModalTitle } from "@/components/Modal/Modal";
-import { Button } from "@/components";
+import { Button, Typography } from "@/components";
 import * as styles from "./DeletePresentModal.styles";
 import { DeletePresentModalProps } from "./DeletePresentModal.types";
+import itemIcons from "@data/item_icons.json";
 
 function DeletePresentModal({
   isOpen,
@@ -12,16 +13,16 @@ function DeletePresentModal({
     <Modal isOpen={isOpen} onClose={onCancel}>
       <ModalTitle>Discard Present?</ModalTitle>
       <div css={styles.modalContent}>
-        <p css={styles.modalText}>
-          Are you sure you want to discard this present? The item will be returned to your
-          inventory.
-        </p>
+      <img src={itemIcons["present" as keyof typeof itemIcons]?.imageUrl || ""} alt="Present" css={styles.modalImage} />
+        <Typography variant="body" size="md" css={styles.modalText}>
+          Are you sure you want to discard this present?
+        </Typography>
         <div css={styles.modalActions}>
-          <Button variant="secondary" onClick={onConfirm}>
-            Discard
-          </Button>
-          <Button variant="primary" onClick={onCancel}>
+          <Button variant="secondary" onClick={onCancel}>
             Cancel
+          </Button>
+          <Button variant="primary" onClick={onConfirm}>
+            Discard
           </Button>
         </div>
       </div>

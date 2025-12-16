@@ -45,7 +45,7 @@ export function Routing(): React.ReactNode {
   }, [gamePhase, playTrack, stopTrack]);
 
   if (window.location.hash === "#debug" || window.location.pathname === "/debug") {
-    
+    stopTrack();
     return <DebugPage />;
   }
 

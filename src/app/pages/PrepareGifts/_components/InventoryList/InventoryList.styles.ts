@@ -1,17 +1,17 @@
 import { css } from "@emotion/react";
 
 const inventorySection = css`
-  width: 400px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background: var(--background-primary);
+  border-radius: 40px;
+  overflow: visible;
 `;
 
 const sectionTitle = css`
-  margin: 0;
-  font-size: 1.5rem;
   color: var(--foreground-primary);
-  font-family: Seurat, sans-serif;
 `;
 
 const inventoryList = css`
@@ -19,7 +19,9 @@ const inventoryList = css`
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   overflow-y: auto;
+  overflow-x: visible;
   max-height: calc(100vh - 200px);
+  width: fit-content;
 `;
 
 const inventoryItem = css`
@@ -38,4 +40,14 @@ const emptySlot = css`
   opacity: 0.5;
 `;
 
-export { inventorySection, sectionTitle, inventoryList, inventoryItem, emptySlot };
+const sectionHeader = css`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+`;
+
+const sectionDescription = css`
+  color: var(--foreground-secondary);
+`;
+
+export { inventorySection, sectionTitle, inventoryList, inventoryItem, emptySlot, sectionHeader, sectionDescription  };

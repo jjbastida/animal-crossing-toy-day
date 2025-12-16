@@ -1,4 +1,4 @@
-import { Present } from "@/types/general";
+import { CompleteActionButton, Typography } from "@/components";
 import PresentSlot from "../PresentSlot/PresentSlot";
 import * as styles from "./PresentsGrid.styles";
 import { PresentsGridProps } from "./PresentsGrid.types";
@@ -10,20 +10,27 @@ function PresentsGrid({
   presents,
   draggedOverSlot,
   onPresentClick,
-  onDragOver,
-  onDragLeave,
-  onDrop,
+  onMouseEnter,
+  onMouseLeave,
+  onMouseUp,
 }: PresentsGridProps): React.ReactNode {
   const presentMap = new Map(presents.map((p) => [p.position, p]));
 
   return (
     <div css={styles.gridSection}>
-      <h2 css={styles.sectionTitle}>Presents Grid</h2>
+      <div css={styles.sectionHeader}>
+        <Typography variant="display" size="3xl" css={styles.sectionTitle}>
+          Presents
+        </Typography>
+        <Typography variant="body" size="md" css={styles.sectionDescription}>
+          Click and drag items to an empty slot to wrap it up for points.
+        </Typography>
+      </div>
       <div css={styles.grid}>
         {Array.from({ length: TOTAL_SLOTS }).map((_, index) => {
           const position = index;
           const present = presentMap.get(position);
-
+          
           return (
             <PresentSlot
               key={index}
@@ -31,19 +38,20 @@ function PresentsGrid({
               position={position}
               isDragOver={draggedOverSlot === position}
               onPresentClick={onPresentClick}
-              onDragOver={(e) => {
+              onMouseEnter={() => {
                 if (!present) {
-                  onDragOver(position, e);
+                  onMouseEnter(position);
                 }
               }}
-              onDragLeave={onDragLeave}
-              onDrop={() => {
-                onDrop(position);
+              onMouseLeave={onMouseLeave}
+              onMouseUp={() => {
+                onMouseUp(position);
               }}
             />
           );
         })}
       </div>
+      <CompleteActionButton />
     </div>
   );
 }

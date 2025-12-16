@@ -1,118 +1,98 @@
-import { useContext, useState, useCallback } from "react";
+import { useContext, useState } from "react";
 import { GameContext } from "@/context/GameContext";
-import { Item, Present } from "@/types/general";
+import { Item, Player, Present } from "@/types/general";
 import useDrag from "@/hooks/useDrag";
-import canWrapItem from "./utils/canWrapItem";
 import PresentsGrid from "./PresentsGrid/PresentsGrid";
 import InventoryList from "./InventoryList/InventoryList";
 import DeletePresentModal from "./DeletePresentModal/DeletePresentModal";
 import * as styles from "./PrepareGiftsComponent.styles";
+import { MusicContext } from "@/context/MusicContext";
+import soundEffects from "@data/sound_effects.json";
 
 function PrepareGiftsComponent(): React.ReactNode {
-  const { currentPlayer, setCurrentPlayer } = useContext(GameContext);
+  const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
+  const { playSoundEffect } = useContext(MusicContext);
   const [deletePresentId, setDeletePresentId] = useState<string | null>(null);
-
-  const {
-    draggedItem,
-    draggedOverTarget,
-    handleDragStart: dragStart,
-    handleDragEnd: dragEnd,
-    handleDragOver: dragOver,
-    handleDragLeave: dragLeave,
-    handleDrop: dragDrop,
-  } = useDrag<Item>();
-
   const inventory = currentPlayer?.inventory || [];
   const presents = currentPlayer?.presents || [];
   const presentMap = new Map(presents.map((p) => [p.position, p]));
+  const {
+    draggedItem,
+    draggedOverTarget,
+    dragPreview,
+    handleMouseDown: dragMouseDown,
+    handleMouseEnter: dragMouseEnter,
+    handleMouseLeave: dragMouseLeave,
+    handleMouseUp: dragMouseUp,
+  } = useDrag<Item>();
 
-  const handleDragStart = useCallback(
-    (item: Item, e: React.DragEvent): void => {
-      dragStart(item, e, canWrapItem(item));
-    },
-    [dragStart],
-  );
+  function handleMouseDown(item: Item, imageURL: string, canDrag: boolean, e: React.MouseEvent) {
+    dragMouseDown(item, imageURL, canDrag, e);
+  };
 
-  const handleDrop = useCallback(
-    (position: number): void => {
-      dragDrop(position, (item: Item, targetPosition: number) => {
-        if (!currentPlayer) return;
-        if (presentMap.has(targetPosition)) return;
-        if (!canWrapItem(item)) return;
+  function handleMouseEnter(position: number) {
+    const present = presentMap.get(position);
+    dragMouseEnter(position, !present && !!draggedItem);
+  };
 
-        const newPresent: Present = {
-          id: `present-${Date.now()}-${Math.random()}`,
-          color: "#63BEAD",
-          items: item,
-          position: targetPosition,
-        };
-
-        const updatedInventory = inventory
-          .map((invItem) => {
-            if (invItem.name === item.name) {
-              if (invItem.count && invItem.count > 1) {
-                return { ...invItem, count: invItem.count - 1 };
-              }
-              return null;
+  function handleMouseUp(position: number) {
+    if (!currentPlayer) return;
+    
+    dragMouseUp(position, (item: Item, targetPosition: number) => {
+      const currentPresents = currentPlayer.presents || [];
+      const currentInventory = currentPlayer.inventory || [];
+      
+      const updatedPresents = [...currentPresents, {
+        id: `present-${Date.now()}-${Math.random()}`,
+        color: "red",
+        items: item,
+        position: targetPosition,
+      } as Present];
+      
+      const updatedInventory = currentInventory
+        .map((invItem: Item) => {
+          if (invItem.name === item.name) {
+            if (invItem.count && invItem.count > 1) {
+              return { ...invItem, count: invItem.count - 1 };
             }
-            return invItem;
-          })
-          .filter((invItem): invItem is Item => invItem !== null);
-
-        const updatedPresents = [...presents, newPresent];
-
-        setCurrentPlayer({
-          ...currentPlayer,
-          inventory: updatedInventory,
-          presents: updatedPresents,
-        });
-      });
-    },
-    [currentPlayer, inventory, presents, presentMap, dragDrop],
-  );
-
-  const handlePresentClick = useCallback((present: Present): void => {
-    setDeletePresentId(present.id);
-  }, []);
-
-  const handleConfirmDelete = useCallback((): void => {
-    if (!deletePresentId || !currentPlayer) return;
-
-    const presentToDelete = presents.find((p) => p.id === deletePresentId);
-    if (!presentToDelete) return;
-
-    const updatedPresents = presents.filter((p) => p.id !== deletePresentId);
-    const updatedInventory = [...inventory];
-
-    const existingItemIndex = updatedInventory.findIndex(
-      (item) => item.name === presentToDelete.items.name,
-    );
-
-    if (existingItemIndex >= 0) {
-      const existingItem = updatedInventory[existingItemIndex];
-      updatedInventory[existingItemIndex] = {
-        ...existingItem,
-        count: (existingItem.count || 1) + 1,
+            return null;
+          }
+          return invItem;
+        })
+        .filter((invItem: Item | null): invItem is Item => invItem !== null);
+      
+      const updatedPlayer: Player = {
+        ...currentPlayer,
+        inventory: updatedInventory,
+        presents: updatedPresents,
       };
-    } else {
-      updatedInventory.push({
-        ...presentToDelete.items,
-        count: 1,
-      });
-    }
-
-    setCurrentPlayer({
-      ...currentPlayer,
-      inventory: updatedInventory,
-      presents: updatedPresents,
+      
+      playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
+      const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
+      setPlayers(updatedPlayers);
+      setCurrentPlayer(updatedPlayer);
     });
+  };
 
-    setDeletePresentId(null);
-  }, [deletePresentId, currentPlayer, presents, inventory, setCurrentPlayer]);
+  function handlePresentClick(present: Present) {
+    setDeletePresentId(present.id);
+  };
 
-  const handleCancelDelete = useCallback((): void => {
+  function handleConfirmDelete() {
+    if (!currentPlayer || !deletePresentId) return;
+    
+    const updatedPresents = presents.filter((p) => p.id !== deletePresentId) as Present[];
+    const updatedPlayer: Player = {
+      ...currentPlayer,
+      presents: updatedPresents,
+    };
+
+    const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
+    setPlayers(updatedPlayers);
+    setCurrentPlayer(updatedPlayer);
+    playSoundEffect(soundEffects["UI_Post_Delete"].audioUrl);
     setDeletePresentId(null);
-  }, []);
+  };
 
   return (
     <>
@@ -121,20 +101,29 @@ function PrepareGiftsComponent(): React.ReactNode {
           presents={presents}
           draggedOverSlot={draggedOverTarget}
           onPresentClick={handlePresentClick}
-          onDragOver={(position, e) => {
-            const present = presentMap.get(position);
-            dragOver(position, e, !present && !!draggedItem);
-          }}
-          onDragLeave={dragLeave}
-          onDrop={handleDrop}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={dragMouseLeave}
+          onMouseUp={handleMouseUp}
         />
-        <InventoryList inventory={inventory} onDragStart={handleDragStart} onDragEnd={dragEnd} />
+        <InventoryList inventory={inventory} onMouseDown={handleMouseDown} />
       </div>
+
+      {dragPreview && (
+        <div
+          css={styles.dragGhost}
+          style={{
+            left: `${dragPreview.x}px`,
+            top: `${dragPreview.y}px`,
+          }}
+        >
+          <img src={dragPreview.imageURL} alt="Drag preview" css={styles.dragGhostImage} />
+        </div>
+      )}
 
       <DeletePresentModal
         isOpen={deletePresentId !== null}
         onConfirm={handleConfirmDelete}
-        onCancel={handleCancelDelete}
+        onCancel={() => setDeletePresentId(null)}
       />
     </>
   );

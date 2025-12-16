@@ -1,4 +1,3 @@
-import { Present } from "@/types/general";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./PresentSlot.styles";
@@ -6,12 +5,11 @@ import { PresentSlotProps } from "./PresentSlot.types";
 
 function PresentSlot({
   present,
-  position,
   isDragOver,
   onPresentClick,
-  onDragOver,
-  onDragLeave,
-  onDrop,
+  onMouseEnter,
+  onMouseLeave,
+  onMouseUp,
 }: PresentSlotProps): React.ReactNode {
   const presentImageUrl = itemIcons["present" as keyof typeof itemIcons]?.imageUrl || "";
 
@@ -22,14 +20,20 @@ function PresentSlot({
         present && styles.gridSlotFilled,
         isDragOver && !present && styles.gridSlotDragOver,
       ]}
-      onDragOver={onDragOver}
-      onDragLeave={onDragLeave}
-      onDrop={onDrop}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      onMouseUp={onMouseUp}
     >
       {present ? (
         <Tooltip label="Discard present?" position="top">
-          <div css={styles.presentSlot} onClick={() => onPresentClick(present)} draggable={false}>
-            <img src={presentImageUrl} alt="Present" css={styles.presentImage} />
+          <div css={styles.presentSlot} onClick={() => onPresentClick(present)}>
+            <img
+              src={presentImageUrl}
+              alt="Present"
+              draggable={false}
+              css={styles.presentImage(present.color)}
+              onDragStart={(e) => e.preventDefault()}
+            />
           </div>
         </Tooltip>
       ) : (

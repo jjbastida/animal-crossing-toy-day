@@ -4,8 +4,8 @@ export interface PresentsGridProps {
   presents: Present[];
   draggedOverSlot: number | null;
   onPresentClick: (present: Present) => void;
-  onDragOver: (position: number, e: React.DragEvent) => void;
-  onDragLeave: () => void;
-  onDrop: (position: number) => void;
+  onMouseEnter: (position: number) => void;
+  onMouseLeave: () => void;
+  onMouseUp: (position: number) => void;
 }
 

@@ -1,11 +1,11 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Copy, Pause, Play } from "phosphor-react";
 import villagerIcons from "@data/villager_icons.json";
 import itemIcons from "@data/item_icons.json";
 import fishIcons from "@data/fish_icons.json";
 import bugIcons from "@data/bug_icons.json";
 import fossilIcons from "@data/fossil_icons.json";
-import furnitureData from "@data/filtered_furniture.json";
+import furnitureData from "@data/furniture.json";
 import songData from "@data/acnh_songs.json";
 import soundEffects from "@data/sound_effects.json";
 import seaCreatureIcons from "@data/sea_creatures_icons.json";
@@ -43,7 +43,7 @@ function DebugComponent(): React.ReactNode {
   const [playingAudioUrl, setPlayingAudioUrl] = useState<string | null>(null);
   const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
 
-  const filteredDataSets = useMemo(() => {
+  const filteredDataSets = (() => {
     if (!searchQuery.trim()) {
       return DATA_SETS;
     }
@@ -60,7 +60,7 @@ function DebugComponent(): React.ReactNode {
       });
       return { ...dataSet, data: filtered };
     });
-  }, [searchQuery]);
+  })();
 
   const activeDataSet = filteredDataSets[activeTab];
   const hasResults = activeDataSet && Object.keys(activeDataSet.data).length > 0;
@@ -72,7 +72,7 @@ function DebugComponent(): React.ReactNode {
         setActiveTab(firstWithResults);
       }
     }
-  }, [filteredDataSets, hasResults]);
+  }, [searchQuery, activeTab]);
 
   useEffect(() => {
     return () => {

@@ -1,4 +1,5 @@
 import { GamePhase, Player } from "../types/general";
+import furnitureData from "@data/furniture.json";
 
 export const DEFAULT_TOTAL_ROUNDS = 12;
 export const DEFAULT_ACTIONS_PER_TURN = 2;
@@ -10,7 +11,14 @@ export const DUMMY_PLAYERS: Player[] = [
     avatar: "ace",
     fruit: "apple",
     fruitValue: 100,
-    inventory: [],
+    inventory: [{
+      name: "Baby bed",
+      description: "A bed for your baby.",
+      imageURL: furnitureData["baby-bed"].imageUrl,
+      cost: furnitureData["baby-bed"].buyPrice,
+      value: 100,
+      count: 2,
+    }],
     presents: [],
     bells: 5000,
     points: 0,

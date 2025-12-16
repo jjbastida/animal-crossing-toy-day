@@ -2,181 +2,181 @@
   "common-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f8/Common_Butterfly_NH_Icon.png/120px-Common_Butterfly_NH_Icon.png",
     "name": "Common Butterfly",
-    "description": "You caught a common butterfly! They often flutter by!",
+    "description": "They often flutter by!",
     "sellPrice": 160
   },
   "yellow-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Yellow_Butterfly_NH_Icon.png/120px-Yellow_Butterfly_NH_Icon.png",
     "name": "Yellow Butterfly",
-    "description": "You caught a yellow butterfly! Shouldn't all BUTTERflies be yellow?",
+    "description": "Shouldn't all BUTTERflies be yellow?",
     "sellPrice": 160
   },
   "tiger-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b6/Tiger_Butterfly_NH_Icon.png/120px-Tiger_Butterfly_NH_Icon.png",
     "name": "Tiger Butterfly",
-    "description": "You caught a tiger butterfly! I've earned my stripes!",
+    "description": "I've earned my stripes!",
     "sellPrice": 240
   },
   "peacock-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/77/Peacock_Butterfly_NH_Icon.png/120px-Peacock_Butterfly_NH_Icon.png",
     "name": "Peacock Butterfly",
-    "description": "You caught a peacock butterfly! Now it's my turn to strut my stuff!",
+    "description": "Now it's my turn to strut my stuff!",
     "sellPrice": 2500
   },
   "common-bluebottle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/21/Common_Bluebottle_NH_Icon.png/120px-Common_Bluebottle_NH_Icon.png",
     "name": "Common Bluebottle",
-    "description": "You caught a common bluebottle! I'll put it in a rare green jar!",
+    "description": "I'll put it in a rare green jar!",
     "sellPrice": 300
   },
   "paper-kite-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Paper_Kite_Butterfly_NH_Icon.png/120px-Paper_Kite_Butterfly_NH_Icon.png",
     "name": "Paper Kite Butterfly",
-    "description": "You caught a paper kite butterfly! Do I read it, fly it, or spread it on toast?",
+    "description": "Do I read it, fly it, or spread it on toast?",
     "sellPrice": 1000
   },
   "great-purple-emperor": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/81/Great_Purple_Emperor_NH_Icon.png/120px-Great_Purple_Emperor_NH_Icon.png",
     "name": "Great Purple Emperor",
-    "description": "You caught a great purple emperor! Its purple reign is over now!",
+    "description": "Its purple reign is over now!",
     "sellPrice": 3000
   },
   "monarch-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Monarch_Butterfly_NH_Icon.png/120px-Monarch_Butterfly_NH_Icon.png",
     "name": "Monarch Butterfly",
-    "description": "You caught a monarch butterfly! Guess the butterflies are a democracy now!",
+    "description": "Guess the butterflies are a democracy now!",
     "sellPrice": 140
   },
   "emperor-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cf/Emperor_Butterfly_NH_Icon.png/120px-Emperor_Butterfly_NH_Icon.png",
     "name": "Emperor Butterfly",
-    "description": "You caught an emperor butterfly! It's not your average monarch!",
+    "description": "It's not your average monarch!",
     "sellPrice": 4000
   },
   "agrias-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/60/Agrias_Butterfly_NH_Icon.png/120px-Agrias_Butterfly_NH_Icon.png",
     "name": "Agrias Butterfly",
-    "description": "You caught an agrias butterfly! I wonder if it finds me disagrias-able?",
+    "description": "I wonder if it finds me disagrias-able?",
     "sellPrice": 3000
   },
   "rajah-brooke-birdwing": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/81/Rajah_Brooke%27s_Birdwing_NH_Icon.png/120px-Rajah_Brooke%27s_Birdwing_NH_Icon.png",
     "name": "Rajah Brooke's Birdwing",
-    "description": "You caught a Rajah Brooke's birdwing! Nothing else I'd rajah be doing!",
+    "description": "Nothing else I'd rajah be doing!",
     "sellPrice": 2500
   },
   "queen-alexandra-birdwing": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Queen_Alexandra%27s_Birdwing_NH_Icon.png/120px-Queen_Alexandra%27s_Birdwing_NH_Icon.png",
     "name": "Queen Alexandra's Birdwing",
-    "description": "You caught a Queen Alexandra's birdwing! That's a feather in my cap!",
+    "description": "That's a feather in my cap!",
     "sellPrice": 4000
   },
   "moth": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Moth_NH_Icon.png/120px-Moth_NH_Icon.png",
     "name": "Moth",
-    "description": "You caught a moth! And I had a ball doing it!",
+    "description": "And I had a ball doing it!",
     "sellPrice": 130
   },
   "atlas-moth": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Atlas_Moth_NH_Icon.png/120px-Atlas_Moth_NH_Icon.png",
     "name": "Atlas Moth",
-    "description": "You caught an Atlas moth! I bet it never gets lost!",
+    "description": "I bet it never gets lost!",
     "sellPrice": 3000
   },
   "madagascan-sunset-moth": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/69/Madagascan_Sunset_Moth_NH_Icon.png/120px-Madagascan_Sunset_Moth_NH_Icon.png",
     "name": "Madagascan Sunset Moth",
-    "description": "You caught a Madagascan sunset moth! Wow, you're not from around here!",
+    "description": "Wow, you're not from around here!",
     "sellPrice": 2500
   },
   "long-locust": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9d/Long_Locust_NH_Icon.png/120px-Long_Locust_NH_Icon.png",
     "name": "Long Locust",
-    "description": "You caught a long locust! Or, as I call it, a looooocust.",
+    "description": "Or, as I call it, a looooocust.",
     "sellPrice": 200
   },
   "migratory-locust": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d0/Migratory_Locust_NH_Icon.png/120px-Migratory_Locust_NH_Icon.png",
     "name": "Migratory Locust",
-    "description": "You caught a migratory locust! Things just went south for this guy!",
+    "description": "Things just went south for this guy!",
     "sellPrice": 600
   },
   "rice-grasshopper": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Rice_Grasshopper_NH_Icon.png/120px-Rice_Grasshopper_NH_Icon.png",
     "name": "Rice Grasshopper",
-    "description": "You caught a rice grasshopper! I've been looking for a gluten-free alternative...",
+    "description": "I've been looking for a gluten-free alternative...",
     "sellPrice": 400
   },
   "grasshopper": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/37/Grasshopper_NH_Icon.png/120px-Grasshopper_NH_Icon.png",
     "name": "Grasshopper",
-    "description": "You caught a grasshopper! They're a grass act!",
+    "description": "They're a grass act!",
     "sellPrice": 160
   },
   "cricket": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8f/Cricket_NH_Icon.png/120px-Cricket_NH_Icon.png",
     "name": "Cricket",
-    "description": "You caught a cricket! What a chirp thrill!",
+    "description": "What a chirp thrill!",
     "sellPrice": 130
   },
   "bell-cricket": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Bell_Cricket_NH_Icon.png/120px-Bell_Cricket_NH_Icon.png",
     "name": "Bell Cricket",
-    "description": "You caught a bell cricket! It would make a great bellhop!",
+    "description": "It would make a great bellhop!",
     "sellPrice": 430
   },
   "mantis": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Mantis_NH_Icon.png/120px-Mantis_NH_Icon.png",
     "name": "Mantis",
-    "description": "You caught a mantis! Man, 'tis so cool!",
+    "description": "Man, 'tis so cool!",
     "sellPrice": 430
   },
   "orchid-mantis": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a7/Orchid_Mantis_NH_Icon.png/120px-Orchid_Mantis_NH_Icon.png",
     "name": "Orchid Mantis",
-    "description": "You caught an orchid mantis! Our friendship is blooming!",
+    "description": "Our friendship is blooming!",
     "sellPrice": 2400
   },
   "honeybee": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/51/Honeybee_NH_Icon.png/120px-Honeybee_NH_Icon.png",
     "name": "Honeybee",
-    "description": "You caught a honeybee! Ah, sweet success!",
+    "description": "Ah, sweet success!",
     "sellPrice": 200
   },
   "wasp": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Wasp_NH_Icon.png/120px-Wasp_NH_Icon.png",
     "name": "Wasp",
-    "description": "You caught a wasp! That's gotta sting...",
+    "description": "That's gotta sting...",
     "sellPrice": 2500
   },
   "brown-cicada": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Brown_Cicada_NH_Icon.png/120px-Brown_Cicada_NH_Icon.png",
     "name": "Brown Cicada",
-    "description": "You caught a brown cicada! Now it probably feels blue, cicada.",
+    "description": "Now it probably feels blue, cicada.",
     "sellPrice": 250
   },
   "robust-cicada": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a2/Robust_Cicada_NH_Icon.png/120px-Robust_Cicada_NH_Icon.png",
     "name": "Robust Cicada",
-    "description": "You caught a robust cicada! It DOES seem pretty lively!",
+    "description": "It DOES seem pretty lively!",
     "sellPrice": 300
   },
   "giant-cicada": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e3/Giant_Cicada_NH_Icon.png/120px-Giant_Cicada_NH_Icon.png",
     "name": "Giant Cicada",
-    "description": "You caught a giant cicada! I guess it's PRETTY big...",
+    "description": "I guess it's PRETTY big...",
     "sellPrice": 500
   },
   "walker-cicada": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f8/Walker_Cicada_NH_Icon.png/120px-Walker_Cicada_NH_Icon.png",
     "name": "Walker Cicada",
-    "description": "You caught a walker cicada! Pffft... I walk all the time and no one calls me \"Walker <Player>.\"",
+    "description": "Pffft... I walk all the time and no one calls me \"Walker <Player>.\"",
     "sellPrice": 400
   },
   "evening-cicada": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Evening_Cicada_NH_Icon.png/120px-Evening_Cicada_NH_Icon.png",
     "name": "Evening Cicada",
-    "description": "You caught an evening cicada! Better than an odding cicada...",
+    "description": "Better than an odding cicada...",
     "sellPrice": 550
   },
   "cicada-shell": {
@@ -188,295 +188,295 @@
   "red-dragonfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/09/Red_Dragonfly_NH_Icon.png/120px-Red_Dragonfly_NH_Icon.png",
     "name": "Red Dragonfly",
-    "description": "You caught a red dragonfly! Didn't even have to roll for initiative!",
+    "description": "Didn't even have to roll for initiative!",
     "sellPrice": 180
   },
   "darner-dragonfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5c/Darner_Dragonfly_NH_Icon.png/120px-Darner_Dragonfly_NH_Icon.png",
     "name": "Darner Dragonfly",
-    "description": "You caught a darner dragonfly! It better watch its mouth!",
+    "description": "It better watch its mouth!",
     "sellPrice": 230
   },
   "banded-dragonfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/35/Banded_Dragonfly_NH_Icon.png/120px-Banded_Dragonfly_NH_Icon.png",
     "name": "Banded Dragonfly",
-    "description": "I did it! Did you see that? You caught a banded dragonfly!",
+    "description": "I did it! Did you see that?",
     "sellPrice": 4500
   },
   "damselfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c8/Damselfly_NH_Icon.png/120px-Damselfly_NH_Icon.png",
     "name": "Damselfly",
-    "description": "You caught a damselfly! Now it's a damselfly in distress!",
+    "description": "Now it's a damselfly in distress!",
     "sellPrice": 500
   },
   "firefly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Firefly_NH_Icon.png/120px-Firefly_NH_Icon.png",
     "name": "Firefly",
-    "description": "You caught a firefly! I'm on fire now!",
+    "description": "I'm on fire now!",
     "sellPrice": 300
   },
   "mole-cricket": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Mole_Cricket_NH_Icon.png/120px-Mole_Cricket_NH_Icon.png",
     "name": "Mole Cricket",
-    "description": "You caught a mole cricket! I really dug it!",
+    "description": "I really dug it!",
     "sellPrice": 500
   },
   "pondskater": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Pondskater_NH_Icon.png/120px-Pondskater_NH_Icon.png",
     "name": "Pondskater",
-    "description": "You caught a pondskater! Wonder if it can do a pond ollie...",
+    "description": "Wonder if it can do a pond ollie...",
     "sellPrice": 130
   },
   "diving-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Diving_Beetle_NH_Icon.png/120px-Diving_Beetle_NH_Icon.png",
     "name": "Diving Beetle",
-    "description": "You caught a diving beetle! Now I'm making a splash!",
+    "description": "Now I'm making a splash!",
     "sellPrice": 800
   },
   "giant-water-bug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/86/Giant_Water_Bug_NH_Icon.png/120px-Giant_Water_Bug_NH_Icon.png",
     "name": "Giant Water Bug",
-    "description": "You caught a giant water bug! It should've stayed in the water!",
+    "description": "It should've stayed in the water!",
     "sellPrice": 2000
   },
   "stinkbug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Stinkbug_NH_Icon.png/120px-Stinkbug_NH_Icon.png",
     "name": "Stinkbug",
-    "description": "You caught a stinkbug! It lives up to its name!",
+    "description": "It lives up to its name!",
     "sellPrice": 120
   },
   "man-faced-stink-bug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Man-Faced_Stink_Bug_NH_Icon.png/120px-Man-Faced_Stink_Bug_NH_Icon.png",
     "name": "Man-Faced Stink Bug",
-    "description": "You caught a man-faced stink bug! Reminds me of my uncle!",
+    "description": "Reminds me of my uncle!",
     "sellPrice": 1000
   },
   "ladybug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Ladybug_NH_Icon.png/120px-Ladybug_NH_Icon.png",
     "name": "Ladybug",
-    "description": "You caught a ladybug! Sorry to disturb you, ma'am.",
+    "description": "Sorry to disturb you, ma'am.",
     "sellPrice": 200
   },
   "tiger-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/58/Tiger_Beetle_NH_Icon.png/120px-Tiger_Beetle_NH_Icon.png",
     "name": "Tiger Beetle",
-    "description": "You caught a tiger beetle! I pounced first!",
+    "description": "I pounced first!",
     "sellPrice": 1500
   },
   "jewel-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/43/Jewel_Beetle_NH_Icon.png/120px-Jewel_Beetle_NH_Icon.png",
     "name": "Jewel Beetle",
-    "description": "You caught a jewel beetle! It's a real gem!",
+    "description": "It's a real gem!",
     "sellPrice": 2400
   },
   "violin-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/86/Violin_Beetle_NH_Icon.png/120px-Violin_Beetle_NH_Icon.png",
     "name": "Violin Beetle",
-    "description": "You caught a violin beetle! Apparently I'm as fit as a fiddle!",
+    "description": "Apparently I'm as fit as a fiddle!",
     "sellPrice": 450
   },
   "citrus-long-horned-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9a/Citrus_Long-Horned_Beetle_NH_Icon.png/120px-Citrus_Long-Horned_Beetle_NH_Icon.png",
     "name": "Citrus Long-Horned Beetle",
-    "description": "You caught a citrus long-horned beetle! Orange you happy for me?",
+    "description": "Orange you happy for me?",
     "sellPrice": 350
   },
   "rosalia-batesi-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Rosalia_Batesi_Beetle_NH_Icon.png/120px-Rosalia_Batesi_Beetle_NH_Icon.png",
     "name": "Rosalia Batesi Beetle",
-    "description": "You caught a rosalia batesi beetle! That's easier to do than say!",
+    "description": "That's easier to do than say!",
     "sellPrice": 3000
   },
   "blue-weevil-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Blue_Weevil_Beetle_NH_Icon.png/120px-Blue_Weevil_Beetle_NH_Icon.png",
     "name": "Blue Weevil Beetle",
-    "description": "You caught a blue weevil beetle! It's the lesser of blue weevils!",
+    "description": "It's the lesser of blue weevils!",
     "sellPrice": 800
   },
   "dung-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c4/Dung_Beetle_NH_Icon.png/120px-Dung_Beetle_NH_Icon.png",
     "name": "Dung Beetle",
-    "description": "You caught a dung beetle! This species likes feces!",
+    "description": "This species likes feces!",
     "sellPrice": 3000
   },
   "earth-boring-dung-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/53/Earth-Boring_Dung_Beetle_NH_Icon.png/120px-Earth-Boring_Dung_Beetle_NH_Icon.png",
     "name": "Earth-Boring Dung Beetle",
-    "description": "You caught an earth-boring dung beetle! It's not boring at all!",
+    "description": "It's not boring at all!",
     "sellPrice": 300
   },
   "scarab-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ee/Scarab_Beetle_NH_Icon.png/120px-Scarab_Beetle_NH_Icon.png",
     "name": "Scarab Beetle",
-    "description": "You caught a scarab beetle! It's just a dung beetle with better hobbies.",
+    "description": "It's just a dung beetle with better hobbies.",
     "sellPrice": 10000
   },
   "drone-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/48/Drone_Beetle_NH_Icon.png/120px-Drone_Beetle_NH_Icon.png",
     "name": "Drone Beetle",
-    "description": "You caught a drone beetle! Shouldn't you have more propellers?",
+    "description": "Shouldn't you have more propellers?",
     "sellPrice": 200
   },
   "goliath-beetle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3e/Goliath_Beetle_NH_Icon.png/120px-Goliath_Beetle_NH_Icon.png",
     "name": "Goliath Beetle",
-    "description": "You caught a goliath beetle! Am I a legend or what?",
+    "description": "Am I a legend or what?",
     "sellPrice": 8000
   },
   "saw-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/03/Saw_Stag_NH_Icon.png/120px-Saw_Stag_NH_Icon.png",
     "name": "Saw Stag",
-    "description": "You caught a saw stag! Now I can't unsee it!",
+    "description": "Now I can't unsee it!",
     "sellPrice": 2000
   },
   "miyama-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Miyama_Stag_NH_Icon.png/120px-Miyama_Stag_NH_Icon.png",
     "name": "Miyama Stag",
-    "description": "You caught a miyama stag! Its mandibles are jaw-dropping!",
+    "description": "Its mandibles are jaw-dropping!",
     "sellPrice": 1000
   },
   "giant-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Giant_Stag_NH_Icon.png/120px-Giant_Stag_NH_Icon.png",
     "name": "Giant Stag",
-    "description": "Whoaaa! You caught a giant stag! I'm gonna need way bigger pockets...",
+    "description": "Whoaaa! I'm gonna need way bigger pockets...",
     "sellPrice": 10000
   },
   "rainbow-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f7/Rainbow_Stag_NH_Icon.png/120px-Rainbow_Stag_NH_Icon.png",
     "name": "Rainbow Stag",
-    "description": "You caught a rainbow stag! Its rainbow armor is so shiny!",
+    "description": "Its rainbow armor is so shiny!",
     "sellPrice": 6000
   },
   "cyclommatus-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a0/Cyclommatus_Stag_NH_Icon.png/120px-Cyclommatus_Stag_NH_Icon.png",
     "name": "Cyclommatus Stag",
-    "description": "You caught a cyclommatus stag! Those mandibles are a mouthful!",
+    "description": "Those mandibles are a mouthful!",
     "sellPrice": 8000
   },
   "golden-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Golden_Stag_NH_Icon.png/120px-Golden_Stag_NH_Icon.png",
     "name": "Golden Stag",
-    "description": "Wooooow! You caught a golden stag! Does this mean I can retire?",
+    "description": "Wooooow! Does this mean I can retire?",
     "sellPrice": 12000
   },
   "giraffe-stag": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Giraffe_Stag_NH_Icon.png/120px-Giraffe_Stag_NH_Icon.png",
     "name": "Giraffe Stag",
-    "description": "You caught a giraffe stag! Does that make it a longhorn?",
+    "description": "Does that make it a longhorn?",
     "sellPrice": 12000
   },
   "horned-dynastid": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/10/Horned_Dynastid_NH_Icon.png/120px-Horned_Dynastid_NH_Icon.png",
     "name": "Horned Dynastid",
-    "description": "You caught a horned dynastid! I'd hate to hear it honk that schnoz!",
+    "description": "I'd hate to hear it honk that schnoz!",
     "sellPrice": 1350
   },
   "horned-atlas": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Horned_Atlas_NH_Icon.png/120px-Horned_Atlas_NH_Icon.png",
     "name": "Horned Atlas",
-    "description": "You caught a horned atlas! I didn't even need a map!",
+    "description": "I didn't even need a map!",
     "sellPrice": 8000
   },
   "horned-elephant": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ea/Horned_Elephant_NH_Icon.png/120px-Horned_Elephant_NH_Icon.png",
     "name": "Horned Elephant",
-    "description": "You caught a horned elephant! I think it's too small to ride...",
+    "description": "I think it's too small to ride...",
     "sellPrice": 8000
   },
   "horned-hercules": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/21/Horned_Hercules_NH_Icon.png/120px-Horned_Hercules_NH_Icon.png",
     "name": "Horned Hercules",
-    "description": "You caught a horned hercules! Guess I was stronger!",
+    "description": "Guess I was stronger!",
     "sellPrice": 12000
   },
   "walking-stick": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/58/Walking_Stick_NH_Icon.png/120px-Walking_Stick_NH_Icon.png",
     "name": "Walking Stick",
-    "description": "You caught a walking stick! Check out its walking schtick! Look, these are the jokes, OK?",
+    "description": "Check out its walking schtick! Look, these are the jokes, OK?",
     "sellPrice": 600
   },
   "walking-leaf": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b9/Walking_Leaf_NH_Icon.png/120px-Walking_Leaf_NH_Icon.png",
     "name": "Walking Leaf",
-    "description": "You caught a walking leaf! It seems to be taking it in stride!",
+    "description": "It seems to be taking it in stride!",
     "sellPrice": 600
   },
   "bagworm": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Bagworm_NH_Icon.png/120px-Bagworm_NH_Icon.png",
     "name": "Bagworm",
-    "description": "You caught a bagworm! Guess I'm a bragworm!",
+    "description": "Guess I'm a bragworm!",
     "sellPrice": 600
   },
   "ant": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Ant_NH_Icon.png/120px-Ant_NH_Icon.png",
     "name": "Ant",
-    "description": "You caught an ant! TELL ME WHERE THE QUEEN IS!",
+    "description": "TELL ME WHERE THE QUEEN IS!",
     "sellPrice": 80
   },
   "hermit-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Hermit_Crab_NH_Icon.png/120px-Hermit_Crab_NH_Icon.png",
     "name": "Hermit Crab",
-    "description": "You caught a hermit crab! I think it wanted to be left alone!",
+    "description": "I think it wanted to be left alone!",
     "sellPrice": 1000
   },
   "wharf-roach": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Wharf_Roach_NH_Icon.png/120px-Wharf_Roach_NH_Icon.png",
     "name": "Wharf Roach",
-    "description": "You caught a wharf roach! This water-loving roach has no pier!",
+    "description": "This water-loving roach has no pier!",
     "sellPrice": 200
   },
   "fly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/15/Fly_NH_Icon.png/120px-Fly_NH_Icon.png",
     "name": "Fly",
-    "description": "You caught a fly! I was just wingin' it...",
+    "description": "I was just wingin' it...",
     "sellPrice": 60
   },
   "mosquito": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/84/Mosquito_NH_Icon.png/120px-Mosquito_NH_Icon.png",
     "name": "Mosquito",
-    "description": "You caught a mosquito! It's itching for a fight!",
+    "description": "It's itching for a fight!",
     "sellPrice": 130
   },
   "flea": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/89/Flea_NH_Icon.png/120px-Flea_NH_Icon.png",
     "name": "Flea",
-    "description": "You caught a flea! The curse is lifted.",
+    "description": "The curse is lifted.",
     "sellPrice": 70
   },
   "snail": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e9/Snail_NH_Icon.png/120px-Snail_NH_Icon.png",
     "name": "Snail",
-    "description": "You caught a snail! It's...not much to brag about.",
+    "description": "It's...not much to brag about.",
     "sellPrice": 250
   },
   "pill-bug": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b9/Pill_Bug_NH_Icon.png/120px-Pill_Bug_NH_Icon.png",
     "name": "Pill Bug",
-    "description": "You caught a pill bug! That's a tough act to swallow!",
+    "description": "That's a tough act to swallow!",
     "sellPrice": 250
   },
   "centipede": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d2/Centipede_NH_Icon.png/120px-Centipede_NH_Icon.png",
     "name": "Centipede",
-    "description": "You caught a centipede! 99 more and I'll have a dollarpede!",
+    "description": "99 more and I'll have a dollarpede!",
     "sellPrice": 300
   },
   "spider": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e0/Spider_NH_Icon.png/120px-Spider_NH_Icon.png",
     "name": "Spider",
-    "description": "You caught a spider! I spied 'er first!",
+    "description": "I spied 'er first!",
     "sellPrice": 600
   },
   "tarantula": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b5/Tarantula_NH_Icon.png/120px-Tarantula_NH_Icon.png",
     "name": "Tarantula",
-    "description": "You caught a tarantula! This situation just got hairy!",
+    "description": "This situation just got hairy!",
     "sellPrice": 8000
   },
   "scorpion": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/95/Scorpion_NH_Icon.png/120px-Scorpion_NH_Icon.png",
     "name": "Scorpion",
-    "description": "You caught a scorpion! It was a sting operation!",
+    "description": "It was a sting operation!",
     "sellPrice": 8000
   }
 }

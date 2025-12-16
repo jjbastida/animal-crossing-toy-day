@@ -1,6 +1,7 @@
 export type TooltipPosition = "top" | "bottom" | "left" | "right";
 
 export type TooltipProps = {
+  disabled?: boolean;
   children?: React.ReactNode;
   label: React.ReactNode;
   position?: TooltipPosition;

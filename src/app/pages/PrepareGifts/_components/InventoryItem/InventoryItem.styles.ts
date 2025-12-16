@@ -7,6 +7,12 @@ const inventoryItem = css`
   cursor: grab;
   width: 100%;
   aspect-ratio: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  overflow: visible;
+  padding: 5px;
 
   &:active {
     cursor: grabbing;
@@ -29,15 +35,12 @@ const inventorySlot = css`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--background-secondary);
-  border-radius: 50%;
-  transition:
-    transform 0.2s,
-    border-color 0.2s;
+  background: var(--shadow);
+  border-radius: 999px;
+  transition: transform 0.2s, background 0.2s;
 
   &:hover {
     transform: scale(1.1);
-    border-color: var(--foreground-active);
   }
 `;
 
@@ -45,6 +48,15 @@ const itemImage = css`
   width: 70px;
   height: 70px;
   object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 `;
 
 const itemImageDisabled = css`

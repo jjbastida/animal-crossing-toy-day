@@ -3,15 +3,13 @@ import { css } from "@emotion/react";
 const modalContent = css`
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: center;
   padding: 1rem 0;
 `;
 
 const modalText = css`
-  margin: 0;
-  color: var(--foreground-primary);
-  font-family: Seurat, sans-serif;
+  color: var(--foreground-secondary);
   text-align: center;
 `;
 
@@ -22,4 +20,10 @@ const modalActions = css`
   justify-content: center;
 `;
 
-export { modalContent, modalText, modalActions };
+const modalImage = css`
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+`;
+
+export { modalContent, modalText, modalActions, modalImage };

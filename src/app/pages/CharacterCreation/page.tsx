@@ -6,6 +6,7 @@ import { GameContext } from "@/context";
 import * as styles from "./page.styles.ts";
 import { AvatarType, FruitType, Item, Player } from "@/types/general.ts";
 import itemIcons from "@data/item_icons.json";
+import Tooltip from "@/components/Tooltip/Tooltip.tsx";
 
 function handleFruitAbilities(players: Player[]): Player[] {
   return players.map((player) => {
@@ -69,7 +70,7 @@ function handleFruitAbilities(players: Player[]): Player[] {
 }
 
 function CharacterCreationPage(): React.ReactNode {
-  const { setPlayers, setGamePhase, setCurrentPlayer } = useContext(GameContext);
+  const { setPlayers, setGamePhase, setCurrentPlayer, players } = useContext(GameContext);
   const [modalOpen, setModalOpen] = useState<("avatar" | "fruit") | null>(null);
 
   function modifyPlayer(
@@ -114,9 +115,15 @@ function CharacterCreationPage(): React.ReactNode {
         modalOpen={modalOpen}
         setModalOpen={setModalOpen}
       />
-      <Button variant="secondary" onClick={handleStartGame}>
-        Let's go!
-      </Button>
+      <Tooltip label="Pick an avatar, fruit and name to start." disabled={players.every((player) => player.avatar && player.fruit && player.name)}>
+        <Button
+          variant="primary"
+          onClick={handleStartGame}
+          disabled={!players.every((player) => player.avatar && player.fruit && player.name)}
+        >
+          Let's go!
+        </Button>
+      </Tooltip>
     </div>
   );
 }
