@@ -27,7 +27,9 @@ function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
   }
 
   useEffect(() => {
-    playTrack(songData["opening-theme"].audioUrl);
+    if (mounted) {
+      playTrack(songData["opening-theme"].audioUrl);
+    }
     window.addEventListener("keydown", handleKeyPress);
 
     return () => {
