@@ -13,12 +13,11 @@ function Tooltip({
   ...rest
 }: TooltipProps) {
   return (
-    <span {...rest} css={styles.tooltipWrapper} data-open={open}>
+    <span {...rest} css={styles.tooltipWrapper} data-open={open} aria-disabled={disabled}>
       {children}
       <div
         css={[styles.tooltipContainer(color), styles.positionStyles[position](color)]}
         role="tooltip"
-        data-disabled={disabled}
         {...tooltipProps}
       >
         {label}

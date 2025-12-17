@@ -8,6 +8,7 @@ import { BuyModalProps } from "./BuyModal.types";
 import { getLatestPlayer, updatePlayerInventory, updatePlayerInPlayersArray } from "../../utils/playerState";
 import { isFurniture } from "../../utils/itemLookups";
 import { getTagBasedAbilityDescription } from "@/pages/Results/_helpers/tagActions";
+import Tooltip from "@/components/Tooltip/Tooltip";
 
 function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.ReactNode {
   const { currentPlayer, setCurrentPlayer, players, setPlayers, shopItems, setShopItems } = useContext(GameContext);
@@ -106,9 +107,11 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
         <Button variant="secondary" onClick={onCancel}>
           Cancel
         </Button>
+        <Tooltip label="You don't have enough bells." disabled={canAfford}>
         <Button variant="primary" onClick={handleBuy} disabled={!canAfford}>
           Buy item
         </Button>
+        </Tooltip>
         {couponItem && (
           <Button variant="secondary" onClick={handleUseCoupon} css={styles.couponButton}>
             <img src={couponItem.imageURL} alt="Shop Coupon" css={styles.imageIcon} />

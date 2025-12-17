@@ -9,6 +9,7 @@ export interface GameContextValue {
   gamePhase: GamePhase;
   currentRound: number;
   totalRounds: number;
+  setTotalRounds: Dispatch<SetStateAction<number>>;
   currentAction: ActionType;
   actionsRemaining: number;
   setGamePhase: (phase: GamePhase) => void;

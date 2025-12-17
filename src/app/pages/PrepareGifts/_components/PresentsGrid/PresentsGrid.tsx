@@ -51,7 +51,9 @@ function PresentsGrid({
           );
         })}
       </div>
-      <CompleteActionButton />
+      <CompleteActionButton>
+          Finish action
+      </CompleteActionButton>
     </div>
   );
 }

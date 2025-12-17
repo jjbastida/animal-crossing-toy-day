@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Typography, Button } from "@/components";
+import { Modal, Typography, Button, CompleteActionButton } from "@/components";
 import * as styles from "./ResourceCollectionModal.styles";
 import pluralize from "pluralize";
 import { ResourceCollectionModalProps } from "./ResourceCollectionModal.types";
@@ -40,9 +40,9 @@ function ResourceCollectionModal({
         </div>
       </div>
       <div css={styles.modalActions}>
-        <Button variant="primary" onClick={onAddToInventory}>
+        <CompleteActionButton>
           Add to Inventory
-        </Button>
+        </CompleteActionButton>
       </div>
     </Modal>
   );

@@ -8,21 +8,25 @@ import soundEffects from "@data/sound_effects.json";
 
 function Button<E extends ElementType = "button">({
   variant = "primary",
+  disabled,
   as: asProp,
   children,
+  soundEffect = "UI_Cmn_Open_Short",
   ...props
 }: ButtonProps<E>): React.ReactNode {
   const Component = (asProp || "button") as ElementType;
   const { playSoundEffect } = useContext(MusicContext);
 
   function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
-    playSoundEffect(soundEffects["UI_Cmn_Open_Short"].audioUrl);
+    playSoundEffect(soundEffects[soundEffect].audioUrl);
     props.onClick?.(e);
   }
 
   return (
     <Component
       css={[styles.coreButton, styles.buttonVariants[variant]]}
+      disabled={disabled}
+      aria-disabled={disabled}
       {...props}
       onClick={handleClick}
     >

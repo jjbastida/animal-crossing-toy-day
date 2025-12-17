@@ -15,7 +15,7 @@ const coreButton = css`
   overflow: hidden;
   background: transparent;
 
-  &:disabled {
+  &[aria-disabled="true"] {
     opacity: 0.5;
     cursor: not-allowed;
     pointer-events: none;

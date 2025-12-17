@@ -12,7 +12,7 @@ import { getNextPlayerIndex, findPlayerIndex, generateShopItems } from "./GameCo
 
 export const GameContext = createContext<GameContextValue>(DEFAULT_VALUES);
 
-export function GameProvider({ children, totalRounds = DEFAULT_TOTAL_ROUNDS }: GameProviderProps) {
+export function GameProvider({ children, totalRounds: initialTotalRounds = DEFAULT_TOTAL_ROUNDS }: GameProviderProps) {
   const [players, setPlayers] = useState<Player[]>([]);
   const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
   const [gamePhase, setGamePhase] = useState<GamePhase>(STARTING_PHASE);
@@ -20,6 +20,7 @@ export function GameProvider({ children, totalRounds = DEFAULT_TOTAL_ROUNDS }: G
   const [currentAction, setCurrentAction] = useState<ActionType>(null);
   const [actionsRemaining, setActionsRemaining] = useState<number>(DEFAULT_ACTIONS_PER_TURN);
   const [shopItems, setShopItems] = useState<ShopItem[]>(generateShopItems());
+  const [totalRounds, setTotalRounds] = useState<number>(initialTotalRounds);
 
   const gameStateRef = useRef({ players, currentPlayer, currentRound });
 
@@ -114,6 +115,7 @@ export function GameProvider({ children, totalRounds = DEFAULT_TOTAL_ROUNDS }: G
         gamePhase,
         currentRound,
         totalRounds,
+        setTotalRounds,
         currentAction,
         actionsRemaining,
         currentPlayer,

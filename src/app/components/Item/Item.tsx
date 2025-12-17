@@ -1,7 +1,6 @@
 import { ItemProps } from "./Item.types";
 import * as styles from "./Item.styles";
 import { ItemCount } from "@components";
-import { css } from "@emotion/react";
 
 function Item({
   item,
@@ -31,6 +30,7 @@ function Item({
       ]}
       onClick={handleClick}
       onMouseDown={onMouseDown ? handleMouseDown : undefined}
+      draggable={onMouseDown ? true : false}
     >
       <div css={styles.itemSlot}>
         <ItemCount count={item.count}>

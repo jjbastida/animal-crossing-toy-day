@@ -26,7 +26,9 @@ function ShopItemsPage(): React.ReactNode {
         </Typography>
         <div css={styles.buttonContainer}>
           <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
-          <CompleteActionButton />
+          <CompleteActionButton>
+            Finish action
+          </CompleteActionButton>
         </div>
         {activeTab === "buy" && <BuyShop />}
         {activeTab === "sell" && <SellShop />}

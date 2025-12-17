@@ -1,4 +1,4 @@
-import { useContext, useState, useMemo } from "react";
+import { useContext, useState, useMemo, useEffect, useRef } from "react";
 import { GameContext } from "../../context/GameContext";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./PlayerTurn.styles.ts";
@@ -7,41 +7,53 @@ import InventoryModal from "@/components/InventoryModal/InventoryModal";
 import { SquaresFour } from "phosphor-react";
 import usePlayerColor from "@/hooks/usePlayerColor";
 import canWrapItem from "../PrepareGifts/_components/utils/canWrapItem";
+import PlayerTurnModal from "./_components/PlayerTurnModal";
+import { DEFAULT_ACTIONS_PER_TURN } from "../../context/GameContext.constants";
+
+const ACTIONS = [
+  {
+    id: "gatherResource" as const,
+    title: "Gather Resource",
+    description: "Collect resources to use for shopping",
+    imageKey: "gatherResource",
+  },
+  {
+    id: "prepareGifts" as const,
+    title: "Prepare Presents",
+    description: "Create presents from your items",
+    imageKey: "present",
+  },
+  {
+    id: "shopItems" as const,
+    title: "Nook's Shop",
+    description: "Buy or sell items using bells",
+    imageKey: "furniture",
+  },
+] as const;
 
 function PlayerTurnPage(): React.ReactNode {
-  const { setAction, currentPlayer, actionsRemaining, currentRound, totalRounds } = useContext(GameContext);
-  const { playerColor } = usePlayerColor(currentPlayer);
+  const { setAction, currentPlayer, actionsRemaining, currentRound, totalRounds } =
+    useContext(GameContext);
+  const { playerColor } = usePlayerColor(currentPlayer || { id: 0 });
   const [isInventoryOpen, setIsInventoryOpen] = useState(false);
+  const [showTurnModal, setShowTurnModal] = useState(false);
+  const shownModalKeyRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!currentPlayer) return;
+
+    const modalKey = `${currentPlayer.id}-${actionsRemaining}`;
+    const hasTwoActions = actionsRemaining === DEFAULT_ACTIONS_PER_TURN;
+
+    if (hasTwoActions && shownModalKeyRef.current !== modalKey) {
+      setShowTurnModal(true);
+      shownModalKeyRef.current = modalKey;
+    }
+  }, [currentPlayer?.id, actionsRemaining]);
 
   const hasWrappableItems = useMemo(() => {
-    const inventory = currentPlayer?.inventory || [];
-    return inventory.some((item) => canWrapItem(item));
+    return currentPlayer?.inventory?.some((item) => canWrapItem(item)) ?? false;
   }, [currentPlayer?.inventory]);
-
-  const actions = [
-    {
-      id: "gatherResource" as const,
-      title: "Gather Resource",
-      description: "Collect resources to use for shopping",
-      image: itemIcons[`${currentPlayer?.fruit}-tree` as keyof typeof itemIcons].imageUrl,
-    },
-    {
-      id: "prepareGifts" as const,
-      title: "Prepare Presents",
-      description: "Create presents from your items",
-      image: itemIcons["present"].imageUrl,
-    },
-    {
-      id: "shopItems" as const,
-      title: "Nook's Shop",
-      description: "Buy or sell items using bells",
-      image: itemIcons["furniture"].imageUrl,
-    },
-  ];
-
-  function handleActionClick(actionId: "gatherResource" | "prepareGifts" | "shopItems"): void {
-    setAction(actionId);
-  }
 
   return (
     <div css={styles.pageContainer}>
@@ -71,11 +83,23 @@ function PlayerTurnPage(): React.ReactNode {
         </Typography>
       </div>
       <div css={styles.actionsGrid}>
-        {actions.map((action) => {
+        {ACTIONS.map((action) => {
           const isDisabled = action.id === "prepareGifts" && !hasWrappableItems;
+          const imageUrl =
+            action.id === "gatherResource" && currentPlayer?.fruit
+              ? itemIcons[`${currentPlayer.fruit}-tree` as keyof typeof itemIcons].imageUrl
+              : itemIcons[action.imageKey as keyof typeof itemIcons].imageUrl;
+
           return (
-            <Card key={action.id} css={[styles.actionCard, isDisabled && styles.actionCardDisabled]}>
-              <img src={action.image} alt={action.title} css={[styles.actionImage, isDisabled && styles.actionImageDisabled]} />
+            <Card
+              key={action.id}
+              css={[styles.actionCard, isDisabled && styles.actionCardDisabled]}
+            >
+              <img
+                src={imageUrl}
+                alt={action.title}
+                css={[styles.actionImage, isDisabled && styles.actionImageDisabled]}
+              />
               <div css={styles.actionContent}>
                 <Typography variant="display" size="xl" css={styles.actionTitle}>
                   {action.title}
@@ -84,11 +108,7 @@ function PlayerTurnPage(): React.ReactNode {
                   {action.description}
                 </Typography>
               </div>
-              <Button
-                variant="primary"
-                disabled={isDisabled}
-                onClick={() => !isDisabled && handleActionClick(action.id)}
-              >
+              <Button variant="primary" disabled={isDisabled} onClick={() => setAction(action.id)}>
                 Select Action
               </Button>
             </Card>
@@ -103,6 +123,11 @@ function PlayerTurnPage(): React.ReactNode {
         <SquaresFour weight="fill" /> Inventory
       </Button>
       <InventoryModal isOpen={isInventoryOpen} onClose={() => setIsInventoryOpen(false)} />
+      <PlayerTurnModal
+        isOpen={showTurnModal}
+        onClose={() => setShowTurnModal(false)}
+        player={currentPlayer}
+      />
     </div>
   );
 }

@@ -1,12 +1,14 @@
 import { Button, Typography } from "@/components";
 import CharacterCustomization from "./_components/CharacterCustomization";
 import { container } from "./_components/CharacterCustomization.styles";
-import { useContext, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 import { GameContext } from "@/context";
 import * as styles from "./page.styles.ts";
 import { AvatarType, FruitType, Item, Player } from "@/types/general.ts";
 import itemIcons from "@data/item_icons.json";
 import Tooltip from "@/components/Tooltip/Tooltip.tsx";
+import { Gear } from "phosphor-react";
+import SettingsModal from "./_components/SettingsModal/SettingsModal";
 
 function handleFruitAbilities(players: Player[]): Player[] {
   return players.map((player) => {
@@ -70,8 +72,16 @@ function handleFruitAbilities(players: Player[]): Player[] {
 }
 
 function CharacterCreationPage(): React.ReactNode {
-  const { setPlayers, setGamePhase, setCurrentPlayer, players } = useContext(GameContext);
+  const { setPlayers, setGamePhase, setCurrentPlayer, players, totalRounds, setTotalRounds } =
+    useContext(GameContext);
   const [modalOpen, setModalOpen] = useState<("avatar" | "fruit") | null>(null);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const isStartButtonDisabled = useMemo(
+    () =>
+      players.length === 0 ||
+      !players.every((player) => player.avatar && player.fruit && player.name),
+    [players],
+  );
 
   function modifyPlayer(
     playerId: number,
@@ -102,11 +112,14 @@ function CharacterCreationPage(): React.ReactNode {
 
   return (
     <div css={container}>
+      <Button variant="primary" css={styles.settingsButton} onClick={() => setIsSettingsOpen(true)}>
+        <Gear weight="fill" /> Settings
+      </Button>
       <Typography
         variant="display"
         size="3xl"
         css={styles.title}
-        style={modalOpen ? { opacity: "0.5" } : {}}
+        style={modalOpen || isSettingsOpen ? { opacity: "0.5" } : {}}
       >
         Build your villager!
       </Typography>
@@ -115,15 +128,17 @@ function CharacterCreationPage(): React.ReactNode {
         modalOpen={modalOpen}
         setModalOpen={setModalOpen}
       />
-      <Tooltip label="Pick an avatar, fruit and name to start." disabled={players.every((player) => player.avatar && player.fruit && player.name)}>
-        <Button
-          variant="primary"
-          onClick={handleStartGame}
-          disabled={!players.every((player) => player.avatar && player.fruit && player.name)}
-        >
+      <Tooltip label="Pick an avatar, fruit and name to start." disabled={!isStartButtonDisabled}>
+        <Button variant="primary" onClick={handleStartGame} disabled={isStartButtonDisabled}>
           Let's go!
         </Button>
       </Tooltip>
+      <SettingsModal
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+        totalRounds={totalRounds}
+        onRoundsChange={setTotalRounds}
+      />
     </div>
   );
 }

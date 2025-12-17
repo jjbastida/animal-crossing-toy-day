@@ -37,20 +37,16 @@ function CharacterCustomization({
     if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
     modifyPlayer(selectedPlayerId, "avatar", villagerKey);
-    setTimeout(() => {
-      setModalOpen(null);
-      setSelectedPlayerId(null);
-    }, 300);
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
   function handleFruitSelect(fruitType: FruitType) {
     if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
     modifyPlayer(selectedPlayerId, "fruit", fruitType);
-    setTimeout(() => {
-      setModalOpen(null);
-      setSelectedPlayerId(null);
-    }, 300);
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
   function handleNameChange(playerId: number, value: string) {

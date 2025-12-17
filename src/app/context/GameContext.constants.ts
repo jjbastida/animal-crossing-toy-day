@@ -35,6 +35,7 @@ export const DEFAULT_VALUES = {
   gamePhase: "landing" as GamePhase,
   currentRound: 1,
   totalRounds: DEFAULT_TOTAL_ROUNDS,
+  setTotalRounds: () => {},
   currentAction: null,
   actionsRemaining: DEFAULT_ACTIONS_PER_TURN,
   setGamePhase: () => {},

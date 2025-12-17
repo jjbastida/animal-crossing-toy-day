@@ -3,8 +3,8 @@ import type { TooltipPosition } from "./Tooltip.types";
 
 const tooltipWrapper = css`
   position: relative;
-  &:not([data-disabled="true"]):hover > [role="tooltip"],
-  &:not([data-disabled="true"])[data-open="true"] > [role="tooltip"] {
+  &:not([aria-disabled="true"]):hover > [role="tooltip"],
+  &:not([aria-disabled="true"])[data-open="true"] > [role="tooltip"] {
     opacity: 1;
     visibility: visible;
     transform: var(--tooltip-transform-visible);

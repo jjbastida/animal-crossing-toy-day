@@ -5,5 +5,6 @@ export type CompleteActionButtonProps = {
   text?: string;
   variant?: ButtonVariant;
   css?: CSSObject;
+  children?: React.ReactNode;
 };
 
