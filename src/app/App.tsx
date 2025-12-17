@@ -3,13 +3,12 @@ import { GameProvider } from "./context/GameContext";
 import { MusicProvider } from "./context/MusicContext";
 import { Routing } from "./Routing";
 import { appContainer } from "./App.styles.ts";
-
-const TOTAL_ROUNDS = 12;
+import { DEFAULT_TOTAL_ROUNDS } from "./context/GameContext.constants";
 
 function App(): React.ReactNode {
   return (
     <MusicProvider>
-      <GameProvider totalRounds={TOTAL_ROUNDS}>
+      <GameProvider totalRounds={DEFAULT_TOTAL_ROUNDS}>
         <div css={appContainer}>
           <Routing />
         </div>

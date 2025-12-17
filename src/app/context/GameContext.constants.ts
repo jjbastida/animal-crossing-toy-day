@@ -1,8 +1,10 @@
 import { GamePhase, Player } from "../types/general";
 import furnitureData from "@data/furniture.json";
 
-export const DEFAULT_TOTAL_ROUNDS = 12;
+export const DEFAULT_TOTAL_ROUNDS = 6;
 export const DEFAULT_ACTIONS_PER_TURN = 2;
+export const STARTING_ROUND: number = 1;
+export const STARTING_PHASE: GamePhase = "landing";
 
 export const DUMMY_PLAYERS: Player[] = [
   {
