@@ -1,4 +1,4 @@
-import { Card, Typography } from "@components";
+import { ActionText, Card, Typography } from "@components";
 import PresentsSection from "./_components/PresentsSection/PresentsSection";
 import BellsSection from "./_components/BellsSection/BellsSection";
 import TotalSection from "./_components/TotalSection/TotalSection";
@@ -16,8 +16,8 @@ function PlayerResultCard({
 }: PlayerResultCardProps): React.ReactNode {
   return (
     <div css={styles.playerColumn}>
-      <Typography variant="display" size="2xl" css={styles.playerName(playerColor)}>
-        {player.name}
+      <Typography as={standing === 1 ? ActionText : "h2"} variant="display" size="2xl" css={styles.playerName(playerColor)}>
+          {player.name}
       </Typography>
       <Card css={styles.totalCard}>
         <div css={styles.scrollableContent}>
