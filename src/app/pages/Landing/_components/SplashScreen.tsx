@@ -52,6 +52,7 @@ function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
       <Typography variant="display" size="md" css={styles.madeWithLove} style={animationPlayState}>
         Made with love by JJ
       </Typography>
+      <video src="/assets/ac-bg-video.webm" autoPlay loop muted css={styles.bgVideo} />
     </div>
   );
 }

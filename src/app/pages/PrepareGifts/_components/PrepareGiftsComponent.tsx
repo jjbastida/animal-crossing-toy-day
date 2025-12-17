@@ -75,7 +75,7 @@ function PrepareGiftsComponent(): React.ReactNode {
       {
         id: `present-${Date.now()}-${Math.random()}`,
         color,
-        items: pendingPresent.item,
+        item: pendingPresent.item,
         position: pendingPresent.position,
         tag,
         points: basePoints,

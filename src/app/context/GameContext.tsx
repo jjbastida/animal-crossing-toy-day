@@ -25,6 +25,7 @@ export function GameProvider({
   const [actionUsed, setActionUsed] = useState<boolean>(false);
   const [shopItems, setShopItems] = useState<ShopItem[]>(generateShopItems());
   const [totalRounds, setTotalRounds] = useState<number>(initialTotalRounds);
+  const [playerModalShown, setPlayerModalShown] = useState<boolean>(false);
 
   function completePlayerAction(): void {
     if (!currentPlayer) return;
@@ -43,6 +44,8 @@ export function GameProvider({
     const playerIndex = findPlayerIndex(players, currentPlayer.id);
     const isLastPlayer = playerIndex === players.length - 1;
     const isLastRound = currentRound === totalRounds;
+
+    setPlayerModalShown(false);
 
     if (isLastPlayer && isLastRound) {
       setCurrentPlayer(players[0]);
@@ -91,6 +94,8 @@ export function GameProvider({
         completePlayerAction,
         actionUsed,
         setActionUsed,
+        playerModalShown,
+        setPlayerModalShown,
       }}
     >
       {children}

@@ -17,7 +17,6 @@ const splashContainer = css`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #87ceeb 0%, #98d8c8 100%);
   position: relative;
 `;
 
@@ -38,6 +37,7 @@ const prompt = css`
   text-align: center;
   left: 50%;
   translate: -50% 0;
+  text-shadow: 0 0 22px #4D3C3BA0;
 `;
 
 const madeWithLove = css`
@@ -50,6 +50,17 @@ const madeWithLove = css`
   animation: ${fadeIn} 1s ease-out 4.8s forwards 1;
   left: 50%;
   translate: -50% 0;
+  text-shadow: 0 0 10px #4D3C3BA0;
 `;
 
-export { splashContainer, toyDayLogo, prompt, madeWithLove };
+const bgVideo = css`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+`;
+
+export { splashContainer, toyDayLogo, prompt, madeWithLove, bgVideo };

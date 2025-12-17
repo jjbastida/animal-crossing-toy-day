@@ -19,6 +19,8 @@ export interface GameContextValue {
   setShopItems: (shopItems: ShopItem[]) => void;
   actionUsed: boolean;
   setActionUsed: (actionUsed: boolean) => void;
+  playerModalShown: boolean;
+  setPlayerModalShown: (shown: boolean) => void;
 }
 
 export interface GameProviderProps {

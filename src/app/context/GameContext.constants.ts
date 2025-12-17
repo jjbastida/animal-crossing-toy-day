@@ -63,4 +63,6 @@ export const DEFAULT_VALUES = {
   setShopItems: () => {},
   actionUsed: false,
   setActionUsed: () => {},
+  playerModalShown: false,
+  setPlayerModalShown: () => {},
 };

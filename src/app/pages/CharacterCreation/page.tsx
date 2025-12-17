@@ -121,7 +121,7 @@ function CharacterCreationPage(): React.ReactNode {
         css={styles.title}
         style={modalOpen || isSettingsOpen ? { opacity: "0.5" } : {}}
       >
-        Build your villager!
+        Build Your Villager!
       </Typography>
       <CharacterCustomization
         modifyPlayer={modifyPlayer}

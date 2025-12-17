@@ -1,4 +1,4 @@
-import { useContext, useState, useMemo, useEffect, useRef } from "react";
+import { useContext, useState, useMemo, useEffect } from "react";
 import { GameContext } from "../../context/GameContext";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./PlayerTurn.styles.ts";
@@ -33,24 +33,29 @@ const ACTIONS = [
 ] as const;
 
 function PlayerTurnPage(): React.ReactNode {
-  const { setAction, currentPlayer, actionsRemaining, currentRound, totalRounds } =
-    useContext(GameContext);
+  const {
+    setAction,
+    currentPlayer,
+    actionsRemaining,
+    currentRound,
+    totalRounds,
+    playerModalShown,
+    setPlayerModalShown,
+  } = useContext(GameContext);
   const { playerColor } = usePlayerColor(currentPlayer || { id: 0 });
   const [isInventoryOpen, setIsInventoryOpen] = useState(false);
   const [showTurnModal, setShowTurnModal] = useState(false);
-  const shownModalKeyRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (!currentPlayer) return;
 
-    const modalKey = `${currentPlayer.id}-${actionsRemaining}`;
     const hasTwoActions = actionsRemaining === DEFAULT_ACTIONS_PER_TURN;
 
-    if (hasTwoActions && shownModalKeyRef.current !== modalKey) {
+    if (hasTwoActions && !playerModalShown) {
       setShowTurnModal(true);
-      shownModalKeyRef.current = modalKey;
+      setPlayerModalShown(true);
     }
-  }, [currentPlayer?.id, actionsRemaining]);
+  }, [currentPlayer?.id, actionsRemaining, playerModalShown, setPlayerModalShown]);
 
   const hasWrappableItems = useMemo(() => {
     return currentPlayer?.inventory?.some((item) => canWrapItem(item)) ?? false;
