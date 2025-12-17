@@ -17,7 +17,6 @@ function ResourceTiles(): React.ReactNode {
   const {
     currentPlayer,
     setCurrentPlayer,
-    players,
     setPlayers,
     completePlayerAction,
     setActionUsed,
@@ -177,32 +176,37 @@ function ResourceTiles(): React.ReactNode {
 
   function handleAddToInventory(): void {
     if (currentPlayer && collectedItem) {
-      const latestPlayer = players.find((p) => p.id === currentPlayer.id) || currentPlayer;
-      const currentInventory = latestPlayer.inventory || [];
-      const updatedInventory = [...currentInventory];
+      setPlayers((prevPlayers) => {
+        const latestPlayer = prevPlayers.find((p) => p.id === currentPlayer.id);
+        if (!latestPlayer) return prevPlayers;
 
-      const existingItemIndex = updatedInventory.findIndex(
-        (item) => item.name === collectedItem.name,
-      );
+        const currentInventory = latestPlayer.inventory || [];
+        const updatedInventory = [...currentInventory];
 
-      if (existingItemIndex >= 0) {
-        const existingItem = updatedInventory[existingItemIndex];
-        updatedInventory[existingItemIndex] = {
-          ...existingItem,
-          count: (existingItem.count || 1) + (collectedItem.count || 1),
-        };
-      } else {
-        updatedInventory.push({
-          ...collectedItem,
-          count: collectedItem.count || 1,
-        });
-      }
+        const existingItemIndex = updatedInventory.findIndex(
+          (item) => item.name === collectedItem.name,
+        );
 
-      const updatedPlayer = { ...latestPlayer, inventory: updatedInventory };
-      setCurrentPlayer(updatedPlayer);
-      setPlayers((prevPlayers) =>
-        prevPlayers.map((player) => (player.id === latestPlayer.id ? updatedPlayer : player)),
-      );
+        if (existingItemIndex >= 0) {
+          const existingItem = updatedInventory[existingItemIndex];
+          updatedInventory[existingItemIndex] = {
+            ...existingItem,
+            count: (existingItem.count || 1) + (collectedItem.count || 1),
+          };
+        } else {
+          updatedInventory.push({
+            ...collectedItem,
+            count: collectedItem.count || 1,
+          });
+        }
+
+        const updatedPlayer = { ...latestPlayer, inventory: updatedInventory };
+        setCurrentPlayer(updatedPlayer);
+        
+        return prevPlayers.map((player) => 
+          player.id === latestPlayer.id ? updatedPlayer : player
+        );
+      });
     }
     setSelectedResource(null);
     setCollectedItem(null);
