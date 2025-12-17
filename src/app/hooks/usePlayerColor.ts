@@ -3,7 +3,7 @@ import { GameContext } from "@/context/GameContext";
 import { playerColors } from "@/App.styles";
 import { Player } from "@/types/general";
 
-function usePlayerColor(player: Player | null): { playerColor: string } {
+function usePlayerColor(player: Player): { playerColor: string } {
   const { players } = useContext(GameContext);
 
   if (!player) {

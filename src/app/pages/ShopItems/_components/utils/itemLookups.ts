@@ -24,7 +24,7 @@ const fossilPriceMap = new Map(
 );
 
 const seaCreaturePriceMap = new Map(
-  Object.values(seaCreatureIcons).map((s) => [s.name, s.sellPrice || 0]),
+  Object.values(seaCreatureIcons).map((s) => [s.name, Math.floor(Math.random() * 10000) + 50]),
 );
 
 const itemIconMap = new Map(
@@ -68,7 +68,7 @@ export function getItemSellValue(itemName: string, itemCost?: number, itemValue?
   return Math.floor((itemCost || 100) * 0.5);
 }
 
-export function getItemIconData(itemName: string): { key: string; data: typeof itemIcons[string] } | null {
+export function getItemIconData(itemName: string): { key: string; data: (typeof itemIcons)[keyof typeof itemIcons] } | null {
   return itemIconMap.get(itemName) || null;
 }
 

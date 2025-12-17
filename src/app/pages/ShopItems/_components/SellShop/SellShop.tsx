@@ -4,6 +4,7 @@ import { Item } from "@/types/general";
 import SellModal from "./SellModal/SellModal";
 import canSellItem from "./utils/canSellItem";
 import { getItemSellValue } from "../utils/itemLookups";
+import { Item as ItemComponent } from "@/components";
 import * as styles from "./SellShop.styles";
 
 const MIN_INVENTORY_SLOTS = 12;
@@ -21,22 +22,12 @@ function SellShop(): React.ReactNode {
         {inventory.map((item, index) => {
           const canSell = canSellItem(item);
           return (
-            <div
+            <ItemComponent
               key={`${item.name}-${index}`}
-              css={[styles.inventoryItem, !canSell && styles.inventoryItemDisabled]}
+              item={item}
+              disabled={!canSell}
               onClick={() => canSell && setSelectedItem(item)}
-            >
-              <div css={styles.inventorySlot}>
-                <img
-                  src={item.imageURL}
-                  alt={item.name}
-                  css={[styles.itemImage, !canSell && styles.itemImageDisabled]}
-                />
-                {item.count && item.count > 1 && (
-                  <span css={styles.itemCount}>{item.count}</span>
-                )}
-              </div>
-            </div>
+            />
           );
         })}
         {Array.from({ length: emptyInventorySlots }).map((_, index) => (

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { GameContext } from "@/context/GameContext";
 import Modal, { ModalTitle, ModalGrid, ModalItem } from "@/components/Modal/Modal";
 import Tooltip from "@/components/Tooltip/Tooltip";
+import { Item } from "@/components";
 import * as styles from "./InventoryModal.styles";
 import pluralize from "pluralize";
 import { InventoryModalProps } from "./InventoryModal.types";
@@ -21,10 +22,7 @@ function InventoryModal({ isOpen, onClose }: InventoryModalProps): React.ReactNo
         {inventory.map((item, index) => (
           <ModalItem key={`${item.name}-${index}`}>
             <Tooltip label={pluralize(item.name, item.count || 1)} position="top">
-              <div css={styles.inventorySlot}>
-                <img src={item.imageURL} alt={item.name} css={styles.itemImage} />
-                {item.count && item.count > 1 && <span css={styles.itemCount}>{item.count}</span>}
-              </div>
+              <Item item={item} />
             </Tooltip>
           </ModalItem>
         ))}

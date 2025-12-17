@@ -1,47 +1,32 @@
 import { css } from "@emotion/react";
 
 const pageContainer = css`
-  min-height: 100vh;
-  padding: 2rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  justify-content: flex-start;
+  padding: 4rem 3rem;
+  gap: 3rem;
+  background: var(--background-secondary);
 `;
 
-const contentCard = css`
-  background: white;
-  padding: 3rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+const title = css`
+  color: var(--black);
+  text-align: center;
+`;
+
+const playersGrid = css`
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  width: 100%;
+  max-width: 1440px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
-const section = css`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-`;
-
-const statRow = css`
-  display: flex;
-  justify-content: space-between;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid #eee;
-`;
-
-const statLabel = css`
-  color: #666;
-`;
-
-const statValue = css`
-  font-weight: 600;
-  color: #333;
-`;
-
-export { pageContainer, contentCard, section, statRow, statLabel, statValue };
+export { pageContainer, title, playersGrid };

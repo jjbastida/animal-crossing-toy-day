@@ -1,80 +1,45 @@
-import { useContext } from "react";
+import { useContext, useMemo } from "react";
 import { GameContext } from "../../context/GameContext";
 import { Typography } from "@components";
-import {
-  pageContainer,
-  contentCard,
-  section,
-  statRow,
-  statLabel,
-  statValue,
-} from "./Results.styles.ts";
+import usePlayerColor from "@/hooks/usePlayerColor";
+import PlayerResultCard from "./_components/PlayerResultCard/PlayerResultCard";
+import * as styles from "./Results.styles.ts";
+import { calculatePlayerPoints } from "./_helpers/results.ts";
 
 function ResultsPage(): React.ReactNode {
-  const { player, resources, gifts, items } = useContext(GameContext);
+  const { players } = useContext(GameContext);
+
+  const sortedPlayers = useMemo(() => {
+    return [...players]
+      .map((player) => ({
+        player,
+        ...calculatePlayerPoints(player),
+      }))
+      .sort((a, b) => b.totalPoints - a.totalPoints);
+  }, [players]);
 
   return (
-    <div css={pageContainer}>
-      <div css={contentCard}>
-        <Typography variant="display" size="4xl" as="h1">
-          Game Complete!
-        </Typography>
+    <div css={styles.pageContainer}>
+      <Typography variant="display" size="4xl" as="h1" css={styles.title}>
+        Game Complete!
+      </Typography>
+      <div css={styles.playersGrid}>
+        {sortedPlayers.map(({ player, totalPoints, bellsPoints, presentDetails }, index) => {
+          const { playerColor } = usePlayerColor(player);
+          const standing = index + 1;
 
-        <div css={section}>
-          <Typography variant="display" size="2xl" as="h2">
-            {player?.name}
-          </Typography>
-          <Typography variant="body" size="lg">
-            {player?.characterClass}
-          </Typography>
-        </div>
-
-        <div css={section}>
-          <Typography variant="display" size="xl" as="h3">
-            Final Stats
-          </Typography>
-
-          <div css={statRow}>
-            <div css={statLabel}>Resources Collected</div>
-            <div css={statValue}>{resources}</div>
-          </div>
-
-          <div css={statRow}>
-            <div css={statLabel}>Gifts Prepared</div>
-            <div css={statValue}>{gifts.length}</div>
-          </div>
-
-          <div css={statRow}>
-            <div css={statLabel}>Items Purchased</div>
-            <div css={statValue}>{items.length}</div>
-          </div>
-        </div>
-
-        {gifts.length > 0 && (
-          <div css={section}>
-            <Typography variant="display" size="lg" as="h3">
-              Your Gifts
-            </Typography>
-            {gifts.map((gift) => (
-              <div css={statRow} key={gift.id}>
-                <div css={statLabel}>{gift.name}</div>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {items.length > 0 && (
-          <div css={section}>
-            <Typography variant="display" size="lg" as="h3">
-              Your Items
-            </Typography>
-            {items.map((item) => (
-              <div css={statRow} key={item.id}>
-                <div css={statLabel}>{item.name}</div>
-              </div>
-            ))}
-          </div>
-        )}
+          return (
+            <PlayerResultCard
+              key={player.id}
+              player={player}
+              totalPoints={totalPoints}
+              bellsPoints={bellsPoints}
+              presentDetails={presentDetails}
+              playerColor={playerColor}
+              standing={standing}
+            />
+          );
+        })}
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ export function Routing(): React.ReactNode {
         playTrack(songData["nook-cranny-small"].audioUrl);
         break;
       case "results":
-        playTrack("/assets/music/results.mp3");
+        playTrack(songData["toy-day-snowy"].audioUrl);
         break;
       default:
         return;

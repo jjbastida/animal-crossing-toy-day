@@ -9,6 +9,7 @@ export interface Present {
   items: Item;
   position: number;
   action?: (Player: Player) => void;
+  points?: number;
 }
 
 export interface Item {
@@ -32,14 +33,8 @@ export interface Player {
   points?: number;
 }
 
-export interface Gift {
-  id: number;
-  name: string;
-}
-
 export interface ShopItem extends Item {
   id: string;
-  cost: number;
   sold: boolean;
 }
 

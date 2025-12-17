@@ -89,9 +89,22 @@ function ResourceTiles(): React.ReactNode {
           count: fruitCount,
         };
       }
+      case "sea-creatures":
+        case "fossils": {
+          const dataset = resourceDatasets[resourceType];
+          const types = Object.keys(dataset);
+          const randomKey = types[Math.floor(Math.random() * types.length)];
+          const data = dataset[randomKey];
+          return {
+            name: data.name,
+            imageURL: data.imageUrl,
+            description: data.description || `A ${data.name.toLowerCase()}.`,
+            count: 1,
+          };
+        }
+      
       case "fish":
       case "bugs":
-      case "sea-creatures":
       case "fossils": {
         const dataset = resourceDatasets[resourceType];
         const types = Object.keys(dataset);

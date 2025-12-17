@@ -7,5 +7,7 @@ export { default as Navigation } from "./Navigation/Navigation.tsx";
 export { default as Tabs } from "./Tabs/Tabs.tsx";
 export { default as CompleteActionButton } from "./CompleteActionButton/CompleteActionButton.tsx";
 export { default as NumberInput } from "./NumberInput/NumberInput.tsx";
+export { default as ItemCount } from "./ItemCount/ItemCount.tsx";
+export { default as Item } from "./Item/Item.tsx";
 
 export * from "./Modal/Modal.tsx";
