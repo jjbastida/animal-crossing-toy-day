@@ -7,8 +7,13 @@ import BuyModal from "./BuyModal/BuyModal";
 import * as styles from "./BuyShop.styles";
 
 function BuyShop(): React.ReactNode {
-  const { shopItems } = useContext(GameContext);
+  const { shopItems, setActionUsed } = useContext(GameContext);
   const [selectedItem, setSelectedItem] = useState<ShopItem | null>(null);
+
+  function handleBuyItem(item: ShopItem): void {
+    setSelectedItem(item);
+    setActionUsed(true);
+  }
 
   return (
     <>
@@ -36,7 +41,7 @@ function BuyShop(): React.ReactNode {
               size="sm"
               css={[styles.itemPrice, item.sold && styles.itemPriceDisabled]}
             >
-              {item.sold ? "SOLD OUT" : `${item.cost.toLocaleString()} Bells`}
+              {item.sold ? "SOLD OUT" : `${item.cost?.toLocaleString()} Bells`}
             </Typography>
           </Card>
         ))}
@@ -44,7 +49,7 @@ function BuyShop(): React.ReactNode {
       <BuyModal
         isOpen={selectedItem !== null}
         item={selectedItem}
-        onBuy={() => setSelectedItem(null)}
+        onBuy={handleBuyItem}
         onCancel={() => setSelectedItem(null)}
       />
     </>

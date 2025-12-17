@@ -6,13 +6,31 @@ import * as styles from "./Navigation.styles";
 import Typography from "../Typography/Typography";
 import { formatMoney } from "../../helper/general";
 import usePlayerColor from "@/hooks/usePlayerColor";
+import Button from "../Button/Button";
+import { ArrowLeft } from "phosphor-react";
 
 function Navigation(): React.ReactNode {
-  const { currentPlayer } = useContext(GameContext);
+  const { currentPlayer, gamePhase, setGamePhase, setAction, actionUsed } = useContext(GameContext);
   const { playerColor } = usePlayerColor(currentPlayer);
+
+  const showBackButton = gamePhase !== "playerTurn" && 
+    (gamePhase === "gatherResource" || gamePhase === "prepareGifts" || gamePhase === "shopItems");
+
+  function handleBack(): void {
+    setAction(null);
+    setGamePhase("playerTurn");
+  }
 
   return (
     <>
+      {showBackButton && (
+        <div css={styles.backButtonContainer}>
+          <Button variant="secondary" onClick={handleBack} disabled={actionUsed}>
+            <ArrowLeft weight="bold" />
+            Back
+          </Button>
+        </div>
+      )}
       {currentPlayer && (
         <div css={styles.playerInfoContainer}>
           {currentPlayer.avatar && (

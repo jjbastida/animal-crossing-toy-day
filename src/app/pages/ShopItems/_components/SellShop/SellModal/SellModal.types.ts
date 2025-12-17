@@ -4,6 +4,6 @@ export interface SellModalProps {
   isOpen: boolean;
   item: Item | null;
   value: number;
-  onSell: () => void;
+  onSell: (item: Item) => void;
   onCancel: () => void;
 }

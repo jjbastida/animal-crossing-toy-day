@@ -6,7 +6,7 @@ export type AvatarType = keyof typeof villagerIcons;
 export interface Present {
   id: string;
   color: Color;
-  items: Item;
+  item: Item;
   position: number;
   tag: string;
   points?: number;

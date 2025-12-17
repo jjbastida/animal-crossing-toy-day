@@ -1,4 +1,4 @@
-import { CompleteActionButton, Typography } from "@/components";
+import { ActionButton, Typography } from "@/components";
 import PresentSlot from "../PresentSlot/PresentSlot";
 import * as styles from "./PresentsGrid.styles";
 import { PresentsGridProps } from "./PresentsGrid.types";
@@ -51,7 +51,7 @@ function PresentsGrid({
           );
         })}
       </div>
-      <CompleteActionButton>Finish action</CompleteActionButton>
+      <ActionButton>Finish action</ActionButton>
     </div>
   );
 }

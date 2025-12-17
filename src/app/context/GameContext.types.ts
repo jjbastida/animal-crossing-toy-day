@@ -17,6 +17,8 @@ export interface GameContextValue {
   completePlayerAction: () => void;
   shopItems: ShopItem[];
   setShopItems: (shopItems: ShopItem[]) => void;
+  actionUsed: boolean;
+  setActionUsed: (actionUsed: boolean) => void;
 }
 
 export interface GameProviderProps {

@@ -1,5 +1,12 @@
 import { css } from "@emotion/react";
 
+const backButtonContainer = css`
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  z-index: 1;
+`;
+
 const playerInfoContainer = css`
   position: fixed;
   top: 2rem;
@@ -54,4 +61,4 @@ const bellIcon = css`
   vertical-align: bottom;
 `;
 
-export { playerName, bellIcon, playerInfoContainer, avatar, playerInfo, bells };
+export { playerName, bellIcon, playerInfoContainer, avatar, playerInfo, bells, backButtonContainer };

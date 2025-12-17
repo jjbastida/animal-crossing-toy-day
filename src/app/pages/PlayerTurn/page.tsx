@@ -14,7 +14,7 @@ import pluralize from "pluralize";
 const ACTIONS = [
   {
     id: "gatherResource" as const,
-    title: "Gather Resource",
+    title: "Gather Resources",
     description: "Collect resources to use for shopping",
     imageKey: "gatherResource",
   },

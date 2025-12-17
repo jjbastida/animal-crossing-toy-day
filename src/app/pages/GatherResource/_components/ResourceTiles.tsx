@@ -14,7 +14,7 @@ import * as styles from "./ResourceTiles.styles";
 import pluralize from "pluralize";
 
 function ResourceTiles(): React.ReactNode {
-  const { currentPlayer, setCurrentPlayer, players, setPlayers, completePlayerAction } =
+  const { currentPlayer, setCurrentPlayer, players, setPlayers, completePlayerAction, setActionUsed } =
     useContext(GameContext);
   const [selectedResource, setSelectedResource] = useState<ResourceType | null>(null);
   const [collectedItem, setCollectedItem] = useState<Item | null>(null);
@@ -165,6 +165,7 @@ function ResourceTiles(): React.ReactNode {
   function handleResourceClick(resourceType: ResourceType): void {
     const item = collectResourceItem(resourceType);
     setCollectedItem(item);
+    setActionUsed(true);
     setSelectedResource(resourceType);
   }
 

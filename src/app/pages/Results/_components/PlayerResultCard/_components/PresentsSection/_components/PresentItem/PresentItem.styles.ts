@@ -32,4 +32,8 @@ const imageIcon = css`
   vertical-align: bottom;
 `;
 
-export { presentItem, presentName, pointsValue, imageIcon };
+const modifier = css`
+  color: var(--foreground-secondary); 
+`;
+
+export { presentItem, presentName, pointsValue, imageIcon, modifier };

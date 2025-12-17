@@ -10,11 +10,16 @@ import * as styles from "./SellShop.styles";
 const MIN_INVENTORY_SLOTS = 12;
 
 function SellShop(): React.ReactNode {
-  const { currentPlayer } = useContext(GameContext);
+  const { currentPlayer, setActionUsed } = useContext(GameContext);
   const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const inventory = currentPlayer?.inventory || [];
   const totalInventorySlots = Math.max(MIN_INVENTORY_SLOTS, inventory.length);
   const emptyInventorySlots = totalInventorySlots - inventory.length;
+
+  function handleSellItem(item: Item): void {
+    setSelectedItem(item);
+    setActionUsed(true);
+  }
 
   return (
     <>
@@ -40,7 +45,7 @@ function SellShop(): React.ReactNode {
         isOpen={selectedItem !== null}
         item={selectedItem}
         value={selectedItem ? getItemSellValue(selectedItem, currentPlayer) : 0}
-        onSell={() => setSelectedItem(null)}
+        onSell={handleSellItem}
         onCancel={() => setSelectedItem(null)}
       />
     </>

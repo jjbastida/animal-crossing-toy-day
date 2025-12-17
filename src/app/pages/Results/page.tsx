@@ -37,7 +37,7 @@ function ResultsPage(): React.ReactNode {
         {sortedPlayers[0].player.name} Wins!
       </Typography>
       <div css={styles.playersGrid}>
-        {sortedPlayers.map(({ player, totalPoints, bellsPoints, presentDetails, standing }) => {
+        {sortedPlayers.map(({ player, totalPoints, bellsPoints, scoredPresents, standing }) => {
           const { playerColor: currentPlayerColor } = usePlayerColor(player);
 
           return (
@@ -46,7 +46,7 @@ function ResultsPage(): React.ReactNode {
               player={player}
               totalPoints={totalPoints}
               bellsPoints={bellsPoints}
-              presentDetails={presentDetails}
+              scoredPresents={scoredPresents}
               playerColor={currentPlayerColor}
               standing={standing}
             />

@@ -27,6 +27,14 @@ const title = css`
   text-align: center;
 `;
 
+const textContainer = css`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+`;
+
 const bellsDisplay = css`
   color: var(--foreground-secondary);
   text-align: center;
@@ -60,6 +68,7 @@ export {
   pageContainer,
   container,
   title,
+  textContainer,
   bellsDisplay,
   buttonContainer,
   completeButton,

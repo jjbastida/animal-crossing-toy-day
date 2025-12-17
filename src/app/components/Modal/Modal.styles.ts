@@ -82,7 +82,7 @@ const modalItem = css`
 const modalTitle = css`
   margin: 1rem 0;
   text-align: center;
-  color: var(--black);
+  color: var(--foreground-primary);
 `;
 
 export { modalOverlay, modalContent, modalGrid, modalItem, modalTitle };

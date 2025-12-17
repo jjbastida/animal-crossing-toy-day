@@ -7,6 +7,7 @@ import {
   DEFAULT_ACTIONS_PER_TURN,
   DEFAULT_VALUES,
   DEFAULT_TOTAL_ROUNDS,
+  DUMMY_PLAYERS,
 } from "./GameContext.constants";
 import { findPlayerIndex, generateShopItems } from "./GameContext.utils";
 
@@ -16,12 +17,13 @@ export function GameProvider({
   children,
   totalRounds: initialTotalRounds = DEFAULT_TOTAL_ROUNDS,
 }: GameProviderProps) {
-  const [players, setPlayers] = useState<Player[]>([]);
-  const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
+  const [players, setPlayers] = useState<Player[]>(DUMMY_PLAYERS);
+  const [currentPlayer, setCurrentPlayer] = useState<Player | null>(DUMMY_PLAYERS[0]);
   const [gamePhase, setGamePhase] = useState<GamePhase>(STARTING_PHASE);
   const [currentRound, setCurrentRound] = useState<number>(STARTING_ROUND);
   const [currentAction, setCurrentAction] = useState<ActionType>(null);
   const [actionsRemaining, setActionsRemaining] = useState<number>(DEFAULT_ACTIONS_PER_TURN);
+  const [actionUsed, setActionUsed] = useState<boolean>(false);
   const [shopItems, setShopItems] = useState<ShopItem[]>(generateShopItems());
   const [totalRounds, setTotalRounds] = useState<number>(initialTotalRounds);
 
@@ -29,6 +31,7 @@ export function GameProvider({
     if (!currentPlayer) return;
 
     const actionsLeft = actionsRemaining - 1;
+    setActionUsed(false);
 
     setCurrentAction(null);
     setGamePhase("playerTurn");
@@ -87,6 +90,8 @@ export function GameProvider({
         setGamePhase,
         setAction,
         completePlayerAction,
+        actionUsed,
+        setActionUsed,
       }}
     >
       {children}

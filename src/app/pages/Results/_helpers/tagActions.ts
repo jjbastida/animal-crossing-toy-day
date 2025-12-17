@@ -44,27 +44,27 @@ export function applyTagBasedPointModifier(
   present: Present,
   basePoints: number,
   allPresents: Present[] = [],
-): number {
+): { points: number; modifier: number | null } {
   const itemTag = present.tag;
-  if (!itemTag) return basePoints;
+  if (!itemTag) return { points: basePoints, modifier: null };
 
   switch (itemTag) {
     case "fancy":
     case "garden":
       if (present.color === "green") {
-        return basePoints * 2;
+        return { points: basePoints * 2, modifier: 2 };
       }
       break;
     case "wedding":
     case "sanrio":
       if (present.color === "red") {
-        return basePoints * 3;
+        return { points: basePoints * 3, modifier: 3 };
       }
       break;
     case "living-room":
     case "harmonious":
       if (present.color === "blue") {
-        return basePoints * 3;
+        return { points: basePoints * 3, modifier: 3 };
       }
       break;
     case "food":
@@ -72,7 +72,7 @@ export function applyTagBasedPointModifier(
     case "expensive":
     case "party":
       if (hasOtherSameTypeOnBoard(present, allPresents)) {
-        return basePoints * 5;
+        return { points: basePoints * 5, modifier: 5 };
       }
       break;
     case "mario":
@@ -83,19 +83,19 @@ export function applyTagBasedPointModifier(
           areAdjacent(present.position, otherPresent.position),
       );
       if (hasAdjacentHarmonious) {
-        return basePoints * 2;
+        return { points: basePoints * 2, modifier: 2 };
       }
       break;
     case "toy":
       if (isInCompleteRowOrColumn(present, allPresents)) {
-        return basePoints * 2;
+        return { points: basePoints * 2, modifier: 2 };
       }
       break;
     default:
       break;
   }
 
-  return basePoints;
+  return { points: basePoints, modifier: null };
 }
 
 export function getTagBasedAbilityDescription(itemName: string): string {
@@ -124,6 +124,37 @@ export function getTagBasedAbilityDescription(itemName: string): string {
       return "2x points when next to harmonious items.";
     case "toy":
       return "2x points in a complete row or column of toys.";
+    default:
+      return "";
+  }
+}
+
+export function getTagShortDescription(itemName: string): string {
+  const itemTag = getItemTag(itemName);
+  if (!itemTag) return "";
+
+  switch (itemTag) {
+    case "fancy":
+    case "garden":
+      return "x3";
+    case "wedding":
+    case "sanrio":
+      return "x3";
+    case "living-room":
+    case "harmonious":
+      return "x3";
+    case "food":
+      return "x5";
+    case "winter":
+      return "x5";
+    case "expensive":
+      return "x5";
+    case "party":
+      return "x5";
+    case "mario":
+      return "x2";
+    case "toy":
+      return "x2";
     default:
       return "";
   }

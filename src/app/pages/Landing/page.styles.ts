@@ -83,7 +83,7 @@ const textSubtitle = css`
 `;
 
 const textTitle = css`
-  color: var(--black);
+  color: var(--foreground-primary);
 `;
 
 export {

@@ -13,7 +13,7 @@ import { getItemBasePoints } from "./utils/itemTooltip";
 import { getItemTag } from "@/pages/ShopItems/_components/utils/itemLookups";
 
 function PrepareGiftsComponent(): React.ReactNode {
-  const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
+  const { currentPlayer, setCurrentPlayer, players, setPlayers, setActionUsed } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
   const [deletePresent, setDeletePresent] = useState<Present | null>(null);
   const [pendingPresent, setPendingPresent] = useState<{ item: Item; position: number } | null>(
@@ -100,6 +100,7 @@ function PrepareGiftsComponent(): React.ReactNode {
     };
 
     playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
+    setActionUsed(true);
     const updatedPlayers = players.map((p: Player) =>
       p.id === currentPlayer.id ? updatedPlayer : p,
     );

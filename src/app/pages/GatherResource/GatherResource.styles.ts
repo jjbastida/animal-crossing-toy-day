@@ -12,11 +12,19 @@ const pageContainer = css`
 `;
 
 const title = css`
-  color: var(--black);
+  color: var(--foreground-primary);
 `;
 
-const completeButton = css`
-  margin-top: 2rem;
+const description = css`
+  color: var(--foreground-secondary);
 `;
 
-export { pageContainer, title, completeButton };
+const textContainer = css`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+`;
+
+export { pageContainer, title, description, textContainer };

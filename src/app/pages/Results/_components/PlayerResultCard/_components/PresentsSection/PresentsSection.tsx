@@ -4,16 +4,16 @@ import PresentItem from "./_components/PresentItem/PresentItem";
 import { PresentsSectionProps } from "./PresentsSection.types";
 import * as styles from "./PresentsSection.styles";
 
-function PresentsSection({ presentDetails }: PresentsSectionProps): React.ReactNode {
+function PresentsSection({ scoredPresents }: PresentsSectionProps): React.ReactNode {
   return (
     <div css={styles.section}>
       <Typography variant="display" size="2xl" as="h3" css={styles.sectionTitle}>
         <img src={itemIcons["present"].imageUrl} alt="Presents" css={styles.imageIcon} /> Presents
       </Typography>
       <div css={styles.presentsGrid}>
-        {presentDetails.length > 0 ? (
-          presentDetails.map(({ present, points }) => (
-            <PresentItem key={present.id} name={present.items.name} points={points} />
+        {scoredPresents.length > 0 ? (
+          scoredPresents.map(({ present, points, modifier }) => (
+            <PresentItem key={present.id} item={present.item} points={points} modifier={modifier} />
           ))
         ) : (
           <Typography variant="body" size="sm" css={styles.emptyState}>

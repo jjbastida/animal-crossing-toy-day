@@ -10,7 +10,7 @@ function PlayerResultCard({
   player,
   totalPoints,
   bellsPoints,
-  presentDetails,
+  scoredPresents,
   playerColor,
   standing,
 }: PlayerResultCardProps): React.ReactNode {
@@ -26,7 +26,7 @@ function PlayerResultCard({
       </Typography>
       <Card css={styles.totalCard}>
         <div css={styles.scrollableContent}>
-          <PresentsSection presentDetails={presentDetails} />
+          <PresentsSection scoredPresents={scoredPresents} />
           <BellsSection bellsPoints={bellsPoints} />
         </div>
         <TotalSection totalPoints={totalPoints} playerColor={playerColor} />

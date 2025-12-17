@@ -1,15 +1,12 @@
-export interface PresentDetail {
-  present: {
-    id: string;
-    items: {
-      name: string;
-    };
-  };
+import { Present } from "@/types/general";
+
+export interface ScoredPresent {
+  present: Present;
   points: number;
+  modifier: number | null;
 }
 
 export interface PresentsSectionProps {
-  presentDetails: PresentDetail[];
+  scoredPresents: ScoredPresent[];
 }
 
-export type { PresentDetail };
