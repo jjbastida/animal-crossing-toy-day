@@ -1,10 +1,10 @@
 import { CSSObject } from "@emotion/react";
-import { ButtonVariant } from "../Button/Button.types";
+import { ButtonProps, ButtonVariant } from "../Button/Button.types";
 
 export type CompleteActionButtonProps = {
-  text?: string;
+  onClick?: () => void;
   variant?: ButtonVariant;
   css?: CSSObject;
   children?: React.ReactNode;
-};
+} & ButtonProps;
 
