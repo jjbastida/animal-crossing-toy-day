@@ -54,7 +54,7 @@ export function applyTagBasedPointModifier(
     case "fancy":
     case "garden":
       if (present.color === "green") {
-        return basePoints * 2``;
+        return basePoints * 2;
       }
       break;
     case "wedding":
