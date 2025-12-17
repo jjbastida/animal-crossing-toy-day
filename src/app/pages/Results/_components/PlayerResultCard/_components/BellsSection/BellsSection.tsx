@@ -7,7 +7,7 @@ function BellsSection({ bellsPoints }: BellsSectionProps): React.ReactNode {
   return (
     <div css={styles.bellsSection}>
       <div css={styles.bellsLabelContainer}>
-      <Typography variant="body" size="lg" css={styles.bellsLabel}>
+      <Typography variant="body" size="sm" css={styles.bellsLabel}>
         <img
           src={itemIcons["1-000-bells"].imageUrl}
           alt="Bells"
@@ -22,7 +22,7 @@ function BellsSection({ bellsPoints }: BellsSectionProps): React.ReactNode {
           alt="Points"
           css={styles.imageIcon}
         />
-        <Typography variant="body" size="lg">
+        <Typography variant="body" size="sm">
           {bellsPoints}
         </Typography>
       </div>

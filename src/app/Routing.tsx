@@ -54,7 +54,6 @@ export function Routing(): React.ReactNode {
     "gatherResource",
     "prepareGifts",
     "shopItems",
-    "results",
   ].includes(gamePhase);
 
   const renderPage = () => {

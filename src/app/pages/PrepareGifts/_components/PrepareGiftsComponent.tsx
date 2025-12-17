@@ -9,6 +9,8 @@ import ColorSelectionModal from "./ColorSelectionModal/ColorSelectionModal";
 import * as styles from "./PrepareGiftsComponent.styles";
 import { MusicContext } from "@/context/MusicContext";
 import soundEffects from "@data/sound_effects.json";
+import { getItemBasePoints } from "./utils/itemTooltip";
+import { getItemTag } from "@/pages/ShopItems/_components/utils/itemLookups";
 
 function PrepareGiftsComponent(): React.ReactNode {
   const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
@@ -62,11 +64,16 @@ function PrepareGiftsComponent(): React.ReactNode {
     const currentPresents = currentPlayer.presents || [];
     const currentInventory = currentPlayer.inventory || [];
     
+    const basePoints = getItemBasePoints(pendingPresent.item);
+    const tag = getItemTag(pendingPresent.item.name) || "";
+    
     const updatedPresents = [...currentPresents, {
       id: `present-${Date.now()}-${Math.random()}`,
       color,
       items: pendingPresent.item,
       position: pendingPresent.position,
+      tag,
+      points: basePoints,
     } as Present];
     
     const updatedInventory = currentInventory

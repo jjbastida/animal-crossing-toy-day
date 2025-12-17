@@ -10,12 +10,23 @@ function ResultsPage(): React.ReactNode {
   const { players } = useContext(GameContext);
 
   const sortedPlayers = useMemo(() => {
-    return [...players]
+    const playersWithPoints = [...players]
       .map((player) => ({
         player,
         ...calculatePlayerPoints(player),
       }))
       .sort((a, b) => b.totalPoints - a.totalPoints);
+
+    let currentStanding = 1;
+    return playersWithPoints.map((playerData, index) => {
+      if (index > 0 && playerData.totalPoints !== playersWithPoints[index - 1].totalPoints) {
+        currentStanding = index + 1;
+      }
+      return {
+        ...playerData,
+        standing: currentStanding,
+      };
+    });
   }, [players]);
 
   return (
@@ -24,9 +35,8 @@ function ResultsPage(): React.ReactNode {
         Game Complete!
       </Typography>
       <div css={styles.playersGrid}>
-        {sortedPlayers.map(({ player, totalPoints, bellsPoints, presentDetails }, index) => {
+        {sortedPlayers.map(({ player, totalPoints, bellsPoints, presentDetails, standing }) => {
           const { playerColor } = usePlayerColor(player);
-          const standing = index + 1;
 
           return (
             <PlayerResultCard

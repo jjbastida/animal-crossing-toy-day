@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useRef } from "react";
 import { Modal, Typography } from "@/components";
 import { MusicContext } from "@/context/MusicContext";
 import soundEffects from "@data/sound_effects.json";
@@ -16,12 +16,24 @@ interface PlayerTurnModalProps {
 function PlayerTurnModal({ isOpen, onClose, player }: PlayerTurnModalProps): React.ReactNode {
   const { playSoundEffect } = useContext(MusicContext);
   const { playerColor } = usePlayerColor(player || { id: 0 });
+  const hasPlayedSoundRef = useRef(false);
+  const onCloseRef = useRef(onClose);
 
   useEffect(() => {
-    playSoundEffect(soundEffects["Event_Quest_Start"].audioUrl);
-    const timer = setTimeout(onClose, 1000);
-    return () => clearTimeout(timer);
-  }, [isOpen, player, playSoundEffect, onClose]);
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  useEffect(() => {
+    if (isOpen && !hasPlayedSoundRef.current) {
+      playSoundEffect(soundEffects["Event_Quest_Start"].audioUrl);
+      hasPlayedSoundRef.current = true;
+      const timer = setTimeout(() => onCloseRef.current(), 1000);
+      return () => clearTimeout(timer);
+    }
+    if (!isOpen) {
+      hasPlayedSoundRef.current = false;
+    }
+  }, [isOpen, playSoundEffect]);
 
   if (!player) return null;
 

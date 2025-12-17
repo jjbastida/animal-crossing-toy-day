@@ -56,7 +56,7 @@ function InventoryList({ inventory, onMouseDown }: InventoryListProps): React.Re
           );
           
           return (
-            <Tooltip label={tooltipLabel} position="top">
+            <Tooltip label={tooltipLabel} position="top" key={`${item.name}-${index}`}>
               <Item
                 key={`${item.name}-${index}`}
                 item={item}
