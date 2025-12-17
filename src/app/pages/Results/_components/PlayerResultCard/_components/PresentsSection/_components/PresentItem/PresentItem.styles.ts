@@ -33,7 +33,7 @@ const imageIcon = css`
 `;
 
 const modifier = css`
-  color: var(--foreground-secondary); 
+  color: var(--foreground-secondary);
 `;
 
 export { presentItem, presentName, pointsValue, imageIcon, modifier };

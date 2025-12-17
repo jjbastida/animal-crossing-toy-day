@@ -30,7 +30,7 @@ function Button<E extends ElementType = "button">({
       {...props}
       onClick={handleClick}
     >
-      <Typography variant="body" size="md" as='span' css={styles.buttonText}>
+      <Typography variant="body" size="md" as="span" css={styles.buttonText}>
         {children}
       </Typography>
     </Component>

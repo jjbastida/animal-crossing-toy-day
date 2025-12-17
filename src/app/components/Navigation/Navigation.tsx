@@ -13,7 +13,8 @@ function Navigation(): React.ReactNode {
   const { currentPlayer, gamePhase, setGamePhase, setAction, actionUsed } = useContext(GameContext);
   const { playerColor } = usePlayerColor(currentPlayer);
 
-  const showBackButton = gamePhase !== "playerTurn" && 
+  const showBackButton =
+    gamePhase !== "playerTurn" &&
     (gamePhase === "gatherResource" || gamePhase === "prepareGifts" || gamePhase === "shopItems");
 
   function handleBack(): void {

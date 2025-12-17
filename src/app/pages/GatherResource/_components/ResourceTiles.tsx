@@ -14,8 +14,14 @@ import * as styles from "./ResourceTiles.styles";
 import pluralize from "pluralize";
 
 function ResourceTiles(): React.ReactNode {
-  const { currentPlayer, setCurrentPlayer, players, setPlayers, completePlayerAction, setActionUsed } =
-    useContext(GameContext);
+  const {
+    currentPlayer,
+    setCurrentPlayer,
+    players,
+    setPlayers,
+    completePlayerAction,
+    setActionUsed,
+  } = useContext(GameContext);
   const [selectedResource, setSelectedResource] = useState<ResourceType | null>(null);
   const [collectedItem, setCollectedItem] = useState<Item | null>(null);
   const fruitName = currentPlayer?.fruit || "apple";

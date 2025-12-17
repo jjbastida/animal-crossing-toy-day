@@ -19,12 +19,13 @@ function ShopItemsPage(): React.ReactNode {
     <div css={styles.pageContainer}>
       <div css={styles.container}>
         <div css={styles.textContainer}>
-        <Typography variant="display" size="3xl" css={styles.title}>
-          <img src={itemIcons["furniture"].imageUrl} alt="Shop" css={styles.shopIcon} /> Nook's Shop
-        </Typography>
-        <Typography variant="body" size="md" css={styles.description}>
-          Buy and sell items here using your bells.
-        </Typography>
+          <Typography variant="display" size="3xl" css={styles.title}>
+            <img src={itemIcons["furniture"].imageUrl} alt="Shop" css={styles.shopIcon} /> Nook's
+            Shop
+          </Typography>
+          <Typography variant="body" size="md" css={styles.description}>
+            Buy and sell items here using your bells.
+          </Typography>
         </div>
         <div css={styles.buttonContainer}>
           <Tabs tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />

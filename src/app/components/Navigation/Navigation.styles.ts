@@ -61,4 +61,12 @@ const bellIcon = css`
   vertical-align: bottom;
 `;
 
-export { playerName, bellIcon, playerInfoContainer, avatar, playerInfo, bells, backButtonContainer };
+export {
+  playerName,
+  bellIcon,
+  playerInfoContainer,
+  avatar,
+  playerInfo,
+  bells,
+  backButtonContainer,
+};

@@ -13,7 +13,13 @@ function PresentItem({ item, points, modifier }: PresentItemProps): React.ReactN
       <div css={styles.pointsValue}>
         <img src={itemIcons["pisces-fragment"].imageUrl} alt="Points" css={styles.imageIcon} />
         <Typography variant="body" size="sm">
-          {modifier ? <>{points} <span css={styles.modifier}>x{modifier}</span></> : points}
+          {modifier ? (
+            <>
+              {points} <span css={styles.modifier}>x{modifier}</span>
+            </>
+          ) : (
+            points
+          )}
         </Typography>
       </div>
     </div>

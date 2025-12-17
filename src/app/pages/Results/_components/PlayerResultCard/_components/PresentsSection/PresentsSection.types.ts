@@ -9,4 +9,3 @@ export interface ScoredPresent {
 export interface PresentsSectionProps {
   scoredPresents: ScoredPresent[];
 }
-
