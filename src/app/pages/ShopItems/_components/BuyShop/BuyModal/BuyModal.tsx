@@ -7,6 +7,7 @@ import * as styles from "./BuyModal.styles";
 import { BuyModalProps } from "./BuyModal.types";
 import { getLatestPlayer, updatePlayerInventory, updatePlayerInPlayersArray } from "../../utils/playerState";
 import { isFurniture } from "../../utils/itemLookups";
+import { getTagBasedAbilityDescription } from "@/pages/Results/_helpers/tagActions";
 
 function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.ReactNode {
   const { currentPlayer, setCurrentPlayer, players, setPlayers, shopItems, setShopItems } = useContext(GameContext);
@@ -15,9 +16,12 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
 
   const itemData = item as ShopItem;
   const latestPlayer = getLatestPlayer(players, currentPlayer);
-  const ability = isFurniture(itemData.name) ? "Can be wrapped as a present for points." : "";
+  const tagAbility = getTagBasedAbilityDescription(itemData.name);
+  const ability = isFurniture(itemData.name) 
+    ? tagAbility || "Can be wrapped as a present for points."
+    : "";
   const couponItem = latestPlayer?.inventory?.find((invItem) => invItem.name === "Shop Coupon");
-  const canAfford = (latestPlayer?.bells || 0) >= itemData.cost;
+  const canAfford = (latestPlayer?.bells || 0) >= (itemData.cost || 0);
 
   function handleBuy(): void {
     if (!latestPlayer || !itemData) return;
@@ -26,7 +30,7 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
     const updatedPlayer = {
       ...latestPlayer,
       inventory: updatedInventory,
-      bells: (latestPlayer.bells || 0) - itemData.cost,
+      bells: (latestPlayer.bells || 0) - (itemData.cost || 0),
     };
 
     setCurrentPlayer(updatedPlayer);
@@ -94,7 +98,7 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
           </Typography>
           <Typography variant="body" size="lg" css={styles.itemPrice}>
             <img src={itemIcons["1-000-bells"].imageUrl} alt="Bell" css={styles.imageIcon} />{" "}
-            {itemData.cost.toLocaleString()} Bells
+            {(itemData.cost || 0).toLocaleString()} Bells
           </Typography>
         </div>
       </div>

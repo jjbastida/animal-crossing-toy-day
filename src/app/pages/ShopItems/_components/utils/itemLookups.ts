@@ -31,8 +31,16 @@ const itemIconMap = new Map(
   Object.entries(itemIcons).map(([key, data]) => [data.name, { key, data }]),
 );
 
+const furnitureTagMap = new Map(
+  Object.values(furnitureData).map((f) => [f.name, f.tag]),
+);
+
 export function isFurniture(itemName: string): boolean {
   return furnitureNameSet.has(itemName);
+}
+
+export function getItemTag(itemName: string): string | undefined {
+  return furnitureTagMap.get(itemName);
 }
 
 export function getItemSellValue(itemName: string, itemCost?: number, itemValue?: number): number {

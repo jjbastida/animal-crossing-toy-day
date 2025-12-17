@@ -1,12 +1,9 @@
 import { Player, Present } from "@/types/general";
+import { applyTagBasedPointModifier } from "./tagActions";
 
-export function calculatePresentPoints(present: Present, player: Player): number {
-  let points = present.points || 0;
-  if (present.action) {
-    present.action(player);
-    points = present.points || 0;
-  }
-  return points;
+export function calculatePresentPoints(present: Present, allPresents: Present[]): number {
+  const basePoints = present.points || 0;
+  return applyTagBasedPointModifier(present, basePoints, allPresents);
 }
 
 export function calculatePlayerPoints(player: Player): {
@@ -18,7 +15,7 @@ export function calculatePlayerPoints(player: Player): {
   const presents = player.presents || [];
   const presentDetails = presents.map((present) => ({
     present,
-    points: calculatePresentPoints(present, player),
+    points: calculatePresentPoints(present, presents),
   }));
 
   const presentPoints = presentDetails.reduce((sum, { points }) => sum + points, 0);

@@ -8,7 +8,7 @@ export interface Present {
   color: Color;
   items: Item;
   position: number;
-  action?: (Player: Player) => void;
+  tag: string;
   points?: number;
 }
 

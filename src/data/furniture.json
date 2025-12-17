@@ -1,1136 +1,1311 @@
 {
-  "baby-bed": {
-    "name": "Baby bed",
-    "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Baby_Bed_%28Natural_Wood_-_Plain_White%29_NH_Icon.png/64px-Baby_Bed_%28Natural_Wood_-_Plain_White%29_NH_Icon.png",
-    "buyPrice": 3300,
-    "tag": "child-room"
-  },
-  "baby-chair": {
-    "name": "Baby chair",
-    "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Baby_Chair_%28Red_-_Bear%29_NH_Icon.png/64px-Baby_Chair_%28Red_-_Bear%29_NH_Icon.png",
-    "buyPrice": 1200,
-    "tag": "child-room"
-  },
   "block": {
     "name": "? Block",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/%3F_Block_NH_Icon.png/64px-%3F_Block_NH_Icon.png",
     "buyPrice": 1350,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 135
   },
   "dreamy-shelves": {
     "name": "Dreamy shelves",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/29/Dreamy_Shelves_%28Pink%29_NH_Icon.png/64px-Dreamy_Shelves_%28Pink%29_NH_Icon.png",
     "buyPrice": 4000,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 400
   },
   "elephant-slide": {
     "name": "Elephant slide",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7e/Elephant_Slide_%28Blue%29_NH_Icon.png/64px-Elephant_Slide_%28Blue%29_NH_Icon.png",
     "buyPrice": 4200,
-    "tag": "garden-child-room"
+    "tag": "garden",
+    "pointScore": 420
   },
   "fan": {
     "name": "Fan",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a3/Fan_%28White%29_NH_Icon.png/64px-Fan_%28White%29_NH_Icon.png",
     "buyPrice": 1700,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 170
   },
   "floating-block": {
     "name": "Floating block",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Floating_Block_NH_Icon.png/64px-Floating_Block_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 100
   },
   "floor-seat": {
     "name": "Floor seat",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Floor_Seat_%28Natural_-_Pale_Grass_Green%29_NH_Icon.png/64px-Floor_Seat_%28Natural_-_Pale_Grass_Green%29_NH_Icon.png",
     "buyPrice": 730,
-    "tag": "harmonious-child-room"
+    "tag": "harmonious",
+    "pointScore": 73
   },
   "folding-floor-lamp": {
     "name": "Folding floor lamp",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9d/Folding_Floor_Lamp_%28Black%29_NH_Icon.png/64px-Folding_Floor_Lamp_%28Black%29_NH_Icon.png",
     "buyPrice": 1900,
-    "tag": "child-room-living-room"
+    "tag": "living-room",
+    "pointScore": 190
   },
   "froggy-chair": {
     "name": "Froggy chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/12/Froggy_Chair_%28Green%29_NH_Icon.png/64px-Froggy_Chair_%28Green%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "child-room-fancy"
+    "tag": "rare",
+    "pointScore": 9000
   },
   "goal-pole": {
     "name": "Goal Pole",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Goal_Pole_NH_Icon.png/64px-Goal_Pole_NH_Icon.png",
     "buyPrice": 3500,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 350
   },
   "horizontal-organizer": {
     "name": "Horizontal organizer",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Horizontal_Organizer_%28White_-_Two-Tone_Dots%29_NH_Icon.png/64px-Horizontal_Organizer_%28White_-_Two-Tone_Dots%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-living-room"
+    "tag": "living-room",
+    "pointScore": 180
   },
   "kids-tent": {
     "name": "Kids' tent",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ed/Kids%27_Tent_%28White%29_NH_Icon.png/64px-Kids%27_Tent_%28White%29_NH_Icon.png",
     "buyPrice": 4500,
-    "tag": "child-room-outdoors"
+    "tag": "outdoors",
+    "pointScore": 450
   },
   "large-mushroom-platform": {
     "name": "Large Mushroom Platform",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Large_Mushroom_Platform_%28Red%29_NH_Icon.png/64px-Large_Mushroom_Platform_%28Red%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 300
   },
   "lily-pad-table": {
     "name": "Lily-pad table",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7c/Lily-Pad_Table_%28Green%29_NH_Icon.png/64px-Lily-Pad_Table_%28Green%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "child-room-fancy"
+    "tag": "fancy",
+    "pointScore": 120
   },
   "mama-bear": {
     "name": "Mama bear",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3d/Mama_Bear_%28Cream_-_None%29_NH_Icon.png/64px-Mama_Bear_%28Cream_-_None%29_NH_Icon.png",
     "buyPrice": 2300,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 230
   },
   "mama-panda": {
     "name": "Mama panda",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6d/Mama_Panda_NH_Icon.png/64px-Mama_Panda_NH_Icon.png",
     "buyPrice": 3500,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 350
   },
   "pipe": {
     "name": "Pipe",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d5/Pipe_NH_Icon.png/64px-Pipe_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 500
   },
   "playground-gym": {
     "name": "Playground gym",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ae/Playground_Gym_%28Colorful%29_NH_Icon.png/64px-Playground_Gym_%28Colorful%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "park-child-room"
+    "tag": "room",
+    "pointScore": 300
   },
   "rc-helicopter": {
     "name": "RC helicopter",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/19/RC_Helicopter_%28Blue%29_NH_Icon.png/64px-RC_Helicopter_%28Blue%29_NH_Icon.png",
     "buyPrice": 3600,
-    "tag": "child-room-garden"
+    "tag": "garden",
+    "pointScore": 360
   },
   "small-mushroom-platform": {
     "name": "Small Mushroom Platform",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Small_Mushroom_Platform_%28Yellow%29_NH_Icon.png/64px-Small_Mushroom_Platform_%28Yellow%29_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 100
   },
   "stroller": {
     "name": "Stroller",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/48/Stroller_%28White%29_NH_Icon.png/64px-Stroller_%28White%29_NH_Icon.png",
     "buyPrice": 2700,
-    "tag": "city-life-child-room"
+    "tag": "city-life",
+    "pointScore": 270
   },
   "study-chair": {
     "name": "Study chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/58/Study_Chair_%28Natural_-_Yellow%29_NH_Icon.png/64px-Study_Chair_%28Natural_-_Yellow%29_NH_Icon.png",
     "buyPrice": 1700,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 170
   },
   "throwback-dino-screen": {
     "name": "Throwback dino screen",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9e/Throwback_Dino_Screen_NH_Icon.png/64px-Throwback_Dino_Screen_NH_Icon.png",
     "buyPrice": 3600,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 360
   },
   "throwback-hat-table": {
     "name": "Throwback hat table",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6e/Throwback_Hat_Table_%28Red%29_NH_Icon.png/64px-Throwback_Hat_Table_%28Red%29_NH_Icon.png",
     "buyPrice": 3800,
-    "tag": "child-room-sports"
+    "tag": "sports",
+    "pointScore": 380
   },
   "throwback-mitt-chair": {
     "name": "Throwback mitt chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Throwback_Mitt_Chair_%28Camel%29_NH_Icon.png/64px-Throwback_Mitt_Chair_%28Camel%29_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "child-room-sports"
+    "tag": "sports",
+    "pointScore": 140
   },
   "throwback-race-car-bed": {
     "name": "Throwback race-car bed",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b2/Throwback_Race-Car_Bed_%28Red%29_NH_Icon.png/64px-Throwback_Race-Car_Bed_%28Red%29_NH_Icon.png",
     "buyPrice": 3800,
-    "tag": "child-room-city-life"
+    "tag": "city-life",
+    "pointScore": 380
   },
   "thwomp": {
     "name": "Thwomp",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c2/Thwomp_NH_Icon.png/64px-Thwomp_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 300
   },
   "upright-organizer": {
     "name": "Upright organizer",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Upright_Organizer_%28White_-_Two-Tone_Dots%29_NH_Icon.png/64px-Upright_Organizer_%28White_-_Two-Tone_Dots%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-living-room"
+    "tag": "living-room",
+    "pointScore": 180
   },
   "1-up-mushroom": {
     "name": "1-Up Mushroom",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/77/1-Up_Mushroom_NH_Icon.png/64px-1-Up_Mushroom_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 200
   },
   "aloha-edition-carrying-case": {
     "name": "Aloha-edition carrying case",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Aloha-Edition_Carrying_Case_NH_Icon.png/64px-Aloha-Edition_Carrying_Case_NH_Icon.png",
     "buyPrice": 60,
-    "tag": "child-room-living-room"
+    "tag": "living-room",
+    "pointScore": 6
   },
   "ant-farm": {
     "name": "Ant farm",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/84/Ant_Farm_NH_Icon.png/64px-Ant_Farm_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "lab-child-room"
+    "tag": "lab",
+    "pointScore": 140
   },
   "baby-bear": {
     "name": "Baby bear",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2c/Baby_Bear_%28Cream_-_None%29_NH_Icon.png/64px-Baby_Bear_%28Cream_-_None%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 180
   },
   "baby-panda": {
     "name": "Baby panda",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Baby_Panda_NH_Icon.png/64px-Baby_Panda_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 180
   },
   "baseball-set": {
     "name": "Baseball set",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f3/Baseball_Set_%28Red_%26_Tan%29_NH_Icon.png/64px-Baseball_Set_%28Red_%26_Tan%29_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "child-room-sports"
+    "tag": "sports",
+    "pointScore": 130
   },
   "board-game": {
     "name": "Board game",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Board_Game_%28Simple_Path_Game%29_NH_Icon.png/64px-Board_Game_%28Simple_Path_Game%29_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "child-room-living-room"
+    "tag": "game",
+    "pointScore": 130
   },
   "book-stands": {
     "name": "Book stands",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Book_Stands_%28White%29_NH_Icon.png/64px-Book_Stands_%28White%29_NH_Icon.png",
     "buyPrice": 1100,
-    "tag": "den-child-room"
+    "tag": "den",
+    "pointScore": 110
   },
   "bottled-beverage": {
     "name": "Bottled beverage",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Bottled_Beverage_%28Clear_-_Blue%29_NH_Icon.png/64px-Bottled_Beverage_%28Clear_-_Blue%29_NH_Icon.png",
     "buyPrice": 170,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 17
   },
   "brine-shrimp-aquarium": {
     "name": "Brine-shrimp aquarium",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Brine-Shrimp_Aquarium_NH_Icon.png/64px-Brine-Shrimp_Aquarium_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "lab-child-room"
+    "tag": "lab",
+    "pointScore": 140
   },
   "card-tower": {
     "name": "Card tower",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8a/Card_Tower_%28Blue%29_NH_Icon.png/64px-Card_Tower_%28Blue%29_NH_Icon.png",
     "buyPrice": 2200,
-    "tag": "living-room-child-room"
+    "tag": "game",
+    "pointScore": 220
   },
   "cards": {
     "name": "Cards",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/97/Cards_%28Blue%29_NH_Icon.png/64px-Cards_%28Blue%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "living-room-child-room"
+    "tag": "game",
+    "pointScore": 180
   },
   "cartoonist-set": {
     "name": "Cartoonist's set",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Cartoonist%27s_Set_%28Black_-_Blank%29_NH_Icon.png/64px-Cartoonist%27s_Set_%28Black_-_Blank%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "child-room-den"
+    "tag": "den",
+    "pointScore": 120
   },
   "coin": {
     "name": "Coin",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/df/Coin_NH_Icon.png/64px-Coin_NH_Icon.png",
     "buyPrice": 350,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 35
   },
   "cushion": {
     "name": "Cushion",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9f/Cushion_%28White%29_NH_Icon.png/64px-Cushion_%28White%29_NH_Icon.png",
     "buyPrice": 300,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 30
   },
   "die": {
     "name": "Die",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7d/Die_%28White%29_NH_Icon.png/64px-Die_%28White%29_NH_Icon.png",
     "buyPrice": 260,
-    "tag": "facility-child-room"
+    "tag": "facility",
+    "pointScore": 26
   },
   "digital-alarm-clock": {
     "name": "Digital alarm clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Digital_Alarm_Clock_%28Orange%29_NH_Icon.png/64px-Digital_Alarm_Clock_%28Orange%29_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 160
   },
   "dinosaur-toy": {
     "name": "Dinosaur toy",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a2/Dinosaur_Toy_%28Gray%29_NH_Icon.png/64px-Dinosaur_Toy_%28Gray%29_NH_Icon.png",
     "buyPrice": 2400,
-    "tag": "child-room-ancient"
+    "tag": "toy",
+    "pointScore": 240
   },
   "dollhouse": {
     "name": "Dollhouse",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/55/Dollhouse_%28Red%29_NH_Icon.png/64px-Dollhouse_%28Red%29_NH_Icon.png",
     "buyPrice": 4000,
-    "tag": "child-room-fancy"
+    "tag": "toy",
+    "pointScore": 400
   },
   "dolly": {
     "name": "Dolly",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cf/Dolly_%28Red%29_NH_Icon.png/64px-Dolly_%28Red%29_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "child-room-fancy"
+    "tag": "toy",
+    "pointScore": 160
   },
   "dreamy-bear-toy": {
     "name": "Dreamy bear toy",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/94/Dreamy_Bear_Toy_%28Purple%29_NH_Icon.png/64px-Dreamy_Bear_Toy_%28Purple%29_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "fancy-child-room"
+    "tag": "toy",
+    "pointScore": 140
   },
   "dreamy-rabbit-toy": {
     "name": "Dreamy rabbit toy",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Dreamy_Rabbit_Toy_%28Blue%29_NH_Icon.png/64px-Dreamy_Rabbit_Toy_%28Blue%29_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "fancy-child-room"
+    "tag": "toy",
+    "pointScore": 140
   },
   "dreamy-unicorn-toy": {
     "name": "Dreamy unicorn toy",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Dreamy_Unicorn_Toy_%28Pink%29_NH_Icon.png/64px-Dreamy_Unicorn_Toy_%28Pink%29_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "fancy-child-room"
+    "tag": "toy",
+    "pointScore": 140
   },
   "dress-up-doll": {
     "name": "Dress-up doll",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Dress-Up_Doll_%28Medium-Length_Gold_-_Simple%29_NH_Icon.png/64px-Dress-Up_Doll_%28Medium-Length_Gold_-_Simple%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-fancy"
+    "tag": "toy",
+    "pointScore": 180
   },
   "fire-flower": {
     "name": "Fire Flower",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Fire_Flower_NH_Icon.png/64px-Fire_Flower_NH_Icon.png",
     "buyPrice": 1500,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 150
   },
   "flower-tabletop-mirror": {
     "name": "Flower tabletop mirror",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3f/Flower_Tabletop_Mirror_%28Red%29_NH_Icon.png/64px-Flower_Tabletop_Mirror_%28Red%29_NH_Icon.png",
     "buyPrice": 660,
-    "tag": "child-room-fancy"
+    "tag": "fancy",
+    "pointScore": 66
   },
   "globe": {
     "name": "Globe",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/12/Globe_%28Standard%29_NH_Icon.png/64px-Globe_%28Standard%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-school"
+    "tag": "school",
+    "pointScore": 180
   },
   "homework-set": {
     "name": "Homework set",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Homework_Set_NH_Icon.png/64px-Homework_Set_NH_Icon.png",
     "buyPrice": 330,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 33
   },
   "instant-noodles": {
     "name": "Instant noodles",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1c/Instant_Noodles_%28Shoyu_Ramen%29_NH_Icon.png/64px-Instant_Noodles_%28Shoyu_Ramen%29_NH_Icon.png",
     "buyPrice": 170,
-    "tag": "supermarket-child-room"
+    "tag": "food",
+    "pointScore": 17
   },
   "magazine": {
     "name": "Magazine",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/75/Magazine_%28Food%29_NH_Icon.png/64px-Magazine_%28Food%29_NH_Icon.png",
     "buyPrice": 210,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 21
   },
   "magic-kit": {
     "name": "Magic kit",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Magic_Kit_%28Red%29_NH_Icon.png/64px-Magic_Kit_%28Red%29_NH_Icon.png",
     "buyPrice": 980,
-    "tag": "child-room-city-life"
+    "tag": "city-life",
+    "pointScore": 98
   },
   "mini-circuit": {
     "name": "Mini circuit",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Mini_Circuit_%28Red_%26_White%29_NH_Icon.png/64px-Mini_Circuit_%28Red_%26_White%29_NH_Icon.png",
     "buyPrice": 3800,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 380
   },
   "model-kit": {
     "name": "Model kit",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Model_Kit_%28Red%29_NH_Icon.png/64px-Model_Kit_%28Red%29_NH_Icon.png",
     "buyPrice": 570,
-    "tag": "child-room-workshop"
+    "tag": "workshop",
+    "pointScore": 57
   },
   "model-kits": {
     "name": "Model kits",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/71/Model_Kits_%28Robots%29_NH_Icon.png/64px-Model_Kits_%28Robots%29_NH_Icon.png",
     "buyPrice": 690,
-    "tag": "child-room-shop"
+    "tag": "shop",
+    "pointScore": 69
   },
   "old-fashioned-alarm-clock": {
     "name": "Old-fashioned alarm clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Old-Fashioned_Alarm_Clock_%28Light_Blue%29_NH_Icon.png/64px-Old-Fashioned_Alarm_Clock_%28Light_Blue%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 120
   },
   "painting-set": {
     "name": "Painting set",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6b/Painting_Set_%28Yellow_-_Blank%29_NH_Icon.png/64px-Painting_Set_%28Yellow_-_Blank%29_NH_Icon.png",
     "buyPrice": 510,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 51
   },
   "paradise-planning-mug": {
     "name": "Paradise Planning mug",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/70/Paradise_Planning_Mug_NH_Icon.png/64px-Paradise_Planning_Mug_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-living-room"
+    "tag": "living-room",
+    "pointScore": 180
   },
   "piggy-bank": {
     "name": "Piggy bank",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Piggy_Bank_%28Pink%29_NH_Icon.png/64px-Piggy_Bank_%28Pink%29_NH_Icon.png",
     "buyPrice": 740,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 74
   },
   "plasma-ball": {
     "name": "Plasma ball",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/97/Plasma_Ball_NH_Icon.png/64px-Plasma_Ball_NH_Icon.png",
     "buyPrice": 2600,
-    "tag": "child-room-sci-fi"
+    "tag": "sci-fi",
+    "pointScore": 260
   },
   "pocket-modern-camper": {
     "name": "Pocket modern camper",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Pocket_Modern_Camper_%28Ketchup_and_Mustard%29_NH_Icon.png/64px-Pocket_Modern_Camper_%28Ketchup_and_Mustard%29_NH_Icon.png",
     "buyPrice": 1500,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 150
   },
   "pocket-vintage-camper": {
     "name": "Pocket vintage camper",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/59/Pocket_Vintage_Camper_%28Polka-Dot_Party%29_NH_Icon.png/64px-Pocket_Vintage_Camper_%28Polka-Dot_Party%29_NH_Icon.png",
     "buyPrice": 1500,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 150
   },
   "pop-up-book": {
     "name": "Pop-up book",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/88/Pop-Up_Book_%28The_Ocean_Blue%29_NH_Icon.png/64px-Pop-Up_Book_%28The_Ocean_Blue%29_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 200
   },
   "puppy-plushie": {
     "name": "Puppy plushie",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5c/Puppy_Plushie_%28Beige%29_NH_Icon.png/64px-Puppy_Plushie_%28Beige%29_NH_Icon.png",
     "buyPrice": 2400,
-    "tag": "child-room-fancy"
+    "tag": "toy",
+    "pointScore": 240
   },
   "resetti-model": {
     "name": "Resetti model",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Resetti_Model_NH_Icon.png/64px-Resetti_Model_NH_Icon.png",
     "buyPrice": 2200,
-    "tag": "workshop-child-room"
+    "tag": "workshop",
+    "pointScore": 220
   },
   "scrapbook": {
     "name": "Scrapbook",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/29/Scrapbook_%28Brown%29_NH_Icon.png/64px-Scrapbook_%28Brown%29_NH_Icon.png",
     "buyPrice": 450,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 45
   },
   "shell": {
     "name": "Shell",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4e/Shell_%28Green%29_NH_Icon.png/64px-Shell_%28Green%29_NH_Icon.png",
     "buyPrice": 700,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 70
   },
   "snack": {
     "name": "Snack",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f7/Snack_%28Flavored_Chips_-_Green_%26_Red%29_NH_Icon.png/64px-Snack_%28Flavored_Chips_-_Green_%26_Red%29_NH_Icon.png",
     "buyPrice": 480,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 48
   },
   "super-mushroom": {
     "name": "Super Mushroom",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/18/Super_Mushroom_NH_Icon.png/64px-Super_Mushroom_NH_Icon.png",
     "buyPrice": 1350,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 135
   },
   "super-star": {
     "name": "Super Star",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Super_Star_NH_Icon.png/64px-Super_Star_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "fancy-child-room"
+    "tag": "mario",
+    "pointScore": 200
   },
   "table-lamp": {
     "name": "Table lamp",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3c/Table_Lamp_%28White%29_NH_Icon.png/64px-Table_Lamp_%28White%29_NH_Icon.png",
     "buyPrice": 1100,
-    "tag": "den-child-room"
+    "tag": "den",
+    "pointScore": 110
   },
   "throwback-container": {
     "name": "Throwback container",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/76/Throwback_Container_%28Green%29_NH_Icon.png/64px-Throwback_Container_%28Green%29_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "child-room-city-life"
+    "tag": "city-life",
+    "pointScore": 200
   },
   "throwback-gothic-mirror": {
     "name": "Throwback gothic mirror",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Throwback_Gothic_Mirror_%28Black%29_NH_Icon.png/64px-Throwback_Gothic_Mirror_%28Black%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "child-room-horror"
+    "tag": "horror",
+    "pointScore": 180
   },
   "throwback-skull-radio": {
     "name": "Throwback skull radio",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9a/Throwback_Skull_Radio_%28White%29_NH_Icon.png/64px-Throwback_Skull_Radio_%28White%29_NH_Icon.png",
     "buyPrice": 3200,
-    "tag": "child-room-horror"
+    "tag": "horror",
+    "pointScore": 320
   },
   "throwback-wrestling-figure": {
     "name": "Throwback wrestling figure",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Throwback_Wrestling_Figure_%28Red%29_NH_Icon.png/64px-Throwback_Wrestling_Figure_%28Red%29_NH_Icon.png",
     "buyPrice": 1400,
-    "tag": "child-room-sports"
+    "tag": "sports",
+    "pointScore": 140
   },
   "tin-robot": {
     "name": "Tin robot",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/63/Tin_Robot_%28Silver%29_NH_Icon.png/64px-Tin_Robot_%28Silver%29_NH_Icon.png",
     "buyPrice": 3500,
-    "tag": "child-room-sci-fi"
+    "tag": "toy",
+    "pointScore": 350
   },
   "toy-box": {
     "name": "Toy box",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/da/Toy_Box_%28Green%29_NH_Icon.png/64px-Toy_Box_%28Green%29_NH_Icon.png",
     "buyPrice": 2500,
-    "tag": "child-room-fancy"
+    "tag": "fancy",
+    "pointScore": 250
   },
   "unfinished-puzzle": {
     "name": "Unfinished puzzle",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c7/Unfinished_Puzzle_%28Sunset%29_NH_Icon.png/64px-Unfinished_Puzzle_%28Sunset%29_NH_Icon.png",
     "buyPrice": 290,
-    "tag": "child-room"
+    "tag": "game",
+    "pointScore": 29
   },
   "water-bird": {
     "name": "Water bird",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Water_Bird_%28Red%29_NH_Icon.png/64px-Water_Bird_%28Red%29_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 160
   },
   "whoopee-cushion": {
     "name": "Whoopee cushion",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ac/Whoopee_Cushion_%28Red%29_NH_Icon.png/64px-Whoopee_Cushion_%28Red%29_NH_Icon.png",
     "buyPrice": 400,
-    "tag": "child-room-party"
+    "tag": "party",
+    "pointScore": 40
   },
   "yut-nori": {
     "name": "Yut Nori",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3a/Yut_Nori_NH_Icon.png/64px-Yut_Nori_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "living-room-child-room"
+    "tag": "game",
+    "pointScore": 130
   },
   "cuckoo-clock": {
     "name": "Cuckoo clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f0/Cuckoo_Clock_%28Natural%29_NH_Icon.png/64px-Cuckoo_Clock_%28Natural%29_NH_Icon.png",
     "buyPrice": 3200,
-    "tag": "living-room-child-room"
+    "tag": "living-room",
+    "pointScore": 320
   },
   "dreamy-wall-rack": {
     "name": "Dreamy wall rack",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c9/Dreamy_Wall_Rack_%28Pink%29_NH_Icon.png/64px-Dreamy_Wall_Rack_%28Pink%29_NH_Icon.png",
     "buyPrice": 2900,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 290
   },
   "framed-art-poster": {
     "name": "Framed art poster",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c0/Framed_Art_Poster_NH_Icon.png/64px-Framed_Art_Poster_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 500
   },
   "framed-fossil-poster": {
     "name": "Framed fossil poster",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7d/Framed_Fossil_Poster_NH_Icon.png/64px-Framed_Fossil_Poster_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "school-child-room"
+    "tag": "school",
+    "pointScore": 500
   },
   "mobile": {
     "name": "Mobile",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/62/Mobile_%28Hot_Air_Balloons%29_NH_Icon.png/64px-Mobile_%28Hot_Air_Balloons%29_NH_Icon.png",
     "buyPrice": 780,
-    "tag": "child-room-fancy"
+    "tag": "fancy",
+    "pointScore": 78
   },
   "pennant": {
     "name": "Pennant",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/03/Pennant_%28Sports%29_NH_Icon.png/64px-Pennant_%28Sports%29_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "shop-child-room"
+    "tag": "shop",
+    "pointScore": 130
   },
   "shamrock-doorplate": {
     "name": "Shamrock doorplate",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/83/Shamrock_Doorplate_NH_Icon.png/64px-Shamrock_Doorplate_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "fancy-child-room"
+    "tag": "garden",
+    "pointScore": 120
   },
   "study-poster": {
     "name": "Study poster",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5a/Study_Poster_%28Alphabet%29_NH_Icon.png/64px-Study_Poster_%28Alphabet%29_NH_Icon.png",
     "buyPrice": 640,
-    "tag": "child-room-school"
+    "tag": "school",
+    "pointScore": 64
   },
   "throwback-wall-clock": {
     "name": "Throwback wall clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Throwback_Wall_Clock_%28Yellow%29_NH_Icon.png/64px-Throwback_Wall_Clock_%28Yellow%29_NH_Icon.png",
     "buyPrice": 4200,
-    "tag": "child-room"
+    "tag": "child-room",
+    "pointScore": 420
   },
   "world-map": {
     "name": "World map",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/World_Map_%28Pacific_Ocean%29_NH_Icon.png/64px-World_Map_%28Pacific_Ocean%29_NH_Icon.png",
     "buyPrice": 640,
-    "tag": "child-room-school"
+    "tag": "school",
+    "pointScore": 64
   },
   "dreamy-hanging-decoration": {
     "name": "Dreamy hanging decoration",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f1/Dreamy_Hanging_Decoration_%28Pink%29_NH_Icon.png/64px-Dreamy_Hanging_Decoration_%28Pink%29_NH_Icon.png",
     "buyPrice": 2100,
-    "tag": "fancy-child-room"
+    "tag": "fancy",
+    "pointScore": 210
   },
   "bunny-day-garden-flag": {
     "name": "Bunny Day garden flag",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Bunny_Day_Garden_Flag_NH_Icon.png/64px-Bunny_Day_Garden_Flag_NH_Icon.png",
     "buyPrice": 1500,
-    "tag": "fancy-amusement-park"
+    "tag": "garden",
+    "pointScore": 150
   },
   "bunny-day-planter-box": {
     "name": "Bunny Day planter box",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d1/Bunny_Day_Planter_Box_NH_Icon.png/64px-Bunny_Day_Planter_Box_NH_Icon.png",
     "buyPrice": 2300,
-    "tag": "fancy-amusement-park"
+    "tag": "garden",
+    "pointScore": 230
   },
   "bunny-day-topiary": {
     "name": "Bunny Day topiary",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/33/Bunny_Day_Topiary_NH_Icon.png/64px-Bunny_Day_Topiary_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "fancy-amusement-park"
+    "tag": "garden",
+    "pointScore": 200
   },
   "bunny-day-tree": {
     "name": "Bunny Day tree",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Bunny_Day_Tree_NH_Icon.png/64px-Bunny_Day_Tree_NH_Icon.png",
     "buyPrice": 3800,
-    "tag": "fancy"
+    "tag": "garden",
+    "pointScore": 380
   },
   "cinnamoroll-parasol": {
     "name": "Cinnamoroll parasol",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/59/Cinnamoroll_Parasol_NH_Icon.png/64px-Cinnamoroll_Parasol_NH_Icon.png",
     "buyPrice": 3500,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 350
   },
   "cinnamoroll-signage": {
     "name": "Cinnamoroll signage",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1b/Cinnamoroll_Signage_NH_Icon.png/64px-Cinnamoroll_Signage_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 180
   },
   "cinnamoroll-sofa": {
     "name": "Cinnamoroll sofa",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Cinnamoroll_Sofa_NH_Icon.png/64px-Cinnamoroll_Sofa_NH_Icon.png",
     "buyPrice": 4000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 400
   },
   "cinnamoroll-stool": {
     "name": "Cinnamoroll stool",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/ba/Cinnamoroll_Stool_NH_Icon.png/64px-Cinnamoroll_Stool_NH_Icon.png",
     "buyPrice": 2100,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 210
   },
   "cinnamoroll-table": {
     "name": "Cinnamoroll table",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d3/Cinnamoroll_Table_NH_Icon.png/64px-Cinnamoroll_Table_NH_Icon.png",
     "buyPrice": 2200,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 220
   },
   "cute-chair": {
     "name": "Cute chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7d/Cute_Chair_%28White%29_NH_Icon.png/64px-Cute_Chair_%28White%29_NH_Icon.png",
     "buyPrice": 4300,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 430
   },
   "cute-floor-lamp": {
     "name": "Cute floor lamp",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Cute_Floor_Lamp_%28White%29_NH_Icon.png/64px-Cute_Floor_Lamp_%28White%29_NH_Icon.png",
     "buyPrice": 3500,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 350
   },
   "cute-tea-table": {
     "name": "Cute tea table",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d2/Cute_Tea_Table_%28White%29_NH_Icon.png/64px-Cute_Tea_Table_%28White%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 300
   },
   "hello-kitty-bed": {
     "name": "Hello Kitty bed",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/06/Hello_Kitty_Bed_NH_Icon.png/64px-Hello_Kitty_Bed_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 500
   },
   "hello-kitty-chair": {
     "name": "Hello Kitty chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6f/Hello_Kitty_Chair_NH_Icon.png/64px-Hello_Kitty_Chair_NH_Icon.png",
     "buyPrice": 2100,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 210
   },
   "hello-kitty-drawers": {
     "name": "Hello Kitty drawers",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8e/Hello_Kitty_Drawers_NH_Icon.png/64px-Hello_Kitty_Drawers_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 300
   },
   "hello-kitty-table": {
     "name": "Hello Kitty table",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/01/Hello_Kitty_Table_NH_Icon.png/64px-Hello_Kitty_Table_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 500
   },
   "inflatable-plaza-toy": {
     "name": "Inflatable plaza toy",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/23/Inflatable_Plaza_Toy_%28Vivid%29_NH_Icon.png/64px-Inflatable_Plaza_Toy_%28Vivid%29_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "amusement-park-fancy"
+    "tag": "toy",
+    "pointScore": 500
   },
   "kiki-lala-cloud-maker": {
     "name": "Kiki & Lala cloud maker",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/31/Kiki_%26_Lala_Cloud_Maker_NH_Icon.png/64px-Kiki_%26_Lala_Cloud_Maker_NH_Icon.png",
     "buyPrice": 4800,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 480
   },
   "kiki-lala-sofa": {
     "name": "Kiki & Lala sofa",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Kiki_%26_Lala_Sofa_NH_Icon.png/64px-Kiki_%26_Lala_Sofa_NH_Icon.png",
     "buyPrice": 4000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 400
   },
   "kiki-lala-table": {
     "name": "Kiki & Lala table",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b7/Kiki_%26_Lala_Table_NH_Icon.png/64px-Kiki_%26_Lala_Table_NH_Icon.png",
     "buyPrice": 2500,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 250
   },
   "mr-flamingo": {
     "name": "Mr. Flamingo",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Mr._Flamingo_%28Natural%29_NH_Icon.png/64px-Mr._Flamingo_%28Natural%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "nature-fancy"
+    "tag": "garden",
+    "pointScore": 300
   },
   "mrs-flamingo": {
     "name": "Mrs. Flamingo",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/11/Mrs._Flamingo_%28Natural%29_NH_Icon.png/64px-Mrs._Flamingo_%28Natural%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "nature-fancy"
+    "tag": "garden",
+    "pointScore": 300
   },
   "my-melody-bed": {
     "name": "My Melody bed",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a3/My_Melody_Bed_NH_Icon.png/64px-My_Melody_Bed_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 500
   },
   "my-melody-chair": {
     "name": "My Melody chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/95/My_Melody_Chair_NH_Icon.png/64px-My_Melody_Chair_NH_Icon.png",
     "buyPrice": 2100,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 210
   },
   "my-melody-dresser": {
     "name": "My Melody dresser",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/53/My_Melody_Dresser_NH_Icon.png/64px-My_Melody_Dresser_NH_Icon.png",
     "buyPrice": 4800,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 480
   },
   "my-melody-table": {
     "name": "My Melody table",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bf/My_Melody_Table_NH_Icon.png/64px-My_Melody_Table_NH_Icon.png",
     "buyPrice": 2200,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 220
   },
   "patchwork-chair": {
     "name": "Patchwork chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d7/Patchwork_Chair_%28Colorful%29_NH_Icon.png/64px-Patchwork_Chair_%28Colorful%29_NH_Icon.png",
     "buyPrice": 3700,
-    "tag": "living-room-fancy"
+    "tag": "living-room",
+    "pointScore": 370
   },
   "patchwork-sofa-chair": {
     "name": "Patchwork sofa chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/08/Patchwork_Sofa_Chair_%28Colorful%29_NH_Icon.png/64px-Patchwork_Sofa_Chair_%28Colorful%29_NH_Icon.png",
     "buyPrice": 4300,
-    "tag": "living-room-fancy"
+    "tag": "living-room",
+    "pointScore": 430
   },
   "plaza-arch": {
     "name": "Plaza arch",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/41/Plaza_Arch_%28Vivid%29_NH_Icon.png/64px-Plaza_Arch_%28Vivid%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 300
   },
   "plaza-balloon-wagon": {
     "name": "Plaza balloon wagon",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Plaza_Balloon_Wagon_%28Vivid%29_NH_Icon.png/64px-Plaza_Balloon_Wagon_%28Vivid%29_NH_Icon.png",
     "buyPrice": 4000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 400
   },
   "plaza-bench": {
     "name": "Plaza bench",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/04/Plaza_Bench_%28Vivid%29_NH_Icon.png/64px-Plaza_Bench_%28Vivid%29_NH_Icon.png",
     "buyPrice": 2400,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 240
   },
   "plaza-clock": {
     "name": "Plaza clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/21/Plaza_Clock_%28Vivid%29_NH_Icon.png/64px-Plaza_Clock_%28Vivid%29_NH_Icon.png",
     "buyPrice": 3000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 300
   },
   "plaza-game-stand": {
     "name": "Plaza game stand",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Plaza_Game_Stand_%28Vivid%29_NH_Icon.png/64px-Plaza_Game_Stand_%28Vivid%29_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 500
   },
   "plaza-teacup-ride": {
     "name": "Plaza teacup ride",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/13/Plaza_Teacup_Ride_%28Vivid%29_NH_Icon.png/64px-Plaza_Teacup_Ride_%28Vivid%29_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 500
   },
   "plaza-train": {
     "name": "Plaza train",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f1/Plaza_Train_%28Vivid%29_NH_Icon.png/64px-Plaza_Train_%28Vivid%29_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "amusement-park-fancy"
+    "tag": "amusement-park",
+    "pointScore": 500
   },
   "pompompurin-chair": {
     "name": "Pompompurin chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Pompompurin_Chair_NH_Icon.png/64px-Pompompurin_Chair_NH_Icon.png",
     "buyPrice": 2100,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 210
   },
   "pompompurin-rack": {
     "name": "Pompompurin rack",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/19/Pompompurin_Rack_NH_Icon.png/64px-Pompompurin_Rack_NH_Icon.png",
     "buyPrice": 2500,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 250
   },
   "pompompurin-table": {
     "name": "Pompompurin table",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Pompompurin_Table_NH_Icon.png/64px-Pompompurin_Table_NH_Icon.png",
     "buyPrice": 2200,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 220
   },
   "rodeo-style-springy-ride-on": {
     "name": "Rodeo-style springy ride-on",
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d4/Rodeo-Style_Springy_Ride-On_NH_Icon.png/64px-Rodeo-Style_Springy_Ride-On_NH_Icon.png",
     "buyPrice": 2000,
-    "tag": "fancy-park"
+    "tag": "park",
+    "pointScore": 200
   },
   "street-organ": {
     "name": "Street organ",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Street_Organ_%28Natural%29_NH_Icon.png/64px-Street_Organ_%28Natural%29_NH_Icon.png",
     "buyPrice": 5000,
-    "tag": "park-fancy"
+    "tag": "park",
+    "pointScore": 500
   },
   "wedding-arch": {
     "name": "Wedding arch",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f2/Wedding_Arch_%28Cute%29_NH_Icon.png/64px-Wedding_Arch_%28Cute%29_NH_Icon.png",
     "buyPrice": 20,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 2
   },
   "wedding-chair": {
     "name": "Wedding chair",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Wedding_Chair_%28Cute%29_NH_Icon.png/64px-Wedding_Chair_%28Cute%29_NH_Icon.png",
     "buyPrice": 3,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 0
   },
   "wedding-flower-stand": {
     "name": "Wedding flower stand",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/33/Wedding_Flower_Stand_%28Cute%29_NH_Icon.png/64px-Wedding_Flower_Stand_%28Cute%29_NH_Icon.png",
     "buyPrice": 4,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 0
   },
   "wedding-head-table": {
     "name": "Wedding head table",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4a/Wedding_Head_Table_%28Cute%29_NH_Icon.png/64px-Wedding_Head_Table_%28Cute%29_NH_Icon.png",
     "buyPrice": 6,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 1
   },
   "wedding-table": {
     "name": "Wedding table",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ed/Wedding_Table_%28Cute%29_NH_Icon.png/64px-Wedding_Table_%28Cute%29_NH_Icon.png",
     "buyPrice": 6,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 1
   },
   "wedding-welcome-board": {
     "name": "Wedding welcome board",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2f/Wedding_Welcome_Board_%28Cute_-_Message%29_NH_Icon.png/64px-Wedding_Welcome_Board_%28Cute_-_Message%29_NH_Icon.png",
     "buyPrice": 5,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 1
   },
   "afternoon-tea-set": {
     "name": "Afternoon-tea set",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/57/Afternoon-Tea_Set_%28Silver%29_NH_Icon.png/64px-Afternoon-Tea_Set_%28Silver%29_NH_Icon.png",
     "buyPrice": 2600,
-    "tag": "caf-fancy"
+    "tag": "food",
+    "pointScore": 260
   },
   "bunny-day-candy": {
     "name": "Bunny Day candy",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ad/Bunny_Day_Candy_NH_Icon.png/64px-Bunny_Day_Candy_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 130
   },
   "carnations": {
     "name": "Carnations",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Carnations_NH_Icon.png/64px-Carnations_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "living-room-fancy"
+    "tag": "living-room",
+    "pointScore": 160
   },
   "chocolate-heart": {
     "name": "Chocolate heart",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Chocolate_Heart_%28Milk_Chocolate%29_NH_Icon.png/64px-Chocolate_Heart_%28Milk_Chocolate%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "fancy-shop"
+    "tag": "shop",
+    "pointScore": 120
   },
   "cinnamoroll-tray": {
     "name": "Cinnamoroll tray",
     "imageUrl": "https://dodo.ac/np/images/thumb/2/28/Cinnamoroll_Tray_NH_Icon.png/64px-Cinnamoroll_Tray_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 130
   },
   "cute-music-player": {
     "name": "Cute music player",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Cute_Music_Player_%28White%29_NH_Icon.png/64px-Cute_Music_Player_%28White%29_NH_Icon.png",
     "buyPrice": 2600,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 260
   },
   "heart-shaped-bouquet": {
     "name": "Heart-shaped bouquet",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/79/Heart-Shaped_Bouquet_%28Red%29_NH_Icon.png/64px-Heart-Shaped_Bouquet_%28Red%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "fancy-expensive"
+    "tag": "expensive",
+    "pointScore": 120
   },
   "hello-kitty-planter": {
     "name": "Hello Kitty planter",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bd/Hello_Kitty_Planter_NH_Icon.png/64px-Hello_Kitty_Planter_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "fancy-garden"
+    "tag": "sanrio",
+    "pointScore": 180
   },
   "makeup-pouch": {
     "name": "Makeup pouch",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/88/Makeup_Pouch_%28Orange_-_Ivory%29_NH_Icon.png/64px-Makeup_Pouch_%28Orange_-_Ivory%29_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 100
   },
   "nail-art-set": {
     "name": "Nail-art set",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/39/Nail-Art_Set_%28Pink%29_NH_Icon.png/64px-Nail-Art_Set_%28Pink%29_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "stylish-fancy"
+    "tag": "stylish",
+    "pointScore": 100
   },
   "pompompurin-pudding": {
     "name": "Pompompurin pudding",
     "imageUrl": "https://dodo.ac/np/images/thumb/a/ab/Pompompurin_Pudding_NH_Icon.png/64px-Pompompurin_Pudding_NH_Icon.png",
     "buyPrice": 800,
-    "tag": "fancy-caf"
+    "tag": "sanrio",
+    "pointScore": 80
   },
   "thank-you-mom-mug": {
     "name": "Thank-you Mom mug",
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0a/Thank-You_Mom_Mug_NH_Icon.png/64px-Thank-You_Mom_Mug_NH_Icon.png",
     "buyPrice": 600,
-    "tag": "living-room-fancy"
+    "tag": "living-room",
+    "pointScore": 60
   },
   "wedding-candle-set": {
     "name": "Wedding candle set",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/74/Wedding_Candle_Set_%28Cute%29_NH_Icon.png/64px-Wedding_Candle_Set_%28Cute%29_NH_Icon.png",
     "buyPrice": 4,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 0
   },
   "cute-wall-mounted-clock": {
     "name": "Cute wall-mounted clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e4/Cute_Wall-Mounted_Clock_%28White%29_NH_Icon.png/64px-Cute_Wall-Mounted_Clock_%28White%29_NH_Icon.png",
     "buyPrice": 1200,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 120
   },
   "festive-wreath": {
     "name": "Festive wreath",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Festive_Wreath_NH_Icon.png/64px-Festive_Wreath_NH_Icon.png",
     "buyPrice": 1500,
-    "tag": "party-fancy"
+    "tag": "winter",
+    "pointScore": 150
   },
   "heart-doorplate": {
     "name": "Heart doorplate",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1a/Heart_Doorplate_%28Pink%29_NH_Icon.png/64px-Heart_Doorplate_%28Pink%29_NH_Icon.png",
     "buyPrice": 600,
-    "tag": "fancy"
+    "tag": "fancy",
+    "pointScore": 60
   },
   "hello-kitty-clock": {
     "name": "Hello Kitty clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/55/Hello_Kitty_Clock_NH_Icon.png/64px-Hello_Kitty_Clock_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 100
   },
   "kiki-lala-clock": {
     "name": "Kiki & Lala clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8d/Kiki_%26_Lala_Clock_NH_Icon.png/64px-Kiki_%26_Lala_Clock_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 100
   },
   "my-melody-clock": {
     "name": "My Melody clock",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/My_Melody_Clock_NH_Icon.png/64px-My_Melody_Clock_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "fancy"
+    "tag": "sanrio",
+    "pointScore": 100
   },
   "party-garland": {
     "name": "Party garland",
     "imageUrl": "https://dodo.ac/np/images/thumb/8/8b/Party_Garland_%28Colorful%29_NH_Icon.png/64px-Party_Garland_%28Colorful%29_NH_Icon.png",
     "buyPrice": 650,
-    "tag": "party-fancy"
+    "tag": "party",
+    "pointScore": 65
   },
   "wedding-decoration": {
     "name": "Wedding decoration",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7d/Wedding_Decoration_%28Cute%29_NH_Icon.png/64px-Wedding_Decoration_%28Cute%29_NH_Icon.png",
     "buyPrice": 3,
-    "tag": "party-fancy"
+    "tag": "wedding",
+    "pointScore": 0
   },
   "milk-glass-lamp": {
     "name": "Milk-glass lamp",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cc/Milk-Glass_Lamp_%28White%29_NH_Icon.png/64px-Milk-Glass_Lamp_%28White%29_NH_Icon.png",
     "buyPrice": 4700,
-    "tag": "expensive-fancy"
+    "tag": "expensive",
+    "pointScore": 470
   },
   "snow-globe": {
     "name": "Snow globe",
     "imageUrl": "https://dodo.ac/np/images/thumb/4/44/Snow_Globe_NH_Icon.png/64px-Snow_Globe_NH_Icon.png",
     "buyPrice": 1300,
-    "tag": "living-room-freezing-cold"
+    "tag": "winter",
+    "pointScore": 130
   },
   "bamboo-grass": {
     "name": "Bamboo grass",
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b7/Bamboo_Grass_NH_Icon.png/64px-Bamboo_Grass_NH_Icon.png",
     "buyPrice": 3080,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 308
   },
   "bathtub-with-yuzu": {
     "name": "Bathtub with yuzu",
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fb/Bathtub_with_Yuzu_NH_Icon.png/64px-Bathtub_with_Yuzu_NH_Icon.png",
     "buyPrice": 3200,
-    "tag": "heritage-public-bath"
+    "tag": "bath",
+    "pointScore": 320
   },
   "bottled-ship": {
     "name": "Bottled ship",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/19/Bottled_Ship_%28Trading_Ship%29_NH_Icon.png/64px-Bottled_Ship_%28Trading_Ship%29_NH_Icon.png",
     "buyPrice": 1800,
-    "tag": "ocean-heritage"
+    "tag": "ocean",
+    "pointScore": 180
   },
   "incense-burner": {
     "name": "Incense burner",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Incense_Burner_%28Rose%29_NH_Icon.png/64px-Incense_Burner_%28Rose%29_NH_Icon.png",
     "buyPrice": 880,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 88
   },
   "mini-dharma": {
     "name": "Mini dharma",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/90/Mini_Dharma_%28Red%29_NH_Icon.png/64px-Mini_Dharma_%28Red%29_NH_Icon.png",
     "buyPrice": 2420,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 242
   },
   "yunomi-teacup": {
     "name": "Yunomi teacup",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/78/Yunomi_Teacup_%28Plain%29_NH_Icon.png/64px-Yunomi_Teacup_%28Plain%29_NH_Icon.png",
     "buyPrice": 550,
-    "tag": "heritage-harmonious"
+    "tag": "harmonious",
+    "pointScore": 55
   },
   "zodiac-boar-figurine": {
     "name": "Zodiac boar figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/95/Zodiac_Boar_Figurine_NH_Icon.png/64px-Zodiac_Boar_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-dog-figurine": {
     "name": "Zodiac dog figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3b/Zodiac_Dog_Figurine_NH_Icon.png/64px-Zodiac_Dog_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-dragon-figurine": {
     "name": "Zodiac dragon figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e8/Zodiac_Dragon_Figurine_NH_Icon.png/64px-Zodiac_Dragon_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-horse-figurine": {
     "name": "Zodiac horse figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Zodiac_Horse_Figurine_NH_Icon.png/64px-Zodiac_Horse_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-monkey-figurine": {
     "name": "Zodiac monkey figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/5/53/Zodiac_Monkey_Figurine_NH_Icon.png/64px-Zodiac_Monkey_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-ox-figurine": {
     "name": "Zodiac ox figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/1/19/Zodiac_Ox_Figurine_NH_Icon.png/64px-Zodiac_Ox_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-pig-figurine": {
     "name": "Zodiac pig figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Zodiac_Pig_Figurine_NH_Icon.png/64px-Zodiac_Pig_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-rabbit-figurine": {
     "name": "Zodiac rabbit figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/92/Zodiac_Rabbit_Figurine_NH_Icon.png/64px-Zodiac_Rabbit_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-rat-figurine": {
     "name": "Zodiac rat figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c3/Zodiac_Rat_Figurine_NH_Icon.png/64px-Zodiac_Rat_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-rooster-figurine": {
     "name": "Zodiac rooster figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Zodiac_Rooster_Figurine_NH_Icon.png/64px-Zodiac_Rooster_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-sheep-figurine": {
     "name": "Zodiac sheep figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e8/Zodiac_Sheep_Figurine_NH_Icon.png/64px-Zodiac_Sheep_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-snake-figurine": {
     "name": "Zodiac snake figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6f/Zodiac_Snake_Figurine_NH_Icon.png/64px-Zodiac_Snake_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "zodiac-tiger-figurine": {
     "name": "Zodiac tiger figurine",
     "imageUrl": "https://dodo.ac/np/images/thumb/9/90/Zodiac_Tiger_Figurine_NH_Icon.png/64px-Zodiac_Tiger_Figurine_NH_Icon.png",
     "buyPrice": 1600,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 160
   },
   "festival-lantern": {
     "name": "Festival lantern",
     "imageUrl": "https://dodo.ac/np/images/thumb/7/70/Festival_Lantern_%28Gold_-_Fuku_%28Good_Fortune%29%29_NH_Icon.png/64px-Festival_Lantern_%28Gold_-_Fuku_%28Good_Fortune%29%29_NH_Icon.png",
     "buyPrice": 1000,
-    "tag": "harmonious-heritage"
+    "tag": "harmonious",
+    "pointScore": 100
   }
 }

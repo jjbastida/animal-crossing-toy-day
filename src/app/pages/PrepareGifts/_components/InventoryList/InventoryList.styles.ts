@@ -7,7 +7,7 @@ const inventorySection = css`
   padding: 1.5rem 2rem;
   background: var(--background-primary);
   border-radius: 40px;
-  overflow: visible;
+  overflow: auto;
 `;
 
 const sectionTitle = css`
@@ -18,8 +18,6 @@ const inventoryList = css`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  overflow-y: auto;
-  overflow-x: visible;
   max-height: calc(100vh - 200px);
   padding: 0.5rem;
 `;
@@ -51,4 +49,10 @@ const sectionDescription = css`
   color: var(--foreground-secondary);
 `;
 
-export { inventorySection, sectionTitle, inventoryList, inventoryItem, emptySlot, sectionHeader, sectionDescription  };
+const itemIcon = css`
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: bottom;
+`;
+
+export { inventorySection, sectionTitle, inventoryList, inventoryItem, emptySlot, sectionHeader, sectionDescription, itemIcon };
