@@ -37,16 +37,20 @@ function CharacterCustomization({
     if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
     modifyPlayer(selectedPlayerId, "avatar", villagerKey);
-    setModalOpen(null);
-    setSelectedPlayerId(null);
+    setTimeout(() => {
+      setModalOpen(null);
+      setSelectedPlayerId(null);
+    }, 300);
   }
 
   function handleFruitSelect(fruitType: FruitType) {
     if (selectedPlayerId === null) return;
     playSoundEffect(soundEffects["UI_Cmn_Open"].audioUrl);
     modifyPlayer(selectedPlayerId, "fruit", fruitType);
-    setModalOpen(null);
-    setSelectedPlayerId(null);
+    setTimeout(() => {
+      setModalOpen(null);
+      setSelectedPlayerId(null);
+    }, 300);
   }
 
   function handleNameChange(playerId: number, value: string) {
@@ -58,8 +62,10 @@ function CharacterCustomization({
   }
 
   function handleClose() {
-    setModalOpen(null);
-    setSelectedPlayerId(null);
+    setTimeout(() => {
+      setModalOpen(null);
+      setSelectedPlayerId(null);
+    }, 300);
   }
 
   const defaultPlayers = [1, 2, 3, 4].map((id) => {

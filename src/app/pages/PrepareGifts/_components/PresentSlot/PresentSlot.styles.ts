@@ -3,9 +3,8 @@ import { css } from "@emotion/react";
 
 const presentColors = {
   red: "brightness(1.2) ",
-  orange: "brightness(1.2) hue-rotate(31deg)",
   green: "brightness(1.2) hue-rotate(120deg)",
-  purple: "brightness(1.2) hue-rotate(255deg)",
+  blue: "brightness(1.2) hue-rotate(220deg)",
 };
 
 const gridSlot = css`

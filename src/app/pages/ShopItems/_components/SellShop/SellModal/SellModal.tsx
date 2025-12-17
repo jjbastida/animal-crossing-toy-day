@@ -21,7 +21,7 @@ function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): R
 
   let ability = "";
   if (isFurniture(itemData.name)) {
-    ability = "Can be wrapped as a present for points.";
+    ability = "Can be wrapped in a present for points.";
   } else if (isTool(itemData.name)) {
     ability = itemData.description || "";
   }

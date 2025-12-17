@@ -1,4 +1,11 @@
 import { css } from "@emotion/react";
+import { Color } from "@/types/general";
+
+const presentColors = {
+  red: "brightness(1.2) ",
+  green: "brightness(1.2) hue-rotate(120deg)",
+  blue: "brightness(1.2) hue-rotate(220deg)",
+};
 
 const modalContent = css`
   display: flex;
@@ -26,4 +33,11 @@ const modalImage = css`
   object-fit: contain;
 `;
 
-export { modalContent, modalText, modalActions, modalImage };
+const modalImageWithColor = (color: Color) => css`
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: ${presentColors[color]};
+`;
+
+export { modalContent, modalText, modalActions, modalImage, modalImageWithColor };

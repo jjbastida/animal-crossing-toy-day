@@ -3,504 +3,588 @@
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4d/Bitterling_NH_Icon.png/120px-Bitterling_NH_Icon.png",
     "name": "Bitterling",
     "description": "It's mad at me, but only a little.",
-    "sellPrice": 900
+    "sellPrice": 900,
+    "rarity": 45
   },
   "pale-chub": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e2/Pale_Chub_NH_Icon.png/120px-Pale_Chub_NH_Icon.png",
     "name": "Pale Chub",
     "description": "That name seems a bit judgy...",
-    "sellPrice": 200
+    "sellPrice": 2000,
+    "rarity": 50
   },
   "crucian-carp": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f2/Crucian_Carp_NH_Icon.png/120px-Crucian_Carp_NH_Icon.png",
     "name": "Crucian Carp",
     "description": "My skills are sharp!",
-    "sellPrice": 160
+    "sellPrice": 1600,
+    "rarity": 45
   },
   "dace": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Dace_NH_Icon.png/120px-Dace_NH_Icon.png",
     "name": "Dace",
     "description": "Hope I have some space!",
-    "sellPrice": 240
+    "sellPrice": 240,
+    "rarity": 40
   },
   "carp": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/5d/Carp_NH_Icon.png/120px-Carp_NH_Icon.png",
     "name": "Carp",
     "description": "If I catch another, they can carpool!",
-    "sellPrice": 300
+    "sellPrice": 300,
+    "rarity": 40
   },
   "koi": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2d/Koi_NH_Icon.png/120px-Koi_NH_Icon.png",
     "name": "Koi",
     "description": "I don't know why it's so shy... or such a bad speller...",
-    "sellPrice": 4000
+    "sellPrice": 4000,
+    "rarity": 55
   },
   "goldfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/71/Goldfish_NH_Icon.png/120px-Goldfish_NH_Icon.png",
     "name": "Goldfish",
     "description": "It's worth its weight in fish!",
-    "sellPrice": 1300
+    "sellPrice": 1300,
+    "rarity": 45
   },
   "pop-eyed-goldfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Pop-Eyed_Goldfish_NH_Icon.png/120px-Pop-Eyed_Goldfish_NH_Icon.png",
     "name": "Pop-Eyed Goldfish",
     "description": "It looks so...surprised!",
-    "sellPrice": 1300
+    "sellPrice": 1300,
+    "rarity": 45
   },
   "ranchu-goldfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/35/Ranchu_Goldfish_NH_Icon.png/120px-Ranchu_Goldfish_NH_Icon.png",
     "name": "Ranchu Goldfish",
     "description": "But I prefer balsamicu goldfish!",
-    "sellPrice": 4500
+    "sellPrice": 4500,
+    "rarity": 60
   },
   "killifish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ea/Killifish_NH_Icon.png/120px-Killifish_NH_Icon.png",
     "name": "Killifish",
     "description": "The streams are safe again.",
-    "sellPrice": 300
+    "sellPrice": 300,
+    "rarity": 40
   },
   "crawfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/96/Crawfish_NH_Icon.png/120px-Crawfish_NH_Icon.png",
     "name": "Crawfish",
     "description": "Or else it's a lobster, and I'm a giant!",
-    "sellPrice": 200
+    "sellPrice": 200,
+    "rarity": 40
   },
   "soft-shelled-turtle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Soft-Shelled_Turtle_NH_Icon.png/120px-Soft-Shelled_Turtle_NH_Icon.png",
     "name": "Soft-Shelled Turtle",
-        "description": "I should take a shellfie!",
-    "sellPrice": 3750
+    "description": "I should take a shellfie!",
+    "sellPrice": 3750,
+    "rarity": 55
   },
   "snapping-turtle": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Snapping_Turtle_NH_Icon.png/120px-Snapping_Turtle_NH_Icon.png",
     "name": "Snapping Turtle",
     "description": "How can it snap without fingers?",
-    "sellPrice": 5000
+    "sellPrice": 5000,
+    "rarity": 60
   },
   "tadpole": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bb/Tadpole_NH_Icon.png/120px-Tadpole_NH_Icon.png",
     "name": "Tadpole",
     "description": "It's just a tad small.",
-    "sellPrice": 100
+    "sellPrice": 100,
+    "rarity": 40
   },
   "frog": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2f/Frog_NH_Icon.png/120px-Frog_NH_Icon.png",
     "name": "Frog",
     "description": "Or it's a new neighbor... and I have some apologizing to do.",
-    "sellPrice": 120
+    "sellPrice": 120,
+    "rarity": 40
   },
   "freshwater-goby": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Freshwater_Goby_NH_Icon.png/120px-Freshwater_Goby_NH_Icon.png",
     "name": "Freshwater Goby",
     "description": "Time to go bye-bye!",
-    "sellPrice": 400
+    "sellPrice": 400,
+    "rarity": 40
   },
   "loach": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a5/Loach_NH_Icon.png/120px-Loach_NH_Icon.png",
     "name": "Loach",
     "description": "It's...looking at me with reproach.",
-    "sellPrice": 400
+    "sellPrice": 400,
+    "rarity": 40
   },
   "catfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0d/Catfish_NH_Icon.png/120px-Catfish_NH_Icon.png",
     "name": "Catfish",
     "description": "I'm more of a dogfish person...",
-    "sellPrice": 800
+    "sellPrice": 800,
+    "rarity": 45
   },
   "giant-snakehead": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Giant_Snakehead_NH_Icon.png/120px-Giant_Snakehead_NH_Icon.png",
     "name": "Giant Snakehead",
     "description": "Um...but I asked for a medium?",
-    "sellPrice": 5500
+    "sellPrice": 5500,
+    "rarity": 60
   },
   "bluegill": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0c/Bluegill_NH_Icon.png/120px-Bluegill_NH_Icon.png",
     "name": "Bluegill",
     "description": "Do you think it calls me \"pinklung\"?",
-    "sellPrice": 180
+    "sellPrice": 180,
+    "rarity": 40
   },
   "yellow-perch": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Yellow_Perch_NH_Icon.png/120px-Yellow_Perch_NH_Icon.png",
     "name": "Yellow Perch",
     "description": "Those yellow birds have to sit somewhere!",
-    "sellPrice": 300
+    "sellPrice": 300,
+    "rarity": 40
   },
   "black-bass": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/00/Black_Bass_NH_Icon.png/120px-Black_Bass_NH_Icon.png",
     "name": "Black Bass",
     "description": "The most metal of all fish!",
-    "sellPrice": 400
+    "sellPrice": 400,
+    "rarity": 40
   },
   "tilapia": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ef/Tilapia_NH_Icon.png/120px-Tilapia_NH_Icon.png",
     "name": "Tilapia",
     "description": "It makes me happy-a!",
-    "sellPrice": 800
+    "sellPrice": 800,
+    "rarity": 45
   },
   "pike": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9f/Pike_NH_Icon.png/120px-Pike_NH_Icon.png",
     "name": "Pike",
-        "description": "Think a swordfish would be up for a duel?",
-    "sellPrice": 1800
+    "description": "Think a swordfish would be up for a duel?",
+    "sellPrice": 1800,
+    "rarity": 45
   },
   "pond-smelt": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0f/Pond_Smelt_NH_Icon.png/120px-Pond_Smelt_NH_Icon.png",
     "name": "Pond Smelt",
     "description": "Whoever smelt it dealt it!",
-    "sellPrice": 400
+    "sellPrice": 400,
+    "rarity": 40
   },
   "sweetfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/6a/Sweetfish_NH_Icon.png/120px-Sweetfish_NH_Icon.png",
     "name": "Sweetfish",
     "description": "Hope it's not artificially sweet!",
-    "sellPrice": 900
+    "sellPrice": 900,
+    "rarity": 45
   },
   "cherry-salmon": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/db/Cherry_Salmon_NH_Icon.png/120px-Cherry_Salmon_NH_Icon.png",
     "name": "Cherry Salmon",
     "description": "It's the perfect topper for a marlin sundae!",
-    "sellPrice": 1000
+    "sellPrice": 1000,
+    "rarity": 45
   },
   "char": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/80/Char_NH_Icon.png/120px-Char_NH_Icon.png",
     "name": "Char",
     "description": "Now I'm gonna sit on it!",
-    "sellPrice": 3800
+    "sellPrice": 3800,
+    "rarity": 55
   },
   "golden-trout": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fc/Golden_Trout_NH_Icon.png/120px-Golden_Trout_NH_Icon.png",
     "name": "Golden Trout",
     "description": "But the real treasure? Friendship.",
-    "sellPrice": 15000
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "stringfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Stringfish_NH_Icon.png/120px-Stringfish_NH_Icon.png",
     "name": "Stringfish",
     "description": "Five more and I'll have a guitarfish!",
-    "sellPrice": 15000
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "salmon": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/ca/Salmon_NH_Icon.png/120px-Salmon_NH_Icon.png",
     "name": "Salmon",
     "description": "It's all upstream from here!",
-    "sellPrice": 700
+    "sellPrice": 700,
+    "rarity": 45
   },
   "king-salmon": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e1/King_Salmon_NH_Icon.png/120px-King_Salmon_NH_Icon.png",
     "name": "King Salmon",
     "description": "Checkmate!",
-    "sellPrice": 1800
+    "sellPrice": 1800,
+    "rarity": 45
   },
   "mitten-crab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9d/Mitten_Crab_NH_Icon.png/120px-Mitten_Crab_NH_Icon.png",
     "name": "Mitten Crab",
     "description": "One more and I'm ready for winter!",
-    "sellPrice": 2000
+    "sellPrice": 2000,
+    "rarity": 50
   },
   "guppy": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/38/Guppy_NH_Icon.png/120px-Guppy_NH_Icon.png",
     "name": "Guppy",
     "description": "Welcome to the team, newbie!",
-    "sellPrice": 1300
+    "sellPrice": 1300,
+    "rarity": 45
   },
   "nibble-fish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Nibble_Fish_NH_Icon.png/120px-Nibble_Fish_NH_Icon.png",
     "name": "Nibble Fish",
     "description": "Come to think of it, I could use a bite!",
-    "sellPrice": 1500
+    "sellPrice": 1500,
+    "rarity": 45
   },
   "angelfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cd/Angelfish_NH_Icon.png/120px-Angelfish_NH_Icon.png",
     "name": "Angelfish",
-        "description": "That other fish told me to do it!",
-    "sellPrice": 3000
+    "description": "That other fish told me to do it!",
+    "sellPrice": 3000,
+    "rarity": 50
   },
   "betta": {
     "imageUrl": "https://dodo.ac/np/images/thumb/0/0b/Betta_NH_Icon.png/120px-Betta_NH_Icon.png",
     "name": "Betta",
     "description": "I betta not drop it!",
-    "sellPrice": 2500
+    "sellPrice": 2500,
+    "rarity": 50
   },
   "neon-tetra": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/42/Neon_Tetra_NH_Icon.png/120px-Neon_Tetra_NH_Icon.png",
     "name": "Neon Tetra",
     "description": "Wasn't hard to track.",
-    "sellPrice": 500
+    "sellPrice": 500,
+    "rarity": 40
   },
   "rainbowfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e7/Rainbowfish_NH_Icon.png/120px-Rainbowfish_NH_Icon.png",
     "name": "Rainbowfish",
     "description": "Where's my pot of goldfish?",
-    "sellPrice": 800
+    "sellPrice": 800,
+    "rarity": 45
   },
   "piranha": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c6/Piranha_NH_Icon.png/120px-Piranha_NH_Icon.png",
     "name": "Piranha",
     "description": "Sure hope it was the only one!",
-    "sellPrice": 2500
+    "sellPrice": 2500,
+    "rarity": 50
   },
   "arowana": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/67/Arowana_NH_Icon.png/120px-Arowana_NH_Icon.png",
     "name": "Arowana",
     "description": "I'd make a joke but I don't 'wana.",
-    "sellPrice": 10000
+    "sellPrice": 10000,
+    "rarity": 80
   },
   "dorado": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/fe/Dorado_NH_Icon.png/120px-Dorado_NH_Icon.png",
     "name": "Dorado",
     "description": "♪I say \"Dorado\", you say \"Doraydo.\"♪",
-    "sellPrice": 15000
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "gar": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a2/Gar_NH_Icon.png/120px-Gar_NH_Icon.png",
     "name": "Gar",
     "description": "Yar! It's a gar! Har Har!",
-    "sellPrice": 6000
+    "sellPrice": 6000,
+    "rarity": 65
   },
   "arapaima": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b1/Arapaima_NH_Icon.png/120px-Arapaima_NH_Icon.png",
     "name": "Arapaima",
     "description": "How did it get here? Arapaiknow!",
-    "sellPrice": 10000
+    "sellPrice": 10000,
+    "rarity": 80
   },
   "saddled-bichir": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/46/Saddled_Bichir_NH_Icon.png/120px-Saddled_Bichir_NH_Icon.png",
     "name": "Saddled Bichir",
     "description": "And me without my tiny riding crop...",
-    "sellPrice": 4000
+    "sellPrice": 4000,
+    "rarity": 55
   },
   "sturgeon": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/91/Sturgeon_NH_Icon.png/120px-Sturgeon_NH_Icon.png",
     "name": "Sturgeon",
     "description": "Wonder if it can perform sturgery...",
-    "sellPrice": 10000
+    "sellPrice": 10000,
+    "rarity": 80
   },
   "sea-butterfly": {
     "imageUrl": "https://dodo.ac/np/images/thumb/f/f7/Sea_Butterfly_NH_Icon.png/120px-Sea_Butterfly_NH_Icon.png",
     "name": "Sea Butterfly",
     "description": "Try not to confuse it for a sea moth!",
-    "sellPrice": 1000
+    "sellPrice": 1000,
+    "rarity": 45
   },
   "sea-horse": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/dc/Sea_Horse_NH_Icon.png/120px-Sea_Horse_NH_Icon.png",
     "name": "Sea Horse",
-          "description": "But... where's its sea jockey?",
-    "sellPrice": 1100
+    "description": "But... where's its sea jockey?",
+    "sellPrice": 1100,
+    "rarity": 45
   },
   "clown-fish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Clown_Fish_NH_Icon.png/120px-Clown_Fish_NH_Icon.png",
     "name": "Clown Fish",
     "description": "How many can fit in a carfish?",
-    "sellPrice": 650
+    "sellPrice": 650,
+    "rarity": 45
   },
   "surgeonfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Surgeonfish_NH_Icon.png/120px-Surgeonfish_NH_Icon.png",
     "name": "Surgeonfish",
     "description": "Scalpel! Forceps! Fish hook!",
-    "sellPrice": 1000
+    "sellPrice": 1000,
+    "rarity": 45
   },
   "butterfly-fish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/47/Butterfly_Fish_NH_Icon.png/120px-Butterfly_Fish_NH_Icon.png",
     "name": "Butterfly Fish",
     "description": "Did it change from a caterpillar fish?",
-    "sellPrice": 1000
+    "sellPrice": 1000,
+    "rarity": 45
   },
   "napoleonfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Napoleonfish_NH_Icon.png/120px-Napoleonfish_NH_Icon.png",
     "name": "Napoleonfish",
     "description": "It's not as big as it thinks!",
-    "sellPrice": 10000
+    "sellPrice": 10000,
+    "rarity": 80
   },
   "zebra-turkeyfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/8/85/Zebra_Turkeyfish_NH_Icon.png/120px-Zebra_Turkeyfish_NH_Icon.png",
     "name": "Zebra Turkeyfish",
     "description": "Land, air, water—make up your mind!",
-    "sellPrice": 500
+    "sellPrice": 500,
+    "rarity": 40
   },
   "blowfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/95/Blowfish_NH_Icon.png/120px-Blowfish_NH_Icon.png",
     "name": "Blowfish",
     "description": "I'm blown away!",
-    "sellPrice": 5000
+    "sellPrice": 5000,
+    "rarity": 60
   },
   "puffer-fish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ee/Puffer_Fish_NH_Icon.png/120px-Puffer_Fish_NH_Icon.png",
     "name": "Puffer Fish",
     "description": "I thought you would be tougher, fish!",
-    "sellPrice": 250
+    "sellPrice": 250,
+    "rarity": 40
   },
   "anchovy": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Anchovy_%28Fish%29_NH_Icon.png/120px-Anchovy_%28Fish%29_NH_Icon.png",
     "name": "Anchovy",
     "description": "Stay away from my pizza!",
-    "sellPrice": 200
+    "sellPrice": 200,
+    "rarity": 40
   },
   "horse-mackerel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/a/a3/Horse_Mackerel_NH_Icon.png/120px-Horse_Mackerel_NH_Icon.png",
     "name": "Horse Mackerel",
     "description": "Of course, mack...er...el.",
-    "sellPrice": 150
+    "sellPrice": 150,
+    "rarity": 40
   },
   "barred-knifejaw": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d5/Barred_Knifejaw_NH_Icon.png/120px-Barred_Knifejaw_NH_Icon.png",
     "name": "Barred Knifejaw",
     "description": "They must have a hard time eating!",
-    "sellPrice": 5000
+    "sellPrice": 5000,
+    "rarity": 60
   },
   "sea-bass": {
     "imageUrl": "https://dodo.ac/np/images/thumb/7/7f/Sea_Bass_NH_Icon.png/120px-Sea_Bass_NH_Icon.png",
     "name": "Sea Bass",
     "description": "No, wait—it's at least a C+!",
-    "sellPrice": 400
+    "sellPrice": 400,
+    "rarity": 40
   },
   "red-snapper": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/c1/Red_Snapper_NH_Icon.png/120px-Red_Snapper_NH_Icon.png",
     "name": "Red Snapper",
     "description": "It looks pretty dapper!",
-    "sellPrice": 3000
+    "sellPrice": 3000,
+    "rarity": 50
   },
   "dab": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1f/Dab_NH_Icon.png/120px-Dab_NH_Icon.png",
     "name": "Dab",
     "description": "Not bad!",
-    "sellPrice": 300
+    "sellPrice": 300,
+    "rarity": 40
   },
   "olive-flounder": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/b3/Olive_Flounder_NH_Icon.png/120px-Olive_Flounder_NH_Icon.png",
     "name": "Olive Flounder",
     "description": "That's not the pits!",
-    "sellPrice": 800
+    "sellPrice": 800,
+    "rarity": 45
   },
   "squid": {
     "imageUrl": "https://dodo.ac/np/images/thumb/b/bf/Squid_NH_Icon.png/120px-Squid_NH_Icon.png",
     "name": "Squid",
-      "description": "Do they...not actually \"bloop\"?",
-    "sellPrice": 500
+    "description": "Do they...not actually \"bloop\"?",
+    "sellPrice": 500,
+    "rarity": 40
   },
   "moray-eel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/3e/Moray_Eel_NH_Icon.png/120px-Moray_Eel_NH_Icon.png",
     "name": "Moray Eel",
     "description": "When you're in love, that's a moray!",
-    "sellPrice": 2000
+    "sellPrice": 2000,
+    "rarity": 50
   },
   "ribbon-eel": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/26/Ribbon_Eel_NH_Icon.png/120px-Ribbon_Eel_NH_Icon.png",
     "name": "Ribbon Eel",
     "description": "Can it tie itself into a bow?",
-    "sellPrice": 600
+    "sellPrice": 600,
+    "rarity": 40
   },
   "tuna": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4b/Tuna_NH_Icon.png/120px-Tuna_NH_Icon.png",
     "name": "Tuna",
     "description": "It's a little off-key!",
-    "sellPrice": 7000
+    "sellPrice": 7000,
+    "rarity": 70
   },
   "blue-marlin": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/2a/Blue_Marlin_NH_Icon.png/120px-Blue_Marlin_NH_Icon.png",
     "name": "Blue Marlin",
     "description": "Listen to this fish. It's got a point.",
-    "sellPrice": 10000
+    "sellPrice": 10000,
+    "rarity": 80
   },
   "giant-trevally": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/17/Giant_Trevally_NH_Icon.png/120px-Giant_Trevally_NH_Icon.png",
     "name": "Giant Trevally",
     "description": "Yeah, I'm pretty well-trevalled.",
-    "sellPrice": 4500
+    "sellPrice": 4500,
+    "rarity": 60
   },
   "mahi-mahi": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/d6/Mahi-Mahi_NH_Icon.png/120px-Mahi-Mahi_NH_Icon.png",
     "name": "Mahi-Mahi",
     "description": "It's all mahine-mahine.",
-    "sellPrice": 6000
+    "sellPrice": 6000,
+    "rarity": 65
   },
   "ocean-sunfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/eb/Ocean_Sunfish_NH_Icon.png/120px-Ocean_Sunfish_NH_Icon.png",
     "name": "Ocean Sunfish",
     "description": "Good thing I'm wearing ocean sunscreen!",
-    "sellPrice": 4000
+    "sellPrice": 4000,
+    "rarity": 55
   },
   "ray": {
     "imageUrl": "https://dodo.ac/np/images/thumb/9/9b/Ray_NH_Icon.png/120px-Ray_NH_Icon.png",
     "name": "Ray",
     "description": "A few more and I'll have a tan!",
-    "sellPrice": 3000
+    "sellPrice": 3000,
+    "rarity": 50
   },
   "saw-shark": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Saw_Shark_NH_Icon.png/120px-Saw_Shark_NH_Icon.png",
     "name": "Saw Shark",
     "description": "You could call it a sea saw!",
-    "sellPrice": 12000
+    "sellPrice": 12000,
+    "rarity": 90
   },
   "hammerhead-shark": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/ec/Hammerhead_Shark_NH_Icon.png/120px-Hammerhead_Shark_NH_Icon.png",
     "name": "Hammerhead Shark",
     "description": "I hit the nail on the head!",
-    "sellPrice": 8000
+    "sellPrice": 8000,
+    "rarity": 70
   },
   "great-white-shark": {
     "imageUrl": "https://dodo.ac/np/images/thumb/2/20/Great_White_Shark_NH_Icon.png/120px-Great_White_Shark_NH_Icon.png",
     "name": "Great White Shark",
-      "description": "Watch out for its jaws!",
-    "sellPrice": 15000
+    "description": "Watch out for its jaws!",
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "whale-shark": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/4f/Whale_Shark_NH_Icon.png/120px-Whale_Shark_NH_Icon.png",
     "name": "Whale Shark",
     "description": "Thar she blows! I'm tellin' ya, it was thiiiiiiiiiiiiiiiiiiiis big!",
-    "sellPrice": 13000
+    "sellPrice": 13000,
+    "rarity": 90
   },
   "suckerfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/d/de/Suckerfish_NH_Icon.png/120px-Suckerfish_NH_Icon.png",
     "name": "Suckerfish",
     "description": "I thought it was a shark! Oh, wait——now I get it. \"Sucker\"...",
-    "sellPrice": 1500
+    "sellPrice": 1500,
+    "rarity": 45
   },
   "football-fish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/34/Football_Fish_NH_Icon.png/120px-Football_Fish_NH_Icon.png",
     "name": "Football Fish",
     "description": "Some countries call it a soccer fish!",
-    "sellPrice": 2500
+    "sellPrice": 2500,
+    "rarity": 50
   },
   "oarfish": {
     "imageUrl": "https://dodo.ac/np/images/thumb/5/50/Oarfish_NH_Icon.png/120px-Oarfish_NH_Icon.png",
     "name": "Oarfish",
     "description": "I hope I catch morefish!",
-    "sellPrice": 9000
+    "sellPrice": 9000,
+    "rarity": 75
   },
   "barreleye": {
     "imageUrl": "https://dodo.ac/np/images/thumb/e/e0/Barreleye_NH_Icon.png/120px-Barreleye_NH_Icon.png",
     "name": "Barreleye",
     "description": "Like eyeing fish in a barrel!",
-    "sellPrice": 15000
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "coelacanth": {
     "imageUrl": "https://dodo.ac/np/images/thumb/4/45/Coelacanth_NH_Icon.png/120px-Coelacanth_NH_Icon.png",
     "name": "Coelacanth",
     "description": "Blast from the past! Think positive! Be a coela-CAN!",
-    "sellPrice": 15000
+    "sellPrice": 15000,
+    "rarity": 100
   },
   "boot": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/65/Boot_NH_Inv_Icon.png/120px-Boot_NH_Inv_Icon.png",
     "name": "Boot",
     "description": "It, uh, wasn't made for swimming.",
-    "sellPrice": 0
+    "sellPrice": 0,
+    "rarity": 1
   },
   "empty-can": {
     "imageUrl": "https://dodo.ac/np/images/thumb/3/30/Empty_Can_NH_Inv_Icon.png/120px-Empty_Can_NH_Inv_Icon.png",
     "name": "Empty Can",
     "description": "Aren't you supposed to catch the fish before you can it?",
-    "sellPrice": 0
+    "sellPrice": 0,
+    "rarity": 1
   },
   "old-tire": {
     "imageUrl": "https://dodo.ac/np/images/thumb/c/cb/Old_Tire_NH_Inv_Icon.png/120px-Old_Tire_NH_Inv_Icon.png",
     "name": "Old Tire",
     "description": "I sure am tired of that!",
-    "sellPrice": 0
+    "sellPrice": 0,
+    "rarity": 1
   },
   "stone": {
     "imageUrl": "https://dodo.ac/np/images/thumb/1/1d/Stone_NH_Inv_Icon.png/120px-Stone_NH_Inv_Icon.png",
     "name": "Stone",
     "description": "Now it's all mine...ral!",
-    "sellPrice": 0
+    "sellPrice": 0,
+    "rarity": 1
   }
 }

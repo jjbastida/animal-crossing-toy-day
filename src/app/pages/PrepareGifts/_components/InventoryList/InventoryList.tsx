@@ -22,6 +22,13 @@ function InventoryList({ inventory, onMouseDown }: InventoryListProps): React.Re
       </div>
       <div css={styles.inventoryList}>
         {inventory.map((item, index) => {
+          if (item === null) {
+            return (
+              <div key={`empty-${index}`} css={styles.inventoryItem}>
+                <div css={styles.emptySlot} />
+              </div>
+            );
+          }
           const isWrappable = canWrapItem(item);
           const handleMouseDown = (item: ItemType, imageURL: string, _canDrag: boolean, e: React.MouseEvent): void => {
             onMouseDown(item, imageURL, isWrappable, e);

@@ -21,7 +21,7 @@ const inventoryList = css`
   overflow-y: auto;
   overflow-x: visible;
   max-height: calc(100vh - 200px);
-  width: fit-content;
+  padding: 0.5rem;
 `;
 
 const inventoryItem = css`
@@ -30,6 +30,7 @@ const inventoryItem = css`
   justify-content: center;
   width: 100%;
   aspect-ratio: 1;
+  overflow: visible;
 `;
 
 const emptySlot = css`

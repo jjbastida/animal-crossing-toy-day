@@ -1,10 +1,11 @@
 import { useContext, useState } from "react";
 import { GameContext } from "@/context/GameContext";
-import { Item, Player, Present } from "@/types/general";
+import { Item, Player, Present, Color } from "@/types/general";
 import useDrag from "@/hooks/useDrag";
 import PresentsGrid from "./PresentsGrid/PresentsGrid";
 import InventoryList from "./InventoryList/InventoryList";
 import DeletePresentModal from "./DeletePresentModal/DeletePresentModal";
+import ColorSelectionModal from "./ColorSelectionModal/ColorSelectionModal";
 import * as styles from "./PrepareGiftsComponent.styles";
 import { MusicContext } from "@/context/MusicContext";
 import soundEffects from "@data/sound_effects.json";
@@ -12,10 +13,12 @@ import soundEffects from "@data/sound_effects.json";
 function PrepareGiftsComponent(): React.ReactNode {
   const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
-  const [deletePresentId, setDeletePresentId] = useState<string | null>(null);
-  const inventory = currentPlayer?.inventory || [];
+  const [deletePresent, setDeletePresent] = useState<Present | null>(null);
+  const [pendingPresent, setPendingPresent] = useState<{ item: Item; position: number } | null>(null);
+  const baseInventory = currentPlayer?.inventory || [];
   const presents = currentPlayer?.presents || [];
   const presentMap = new Map(presents.map((p) => [p.position, p]));
+  
   const {
     draggedItem,
     draggedOverTarget,
@@ -25,6 +28,16 @@ function PrepareGiftsComponent(): React.ReactNode {
     handleMouseLeave: dragMouseLeave,
     handleMouseUp: dragMouseUp,
   } = useDrag<Item>();
+
+  const inventory = baseInventory.map((item) => {
+    if (draggedItem && draggedItem.name === item.name) {
+      if (item.count && item.count > 1) {
+        return { ...item, count: item.count - 1 };
+      }
+      return null;
+    }
+    return item;
+  });
 
   function handleMouseDown(item: Item, imageURL: string, canDrag: boolean, e: React.MouseEvent) {
     dragMouseDown(item, imageURL, canDrag, e);
@@ -39,49 +52,56 @@ function PrepareGiftsComponent(): React.ReactNode {
     if (!currentPlayer) return;
     
     dragMouseUp(position, (item: Item, targetPosition: number) => {
-      const currentPresents = currentPlayer.presents || [];
-      const currentInventory = currentPlayer.inventory || [];
-      
-      const updatedPresents = [...currentPresents, {
-        id: `present-${Date.now()}-${Math.random()}`,
-        color: "red",
-        items: item,
-        position: targetPosition,
-      } as Present];
-      
-      const updatedInventory = currentInventory
-        .map((invItem: Item) => {
-          if (invItem.name === item.name) {
-            if (invItem.count && invItem.count > 1) {
-              return { ...invItem, count: invItem.count - 1 };
-            }
-            return null;
-          }
-          return invItem;
-        })
-        .filter((invItem: Item | null): invItem is Item => invItem !== null);
-      
-      const updatedPlayer: Player = {
-        ...currentPlayer,
-        inventory: updatedInventory,
-        presents: updatedPresents,
-      };
-      
-      playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
-      const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
-      setPlayers(updatedPlayers);
-      setCurrentPlayer(updatedPlayer);
+      setPendingPresent({ item, position: targetPosition });
     });
   };
 
+  function handleColorSelect(color: Color) {
+    if (!currentPlayer || !pendingPresent) return;
+
+    const currentPresents = currentPlayer.presents || [];
+    const currentInventory = currentPlayer.inventory || [];
+    
+    const updatedPresents = [...currentPresents, {
+      id: `present-${Date.now()}-${Math.random()}`,
+      color,
+      items: pendingPresent.item,
+      position: pendingPresent.position,
+    } as Present];
+    
+    const updatedInventory = currentInventory
+      .map((invItem: Item) => {
+        if (invItem.name === pendingPresent.item.name) {
+          if (invItem.count && invItem.count > 1) {
+            return { ...invItem, count: invItem.count - 1 };
+          }
+          return null;
+        }
+        return invItem;
+      })
+      .filter((invItem: Item | null): invItem is Item => invItem !== null);
+    
+    const updatedPlayer: Player = {
+      ...currentPlayer,
+      inventory: updatedInventory,
+      presents: updatedPresents,
+    };
+    
+    playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
+    const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
+    setPlayers(updatedPlayers);
+    setCurrentPlayer(updatedPlayer);
+    setPendingPresent(null);
+  };
+
   function handlePresentClick(present: Present) {
-    setDeletePresentId(present.id);
+    setDeletePresent(present);
   };
 
   function handleConfirmDelete() {
-    if (!currentPlayer || !deletePresentId) return;
+    if (!currentPlayer || !deletePresent) return;
     
-    const updatedPresents = presents.filter((p) => p.id !== deletePresentId) as Present[];
+    const updatedPresents = presents.filter((p) => p.id !== deletePresent.id) as Present[];
     const updatedPlayer: Player = {
       ...currentPlayer,
       presents: updatedPresents,
@@ -91,7 +111,7 @@ function PrepareGiftsComponent(): React.ReactNode {
     setPlayers(updatedPlayers);
     setCurrentPlayer(updatedPlayer);
     playSoundEffect(soundEffects["UI_Post_Delete"].audioUrl);
-    setDeletePresentId(null);
+    setDeletePresent(null);
   };
 
   return (
@@ -121,9 +141,20 @@ function PrepareGiftsComponent(): React.ReactNode {
       )}
 
       <DeletePresentModal
-        isOpen={deletePresentId !== null}
+        isOpen={deletePresent !== null}
+        present={deletePresent}
         onConfirm={handleConfirmDelete}
-        onCancel={() => setDeletePresentId(null)}
+        onCancel={() => {
+          setTimeout(() => {
+            setDeletePresent(null);
+          }, 300);
+        }}
+      />
+
+      <ColorSelectionModal
+        isOpen={pendingPresent !== null}
+        onColorSelect={handleColorSelect}
+        onCancel={() => setPendingPresent(null)}
       />
     </>
   );

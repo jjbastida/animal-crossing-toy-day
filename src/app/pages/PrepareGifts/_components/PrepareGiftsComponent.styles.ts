@@ -26,7 +26,7 @@ const dragGhostImage = css`
   width: 100%;
   height: 100%;
   object-fit: contain;
-  opacity: 0.5;
+  opacity: 1;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;

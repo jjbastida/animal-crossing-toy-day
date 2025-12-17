@@ -3,8 +3,13 @@ import * as styles from "./Item.styles";
 import { ItemCount } from "@components";
 import { css } from "@emotion/react";
 
-function Item({ item, disabled, onClick, onMouseDown, css: customCss }: ItemProps): React.ReactNode {
-  
+function Item({
+  item,
+  disabled,
+  onClick,
+  onMouseDown,
+  css: customCss,
+}: ItemProps): React.ReactNode {
   const handleMouseDown = (e: React.MouseEvent): void => {
     if (disabled) return;
     e.preventDefault();
@@ -18,25 +23,28 @@ function Item({ item, disabled, onClick, onMouseDown, css: customCss }: ItemProp
 
   return (
     <div
-      css={[styles.item, onMouseDown && styles.itemDraggable, disabled && styles.itemDisabled, customCss]}
+      css={[
+        styles.item,
+        onMouseDown && styles.itemDraggable,
+        disabled && styles.itemDisabled,
+        customCss,
+      ]}
       onClick={handleClick}
       onMouseDown={onMouseDown ? handleMouseDown : undefined}
     >
       <div css={styles.itemSlot}>
-        <img
-          src={item.imageURL}
-          alt={item.name}
-          draggable={false}
-          css={[styles.itemImage, disabled && styles.itemImageDisabled]}
-          onDragStart={(e) => e.preventDefault()}
-        />
-        {item.count && item.count > 1 && (
-          <ItemCount count={item.count} css={css`position: absolute; bottom: 4px; right: 4px;`} />
-        )}
+        <ItemCount count={item.count}>
+          <img
+            src={item.imageURL}
+            alt={item.name}
+            draggable={false}
+            css={[styles.itemImage, disabled && styles.itemImageDisabled]}
+            onDragStart={(e) => e.preventDefault()}
+          />
+        </ItemCount>
       </div>
     </div>
   );
 }
 
 export default Item;
-

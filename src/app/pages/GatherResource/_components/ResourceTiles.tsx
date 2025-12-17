@@ -18,14 +18,16 @@ function ResourceTiles(): React.ReactNode {
     useContext(GameContext);
   const [selectedResource, setSelectedResource] = useState<ResourceType | null>(null);
   const [collectedItem, setCollectedItem] = useState<Item | null>(null);
+  const fruitName = currentPlayer?.fruit || "apple";
+  const fruitValue = currentPlayer?.fruitValue || 50;
 
   const RESOURCE_CONFIGS: Record<ResourceType, ResourceConfig> = {
     "fruit": {
       name: "Fruit",
       requiredItem: null,
-      icon: fruitIcons[currentPlayer?.fruit as keyof typeof fruitIcons].imageUrl,
+      icon: fruitIcons[fruitName].imageUrl,
       tooltip: `Shake a tree to collect 1-3 ${pluralize(currentPlayer?.fruit?.toLowerCase() || "fruit")}.`,
-      flavourText: `Apples sell for ${currentPlayer?.fruitValue} Bells each.`,
+      flavourText: `${pluralize(fruitName.charAt(0).toUpperCase() + fruitName.slice(1))} sell for ${fruitValue} Bells each.`,
     },
     "fish": {
       name: "Fish",
@@ -63,12 +65,33 @@ function ResourceTiles(): React.ReactNode {
     return currentPlayer?.inventory?.some((item) => item.name === config.requiredItem) ?? false;
   }
 
+  function selectWeightedRandom<T extends { rarity?: number }>(
+    items: Record<string, T>
+  ): string {
+    const entries = Object.entries(items);
+    const weights = entries.map(([_, data]) => {
+      const rarity = data.rarity ?? 50;
+      return 101 - rarity;
+    });
+    const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
+    let random = Math.random() * totalWeight;
+    
+    for (let i = 0; i < entries.length; i++) {
+      random -= weights[i];
+      if (random <= 0) {
+        return entries[i][0];
+      }
+    }
+    
+    return entries[entries.length - 1][0];
+  }
+
   function collectResourceItem(resourceType: ResourceType): Item | null {
     if (!currentPlayer) return null;
 
     const resourceDatasets: Record<
       Exclude<ResourceType, "fruit">,
-      Record<string, { name: string; imageUrl: string; description?: string }>
+      Record<string, { name: string; imageUrl: string; description?: string; rarity?: number; sellPrice?: number }>
     > = {
       "fish": fishIcons,
       "bugs": bugIcons,
@@ -81,6 +104,16 @@ function ResourceTiles(): React.ReactNode {
         const fruitCount = Math.floor(Math.random() * 3) + 1;
         const playerFruit = currentPlayer.fruit || "apple";
         const fruitData = fruitIcons[playerFruit as keyof typeof fruitIcons];
+        
+        if (!fruitData || !fruitData.imageUrl) {
+          const defaultFruit = fruitIcons.apple;
+          return {
+            name: defaultFruit.name,
+            imageURL: defaultFruit.imageUrl,
+            description: defaultFruit.description,
+            count: fruitCount,
+          };
+        }
 
         return {
           name: fruitData.name,
@@ -90,25 +123,27 @@ function ResourceTiles(): React.ReactNode {
         };
       }
       case "sea-creatures":
-        case "fossils": {
-          const dataset = resourceDatasets[resourceType];
-          const types = Object.keys(dataset);
-          const randomKey = types[Math.floor(Math.random() * types.length)];
-          const data = dataset[randomKey];
-          return {
-            name: data.name,
-            imageURL: data.imageUrl,
-            description: data.description || `A ${data.name.toLowerCase()}.`,
-            count: 1,
-          };
-        }
-      
-      case "fish":
-      case "bugs":
       case "fossils": {
         const dataset = resourceDatasets[resourceType];
         const types = Object.keys(dataset);
         const randomKey = types[Math.floor(Math.random() * types.length)];
+        const data = dataset[randomKey];
+        
+        if (!data || !data.imageUrl) {
+          return null;
+        }
+        
+        return {
+          name: data.name,
+          imageURL: data.imageUrl,
+          description: data.description || `A ${data.name.toLowerCase()}.`,
+          count: 1,
+        };
+      }
+      case "fish":
+      case "bugs": {
+        const dataset = resourceDatasets[resourceType];
+        const randomKey = selectWeightedRandom(dataset);
         const data = dataset[randomKey];
         return {
           name: data.name,

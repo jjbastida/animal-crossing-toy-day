@@ -1,6 +1,6 @@
 import villagerIcons from "@data/villager_icons.json";
 export type FruitType = "apple" | "cherry" | "peach" | "orange" | "pear" | "coconut";
-export type Color = "red" | "orange" | "green" | "purple";
+export type Color = "red" | "green" | "blue";
 export type AvatarType = keyof typeof villagerIcons;
 
 export interface Present {
