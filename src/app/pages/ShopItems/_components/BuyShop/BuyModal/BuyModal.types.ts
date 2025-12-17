@@ -6,4 +6,3 @@ export interface BuyModalProps {
   onBuy: () => void;
   onCancel: () => void;
 }
-

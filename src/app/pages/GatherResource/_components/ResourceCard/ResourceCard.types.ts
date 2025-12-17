@@ -14,4 +14,3 @@ export interface ResourceCardProps {
   isEnabled: boolean;
   onClick: (resourceType: ResourceType) => void;
 }
-

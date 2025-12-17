@@ -34,4 +34,3 @@ function ColorSelectionModal({
 }
 
 export default ColorSelectionModal;
-

@@ -8,4 +8,3 @@ export interface TabsProps<T extends string> {
   activeTab: T;
   onTabChange: (tab: T) => void;
 }
-

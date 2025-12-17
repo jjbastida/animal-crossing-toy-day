@@ -32,7 +32,7 @@ function useDrag<T>(): UseDragReturn<T> {
           y: e.clientY,
         });
       }
-    };
+    }
 
     function handleGlobalMouseUp() {
       if (isDraggingRef.current && !isDroppingRef.current) {
@@ -42,7 +42,7 @@ function useDrag<T>(): UseDragReturn<T> {
         isDraggingRef.current = false;
       }
       isDroppingRef.current = false;
-    };
+    }
 
     if (draggedItem) {
       document.addEventListener("mousemove", handleGlobalMouseMove);
@@ -54,7 +54,12 @@ function useDrag<T>(): UseDragReturn<T> {
     }
   }, [draggedItem, dragPreview]);
 
-  function handleMouseDown(item: T, imageURL: string, canDrag: boolean = true, e?: React.MouseEvent) {
+  function handleMouseDown(
+    item: T,
+    imageURL: string,
+    canDrag: boolean = true,
+    e?: React.MouseEvent,
+  ) {
     if (!canDrag) return;
     setDraggedItem(item);
     isDraggingRef.current = true;
@@ -63,16 +68,16 @@ function useDrag<T>(): UseDragReturn<T> {
       x: e?.clientX ?? 0,
       y: e?.clientY ?? 0,
     });
-  };
+  }
 
   function handleMouseEnter(targetId: number, canDrop: boolean = true) {
     if (!canDrop || !draggedItem) return;
     setDraggedOverTarget(targetId);
-  };
+  }
 
   function handleMouseLeave() {
     setDraggedOverTarget(null);
-  };
+  }
 
   function handleMouseUp(targetId: number, onDrop: (item: T, targetId: number) => void) {
     if (!draggedItem) return;
@@ -83,7 +88,7 @@ function useDrag<T>(): UseDragReturn<T> {
     setDragPreview(null);
     isDraggingRef.current = false;
     isDroppingRef.current = false;
-  };
+  }
 
   return {
     draggedItem,

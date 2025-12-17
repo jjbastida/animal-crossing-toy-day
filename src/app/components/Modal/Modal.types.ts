@@ -8,4 +8,3 @@ export interface ModalProps {
   css?: Interpolation<Theme>;
   disableEscape?: boolean;
 }
-

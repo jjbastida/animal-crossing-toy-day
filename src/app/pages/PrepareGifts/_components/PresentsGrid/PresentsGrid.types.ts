@@ -8,4 +8,3 @@ export interface PresentsGridProps {
   onMouseLeave: () => void;
   onMouseUp: (position: number) => void;
 }
-

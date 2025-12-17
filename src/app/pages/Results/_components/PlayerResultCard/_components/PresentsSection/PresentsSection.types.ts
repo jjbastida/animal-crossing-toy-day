@@ -13,4 +13,3 @@ export interface PresentsSectionProps {
 }
 
 export type { PresentDetail };
-

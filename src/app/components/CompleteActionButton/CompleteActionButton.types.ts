@@ -7,4 +7,3 @@ export type CompleteActionButtonProps = {
   css?: CSSObject;
   children?: React.ReactNode;
 } & ButtonProps;
-

@@ -30,7 +30,9 @@ const inventorySlot = css`
   justify-content: center;
   background: var(--shadow);
   border-radius: 999px;
-  transition: transform 0.2s, background 0.2s;
+  transition:
+    transform 0.2s,
+    background 0.2s;
 
   &:hover {
     transform: scale(1.1);
@@ -84,4 +86,3 @@ export {
   itemCount,
   emptySlot,
 };
-

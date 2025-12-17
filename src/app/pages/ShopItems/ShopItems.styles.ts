@@ -56,4 +56,13 @@ const description = css`
   text-align: center;
 `;
 
-export { pageContainer, container, title, bellsDisplay, buttonContainer, completeButton, shopIcon, description };
+export {
+  pageContainer,
+  container,
+  title,
+  bellsDisplay,
+  buttonContainer,
+  completeButton,
+  shopIcon,
+  description,
+};

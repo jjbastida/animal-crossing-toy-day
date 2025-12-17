@@ -33,4 +33,3 @@ const imageIcon = css`
 `;
 
 export { presentItem, presentName, pointsValue, imageIcon };
-

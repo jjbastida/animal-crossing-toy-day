@@ -4,7 +4,11 @@ import { Modal, Button, Typography, NumberInput } from "@/components";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./SellModal.styles";
 import { SellModalProps } from "./SellModal.types";
-import { getLatestPlayer, removeItemFromInventory, updatePlayerInPlayersArray } from "../../utils/playerState";
+import {
+  getLatestPlayer,
+  removeItemFromInventory,
+  updatePlayerInPlayersArray,
+} from "../../utils/playerState";
 import { isFurniture, isTool } from "../../utils/itemLookups";
 
 function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): React.ReactNode {
@@ -62,22 +66,20 @@ function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): R
               <Typography variant="body" size="md" css={styles.quantityLabel}>
                 Quantity to sell:
               </Typography>
-              <NumberInput
-                value={quantity}
-                min={1}
-                max={maxQuantity}
-                onChange={setQuantity}
-              />
+              <NumberInput value={quantity} min={1} max={maxQuantity} onChange={setQuantity} />
               <Typography variant="body" size="sm" css={styles.quantityMax}>
                 (Max: {maxQuantity})
               </Typography>
             </div>
           )}
           <Typography variant="body" size="lg" css={styles.itemPrice}>
-            Sell for <img src={itemIcons["1-000-bells"].imageUrl} alt="Bell" css={styles.imageIcon} /> {totalValue.toLocaleString()} Bells
+            Sell for{" "}
+            <img src={itemIcons["1-000-bells"].imageUrl} alt="Bell" css={styles.imageIcon} />{" "}
+            {totalValue.toLocaleString()} Bells
             {canSellMultiple && quantity > 1 && (
               <span css={styles.priceBreakdown}>
-                {" "}({quantity} × {value.toLocaleString()})
+                {" "}
+                ({quantity} × {value.toLocaleString()})
               </span>
             )}
           </Typography>
@@ -96,4 +98,3 @@ function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): R
 }
 
 export default SellModal;
-

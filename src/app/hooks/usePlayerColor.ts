@@ -1,7 +1,7 @@
 import { playerColors } from "@/App.styles";
 import { Player } from "@/types/general";
 
-function usePlayerColor(player: Player): { playerColor: string } {
+function usePlayerColor(player: Player | null): { playerColor: string } {
   if (!player) {
     return { playerColor: playerColors[0] };
   }

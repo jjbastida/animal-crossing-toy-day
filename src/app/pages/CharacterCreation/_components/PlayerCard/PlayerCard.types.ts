@@ -9,4 +9,3 @@ export interface PlayerCardProps {
   onFruitClick: () => void;
   onClear?: () => void;
 }
-

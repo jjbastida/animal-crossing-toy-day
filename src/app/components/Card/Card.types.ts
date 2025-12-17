@@ -5,4 +5,3 @@ export type CardProps = {
   children: React.ReactNode;
   css?: Interpolation<Theme>;
 } & React.HTMLAttributes<HTMLDivElement>;
-

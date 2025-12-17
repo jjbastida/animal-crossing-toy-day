@@ -9,4 +9,3 @@ export interface ResourceCollectionModalProps {
   onAddToInventory: () => void;
   onClose: () => void;
 }
-

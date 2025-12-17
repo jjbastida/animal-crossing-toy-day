@@ -8,4 +8,3 @@ export interface PlayerResultCardProps {
   playerColor: string;
   standing: number;
 }
-

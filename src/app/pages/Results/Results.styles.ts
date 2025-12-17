@@ -11,8 +11,8 @@ const pageContainer = css`
   background: var(--background-secondary);
 `;
 
-const title = css`
-  color: var(--black);
+const title = (color: string) => css`
+  color: ${color};
   text-align: center;
 `;
 

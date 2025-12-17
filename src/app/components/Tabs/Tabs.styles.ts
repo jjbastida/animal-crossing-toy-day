@@ -48,4 +48,3 @@ const tabIndicator = css`
 `;
 
 export { tabsContainer, tab, tabActive, tabLabel, tabIndicator };
-

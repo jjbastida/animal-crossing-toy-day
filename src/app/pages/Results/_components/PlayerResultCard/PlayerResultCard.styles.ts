@@ -32,4 +32,3 @@ const scrollableContent = css`
 `;
 
 export { playerColumn, playerName, totalCard, scrollableContent };
-

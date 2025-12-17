@@ -9,7 +9,9 @@ const cardsGrid = css`
 
 const shopCard = css`
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 
   &:hover {
     transform: translateY(-4px);
@@ -62,5 +64,14 @@ const itemPriceDisabled = css`
   color: var(--foreground-primary);
 `;
 
-export { cardsGrid, shopCard, shopCardDisabled, itemImage, itemImageDisabled, itemName, itemNameDisabled, itemPrice, itemPriceDisabled };
-
+export {
+  cardsGrid,
+  shopCard,
+  shopCardDisabled,
+  itemImage,
+  itemImageDisabled,
+  itemName,
+  itemNameDisabled,
+  itemPrice,
+  itemPriceDisabled,
+};

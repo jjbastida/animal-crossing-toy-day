@@ -5,20 +5,25 @@ import { ShopItem } from "@/types/general";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./BuyModal.styles";
 import { BuyModalProps } from "./BuyModal.types";
-import { getLatestPlayer, updatePlayerInventory, updatePlayerInPlayersArray } from "../../utils/playerState";
+import {
+  getLatestPlayer,
+  updatePlayerInventory,
+  updatePlayerInPlayersArray,
+} from "../../utils/playerState";
 import { isFurniture } from "../../utils/itemLookups";
 import { getTagBasedAbilityDescription } from "@/pages/Results/_helpers/tagActions";
 import Tooltip from "@/components/Tooltip/Tooltip";
 
 function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.ReactNode {
-  const { currentPlayer, setCurrentPlayer, players, setPlayers, shopItems, setShopItems } = useContext(GameContext);
+  const { currentPlayer, setCurrentPlayer, players, setPlayers, shopItems, setShopItems } =
+    useContext(GameContext);
 
   if (!isOpen || !item) return null;
 
   const itemData = item as ShopItem;
   const latestPlayer = getLatestPlayer(players, currentPlayer);
   const tagAbility = getTagBasedAbilityDescription(itemData.name);
-  const ability = isFurniture(itemData.name) 
+  const ability = isFurniture(itemData.name)
     ? tagAbility || "Can be wrapped as a present for points."
     : "";
   const couponItem = latestPlayer?.inventory?.find((invItem) => invItem.name === "Shop Coupon");
@@ -108,9 +113,9 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
           Cancel
         </Button>
         <Tooltip label="You don't have enough bells." disabled={canAfford}>
-        <Button variant="primary" onClick={handleBuy} disabled={!canAfford}>
-          Buy item
-        </Button>
+          <Button variant="primary" onClick={handleBuy} disabled={!canAfford}>
+            Buy item
+          </Button>
         </Tooltip>
         {couponItem && (
           <Button variant="secondary" onClick={handleUseCoupon} css={styles.couponButton}>

@@ -55,4 +55,13 @@ const itemIcon = css`
   vertical-align: bottom;
 `;
 
-export { inventorySection, sectionTitle, inventoryList, inventoryItem, emptySlot, sectionHeader, sectionDescription, itemIcon };
+export {
+  inventorySection,
+  sectionTitle,
+  inventoryList,
+  inventoryItem,
+  emptySlot,
+  sectionHeader,
+  sectionDescription,
+  itemIcon,
+};

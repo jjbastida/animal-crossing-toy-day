@@ -36,4 +36,3 @@ const imageIcon = css`
 `;
 
 export { bellsSection, bellsLabelContainer, bellsLabel, pointsValue, imageIcon };
-

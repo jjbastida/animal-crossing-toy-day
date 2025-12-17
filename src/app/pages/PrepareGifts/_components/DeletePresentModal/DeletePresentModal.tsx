@@ -26,13 +26,15 @@ function DeletePresentModal({
   }, [isOpen, present]);
 
   const presentImageUrl = itemIcons["present" as keyof typeof itemIcons]?.imageUrl || "";
-  const imageStyle = displayPresent ? styles.modalImageWithColor(displayPresent.color) : styles.modalImage;
+  const imageStyle = displayPresent
+    ? styles.modalImageWithColor(displayPresent.color)
+    : styles.modalImage;
 
   return (
     <Modal isOpen={isOpen} onClose={onCancel}>
       <ModalTitle>Discard Present?</ModalTitle>
       <div css={styles.modalContent}>
-      <img src={presentImageUrl} alt="Present" css={imageStyle} />
+        <img src={presentImageUrl} alt="Present" css={imageStyle} />
         <Typography variant="body" size="md" css={styles.modalText}>
           Are you sure you want to discard this present?
         </Typography>

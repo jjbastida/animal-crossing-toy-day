@@ -27,7 +27,9 @@ const colorCircle = (color: Color) => css`
   border-radius: 50%;
   cursor: pointer;
   border: none;
-  transition: transform 0.2s, border-color 0.2s;
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
   background-color: ${getColorValue(color)};
 
   &:hover {
@@ -45,4 +47,3 @@ function getColorValue(color: Color): string {
 }
 
 export { modalContent, modalText, colorGrid, colorCircle };
-

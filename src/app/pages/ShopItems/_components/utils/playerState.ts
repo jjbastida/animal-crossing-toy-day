@@ -52,10 +52,6 @@ export function removeItemFromInventory(
     .filter((invItem: Item | null): invItem is Item => invItem !== null);
 }
 
-export function updatePlayerInPlayersArray(
-  players: Player[],
-  updatedPlayer: Player,
-): Player[] {
+export function updatePlayerInPlayersArray(players: Player[], updatedPlayer: Player): Player[] {
   return players.map((player) => (player.id === updatedPlayer.id ? updatedPlayer : player));
 }
-

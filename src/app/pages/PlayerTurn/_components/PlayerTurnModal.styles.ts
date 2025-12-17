@@ -28,4 +28,3 @@ const title = (color: string) => css`
 `;
 
 export { modalContent, modalInner, avatar, title };
-

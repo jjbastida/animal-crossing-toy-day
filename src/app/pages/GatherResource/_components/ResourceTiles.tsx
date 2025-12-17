@@ -34,28 +34,28 @@ function ResourceTiles(): React.ReactNode {
       requiredItem: "Fishing Rod",
       icon: fishIcons["sweetfish"].imageUrl,
       tooltip: "Most fish sell high but beware garbage.",
-      flavourText: 'Cast your line in the river to catch fish.',
+      flavourText: "Cast your line in the river to catch fish.",
     },
     "bugs": {
       name: "Bugs",
       requiredItem: "Bug Net",
       icon: bugIcons["common-butterfly"].imageUrl,
       tooltip: "Most bugs sell cheap but rare ones sell high.",
-      flavourText: 'Search the forest for bugs.',
+      flavourText: "Search the forest for bugs.",
     },
     "sea-creatures": {
       name: "Sea Creatures",
       requiredItem: "Wet Suit",
       icon: seaCreatureIcons["spiny-lobster"].imageUrl,
       tooltip: "Sea creatures sell at random prices.",
-      flavourText: 'Jump into the ocean to catch sea creatures.',
+      flavourText: "Jump into the ocean to catch sea creatures.",
     },
     "fossils": {
       name: "Fossils",
       requiredItem: "Shovel",
       icon: itemIcons["fossil"].imageUrl,
       tooltip: "Fossils sell at a consistent price.",
-      flavourText: 'Dig up fossils on the beach.',
+      flavourText: "Dig up fossils on the beach.",
     },
   };
 
@@ -65,9 +65,7 @@ function ResourceTiles(): React.ReactNode {
     return currentPlayer?.inventory?.some((item) => item.name === config.requiredItem) ?? false;
   }
 
-  function selectWeightedRandom<T extends { rarity?: number }>(
-    items: Record<string, T>
-  ): string {
+  function selectWeightedRandom<T extends { rarity?: number }>(items: Record<string, T>): string {
     const entries = Object.entries(items);
     const weights = entries.map(([_, data]) => {
       const rarity = data.rarity ?? 50;
@@ -75,14 +73,14 @@ function ResourceTiles(): React.ReactNode {
     });
     const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
     let random = Math.random() * totalWeight;
-    
+
     for (let i = 0; i < entries.length; i++) {
       random -= weights[i];
       if (random <= 0) {
         return entries[i][0];
       }
     }
-    
+
     return entries[entries.length - 1][0];
   }
 
@@ -91,7 +89,16 @@ function ResourceTiles(): React.ReactNode {
 
     const resourceDatasets: Record<
       Exclude<ResourceType, "fruit">,
-      Record<string, { name: string; imageUrl: string; description?: string; rarity?: number; sellPrice?: number }>
+      Record<
+        string,
+        {
+          name: string;
+          imageUrl: string;
+          description?: string;
+          rarity?: number;
+          sellPrice?: number;
+        }
+      >
     > = {
       "fish": fishIcons,
       "bugs": bugIcons,
@@ -104,7 +111,7 @@ function ResourceTiles(): React.ReactNode {
         const fruitCount = Math.floor(Math.random() * 3) + 1;
         const playerFruit = currentPlayer.fruit || "apple";
         const fruitData = fruitIcons[playerFruit as keyof typeof fruitIcons];
-        
+
         if (!fruitData || !fruitData.imageUrl) {
           const defaultFruit = fruitIcons.apple;
           return {
@@ -128,11 +135,11 @@ function ResourceTiles(): React.ReactNode {
         const types = Object.keys(dataset);
         const randomKey = types[Math.floor(Math.random() * types.length)];
         const data = dataset[randomKey];
-        
+
         if (!data || !data.imageUrl) {
           return null;
         }
-        
+
         return {
           name: data.name,
           imageURL: data.imageUrl,

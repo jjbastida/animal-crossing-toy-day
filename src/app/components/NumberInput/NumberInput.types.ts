@@ -7,4 +7,3 @@ export type NumberInputProps = {
   onChange: (value: number) => void;
   css?: CSSObject;
 };
-

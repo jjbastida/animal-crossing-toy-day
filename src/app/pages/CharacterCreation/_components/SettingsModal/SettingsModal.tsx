@@ -4,7 +4,12 @@ import NumberInput from "@/components/NumberInput/NumberInput";
 import { SettingsModalProps } from "./SettingsModal.types";
 import * as styles from "./SettingsModal.styles";
 
-function SettingsModal({ isOpen, onClose, totalRounds, onRoundsChange }: SettingsModalProps): React.ReactNode {
+function SettingsModal({
+  isOpen,
+  onClose,
+  totalRounds,
+  onRoundsChange,
+}: SettingsModalProps): React.ReactNode {
   return (
     <Modal isOpen={isOpen} onClose={onClose} css={styles.modal}>
       <ModalTitle>Settings</ModalTitle>
@@ -12,12 +17,7 @@ function SettingsModal({ isOpen, onClose, totalRounds, onRoundsChange }: Setting
         <Typography variant="body" size="md" css={styles.settingsLabel}>
           Number of Rounds
         </Typography>
-        <NumberInput
-          value={totalRounds}
-          min={1}
-          max={20}
-          onChange={onRoundsChange}
-        />
+        <NumberInput value={totalRounds} min={1} max={20} onChange={onRoundsChange} />
         <Button variant="primary" onClick={onClose}>
           Done
         </Button>
@@ -27,4 +27,3 @@ function SettingsModal({ isOpen, onClose, totalRounds, onRoundsChange }: Setting
 }
 
 export default SettingsModal;
-

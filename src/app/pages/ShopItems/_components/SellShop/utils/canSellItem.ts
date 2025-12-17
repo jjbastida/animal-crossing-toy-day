@@ -6,4 +6,3 @@ function canSellItem(item: Item): boolean {
 }
 
 export default canSellItem;
-

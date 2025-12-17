@@ -34,4 +34,3 @@ function Tabs<T extends string>({ tabs, activeTab, onTabChange }: TabsProps<T>):
 }
 
 export default Tabs;
-

@@ -5,4 +5,3 @@ export interface FruitModalProps {
   onClose: () => void;
   onSelect: (fruitType: FruitType) => void;
 }
-

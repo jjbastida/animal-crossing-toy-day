@@ -30,7 +30,7 @@ function PresentsGrid({
         {Array.from({ length: TOTAL_SLOTS }).map((_, index) => {
           const position = index;
           const present = presentMap.get(position);
-          
+
           return (
             <PresentSlot
               key={index}
@@ -51,9 +51,7 @@ function PresentsGrid({
           );
         })}
       </div>
-      <CompleteActionButton>
-          Finish action
-      </CompleteActionButton>
+      <CompleteActionButton>Finish action</CompleteActionButton>
     </div>
   );
 }

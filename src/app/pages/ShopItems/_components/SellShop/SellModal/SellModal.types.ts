@@ -7,4 +7,3 @@ export interface SellModalProps {
   onSell: () => void;
   onCancel: () => void;
 }
-

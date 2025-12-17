@@ -40,9 +40,7 @@ function ResourceCollectionModal({
         </div>
       </div>
       <div css={styles.modalActions}>
-        <CompleteActionButton onClick={onAddToInventory}>
-          Add to Inventory
-        </CompleteActionButton>
+        <CompleteActionButton onClick={onAddToInventory}>Add to Inventory</CompleteActionButton>
       </div>
     </Modal>
   );

@@ -8,21 +8,12 @@ function PresentsSection({ presentDetails }: PresentsSectionProps): React.ReactN
   return (
     <div css={styles.section}>
       <Typography variant="display" size="2xl" as="h3" css={styles.sectionTitle}>
-        <img
-          src={itemIcons["present"].imageUrl}
-          alt="Presents"
-          css={styles.imageIcon}
-        />{" "}
-        Presents
+        <img src={itemIcons["present"].imageUrl} alt="Presents" css={styles.imageIcon} /> Presents
       </Typography>
       <div css={styles.presentsGrid}>
         {presentDetails.length > 0 ? (
           presentDetails.map(({ present, points }) => (
-            <PresentItem
-              key={present.id}
-              name={present.items.name}
-              points={points}
-            />
+            <PresentItem key={present.id} name={present.items.name} points={points} />
           ))
         ) : (
           <Typography variant="body" size="sm" css={styles.emptyState}>
@@ -35,4 +26,3 @@ function PresentsSection({ presentDetails }: PresentsSectionProps): React.ReactN
 }
 
 export default PresentsSection;
-

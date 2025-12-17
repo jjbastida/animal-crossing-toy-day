@@ -6,7 +6,7 @@ const playerBottomSection = css`
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  padding-top: 1rem;
+  padding: 1rem;
   border-top: 2px solid var(--background-secondary);
 `;
 
@@ -24,5 +24,9 @@ const playerStanding = css`
   text-align: center;
 `;
 
-export { playerBottomSection, playerAvatar, playerStanding };
+const winnerStanding = css`
+  background: var(--shadow);
+  border-radius: 999px;
+`;
 
+export { playerBottomSection, playerAvatar, playerStanding, winnerStanding };

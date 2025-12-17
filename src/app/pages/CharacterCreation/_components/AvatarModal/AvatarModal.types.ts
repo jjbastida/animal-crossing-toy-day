@@ -3,4 +3,3 @@ export interface AvatarModalProps {
   onClose: () => void;
   onSelect: (villagerKey: string, villagerData: { name: string; imageUrl: string }) => void;
 }
-

@@ -12,4 +12,3 @@ export interface SelectionButtonProps {
   "css"?: Interpolation<Theme>;
   "aria-label"?: string;
 }
-

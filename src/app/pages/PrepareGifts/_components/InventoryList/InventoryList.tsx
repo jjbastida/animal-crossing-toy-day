@@ -34,27 +34,28 @@ function InventoryList({ inventory, onMouseDown }: InventoryListProps): React.Re
             );
           }
           const isWrappable = canWrapItem(item);
-          const handleMouseDown = (item: ItemType, imageURL: string, _canDrag: boolean, e: React.MouseEvent): void => {
+          const handleMouseDown = (
+            item: ItemType,
+            imageURL: string,
+            _canDrag: boolean,
+            e: React.MouseEvent,
+          ): void => {
             onMouseDown(item, imageURL, isWrappable, e);
           };
-          
+
           const basePoints = getItemBasePoints(item);
           const abilityDescription = getTagBasedAbilityDescription(item.name);
-          
+
           const tooltipLabel = abilityDescription ? (
             <span>{abilityDescription}</span>
           ) : (
             <span>
               Can be wrapped for
-              <img
-                src={itemIcons["pisces-fragment"].imageUrl}
-                alt="Points"
-                css={styles.itemIcon}
-              />
+              <img src={itemIcons["pisces-fragment"].imageUrl} alt="Points" css={styles.itemIcon} />
               {basePoints} points
             </span>
           );
-          
+
           return (
             <Tooltip label={tooltipLabel} position="top" key={`${item.name}-${index}`}>
               <Item

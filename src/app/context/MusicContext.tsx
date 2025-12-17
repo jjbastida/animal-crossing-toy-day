@@ -39,11 +39,14 @@ export function MusicProvider({ children }: MusicProviderProps) {
 
     const attemptPlay = (): void => {
       if (audioRef.current === audio) {
-        audio.play().then(() => {
-          if (audioRef.current === audio) {
-            setIsPlaying(true);
-          }
-        }).catch(() => {});
+        audio
+          .play()
+          .then(() => {
+            if (audioRef.current === audio) {
+              setIsPlaying(true);
+            }
+          })
+          .catch(() => {});
       }
     };
 
@@ -74,9 +77,12 @@ export function MusicProvider({ children }: MusicProviderProps) {
 
   function resumeTrack(): void {
     if (audioRef.current?.paused) {
-      audioRef.current.play().then(() => {
-        setIsPlaying(true);
-      }).catch(() => {});
+      audioRef.current
+        .play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch(() => {});
     }
   }
 
@@ -95,10 +101,10 @@ export function MusicProvider({ children }: MusicProviderProps) {
     const soundEffect = new Audio(soundPath);
     soundEffect.loop = false;
     soundEffect.volume = Math.max(0, Math.min(1, volume));
-    
+
     soundEffectRef.current = soundEffect;
     soundEffect.play().catch(() => {});
-    
+
     soundEffect.addEventListener("ended", () => {
       if (soundEffectRef.current === soundEffect) {
         soundEffectRef.current = null;
@@ -116,14 +122,14 @@ export function MusicProvider({ children }: MusicProviderProps) {
   return (
     <MusicContext.Provider
       value={{
-    currentTrack,
-    isPlaying,
-    playTrack,
-    stopTrack,
-    pauseTrack,
-    resumeTrack,
-    setVolume,
-    playSoundEffect,
+        currentTrack,
+        isPlaying,
+        playTrack,
+        stopTrack,
+        pauseTrack,
+        resumeTrack,
+        setVolume,
+        playSoundEffect,
       }}
     >
       {children}

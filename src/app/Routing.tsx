@@ -49,12 +49,9 @@ export function Routing(): React.ReactNode {
     return <DebugPage />;
   }
 
-  const showNavigation = [
-    "playerTurn",
-    "gatherResource",
-    "prepareGifts",
-    "shopItems",
-  ].includes(gamePhase);
+  const showNavigation = ["playerTurn", "gatherResource", "prepareGifts", "shopItems"].includes(
+    gamePhase,
+  );
 
   const renderPage = () => {
     switch (gamePhase) {

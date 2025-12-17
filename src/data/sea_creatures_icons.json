@@ -218,7 +218,7 @@
   "sea-pineapple": {
     "imageUrl": "https://dodo.ac/np/images/thumb/6/61/Sea_Pineapple_NH_Icon.png/120px-Sea_Pineapple_NH_Icon.png",
     "name": "Sea Pineapple",
-      "description": "Your move, sea pizzas.",
+    "description": "Your move, sea pizzas.",
     "sellPrice": 1500
   },
   "spotted-garden-eel": {

@@ -5,4 +5,3 @@ export interface PlayerBottomSectionProps {
   playerName: string;
   standing: number;
 }
-

@@ -21,7 +21,7 @@ const gridSlotFilled = css`
 `;
 
 const gridSlotDragOver = css`
-& > * {
+  & > * {
     background-color: var(--foreground-active);
     opacity: 0.3;
     border-radius: 50%;

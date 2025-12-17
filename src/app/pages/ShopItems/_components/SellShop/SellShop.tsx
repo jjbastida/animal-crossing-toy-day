@@ -39,7 +39,7 @@ function SellShop(): React.ReactNode {
       <SellModal
         isOpen={selectedItem !== null}
         item={selectedItem}
-        value={selectedItem ? getItemSellValue(selectedItem.name, selectedItem.cost, selectedItem.value) : 0}
+        value={selectedItem ? getItemSellValue(selectedItem, currentPlayer) : 0}
         onSell={() => setSelectedItem(null)}
         onCancel={() => setSelectedItem(null)}
       />
@@ -48,4 +48,3 @@ function SellShop(): React.ReactNode {
 }
 
 export default SellShop;
-

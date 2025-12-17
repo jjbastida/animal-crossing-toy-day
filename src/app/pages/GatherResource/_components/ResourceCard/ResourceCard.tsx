@@ -24,7 +24,9 @@ function ResourceCard({
             {config.name}
           </Typography>
           <Typography variant="body" size="sm" css={styles.requiredItem}>
-            {config.requiredItem && !isEnabled ? `A ${config.requiredItem} is needed.` : config.flavourText}
+            {config.requiredItem && !isEnabled
+              ? `A ${config.requiredItem} is needed.`
+              : config.flavourText}
           </Typography>
         </div>
       </Card>

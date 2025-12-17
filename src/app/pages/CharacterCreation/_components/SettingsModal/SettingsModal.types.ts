@@ -4,4 +4,3 @@ export interface SettingsModalProps {
   totalRounds: number;
   onRoundsChange: (rounds: number) => void;
 }
-

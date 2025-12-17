@@ -8,7 +8,7 @@ function areAdjacent(position1: number, position2: number): boolean {
   const col2 = position2 % 3;
   const rowDiff = Math.abs(row1 - row2);
   const colDiff = Math.abs(col1 - col2);
-  
+
   return (rowDiff === 1 && colDiff === 0) || (rowDiff === 0 && colDiff === 1);
 }
 
@@ -17,35 +17,33 @@ function isInCompleteRowOrColumn(present: Present, allPresents: Present[]): bool
   const position = present.position;
   const row = Math.floor(position / 3);
   const col = position % 3;
-  
+
   const rowPositions = [row * 3, row * 3 + 1, row * 3 + 2];
   const columnPositions = [col, col + 3, col + 6];
-  
+
   const isCompleteRow = rowPositions.every((pos) => {
     const p = presentMap.get(pos);
     return p && p.tag === "toy";
   });
-  
+
   const isCompleteColumn = columnPositions.every((pos) => {
     const p = presentMap.get(pos);
     return p && p.tag === "toy";
   });
-  
+
   return isCompleteRow || isCompleteColumn;
 }
 
 function hasOtherSameTypeOnBoard(present: Present, allPresents: Present[]): boolean {
   return allPresents.some(
-    (otherPresent) =>
-      otherPresent.id !== present.id &&
-      otherPresent.tag === present.tag
+    (otherPresent) => otherPresent.id !== present.id && otherPresent.tag === present.tag,
   );
 }
 
 export function applyTagBasedPointModifier(
   present: Present,
   basePoints: number,
-  allPresents: Present[] = []
+  allPresents: Present[] = [],
 ): number {
   const itemTag = present.tag;
   if (!itemTag) return basePoints;
@@ -69,20 +67,20 @@ export function applyTagBasedPointModifier(
         return basePoints * 3;
       }
       break;
-      case "food":
-      case "winter":
-      case "expensive":
-      case "party":
-        if (hasOtherSameTypeOnBoard(present, allPresents)) {
-          return basePoints * 5;
-        }
-        break;
+    case "food":
+    case "winter":
+    case "expensive":
+    case "party":
+      if (hasOtherSameTypeOnBoard(present, allPresents)) {
+        return basePoints * 5;
+      }
+      break;
     case "mario":
       const hasAdjacentHarmonious = allPresents.some(
         (otherPresent) =>
           otherPresent.id !== present.id &&
           otherPresent.tag === "harmonious" &&
-          areAdjacent(present.position, otherPresent.position)
+          areAdjacent(present.position, otherPresent.position),
       );
       if (hasAdjacentHarmonious) {
         return basePoints * 2;
@@ -130,4 +128,3 @@ export function getTagBasedAbilityDescription(itemName: string): string {
       return "";
   }
 }
-

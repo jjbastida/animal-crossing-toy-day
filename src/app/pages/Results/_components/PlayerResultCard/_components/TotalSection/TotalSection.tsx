@@ -10,11 +10,7 @@ function TotalSection({ totalPoints }: TotalSectionProps): React.ReactNode {
         Total
       </Typography>
       <div css={styles.totalPoints}>
-        <img
-          src={itemIcons["pisces-fragment"].imageUrl}
-          alt="Points"
-          css={styles.imageIcon}
-        />
+        <img src={itemIcons["pisces-fragment"].imageUrl} alt="Points" css={styles.imageIcon} />
         <Typography variant="display" size="2xl">
           {totalPoints}
         </Typography>
@@ -24,4 +20,3 @@ function TotalSection({ totalPoints }: TotalSectionProps): React.ReactNode {
 }
 
 export default TotalSection;
-

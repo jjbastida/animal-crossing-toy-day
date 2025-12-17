@@ -19,11 +19,23 @@ function BuyShop(): React.ReactNode {
             css={[styles.shopCard, item.sold && styles.shopCardDisabled]}
             onClick={() => !item.sold && setSelectedItem(item)}
           >
-            <img src={item.imageURL} alt={item.name} css={[styles.itemImage, item.sold && styles.itemImageDisabled]} />
-            <Typography variant="body" size="md" css={[styles.itemName, item.sold && styles.itemNameDisabled]}>
+            <img
+              src={item.imageURL}
+              alt={item.name}
+              css={[styles.itemImage, item.sold && styles.itemImageDisabled]}
+            />
+            <Typography
+              variant="body"
+              size="md"
+              css={[styles.itemName, item.sold && styles.itemNameDisabled]}
+            >
               {item.name}
             </Typography>
-            <Typography variant="body" size="sm" css={[styles.itemPrice, item.sold && styles.itemPriceDisabled]}>
+            <Typography
+              variant="body"
+              size="sm"
+              css={[styles.itemPrice, item.sold && styles.itemPriceDisabled]}
+            >
               {item.sold ? "SOLD OUT" : `${item.cost.toLocaleString()} Bells`}
             </Typography>
           </Card>
@@ -40,4 +52,3 @@ function BuyShop(): React.ReactNode {
 }
 
 export default BuyShop;
-

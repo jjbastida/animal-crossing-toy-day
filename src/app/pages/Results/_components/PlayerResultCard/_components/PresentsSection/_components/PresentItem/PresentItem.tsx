@@ -10,11 +10,7 @@ function PresentItem({ name, points }: PresentItemProps): React.ReactNode {
         {name}
       </Typography>
       <div css={styles.pointsValue}>
-        <img
-          src={itemIcons["pisces-fragment"].imageUrl}
-          alt="Points"
-          css={styles.imageIcon}
-        />
+        <img src={itemIcons["pisces-fragment"].imageUrl} alt="Points" css={styles.imageIcon} />
         <Typography variant="body" size="sm">
           {points}
         </Typography>
@@ -24,4 +20,3 @@ function PresentItem({ name, points }: PresentItemProps): React.ReactNode {
 }
 
 export default PresentItem;
-

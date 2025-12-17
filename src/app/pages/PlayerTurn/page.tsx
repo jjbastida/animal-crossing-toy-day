@@ -9,6 +9,7 @@ import usePlayerColor from "@/hooks/usePlayerColor";
 import canWrapItem from "../PrepareGifts/_components/utils/canWrapItem";
 import PlayerTurnModal from "./_components/PlayerTurnModal";
 import { DEFAULT_ACTIONS_PER_TURN } from "../../context/GameContext.constants";
+import pluralize from "pluralize";
 
 const ACTIONS = [
   {
@@ -71,7 +72,7 @@ function PlayerTurnPage(): React.ReactNode {
         css={styles.pillContainer(playerColor)}
         style={{ bottom: "2rem", left: "50%", transform: "translateX(-50%)", top: "auto" }}
       >
-        {actionsRemaining} Actions Left
+        {actionsRemaining} {pluralize("Action", actionsRemaining)} Left
       </Typography>
       <div css={styles.contentContainer}>
         <Typography variant="display" size="3xl" css={styles.title(playerColor)}>

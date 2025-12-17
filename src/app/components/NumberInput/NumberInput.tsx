@@ -76,4 +76,3 @@ function NumberInput({
 }
 
 export default NumberInput;
-

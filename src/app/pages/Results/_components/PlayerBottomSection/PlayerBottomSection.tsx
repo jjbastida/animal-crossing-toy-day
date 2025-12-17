@@ -16,9 +16,10 @@ function PlayerBottomSection({
   standing,
 }: PlayerBottomSectionProps): React.ReactNode {
   return (
-    <div css={styles.playerBottomSection}>
+    <div css={[styles.playerBottomSection, standing === 1 && styles.winnerStanding]}>
       <Typography variant="display" size="3xl" css={styles.playerStanding}>
-        {standing}{getStandingSuffix(standing)}
+        {standing}
+        {getStandingSuffix(standing)}
       </Typography>
       {avatar && (
         <img
@@ -32,4 +33,3 @@ function PlayerBottomSection({
 }
 
 export default PlayerBottomSection;
-

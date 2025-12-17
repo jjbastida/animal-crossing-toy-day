@@ -38,4 +38,3 @@ const imageIcon = css`
 `;
 
 export { totalSection, totalLabel, totalPoints, imageIcon };
-

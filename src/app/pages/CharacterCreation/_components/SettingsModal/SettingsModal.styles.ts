@@ -16,4 +16,3 @@ const settingsLabel = css`
 `;
 
 export { modal, settingsContent, settingsLabel };
-

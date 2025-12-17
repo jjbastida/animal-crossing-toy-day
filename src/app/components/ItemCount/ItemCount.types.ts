@@ -5,4 +5,3 @@ export type ItemCountProps = {
   css?: Interpolation<Theme>;
   children?: React.ReactNode;
 };
-

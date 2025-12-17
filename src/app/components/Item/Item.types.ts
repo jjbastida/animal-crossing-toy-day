@@ -8,4 +8,3 @@ export type ItemProps = {
   onMouseDown?: (item: Item, imageURL: string, canDrag: boolean, e: React.MouseEvent) => void;
   css?: Interpolation<Theme>;
 };
-

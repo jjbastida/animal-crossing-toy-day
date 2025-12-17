@@ -5,4 +5,3 @@ export interface ColorSelectionModalProps {
   onColorSelect: (color: Color) => void;
   onCancel: () => void;
 }
-

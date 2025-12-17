@@ -32,4 +32,3 @@ const emptyState = css`
 `;
 
 export { section, sectionTitle, presentsGrid, imageIcon, emptyState };
-

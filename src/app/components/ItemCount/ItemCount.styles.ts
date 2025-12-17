@@ -22,4 +22,3 @@ const itemCountChildren = css`
 `;
 
 export { itemCount, itemCountChildren };
-

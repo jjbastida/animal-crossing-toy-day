@@ -9,4 +9,3 @@ export interface CharacterCustomizationProps {
   modalOpen: "avatar" | "fruit" | null;
   setModalOpen: (modal: "avatar" | "fruit" | null) => void;
 }
-

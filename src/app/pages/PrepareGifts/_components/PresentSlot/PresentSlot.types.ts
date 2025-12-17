@@ -9,4 +9,3 @@ export interface PresentSlotProps {
   onMouseLeave: () => void;
   onMouseUp: () => void;
 }
-

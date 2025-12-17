@@ -16,8 +16,13 @@ function PlayerResultCard({
 }: PlayerResultCardProps): React.ReactNode {
   return (
     <div css={styles.playerColumn}>
-      <Typography as={standing === 1 ? ActionText : "h2"} variant="display" size="2xl" css={styles.playerName(playerColor)}>
-          {player.name}
+      <Typography
+        as={standing === 1 ? ActionText : "h2"}
+        variant="display"
+        size="2xl"
+        css={styles.playerName(playerColor)}
+      >
+        {player.name}
       </Typography>
       <Card css={styles.totalCard}>
         <div css={styles.scrollableContent}>
@@ -36,4 +41,3 @@ function PlayerResultCard({
 }
 
 export default PlayerResultCard;
-

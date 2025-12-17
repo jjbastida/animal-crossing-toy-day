@@ -60,7 +60,7 @@ const button = css`
   color: var(--foreground-inverse);
   background-image: url("data:image/svg+xml,${triangle("#63BEAD")}");
 
-  &:hover:not(:disabled) {;
+  &:hover:not(:disabled) {
     background-image: url("data:image/svg+xml,${triangle("#45A694")}");
   }
 
@@ -91,4 +91,3 @@ const icon = css`
 `;
 
 export { container, input, button, buttonLeft, buttonRight, icon };
-

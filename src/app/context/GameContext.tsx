@@ -1,4 +1,4 @@
-import { createContext, useState, useRef, useEffect } from "react";
+import { createContext, useState } from "react";
 import { Player, ShopItem, GamePhase, ActionType } from "../types/general";
 import { GameContextValue, GameProviderProps } from "./GameContext.types";
 import {
@@ -8,11 +8,14 @@ import {
   DEFAULT_VALUES,
   DEFAULT_TOTAL_ROUNDS,
 } from "./GameContext.constants";
-import { getNextPlayerIndex, findPlayerIndex, generateShopItems } from "./GameContext.utils";
+import { findPlayerIndex, generateShopItems } from "./GameContext.utils";
 
 export const GameContext = createContext<GameContextValue>(DEFAULT_VALUES);
 
-export function GameProvider({ children, totalRounds: initialTotalRounds = DEFAULT_TOTAL_ROUNDS }: GameProviderProps) {
+export function GameProvider({
+  children,
+  totalRounds: initialTotalRounds = DEFAULT_TOTAL_ROUNDS,
+}: GameProviderProps) {
   const [players, setPlayers] = useState<Player[]>([]);
   const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
   const [gamePhase, setGamePhase] = useState<GamePhase>(STARTING_PHASE);
@@ -22,86 +25,45 @@ export function GameProvider({ children, totalRounds: initialTotalRounds = DEFAU
   const [shopItems, setShopItems] = useState<ShopItem[]>(generateShopItems());
   const [totalRounds, setTotalRounds] = useState<number>(initialTotalRounds);
 
-  const gameStateRef = useRef({ players, currentPlayer, currentRound });
-
-  useEffect(() => {
-    gameStateRef.current = { players, currentPlayer, currentRound };
-  }, [players, currentPlayer, currentRound]);
-
-  useEffect(() => {
+  function completePlayerAction(): void {
     if (!currentPlayer) return;
 
-    const updatedPlayer = players.find((p) => p.id === currentPlayer.id);
-    if (updatedPlayer && updatedPlayer !== currentPlayer) {
-      setCurrentPlayer(updatedPlayer);
-    }
-  }, [players, currentPlayer]);
+    const actionsLeft = actionsRemaining - 1;
 
-  function advanceToNextPlayer(
-    currentPlayers: Player[],
-    currentPlayerValue: Player,
-  ): number | null {
-    const currentIndex = findPlayerIndex(currentPlayers, currentPlayerValue.id);
-    const nextIndex = getNextPlayerIndex(currentIndex, currentPlayers.length);
-
-    if (nextIndex !== null) {
-      setCurrentPlayer(currentPlayers[nextIndex]);
-      setGamePhase("playerTurn");
-      return DEFAULT_ACTIONS_PER_TURN;
-    }
-
-    return null;
-  }
-
-  function advanceToNextRound(currentPlayers: Player[], currentRoundValue: number): number {
-    if (currentRoundValue >= totalRounds) {
-      setCurrentPlayer(currentPlayers[0]);
-      setGamePhase("results");
-      return 0;
-    }
-
-    setCurrentPlayer(currentPlayers[0]);
-    setCurrentRound(function (prev) {
-      return prev + 1;
-    });
-    setShopItems(generateShopItems());
+    setCurrentAction(null);
     setGamePhase("playerTurn");
-    return DEFAULT_ACTIONS_PER_TURN;
-  }
 
-  function completePlayerAction(): void {
-    setActionsRemaining(function (prevActions) {
-      const newRemaining = prevActions - 1;
+    if (actionsLeft > 0) {
+      setActionsRemaining(actionsLeft);
+      return;
+    }
 
-      if (newRemaining === 0) {
-        setCurrentAction(null);
-        const {
-          players: currentPlayers,
-          currentPlayer: currentPlayerValue,
-          currentRound: currentRoundValue,
-        } = gameStateRef.current;
+    const playerIndex = findPlayerIndex(players, currentPlayer.id);
+    const isLastPlayer = playerIndex === players.length - 1;
+    const isLastRound = currentRound === totalRounds;
 
-        if (!currentPlayerValue) {
-          setGamePhase("playerTurn");
-          return DEFAULT_ACTIONS_PER_TURN;
-        }
+    if (isLastPlayer && isLastRound) {
+      setCurrentPlayer(players[0]);
+      setGamePhase("results");
+      setActionsRemaining(0);
+      return;
+    }
 
-        const nextActions = advanceToNextPlayer(currentPlayers, currentPlayerValue);
-        if (nextActions !== null) {
-          return nextActions;
-        }
+    if (isLastPlayer) {
+      setCurrentPlayer(players[0]);
+      setCurrentRound(currentRound + 1);
+      setShopItems(generateShopItems());
+      setActionsRemaining(DEFAULT_ACTIONS_PER_TURN);
+      return;
+    }
 
-        return advanceToNextRound(currentPlayers, currentRoundValue);
-      }
-
-      setCurrentAction(null);
-      setGamePhase("playerTurn");
-      return newRemaining;
-    });
+    setCurrentPlayer(players[playerIndex + 1]);
+    setActionsRemaining(DEFAULT_ACTIONS_PER_TURN);
   }
 
   function setAction(action: ActionType): void {
     setCurrentAction(action);
+
     if (action) {
       setGamePhase(action);
     }

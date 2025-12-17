@@ -6,4 +6,3 @@ export interface DeletePresentModalProps {
   onConfirm: () => void;
   onCancel: () => void;
 }
-

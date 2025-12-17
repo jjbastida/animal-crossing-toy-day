@@ -40,7 +40,6 @@ const buttonSecondary = css`
   }
 `;
 
-
 const buttonGhost = css`
   color: inherit;
 

@@ -16,11 +16,13 @@ function PrepareGiftsComponent(): React.ReactNode {
   const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
   const [deletePresent, setDeletePresent] = useState<Present | null>(null);
-  const [pendingPresent, setPendingPresent] = useState<{ item: Item; position: number } | null>(null);
+  const [pendingPresent, setPendingPresent] = useState<{ item: Item; position: number } | null>(
+    null,
+  );
   const baseInventory = currentPlayer?.inventory || [];
   const presents = currentPlayer?.presents || [];
   const presentMap = new Map(presents.map((p) => [p.position, p]));
-  
+
   const {
     draggedItem,
     draggedOverTarget,
@@ -43,39 +45,42 @@ function PrepareGiftsComponent(): React.ReactNode {
 
   function handleMouseDown(item: Item, imageURL: string, canDrag: boolean, e: React.MouseEvent) {
     dragMouseDown(item, imageURL, canDrag, e);
-  };
+  }
 
   function handleMouseEnter(position: number) {
     const present = presentMap.get(position);
     dragMouseEnter(position, !present && !!draggedItem);
-  };
+  }
 
   function handleMouseUp(position: number) {
     if (!currentPlayer) return;
-    
+
     dragMouseUp(position, (item: Item, targetPosition: number) => {
       setPendingPresent({ item, position: targetPosition });
     });
-  };
+  }
 
   function handleColorSelect(color: Color) {
     if (!currentPlayer || !pendingPresent) return;
 
     const currentPresents = currentPlayer.presents || [];
     const currentInventory = currentPlayer.inventory || [];
-    
+
     const basePoints = getItemBasePoints(pendingPresent.item);
     const tag = getItemTag(pendingPresent.item.name) || "";
-    
-    const updatedPresents = [...currentPresents, {
-      id: `present-${Date.now()}-${Math.random()}`,
-      color,
-      items: pendingPresent.item,
-      position: pendingPresent.position,
-      tag,
-      points: basePoints,
-    } as Present];
-    
+
+    const updatedPresents = [
+      ...currentPresents,
+      {
+        id: `present-${Date.now()}-${Math.random()}`,
+        color,
+        items: pendingPresent.item,
+        position: pendingPresent.position,
+        tag,
+        points: basePoints,
+      } as Present,
+    ];
+
     const updatedInventory = currentInventory
       .map((invItem: Item) => {
         if (invItem.name === pendingPresent.item.name) {
@@ -87,39 +92,43 @@ function PrepareGiftsComponent(): React.ReactNode {
         return invItem;
       })
       .filter((invItem: Item | null): invItem is Item => invItem !== null);
-    
+
     const updatedPlayer: Player = {
       ...currentPlayer,
       inventory: updatedInventory,
       presents: updatedPresents,
     };
-    
+
     playSoundEffect(soundEffects["Pl_PresentOpen_00"].audioUrl);
-    const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
+    const updatedPlayers = players.map((p: Player) =>
+      p.id === currentPlayer.id ? updatedPlayer : p,
+    );
     setPlayers(updatedPlayers);
     setCurrentPlayer(updatedPlayer);
     setPendingPresent(null);
-  };
+  }
 
   function handlePresentClick(present: Present) {
     setDeletePresent(present);
-  };
+  }
 
   function handleConfirmDelete() {
     if (!currentPlayer || !deletePresent) return;
-    
+
     const updatedPresents = presents.filter((p) => p.id !== deletePresent.id) as Present[];
     const updatedPlayer: Player = {
       ...currentPlayer,
       presents: updatedPresents,
     };
 
-    const updatedPlayers = players.map((p: Player) => (p.id === currentPlayer.id ? updatedPlayer : p));
+    const updatedPlayers = players.map((p: Player) =>
+      p.id === currentPlayer.id ? updatedPlayer : p,
+    );
     setPlayers(updatedPlayers);
     setCurrentPlayer(updatedPlayer);
     playSoundEffect(soundEffects["UI_Post_Delete"].audioUrl);
     setDeletePresent(null);
-  };
+  }
 
   return (
     <>

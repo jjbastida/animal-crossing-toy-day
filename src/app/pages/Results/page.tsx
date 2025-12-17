@@ -29,14 +29,16 @@ function ResultsPage(): React.ReactNode {
     });
   }, [players]);
 
+  const { playerColor } = usePlayerColor(sortedPlayers[0].player);
+
   return (
     <div css={styles.pageContainer}>
-      <Typography variant="display" size="4xl" as="h1" css={styles.title}>
-        Game Complete!
+      <Typography variant="display" size="4xl" as="h1" css={styles.title(playerColor)}>
+        {sortedPlayers[0].player.name} Wins!
       </Typography>
       <div css={styles.playersGrid}>
         {sortedPlayers.map(({ player, totalPoints, bellsPoints, presentDetails, standing }) => {
-          const { playerColor } = usePlayerColor(player);
+          const { playerColor: currentPlayerColor } = usePlayerColor(player);
 
           return (
             <PlayerResultCard
@@ -45,7 +47,7 @@ function ResultsPage(): React.ReactNode {
               totalPoints={totalPoints}
               bellsPoints={bellsPoints}
               presentDetails={presentDetails}
-              playerColor={playerColor}
+              playerColor={currentPlayerColor}
               standing={standing}
             />
           );

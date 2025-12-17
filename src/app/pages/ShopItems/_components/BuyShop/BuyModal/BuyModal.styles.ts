@@ -75,7 +75,6 @@ const couponText = css`
   font-family: Seurat, sans-serif;
 `;
 
-
 export {
   modalWrapper,
   modalItemContainer,
@@ -90,4 +89,3 @@ export {
   imageIcon,
   couponText,
 };
-
