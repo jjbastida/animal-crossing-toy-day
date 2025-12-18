@@ -25,7 +25,7 @@ function CharacterCustomization({
   const [selectedPlayerId, setSelectedPlayerId] = useState<number | null>(null);
   const {onKeyDown: onAnimaleseKeyDown} = useAnimalese({
     enabled: true,
-    volume: 0.6,
+    volume: 0.3,
     voiceType: "f1",
     pitchShift: 0,
     pitchVariation: 0.2,
