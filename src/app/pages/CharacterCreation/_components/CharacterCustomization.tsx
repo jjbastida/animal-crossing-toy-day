@@ -9,6 +9,7 @@ import AvatarModal from "./AvatarModal/AvatarModal";
 import FruitModal from "./FruitModal/FruitModal";
 import Typography from "@/components/Typography/Typography";
 import { CharacterCustomizationProps } from "./CharacterCustomization.types";
+import useAnimalese from "@/hooks/useAnimalese";
 
 const allVillagers = Object.keys(villagerIcons) as AvatarType[];
 const shuffled = [...allVillagers].sort(() => Math.random() - 0.5);
@@ -22,6 +23,14 @@ function CharacterCustomization({
   const { players, setPlayers } = useContext(GameContext);
   const { playSoundEffect } = useContext(MusicContext);
   const [selectedPlayerId, setSelectedPlayerId] = useState<number | null>(null);
+  const {onKeyDown: onAnimaleseKeyDown} = useAnimalese({
+    enabled: true,
+    volume: 0.6,
+    voiceType: "f1",
+    pitchShift: 0,
+    pitchVariation: 0.2,
+    excludedKeys: ["Backspace", "Delete", "Tab", "Escape", "Enter", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"]
+  });
 
   function ensurePlayerExists(playerId: number) {
     const existingPlayer = players.find((p) => p.id === playerId);
@@ -112,6 +121,7 @@ function CharacterCustomization({
                 ensurePlayerExists(player.id);
                 handleNameChange(player.id, e.target.value);
               }}
+              onKeyDown={onAnimaleseKeyDown}
             />
           </div>
         </div>
