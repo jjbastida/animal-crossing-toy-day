@@ -28,6 +28,7 @@ const clearButton = (index: number) => css`
   position: absolute;
   top: 1rem;
   right: 1rem;
+  z-index: 1;
 
   & > button {
     background: none;

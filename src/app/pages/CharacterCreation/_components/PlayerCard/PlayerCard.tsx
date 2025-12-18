@@ -27,11 +27,7 @@ function PlayerCard({
           </button>
         </Tooltip>
       )}
-      <Tooltip
-        label={avatar ? "Change avatar" : "Pick avatar"}
-        color={playerColors[index]}
-        css={styles.tooltip}
-      >
+      <div>
         <SelectionButton
           selected={!!avatar}
           index={index}
@@ -53,8 +49,8 @@ function PlayerCard({
             />
           )}
         </SelectionButton>
-      </Tooltip>
-      <Tooltip label={fruit ? "Change fruit" : "Pick fruit"} color={playerColors[index]}>
+      </div>
+      <div>
         <SelectionButton
           selected={!!fruit}
           index={index}
@@ -77,7 +73,7 @@ function PlayerCard({
             />
           )}
         </SelectionButton>
-      </Tooltip>
+      </div>
     </Card>
   );
 }

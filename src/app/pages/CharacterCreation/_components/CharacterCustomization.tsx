@@ -67,10 +67,8 @@ function CharacterCustomization({
   }
 
   function handleClose() {
-    setTimeout(() => {
-      setModalOpen(null);
-      setSelectedPlayerId(null);
-    }, 300);
+    setModalOpen(null);
+    setSelectedPlayerId(null);
   }
 
   const defaultPlayers = [1, 2, 3, 4].map((id) => {
