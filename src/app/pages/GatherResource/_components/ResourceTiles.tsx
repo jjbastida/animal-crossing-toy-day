@@ -14,7 +14,7 @@ import * as styles from "./ResourceTiles.styles";
 import pluralize from "pluralize";
 
 function ResourceTiles(): React.ReactNode {
-  const { currentPlayer, setPlayers, completePlayerAction, setActionUsed } =
+  const { currentPlayer, setCurrentPlayer, setPlayers, completePlayerAction, setActionUsed } =
     useContext(GameContext);
   const [selectedResource, setSelectedResource] = useState<ResourceType | null>(null);
   const [collectedItem, setCollectedItem] = useState<Item | null>(null);
@@ -196,6 +196,7 @@ function ResourceTiles(): React.ReactNode {
         }
 
         const updatedPlayer = { ...latestPlayer, inventory: updatedInventory };
+        setCurrentPlayer(updatedPlayer);
 
         return prevPlayers.map((player) =>
           player.id === latestPlayer.id ? updatedPlayer : player,

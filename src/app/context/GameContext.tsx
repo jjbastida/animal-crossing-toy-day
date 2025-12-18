@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 import { Player, ShopItem, GamePhase, ActionType } from "../types/general";
 import { GameContextValue, GameProviderProps } from "./GameContext.types";
 import {
@@ -26,31 +26,32 @@ export function GameProvider({
   const [shopItems, setShopItems] = useState<ShopItem[]>(generateShopItems());
   const [totalRounds, setTotalRounds] = useState<number>(initialTotalRounds);
   const [playerModalShown, setPlayerModalShown] = useState<boolean>(false);
+  const [pendingActionComplete, setPendingActionComplete] = useState<boolean>(false);
 
-  function completePlayerAction(): void {
-    if (!currentPlayer) return;
+  useEffect(() => {
+    if (!pendingActionComplete || !currentPlayer) return;
 
     const actionsLeft = actionsRemaining - 1;
-    setActionUsed(false);
-
-    setCurrentAction(null);
-    setGamePhase("playerTurn");
-
-    if (actionsLeft > 0) {
-      setActionsRemaining(actionsLeft);
-      return;
-    }
-
     const playerIndex = findPlayerIndex(players, currentPlayer.id);
     const isLastPlayer = playerIndex === players.length - 1;
     const isLastRound = currentRound === totalRounds;
 
+    setActionUsed(false);
+    setCurrentAction(null);
+    setGamePhase("playerTurn");
     setPlayerModalShown(false);
+
+    if (actionsLeft > 0) {
+      setActionsRemaining(actionsLeft);
+      setPendingActionComplete(false);
+      return;
+    }
 
     if (isLastPlayer && isLastRound) {
       setCurrentPlayer(players[0]);
       setGamePhase("results");
       setActionsRemaining(0);
+      setPendingActionComplete(false);
       return;
     }
 
@@ -59,11 +60,17 @@ export function GameProvider({
       setCurrentRound(currentRound + 1);
       setShopItems(generateShopItems());
       setActionsRemaining(DEFAULT_ACTIONS_PER_TURN);
+      setPendingActionComplete(false);
       return;
     }
 
     setCurrentPlayer(players[playerIndex + 1]);
     setActionsRemaining(DEFAULT_ACTIONS_PER_TURN);
+    setPendingActionComplete(false);
+  }, [pendingActionComplete, players, currentPlayer, actionsRemaining, currentRound, totalRounds]);
+
+  function completePlayerAction(): void {
+    setPendingActionComplete(true);
   }
 
   function setAction(action: ActionType): void {

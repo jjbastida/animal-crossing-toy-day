@@ -10,9 +10,9 @@ function BuyShop(): React.ReactNode {
   const { shopItems, setActionUsed } = useContext(GameContext);
   const [selectedItem, setSelectedItem] = useState<ShopItem | null>(null);
 
-  function handleBuyItem(item: ShopItem): void {
-    setSelectedItem(item);
+  function handleBuyItem(): void {
     setActionUsed(true);
+    setSelectedItem(null);
   }
 
   return (

@@ -12,7 +12,7 @@ import {
 import { isFurniture, isTool } from "../../utils/itemLookups";
 
 function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): React.ReactNode {
-  const { currentPlayer, players, setPlayers } = useContext(GameContext);
+  const { currentPlayer, setCurrentPlayer, players, setPlayers } = useContext(GameContext);
   const [quantity, setQuantity] = useState<number>(1);
 
   if (!isOpen || !item) return null;
@@ -40,8 +40,9 @@ function SellModal({ isOpen, item, value, onSell, onCancel }: SellModalProps): R
       bells: (latestPlayer.bells || 0) + totalValue,
     };
 
+    setCurrentPlayer(updatedPlayer);
     setPlayers(updatePlayerInPlayersArray(players, updatedPlayer));
-    onSell();
+    onSell(itemData);
   }
 
   return (

@@ -15,7 +15,7 @@ import { getTagBasedAbilityDescription } from "@/pages/Results/_helpers/tagActio
 import Tooltip from "@/components/Tooltip/Tooltip";
 
 function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.ReactNode {
-  const { currentPlayer, players, setPlayers, shopItems, setShopItems } =
+  const { currentPlayer, setCurrentPlayer, players, setPlayers, shopItems, setShopItems } =
     useContext(GameContext);
 
   if (!isOpen || !item) return null;
@@ -39,6 +39,7 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
       bells: (latestPlayer.bells || 0) - (itemData.cost || 0),
     };
 
+    setCurrentPlayer(updatedPlayer);
     setPlayers(updatePlayerInPlayersArray(players, updatedPlayer));
     setShopItems(
       shopItems.map((shopItem) =>
@@ -75,6 +76,7 @@ function BuyModal({ isOpen, item, onBuy, onCancel }: BuyModalProps): React.React
       inventory: finalInventory,
     };
 
+    setCurrentPlayer(updatedPlayer);
     setPlayers(updatePlayerInPlayersArray(players, updatedPlayer));
     setShopItems(
       shopItems.map((shopItem) =>

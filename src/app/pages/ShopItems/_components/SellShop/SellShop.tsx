@@ -16,9 +16,9 @@ function SellShop(): React.ReactNode {
   const totalInventorySlots = Math.max(MIN_INVENTORY_SLOTS, inventory.length);
   const emptyInventorySlots = totalInventorySlots - inventory.length;
 
-  function handleSellItem(item: Item): void {
-    setSelectedItem(item);
+  function handleSellItem(): void {
     setActionUsed(true);
+    setSelectedItem(null);
   }
 
   return (
