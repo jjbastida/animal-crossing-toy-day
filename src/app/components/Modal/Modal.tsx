@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import * as styles from "./Modal.styles.ts";
 import useHandleKeydown from "@/hooks/handleKeydown.ts";
 import soundEffects from "@data/sound_effects.json";

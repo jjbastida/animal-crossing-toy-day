@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { TabsProps } from "./Tabs.types";
 import * as styles from "./Tabs.styles";
 import { MusicContext } from "@/context/MusicContext";

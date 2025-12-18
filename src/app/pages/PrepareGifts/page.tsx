@@ -1,5 +1,3 @@
-import { useContext } from "react";
-import { GameContext } from "../../context/GameContext";
 import PrepareGiftsComponent from "./_components/PrepareGiftsComponent";
 import { pageContainer } from "./PrepareGifts.styles.ts";
 

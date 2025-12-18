@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Typography } from "@/components";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import * as styles from "./ResourceCard.styles";

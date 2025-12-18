@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "@/components";
 import SelectionButton from "../SelectionButton/SelectionButton";
 import Tooltip from "@/components/Tooltip/Tooltip";
-import { AvatarType, FruitType } from "@/types/general";
 import fruitIcons from "@data/fruit_icons.json";
 import * as styles from "./PlayerCard.styles.ts";
 import villagerIcons from "@data/villager_icons.json";
@@ -28,7 +27,11 @@ function PlayerCard({
           </button>
         </Tooltip>
       )}
-      <Tooltip label={avatar ? "Change avatar" : "Pick avatar"} color={playerColors[index]}>
+      <Tooltip
+        label={avatar ? "Change avatar" : "Pick avatar"}
+        color={playerColors[index]}
+        css={styles.tooltip}
+      >
         <SelectionButton
           selected={!!avatar}
           index={index}
@@ -58,6 +61,7 @@ function PlayerCard({
           size="small"
           onClick={onFruitClick}
           aria-label={fruit ? "Change fruit" : "Pick fruit"}
+          css={styles.tooltip}
         >
           {fruit ? (
             <img

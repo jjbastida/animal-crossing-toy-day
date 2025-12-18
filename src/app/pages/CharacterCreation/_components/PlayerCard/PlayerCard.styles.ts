@@ -47,4 +47,13 @@ const clearButton = (index: number) => css`
   }
 `;
 
-export { playerCard, asset, assetPlaceholder, clearButton };
+const tooltip = css`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+`;
+
+export { playerCard, asset, assetPlaceholder, clearButton, tooltip };

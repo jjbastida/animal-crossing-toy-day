@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import SplashScreen from "./_components/SplashScreen";
 import itemIcons from "@data/item_icons.json";
 import * as styles from "./page.styles.ts";

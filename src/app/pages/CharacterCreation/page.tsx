@@ -115,14 +115,24 @@ function CharacterCreationPage(): React.ReactNode {
       <Button variant="primary" css={styles.settingsButton} onClick={() => setIsSettingsOpen(true)}>
         <Gear weight="fill" /> Settings
       </Button>
-      <Typography
-        variant="display"
-        size="3xl"
-        css={styles.title}
-        style={modalOpen || isSettingsOpen ? { opacity: "0.5" } : {}}
-      >
-        Build Your Villager!
-      </Typography>
+      <div css={styles.textContainer}>
+        <Typography
+          variant="display"
+          size="3xl"
+          css={styles.title}
+          style={modalOpen || isSettingsOpen ? { opacity: "0.5" } : {}}
+        >
+          Build Your Villager!
+        </Typography>
+        <Typography
+          variant="body"
+          size="md"
+          css={styles.description}
+          style={modalOpen || isSettingsOpen ? { opacity: "0.5" } : {}}
+        >
+          Pick an avatar, fruit and name to start.
+        </Typography>
+      </div>
       <CharacterCustomization
         modifyPlayer={modifyPlayer}
         modalOpen={modalOpen}

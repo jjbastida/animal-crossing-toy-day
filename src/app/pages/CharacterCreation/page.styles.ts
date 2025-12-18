@@ -16,4 +16,16 @@ const settingsButton = css`
   }
 `;
 
-export { title, settingsButton };
+const textContainer = css`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+`;
+
+const description = css`
+  color: var(--foreground-secondary);
+`;
+
+export { title, settingsButton, textContainer, description };

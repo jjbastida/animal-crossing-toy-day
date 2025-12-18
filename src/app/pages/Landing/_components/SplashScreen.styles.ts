@@ -23,9 +23,13 @@ const splashContainer = css`
 const toyDayLogo = css`
   margin-top: -30vh;
   margin-right: -5vw;
-  width: clamp(100px, 800px, 40vw);
+  width: clamp(300px, 800px, 40vw);
   animation: ${fadeIn} 1s ease-out 2.7s forwards 1;
   opacity: 0;
+
+  @media (max-width: 768px) {
+    margin-top: -20vh;
+  }
 `;
 
 const prompt = css`
@@ -37,7 +41,11 @@ const prompt = css`
   text-align: center;
   left: 50%;
   translate: -50% 0;
-  text-shadow: 0 0 22px #4D3C3BA0;
+  text-shadow: 0 0 22px #4d3c3ba0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const madeWithLove = css`
@@ -50,7 +58,11 @@ const madeWithLove = css`
   animation: ${fadeIn} 1s ease-out 4.8s forwards 1;
   left: 50%;
   translate: -50% 0;
-  text-shadow: 0 0 10px #4D3C3BA0;
+  text-shadow: 0 0 10px #4d3c3ba0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const bgVideo = css`
@@ -63,4 +75,21 @@ const bgVideo = css`
   z-index: -1;
 `;
 
-export { splashContainer, toyDayLogo, prompt, madeWithLove, bgVideo };
+const mobilePromp = css`
+  position: absolute;
+  bottom: 4rem;
+  opacity: 0;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+  padding: 0 2rem;
+  animation: ${fadeIn} 1s ease-out 4.8s forwards 1;
+  display: none;
+  text-shadow: 0 0 10px #4d3c3ba0;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`;
+export { splashContainer, toyDayLogo, prompt, madeWithLove, bgVideo, mobilePromp };

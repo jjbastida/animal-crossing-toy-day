@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { Modal } from "@/components";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import villagerIcons from "@data/villager_icons.json";

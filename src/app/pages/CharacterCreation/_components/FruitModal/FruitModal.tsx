@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { Modal, ModalGrid, ModalItem, Typography } from "@/components";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import fruitIcons from "@data/fruit_icons.json";

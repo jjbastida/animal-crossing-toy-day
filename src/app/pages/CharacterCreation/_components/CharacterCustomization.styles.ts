@@ -12,7 +12,7 @@ const container = css`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   gap: 3rem;
   background: var(--background-secondary);
 `;
@@ -20,7 +20,7 @@ const container = css`
 const cardContainer = css`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   width: 100%;
   max-width: 1440px;
 

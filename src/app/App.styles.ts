@@ -1,8 +1,8 @@
 import { css } from "@emotion/react";
 
 const appContainer = css`
-  height: 100dvh;
-  width: 100dvw;
+  height: 100svh;
+  width: 100svw;
 `;
 
 const playerColors: Record<number, string> = {

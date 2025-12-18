@@ -1,4 +1,3 @@
-import React from "react";
 import { card } from "./Card.styles.ts";
 import { CardProps } from "./Card.types";
 

@@ -32,8 +32,8 @@ const sizeSmall = css`
 `;
 
 const sizeLarge = css`
-  width: 150px;
-  height: 150px;
+  width: clamp(100px, 100%, 12vw);
+  aspect-ratio: 1/1;
 `;
 
 const sizeVariants = {

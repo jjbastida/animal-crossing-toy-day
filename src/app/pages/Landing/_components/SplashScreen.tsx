@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from "react";
+import { useEffect, useContext, useState } from "react";
 import { GameContext } from "../../../context/GameContext";
 import * as styles from "./SplashScreen.styles.ts";
 import { ActionText, Typography } from "@components";
@@ -48,6 +48,9 @@ function SplashScreen({ mounted }: SplashScreenProps): React.ReactNode {
         style={animationPlayState}
       >
         Press any key to start!
+      </Typography>
+      <Typography variant="body" size="xl" css={styles.mobilePromp} style={animationPlayState}>
+        This game cannot be played on mobile devices.
       </Typography>
       <Typography variant="display" size="md" css={styles.madeWithLove} style={animationPlayState}>
         Made with love by JJ

@@ -1,4 +1,3 @@
-import React from "react";
 import { Modal, Typography, ActionButton } from "@/components";
 import * as styles from "./ResourceCollectionModal.styles";
 import pluralize from "pluralize";

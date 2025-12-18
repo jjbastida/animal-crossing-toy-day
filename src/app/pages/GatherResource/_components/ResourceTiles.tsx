@@ -14,13 +14,8 @@ import * as styles from "./ResourceTiles.styles";
 import pluralize from "pluralize";
 
 function ResourceTiles(): React.ReactNode {
-  const {
-    currentPlayer,
-    setCurrentPlayer,
-    setPlayers,
-    completePlayerAction,
-    setActionUsed,
-  } = useContext(GameContext);
+  const { currentPlayer, setCurrentPlayer, setPlayers, completePlayerAction, setActionUsed } =
+    useContext(GameContext);
   const [selectedResource, setSelectedResource] = useState<ResourceType | null>(null);
   const [collectedItem, setCollectedItem] = useState<Item | null>(null);
   const fruitName = currentPlayer?.fruit || "apple";
@@ -202,9 +197,9 @@ function ResourceTiles(): React.ReactNode {
 
         const updatedPlayer = { ...latestPlayer, inventory: updatedInventory };
         setCurrentPlayer(updatedPlayer);
-        
-        return prevPlayers.map((player) => 
-          player.id === latestPlayer.id ? updatedPlayer : player
+
+        return prevPlayers.map((player) =>
+          player.id === latestPlayer.id ? updatedPlayer : player,
         );
       });
     }
